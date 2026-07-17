@@ -131,54 +131,76 @@
     </div>
 
     <script>
-        const categories = [
+        let categories = [
             {
-                language: "Nepali",
+                language: "Live TV",
                 subCategories: [
-                    { genre: "Sports", channels: [{name: "NTV Sports"}, {name: "AP1 TV (Cricket)"}, {name: "Himalaya TV Sports (occasional)"}, {name: "DishHome Sports (IPTV)"}] },
-                    { genre: "Entertainment", channels: [{name: "Kantipur TV", url: "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8", logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kantipur_Television_logo.svg/512px-Kantipur_Television_logo.svg.png"}, {name: "AP1 TV"}, {name: "Himalaya TV"}, {name: "Galaxy 4K"}, {name: "Image Channel"}, {name: "Sagarmatha TV"}, {name: "NTV Plus"}, {name: "Disha TV Nepal"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "TV Today"}, {name: "Mero TV"}] },
-                    { genre: "Movies", channels: [{name: "Filmy Plus"}, {name: "Ramailo Chautari"}, {name: "Action Cinema"}, {name: "NTV Plus"}, {name: "Kalika TV"}, {name: "Mero Cinema (IPTV)"}, {name: "DishHome Cinema"}, {name: "Kanxa TV (Movie blocks)"}] },
-                    { genre: "Music", channels: [{name: "Kantipur Gold"}, {name: "Music Nepal TV"}, {name: "Image Music"}, {name: "Channel Nepal"}, {name: "Beluga Music"}, {name: "TV Today (Music)"}, {name: "Avenues Music"}, {name: "Sagarmatha Music"}] },
-                    { genre: "News", channels: [{name: "Kantipur TV"}, {name: "News 24"}, {name: "Avenues TV"}, {name: "NTV"}, {name: "Himalaya TV"}, {name: "AP1 TV"}, {name: "ABC TV"}, {name: "Image TV News"}, {name: "Sagarmatha TV"}, {name: "Kalika TV"}, {name: "Galaxy 4K"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "Mountain TV"}, {name: "Awaaz TV"}, {name: "Terai TV"}] },
-                    { genre: "Lifestyle", channels: [{name: "Mero TV (Youth)"}, {name: "AP1 TV (Lifestyle)"}, {name: "Kantipur Gold"}, {name: "Galaxy 4K"}] },
-                    { genre: "Devotional", channels: [{name: "Aastha Nepali"}, {name: "Hindu TV Nepal"}, {name: "NTV (Morning Pooja)"}, {name: "Sagarmatha TV"}, {name: "Image Channel (Bhajans)"}] }
-                ]
-            },
-            {
-                language: "Hindi",
-                subCategories: [
-                    { genre: "Sports", channels: [{name: "Star Sports 1 Hindi"}, {name: "Star Sports 2"}, {name: "Sony Ten 1/2/3"}, {name: "Sony Sports Ten 5"}, {name: "Star Sports Select 1/2"}, {name: "DD Sports"}, {name: "Star Sports First"}, {name: "Eurosport India"}, {name: "1Sports"}] },
-                    { genre: "Entertainment", channels: [{name: "Star Plus"}, {name: "Sony TV"}, {name: "Colors"}, {name: "Zee TV"}, {name: "Star Bharat"}, {name: "SAB TV"}, {name: "Dangal TV"}, {name: "Sony Pal"}, {name: "Zee Anmol"}, {name: "Star Utsav"}, {name: "Colors Rishtey"}, {name: "&TV"}, {name: "Big Magic"}, {name: "Ishara TV"}] },
-                    { genre: "Movies", channels: [{name: "Star Gold"}, {name: "Sony Max"}, {name: "Zee Cinema"}, {name: "Colors Cineplex"}, {name: "&pictures"}, {name: "Star Gold 2"}, {name: "Sony Wah"}, {name: "Zee Action"}, {name: "Zee Classic"}, {name: "Movies Now 2"}, {name: "&xplor HD"}, {name: "Star Suvarna (Dubbed)"}] },
-                    { genre: "Music", channels: [{name: "MTV Beats"}, {name: "9XM"}, {name: "B4U Music"}, {name: "Zoom TV"}, {name: "Music India"}, {name: "Mastiii"}, {name: "Zing"}, {name: "Sony Mix"}, {name: "Bindass"}] },
-                    { genre: "News", channels: [{name: "Aaj Tak"}, {name: "ABP News"}, {name: "NDTV India"}, {name: "India TV"}, {name: "Zee News"}, {name: "Republic Bharat"}, {name: "CNN News18"}, {name: "News18 India"}, {name: "TV9 Bharatvarsh"}, {name: "Times Now Navbharat"}, {name: "DD National"}, {name: "DD News"}] }
-                ]
-            },
-            {
-                language: "English",
-                subCategories: [
-                    { genre: "Sports", channels: [{name: "Star Sports 1 (English)"}, {name: "Sony Sports Ten 1/3/4"}, {name: "Eurosport"}, {name: "Star Sports Select 1/2"}, {name: "Premier Sports"}, {name: "Sky Sports"}, {name: "Sony Sports Ten 5"}] },
-                    { genre: "Entertainment", channels: [{name: "Zee Cafe"}, {name: "Star World"}, {name: "Colors Infinity"}, {name: "Comedy Central"}, {name: "Star World Premiere"}, {name: "Romedy Now"}, {name: "FX"}, {name: "AXN"}, {name: "Warner TV"}] },
-                    { genre: "Movies", channels: [{name: "HBO", url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png"}, {name: "Star Movies"}, {name: "Sony Pix"}, {name: "Movies Now"}, {name: "Warner TV"}, {name: "Star Movies Select"}, {name: "&Flix"}, {name: "Movies Now 2"}, {name: "MGM HD"}, {name: "TCM"}] },
-                    { genre: "News", channels: [{name: "BBC World News", url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png"}, {name: "CNN International", url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png"}, {name: "Al Jazeera English"}, {name: "NDTV 24x7"}, {name: "Republic World"}, {name: "Times Now"}] },
-                    { genre: "Kids", channels: [{name: "Cartoon Network", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png"}, {name: "Disney Channel"}] }
-                ]
-            },
-            {
-                language: "Bhojpuri",
-                subCategories: [
-                    { genre: "Entertainment", channels: [{name: "Mahuaa TV"}, {name: "Dabangg TV"}, {name: "Bhojpuri Dhamaka"}, {name: "Mahuaa Plus"}, {name: "Oscar TV"}, {name: "Bhojpuri Express"}, {name: "Bhojpuri Star"}] },
-                    { genre: "Movies", channels: [{name: "Bhojpuri Cinema"}, {name: "Filmy Bhojpuri"}, {name: "Dabangg Cinema"}, {name: "Mahuaa Cinema"}, {name: "B4U Bhojpuri"}, {name: "Bhojpuri Star Cinema"}] },
-                    { genre: "Music", channels: [{name: "Mahuaa Music"}, {name: "B4U Bhojpuri"}, {name: "Sangeet Bhojpuri"}, {name: "Bhojpuri Music TV"}, {name: "Big Ganga"}] }
+                    { genre: "All", channels: [] }
                 ]
             }
         ];
 
         let state = {
-            language: categories[0].language,
-            genre: categories[0].subCategories[0].genre,
+            language: "Live TV",
+            genre: "All",
             active: true
         };
+
+        // M3U Parser logic
+        async function loadPlaylist(url) {
+            try {
+                const response = await fetch(url);
+                const text = await response.text();
+                
+                const lines = text.split('\n');
+                let currentCat = { language: "Live TV", subCategories: [] };
+                
+                let tempChannel = null;
+                
+                for(let line of lines) {
+                    line = line.trim();
+                    if(line.startsWith('#EXTINF:')) {
+                        // parse logo
+                        let logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                        let logoUrl = logoMatch ? logoMatch[1] : null;
+                        
+                        // parse group-title
+                        let groupMatch = line.match(/group-title="([^"]+)"/);
+                        let group = groupMatch ? groupMatch[1] : "General";
+                        
+                        // parse name
+                        let nameParts = line.split(',');
+                        let name = nameParts[nameParts.length - 1];
+                        
+                        tempChannel = { name, logoUrl, genre: group };
+                    } else if (line.startsWith('http') && tempChannel) {
+                        tempChannel.url = line;
+                        
+                        // Find or create subcategory (genre)
+                        let subCat = currentCat.subCategories.find(s => s.genre === tempChannel.genre);
+                        if(!subCat) {
+                            subCat = { genre: tempChannel.genre, channels: [] };
+                            currentCat.subCategories.push(subCat);
+                        }
+                        subCat.channels.push(tempChannel);
+                        tempChannel = null;
+                    }
+                }
+                
+                if (currentCat.subCategories.length > 0) {
+                    categories = [currentCat];
+                    state.language = currentCat.language;
+                    state.genre = currentCat.subCategories[0].genre;
+                    render();
+                } else {
+                    alert('No channels found in playlist.');
+                }
+
+            } catch (err) {
+                console.error(err);
+                alert('Failed to load playlist. Make sure the URL allows CORS or is correct.');
+            }
+        }
 
         function render() {
             // Render Languages
@@ -294,7 +316,7 @@
         function setLanguage(lang) {
             state.language = lang;
             const newCat = categories.find(c => c.language === lang);
-            if (!newCat.subCategories.find(s => s.genre === state.genre)) {
+            if (newCat && newCat.subCategories.length > 0 && !newCat.subCategories.find(s => s.genre === state.genre)) {
                 state.genre = newCat.subCategories[0].genre;
             }
             render();
@@ -329,10 +351,13 @@
         document.getElementById('saveSettingsBtn').addEventListener('click', () => {
             const url = m3uInput.value;
             if (url) {
-                alert('Saved M3U URL: ' + url + '\nIn the real app, this will restart the app and load the new channels!');
+                loadPlaylist(url);
             }
             settingsOverlay.classList.remove('active');
         });
+
+        // Initialize with default GitHub playlist
+        loadPlaylist('https://raw.githubusercontent.com/samaratul/nanna-iptv/main/playlist.m3u');
     </script>
 </body>
 </html>
