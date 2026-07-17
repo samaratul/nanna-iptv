@@ -3,7 +3,7 @@ package com.example.nannaiptv.data
 object DefaultChannelData {
     val categories = listOf(
         Category(
-            language = "🇳🇵 Nepali",
+            language = "Nepali",
             subCategories = listOf(
                 SubCategory("Sports", listOf(
                     Channel("NTV Sports"), Channel("AP1 TV (Cricket)"), Channel("Himalaya TV Sports (occasional)"), Channel("DishHome Sports (IPTV)")
@@ -42,7 +42,7 @@ object DefaultChannelData {
             )
         ),
         Category(
-            language = "🇮🇳 Hindi",
+            language = "Hindi",
             subCategories = listOf(
                 SubCategory("Sports", listOf(
                     Channel("Star Sports 1 Hindi"), Channel("Star Sports 2"), Channel("Sony Ten 1/2/3"), 
@@ -85,7 +85,7 @@ object DefaultChannelData {
             )
         ),
         Category(
-            language = "🇬🇧 English",
+            language = "English",
             subCategories = listOf(
                 SubCategory("Sports", listOf(
                     Channel("Star Sports 1 (English)"), Channel("Sony Sports Ten 1/3/4"), Channel("Eurosport"), 
@@ -97,7 +97,8 @@ object DefaultChannelData {
                     Channel("Star World Premiere"), Channel("Romedy Now"), Channel("FX"), Channel("AXN"), Channel("Warner TV")
                 )),
                 SubCategory("Movies", listOf(
-                    Channel("HBO"), Channel("Star Movies"), Channel("Sony Pix"), Channel("Movies Now"), 
+                    Channel("HBO", logoUrl = "https://logo.clearbit.com/hbo.com"), 
+                    Channel("Star Movies"), Channel("Sony Pix"), Channel("Movies Now"), 
                     Channel("Warner TV"), Channel("Star Movies Select"), Channel("&Flix"), Channel("Movies Now 2"), 
                     Channel("MGM HD"), Channel("TCM")
                 )),
@@ -106,7 +107,8 @@ object DefaultChannelData {
                     Channel("MTV Live HD")
                 )),
                 SubCategory("News", listOf(
-                    Channel("BBC World News"), Channel("CNN International"), Channel("Al Jazeera English"), 
+                    Channel("BBC World News", logoUrl = "https://logo.clearbit.com/bbc.com"), 
+                    Channel("CNN International", logoUrl = "https://logo.clearbit.com/cnn.com"), Channel("Al Jazeera English"), 
                     Channel("NDTV 24x7"), Channel("Republic World"), Channel("Times Now"), Channel("CNN-News18"), 
                     Channel("DW News"), Channel("France 24"), Channel("RT News"), Channel("Sky News"), Channel("ABC Australia")
                 )),
@@ -118,7 +120,8 @@ object DefaultChannelData {
                     Channel("God TV (English Christian channel)"), Channel("Faith World TV")
                 )),
                 SubCategory("Others (Kids/Infotainment)", listOf(
-                    Channel("Cartoon Network"), Channel("Disney Channel"), Channel("Discovery Channel"), 
+                    Channel("Cartoon Network", logoUrl = "https://logo.clearbit.com/cartoonnetwork.com"), 
+                    Channel("Disney Channel"), Channel("Discovery Channel"), 
                     Channel("National Geographic"), Channel("Animal Planet"), Channel("Nat Geo Wild"), 
                     Channel("Nick HD+"), Channel("Baby TV"), Channel("Discovery Science"), 
                     Channel("History TV18"), Channel("Sony BBC Earth")
@@ -126,7 +129,7 @@ object DefaultChannelData {
             )
         ),
         Category(
-            language = "🎤 Bhojpuri",
+            language = "Bhojpuri",
             subCategories = listOf(
                 SubCategory("Sports", listOf()), // No dedicated channels
                 SubCategory("Entertainment", listOf(

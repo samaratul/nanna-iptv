@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanna IPTV - Web Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        surface: '#0b1326',
+                        'surface-dim': '#0b1326',
+                        'surface-container-low': '#131b2e',
+                        'surface-container': '#171f33',
+                        'surface-container-high': '#222a3d',
+                        'on-surface': '#dae2fd',
+                        'on-surface-variant': '#bdc8d1',
+                        primary: '#8ed5ff',
+                        'on-primary': '#00354a',
+                        background: '#0b1326',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0b1326; color: #dae2fd; font-family: 'Inter', sans-serif; overflow: hidden; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="h-screen w-screen flex bg-background">
+
+    <!-- Sidebar: Languages -->
+    <div class="w-[260px] h-full bg-surface-container-low p-6 flex flex-col border-r border-surface-container-high">
+        <h1 class="text-2xl font-bold text-primary mb-8">Nanna IPTV</h1>
+        <div id="language-list" class="flex flex-col gap-2 overflow-y-auto hide-scrollbar">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="flex-1 h-full flex flex-col p-8 bg-background">
+        
+        <!-- Top Row: Genres -->
+        <div class="w-full overflow-x-auto hide-scrollbar mb-6">
+            <div id="genre-list" class="flex gap-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Active/Inactive Tabs -->
+        <div class="flex gap-6 mb-8 border-b border-surface-container-high pb-4">
+            <button id="tab-active" class="text-primary font-bold text-lg focus:outline-none" onclick="setStatus(true)">Active</button>
+            <button id="tab-inactive" class="text-on-surface-variant font-medium text-lg focus:outline-none hover:text-on-surface" onclick="setStatus(false)">Inactive</button>
+        </div>
+
+        <!-- Channel Grid -->
+        <div id="channel-grid" class="flex-1 overflow-y-auto hide-scrollbar grid grid-cols-6 gap-4 content-start">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <script>
+        // Data Structure
+        const categories = [
+            {
+                language: "Nepali",
+                subCategories: [
+                    { genre: "Sports", channels: [{name: "NTV Sports"}, {name: "AP1 TV (Cricket)"}, {name: "Himalaya TV Sports (occasional)"}, {name: "DishHome Sports (IPTV)"}] },
+                    { genre: "Entertainment", channels: [{name: "Kantipur TV"}, {name: "AP1 TV"}, {name: "Himalaya TV"}, {name: "Galaxy 4K"}, {name: "Image Channel"}, {name: "Sagarmatha TV"}, {name: "NTV Plus"}, {name: "Disha TV Nepal"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "TV Today"}, {name: "Mero TV"}] },
+                    { genre: "Movies", channels: [{name: "Filmy Plus"}, {name: "Ramailo Chautari"}, {name: "Action Cinema"}, {name: "NTV Plus"}, {name: "Kalika TV"}, {name: "Mero Cinema (IPTV)"}, {name: "DishHome Cinema"}, {name: "Kanxa TV (Movie blocks)"}] },
+                    { genre: "Music", channels: [{name: "Kantipur Gold"}, {name: "Music Nepal TV"}, {name: "Image Music"}, {name: "Channel Nepal"}, {name: "Beluga Music"}, {name: "TV Today (Music)"}, {name: "Avenues Music"}, {name: "Sagarmatha Music"}] },
+                    { genre: "News", channels: [{name: "Kantipur TV"}, {name: "News 24"}, {name: "Avenues TV"}, {name: "NTV"}, {name: "Himalaya TV"}, {name: "AP1 TV"}, {name: "ABC TV"}, {name: "Image TV News"}, {name: "Sagarmatha TV"}, {name: "Kalika TV"}, {name: "Galaxy 4K"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "Mountain TV"}, {name: "Awaaz TV"}, {name: "Terai TV"}] },
+                    { genre: "Lifestyle", channels: [{name: "Mero TV (Youth)"}, {name: "AP1 TV (Lifestyle)"}, {name: "Kantipur Gold"}, {name: "Galaxy 4K"}] },
+                    { genre: "Devotional", channels: [{name: "Aastha Nepali"}, {name: "Hindu TV Nepal"}, {name: "NTV (Morning Pooja)"}, {name: "Sagarmatha TV"}, {name: "Image Channel (Bhajans)"}] }
+                ]
+            },
+            {
+                language: "Hindi",
+                subCategories: [
+                    { genre: "Sports", channels: [{name: "Star Sports 1 Hindi"}, {name: "Star Sports 2"}, {name: "Sony Ten 1/2/3"}, {name: "Sony Sports Ten 5"}, {name: "Star Sports Select 1/2"}, {name: "DD Sports"}, {name: "Star Sports First"}, {name: "Eurosport India"}, {name: "1Sports"}] },
+                    { genre: "Entertainment", channels: [{name: "Star Plus"}, {name: "Sony TV"}, {name: "Colors"}, {name: "Zee TV"}, {name: "Star Bharat"}, {name: "SAB TV"}, {name: "Dangal TV"}, {name: "Sony Pal"}, {name: "Zee Anmol"}, {name: "Star Utsav"}, {name: "Colors Rishtey"}, {name: "&TV"}, {name: "Big Magic"}, {name: "Ishara TV"}] },
+                    { genre: "Movies", channels: [{name: "Star Gold"}, {name: "Sony Max"}, {name: "Zee Cinema"}, {name: "Colors Cineplex"}, {name: "&pictures"}, {name: "Star Gold 2"}, {name: "Sony Wah"}, {name: "Zee Action"}, {name: "Zee Classic"}, {name: "Movies Now 2"}, {name: "&xplor HD"}, {name: "Star Suvarna (Dubbed)"}] },
+                    { genre: "Music", channels: [{name: "MTV Beats"}, {name: "9XM"}, {name: "B4U Music"}, {name: "Zoom TV"}, {name: "Music India"}, {name: "Mastiii"}, {name: "Zing"}, {name: "Sony Mix"}, {name: "Bindass"}] },
+                    { genre: "News", channels: [{name: "Aaj Tak"}, {name: "ABP News"}, {name: "NDTV India"}, {name: "India TV"}, {name: "Zee News"}, {name: "Republic Bharat"}, {name: "CNN News18"}, {name: "News18 India"}, {name: "TV9 Bharatvarsh"}, {name: "Times Now Navbharat"}, {name: "DD National"}, {name: "DD News"}] }
+                ]
+            },
+            {
+                language: "English",
+                subCategories: [
+                    { genre: "Sports", channels: [{name: "Star Sports 1 (English)"}, {name: "Sony Sports Ten 1/3/4"}, {name: "Eurosport"}, {name: "Star Sports Select 1/2"}, {name: "Premier Sports"}, {name: "Sky Sports"}, {name: "Sony Sports Ten 5"}] },
+                    { genre: "Entertainment", channels: [{name: "Zee Cafe"}, {name: "Star World"}, {name: "Colors Infinity"}, {name: "Comedy Central"}, {name: "Star World Premiere"}, {name: "Romedy Now"}, {name: "FX"}, {name: "AXN"}, {name: "Warner TV"}] },
+                    { genre: "Movies", channels: [{name: "HBO", logoUrl: "https://logo.clearbit.com/hbo.com"}, {name: "Star Movies"}, {name: "Sony Pix"}, {name: "Movies Now"}, {name: "Warner TV"}, {name: "Star Movies Select"}, {name: "&Flix"}, {name: "Movies Now 2"}, {name: "MGM HD"}, {name: "TCM"}] },
+                    { genre: "News", channels: [{name: "BBC World News", logoUrl: "https://logo.clearbit.com/bbc.com"}, {name: "CNN International", logoUrl: "https://logo.clearbit.com/cnn.com"}, {name: "Al Jazeera English"}, {name: "NDTV 24x7"}, {name: "Republic World"}, {name: "Times Now"}] },
+                    { genre: "Kids", channels: [{name: "Cartoon Network", logoUrl: "https://logo.clearbit.com/cartoonnetwork.com"}, {name: "Disney Channel"}] }
+                ]
+            },
+            {
+                language: "Bhojpuri",
+                subCategories: [
+                    { genre: "Entertainment", channels: [{name: "Mahuaa TV"}, {name: "Dabangg TV"}, {name: "Bhojpuri Dhamaka"}, {name: "Mahuaa Plus"}, {name: "Oscar TV"}, {name: "Bhojpuri Express"}, {name: "Bhojpuri Star"}] },
+                    { genre: "Movies", channels: [{name: "Bhojpuri Cinema"}, {name: "Filmy Bhojpuri"}, {name: "Dabangg Cinema"}, {name: "Mahuaa Cinema"}, {name: "B4U Bhojpuri"}, {name: "Bhojpuri Star Cinema"}] },
+                    { genre: "Music", channels: [{name: "Mahuaa Music"}, {name: "B4U Bhojpuri"}, {name: "Sangeet Bhojpuri"}, {name: "Bhojpuri Music TV"}, {name: "Big Ganga"}] }
+                ]
+            }
+        ];
+
+        let state = {
+            language: categories[0].language,
+            genre: categories[0].subCategories[0].genre,
+            active: true
+        };
+
+        function render() {
+            // Render Languages
+            const langList = document.getElementById('language-list');
+            langList.innerHTML = '';
+            categories.forEach(cat => {
+                const isSelected = cat.language === state.language;
+                const btn = document.createElement('button');
+                btn.className = `w-full text-left px-4 py-3 rounded-lg font-medium transition-colors ${isSelected ? 'bg-surface-variant text-on-surface' : 'text-on-surface-variant hover:bg-surface-container'}`;
+                btn.innerText = cat.language;
+                btn.onclick = () => setLanguage(cat.language);
+                langList.appendChild(btn);
+            });
+
+            // Render Genres
+            const currentCat = categories.find(c => c.language === state.language);
+            const genreList = document.getElementById('genre-list');
+            genreList.innerHTML = '';
+            currentCat.subCategories.forEach(sub => {
+                const isSelected = sub.genre === state.genre;
+                const btn = document.createElement('button');
+                btn.className = `px-6 py-2 rounded-full font-medium whitespace-nowrap transition-colors ${isSelected ? 'bg-surface-variant text-on-surface' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high'}`;
+                btn.innerText = sub.genre;
+                btn.onclick = () => setGenre(sub.genre);
+                genreList.appendChild(btn);
+            });
+
+            // Render Tabs
+            document.getElementById('tab-active').className = `text-lg focus:outline-none ${state.active ? 'text-primary font-bold' : 'text-on-surface-variant font-medium hover:text-on-surface'}`;
+            document.getElementById('tab-inactive').className = `text-lg focus:outline-none ${!state.active ? 'text-primary font-bold' : 'text-on-surface-variant font-medium hover:text-on-surface'}`;
+
+            // Render Channels
+            const channelGrid = document.getElementById('channel-grid');
+            channelGrid.innerHTML = '';
+            const currentSub = currentCat.subCategories.find(s => s.genre === state.genre);
+            
+            if (!state.active) {
+                channelGrid.innerHTML = '<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No inactive channels found.</div>';
+                return;
+            }
+
+            if (!currentSub || currentSub.channels.length === 0) {
+                channelGrid.innerHTML = '<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No channels available.</div>';
+                return;
+            }
+
+            currentSub.channels.forEach(ch => {
+                const card = document.createElement('div');
+                card.className = 'bg-surface-container-high rounded-xl aspect-video flex items-center justify-center p-4 text-center text-on-surface font-medium border-2 border-transparent hover:border-primary hover:bg-surface-variant cursor-pointer transition-all';
+                
+                if (ch.logoUrl) {
+                    const img = document.createElement('img');
+                    img.src = ch.logoUrl;
+                    img.alt = ch.name;
+                    img.className = 'max-w-full max-h-full object-contain';
+                    card.appendChild(img);
+                } else {
+                    card.innerText = ch.name;
+                }
+                
+                card.onclick = () => alert(`Playing ${ch.name}... (ExoPlayer Placeholder)`);
+                channelGrid.appendChild(card);
+            });
+        }
+
+        function setLanguage(lang) {
+            state.language = lang;
+            const newCat = categories.find(c => c.language === lang);
+            if (!newCat.subCategories.find(s => s.genre === state.genre)) {
+                state.genre = newCat.subCategories[0].genre;
+            }
+            render();
+        }
+
+        function setGenre(genre) {
+            state.genre = genre;
+            render();
+        }
+
+        function setStatus(isActive) {
+            state.active = isActive;
+            render();
+        }
+
+        // Initial Render
+        render();
+    </script>
+</body>
+</html>

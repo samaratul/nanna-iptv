@@ -3,6 +3,7 @@ package com.example.nannaiptv.data
 data class Channel(
     val name: String,
     val url: String = "",
+    val logoUrl: String? = null,
     val isActive: Boolean = true
 )
 

@@ -186,11 +186,19 @@ fun MainScreen(
                             modifier = Modifier.aspectRatio(16f / 9f) // Standard TV Thumbnail aspect ratio
                         ) {
                             Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize().padding(8.dp)) {
-                                Text(
-                                    text = channel.name,
-                                    fontWeight = FontWeight.Medium,
-                                    textAlign = TextAlign.Center
-                                )
+                                if (channel.logoUrl != null) {
+                                    coil.compose.AsyncImage(
+                                        model = channel.logoUrl,
+                                        contentDescription = channel.name,
+                                        modifier = Modifier.fillMaxSize().padding(16.dp)
+                                    )
+                                } else {
+                                    Text(
+                                        text = channel.name,
+                                        fontWeight = FontWeight.Medium,
+                                        textAlign = TextAlign.Center
+                                    )
+                                }
                             }
                         }
                     }
