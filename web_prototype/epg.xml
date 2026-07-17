@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="playlist-epg-builder" source-info-name="iptv-org/database + nepalicana/iptv">
+  <channel id="22ScopeNews.in">
+    <display-name>22Scope News HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png" />
+  </channel>
+  <channel id="9XJalwa.in">
+    <display-name>9X Jalwa HD</display-name>
+    <icon src="https://i.imgur.com/qubgOi5.png" />
+  </channel>
+  <channel id="9XM.in">
+    <display-name>9XM HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s77447_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ABCNepal.np">
+    <display-name>ABC Nepal SD</display-name>
+  </channel>
+  <channel id="ABPGanga.in">
+    <display-name>ABP Ganga HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Ganga.png" />
+  </channel>
+  <channel id="ABPNews.in">
+    <display-name>ABP News HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ANBNews.in">
+    <display-name>ANB News HD</display-name>
+    <icon src="https://i.imgur.com/8LjMtnk.png" />
+  </channel>
+  <channel id="AP1TV.np">
+    <display-name>AP1 TV HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/c/c6/AP1_TV_LOGO.png" />
+  </channel>
+  <channel id="AajTak.in">
+    <display-name>Aaj Tak HD</display-name>
+    <icon src="https://i.imgur.com/JYLmXy4.png" />
+  </channel>
+  <channel id="Aastha.in">
+    <display-name>Aastha HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158133_ld_h9_ab.png?lock=720x540" />
+  </channel>
+  <channel id="AasthaPrime1.in">
+    <display-name>Aastha Prime 1 HD</display-name>
+    <icon src="https://i.imgur.com/LyWSMJS.png" />
+  </channel>
+  <channel id="AdhyatmTV.in">
+    <display-name>Adhyatm TV HD</display-name>
+    <icon src="https://i.imgur.com/AMwiE2n.png" />
+  </channel>
+  <channel id="AmarUjala.in">
+    <display-name>AmarUjala HD</display-name>
+    <icon src="https://i.imgur.com/ndQ8LZp.png" />
+  </channel>
+  <channel id="AnandTV.in">
+    <display-name>Anand TV HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Anand_TV.png" />
+  </channel>
+  <channel id="AndTV.in">
+    <display-name>&amp;TV International HD</display-name>
+    <icon src="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMAND_TV_HD/images/LOGO_HD/LOGO_HD_image.png" />
+  </channel>
+  <channel id="Andflix.in">
+    <display-name>&amp;flix HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022J67W.png?lock=720x540" />
+  </channel>
+  <channel id="Andpictures.in">
+    <display-name>&amp;pictures HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" />
+  </channel>
+  <channel id="AndxplorHD.in">
+    <display-name>&amp;xplor HD</display-name>
+    <icon src="https://i.imgur.com/9mK6dgM.png" />
+  </channel>
+  <channel id="AngelTV.in">
+    <display-name>Angel TV Nepal HD</display-name>
+    <icon src="https://i.imgur.com/qKLEGU7.png" />
+  </channel>
+  <channel id="AnjanTV.in">
+    <display-name>Anjan TV HD</display-name>
+    <icon src="https://i.imgur.com/sh0yFSf.png" />
+  </channel>
+  <channel id="ApnaPunjabTV.ca">
+    <display-name>Apna Punjab TV HD</display-name>
+    <icon src="https://i.imgur.com/IM4D8Wz.png" />
+  </channel>
+  <channel id="AwaazIndiaTV.in">
+    <display-name>Awaaz India TV (720p) [Not 24/7] HD</display-name>
+    <icon src="https://i.imgur.com/eKQs51V.png" />
+  </channel>
+  <channel id="B4UBhojpuri.in">
+    <display-name>B4U Bhojpuri HD</display-name>
+    <icon src="https://i.imgur.com/NwOQUDp.png" />
+  </channel>
+  <channel id="B4UKadak.in">
+    <display-name>B4U Kadak (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="B4UMovies.in">
+    <display-name>B4U Movies (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="BTTV.in">
+    <display-name>BT TV HD</display-name>
+    <icon src="https://akm-img-a-in.tosshub.com/businesstoday/resource/img/best-bank-new.png" />
+  </channel>
+  <channel id="BagmatiTV.np">
+    <display-name>Bagmati TV SD</display-name>
+    <icon src="https://i.imgur.com/2K6qEvh.jpg" />
+  </channel>
+  <channel id="BalleBalle.in">
+    <display-name>Balle Balle HD</display-name>
+    <icon src="https://i.imgur.com/oxkkWH5.png" />
+  </channel>
+  <channel id="BansalNews.in">
+    <display-name>Bansal News HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142702_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="Bharat24.in">
+    <display-name>Bharat24 HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142710_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="BhojpuriCinema.in">
+    <display-name>Bhojpuri Cinema HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142713_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="CapitalTVHD.np">
+    <display-name>Capital TV HD</display-name>
+    <icon src="https://i.imgur.com/hb4bq1t.png" />
+  </channel>
+  <channel id="ChannelDivya.in">
+    <display-name>Channel Divya HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ChannelY.ca">
+    <display-name>Channel Y (720p) [Not 24/7] HD</display-name>
+    <icon src="https://i.imgur.com/OqSl2Qf.png" />
+  </channel>
+  <channel id="CityOneTelevision.np">
+    <display-name>City One Television HD</display-name>
+    <icon src="https://i.imgur.com/AxBreI5.png" />
+  </channel>
+  <channel id="CnewsBharat.in">
+    <display-name>Cnews Bharat HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/C_News_Bharat.png" />
+  </channel>
+  <channel id="Colors.in">
+    <display-name>Colors HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/ColorsHD.png" />
+  </channel>
+  <channel id="ColorsCineplex.in">
+    <display-name>Colors Cineplex HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ColorsInfinity.in">
+    <display-name>Colors Infinity HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158150_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="DDBharati.in">
+    <display-name>DD Bharati HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142779_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="DDIndia.in">
+    <display-name>DD India HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="DDSports.in">
+    <display-name>DD Sports SD HD</display-name>
+    <icon src="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" />
+  </channel>
+  <channel id="Dangal2.in">
+    <display-name>Dangal 2 HD</display-name>
+    <icon src="https://i.imgur.com/BEr1r7L.png" />
+  </channel>
+  <channel id="DangalTV.in">
+    <display-name>Dangal TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142771_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="DhaulagiriTelevision.np">
+    <display-name>Dhaulagiri Television SD</display-name>
+    <icon src="https://i.imgur.com/1tTudCH.png" />
+  </channel>
+  <channel id="DivyaDarshanTV.np">
+    <display-name>Divya Darshan TV HD</display-name>
+    <icon src="https://i.imgur.com/EwDQ12F.png" />
+  </channel>
+  <channel id="EpicBharat.in">
+    <display-name>Nazara HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540" />
+  </channel>
+  <channel id="EpicBhojpuri.in">
+    <display-name>Epic Bhojpuri SD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540" />
+  </channel>
+  <channel id="EpicMusic.in">
+    <display-name>Epic Music HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0032BWBW.png?lock=720x540" />
+  </channel>
+  <channel id="EpicTV.in">
+    <display-name>Epic TV Digital HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0032DV5H.png?lock=720x540" />
+  </channel>
+  <channel id="FatehTV.in">
+    <display-name>Fateh TV (1080p) [Not 24/7] HD</display-name>
+    <icon src="https://i.imgur.com/c4ItNkB.png" />
+  </channel>
+  <channel id="GangaurTV.in">
+    <display-name>Gangaur TV HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Gangaur.png" />
+  </channel>
+  <channel id="GoldminesMovies.in">
+    <display-name>Goldmines Movies HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="GoodNewsTV.in">
+    <display-name>GoodNews TV HD</display-name>
+    <icon src="https://i.imgur.com/ZrvoGqS.png" />
+  </channel>
+  <channel id="GoodNewsToday.in">
+    <display-name>Good News Today HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143090_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="HareKrsnaTV.in">
+    <display-name>Hare Krsna TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143102_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ImageChannelNepal.np">
+    <display-name>Image Channel Nepal SD</display-name>
+  </channel>
+  <channel id="IndiaDailyLive.in">
+    <display-name>India Daily Live HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/India_Daily_24x7.png" />
+  </channel>
+  <channel id="IndiaTV.in">
+    <display-name>India TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143199_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="IndiaTVAapKiAdalat.in">
+    <display-name>India TV Aap Ki Adalat (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Aap_Ki_Adalat.png" />
+  </channel>
+  <channel id="IndiaTVSpeedNews.in">
+    <display-name>India TV Speed News HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Speed_News.png" />
+  </channel>
+  <channel id="IndiaToday.in">
+    <display-name>India Today (720p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143197_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="IndigenousTelevision.np">
+    <display-name>Indigenous Television HD</display-name>
+    <icon src="https://i.ibb.co/2MByL1X/indigenous-television.png" />
+  </channel>
+  <channel id="IndywoodTV.in">
+    <display-name>Indywood TV HD</display-name>
+    <icon src="https://i.ibb.co/jT3NCPp/logo-tv.png" />
+  </channel>
+  <channel id="IshwarBhaktiTV.in">
+    <display-name>Ishwar Bhakti TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143213_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="JK24x7News.in">
+    <display-name>JK 24x7 News (720p) [Not 24/7] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143237_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="JMusicTV.np">
+    <display-name>J Music TV SD</display-name>
+    <icon src="https://i.imgur.com/57dVOP5.jpg" />
+  </channel>
+  <channel id="JantaTV.in">
+    <display-name>Janta TV HD</display-name>
+    <icon src="https://i.imgur.com/0nKfwhV.png" />
+  </channel>
+  <channel id="KantipurMax.np">
+    <display-name>Kantipur Max [Geo-blocked] SD</display-name>
+    <icon src="https://i.ibb.co/KzQzd3Tw/kantipurmaxhd.png" />
+  </channel>
+  <channel id="KantipurTV.np">
+    <display-name>Kantipur TV HD</display-name>
+    <icon src="https://i.imgur.com/HEVo2Gc.png" />
+  </channel>
+  <channel id="KashishNews.in">
+    <display-name>Kashish News HD</display-name>
+    <icon src="https://i.imgur.com/qfINs2r.png" />
+  </channel>
+  <channel id="KaumudyTV.in">
+    <display-name>Kaumudy TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143259_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="METVHD.np">
+    <display-name>METV HD</display-name>
+    <icon src="https://i.imgur.com/Zud862h.png" />
+  </channel>
+  <channel id="MNX.in">
+    <display-name>MNX HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s147570_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="MTV.in">
+    <display-name>MTV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143558_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ManoranjanPrime.in">
+    <display-name>Manoranjan Prime SD</display-name>
+  </channel>
+  <channel id="ManoranjanTV.in">
+    <display-name>Manoranjan TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143304_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="MediBizTV.in">
+    <display-name>MediBizTV HD</display-name>
+    <icon src="https://www.medibiztv.com/assets/logo-E76jcvP9.png" />
+  </channel>
+  <channel id="MercyTV.in">
+    <display-name>Mercy TV HD</display-name>
+    <icon src="https://i.imgur.com/klNH4tV.png" />
+  </channel>
+  <channel id="MirrorNow.in">
+    <display-name>Mirror Now HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143543_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="MithilaNepalTV.np">
+    <display-name>Mithila Nepal TV HD</display-name>
+    <icon src="https://i.ibb.co/CWn3fH9/1689333550464.jpg" />
+  </channel>
+  <channel id="MoviesNow.in">
+    <display-name>Movies Now HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s147571_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="MoviesNowPlus.in">
+    <display-name>Movies Now + HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143548_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NDTV24x7.in">
+    <display-name>NDTV 24x7 HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s154895_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NDTVGoodTimes.in">
+    <display-name>NDTV Good Times HD</display-name>
+    <icon src="https://i.imgur.com/7cruYvo.png" />
+  </channel>
+  <channel id="NDTVIndia.in">
+    <display-name>NDTV India HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157588_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NDTVMadhyaPradeshChhattisgarh.in">
+    <display-name>NDTV Madhya Pradesh Chhattisgarh HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158324_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NDTVRajasthan.in">
+    <display-name>NDTV Rajasthan HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158325_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NTV.np">
+    <display-name>NTV HD</display-name>
+    <icon src="https://ntv.newitventure.com//images/channel_logos/1.png" />
+  </channel>
+  <channel id="NTVItahari.np">
+    <display-name>NTV Itahari HD</display-name>
+    <icon src="https://ntv.newitventure.com/images/channel_logos/600.png" />
+  </channel>
+  <channel id="NTVKohalpur.np">
+    <display-name>NTV Kohalpur HD</display-name>
+    <icon src="https://ntv.newitventure.com/images/channel_logos/4.png" />
+  </channel>
+  <channel id="NTVNews.np">
+    <display-name>NTV News HD</display-name>
+    <icon src="https://ntv.newitventure.com//images/channel_logos/3.png" />
+  </channel>
+  <channel id="NTVPlus.np">
+    <display-name>NTV Plus HD</display-name>
+    <icon src="https://ntv.newitventure.com//images/channel_logos/2.png" />
+  </channel>
+  <channel id="NationalGoldTV.np">
+    <display-name>National Gold TV SD</display-name>
+    <icon src="https://i.imgur.com/p0Wwf20.jpg" />
+  </channel>
+  <channel id="Nepal1.in">
+    <display-name>Nepal 1 SD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143584_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18AssamNorthEast.in">
+    <display-name>News18 Assam North-East HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143606_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18BiharJharkhand.in">
+    <display-name>News18 Bihar Jharkhand HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143608_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18DelhiNCRJK.in">
+    <display-name>News18 Delhi NCR JK HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/News18JKLH.png" />
+  </channel>
+  <channel id="News18India.in">
+    <display-name>News18 India HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG002Z2RTM.png?lock=720x540" />
+  </channel>
+  <channel id="News18MadhyaPradeshChhattisgarh.in">
+    <display-name>News18 Madhya Pradesh/Chhattisgarh HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143615_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18PunjabHaryanaHimachal.in">
+    <display-name>News18 Punjab/Haryana/Himachal HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143617_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18Rajasthan.in">
+    <display-name>News18 Rajasthan HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143618_ld_h9_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News18UttarPradeshUttarakhand.in">
+    <display-name>News18 Uttar Pradesh Uttarakhand HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143621_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News24.in">
+    <display-name>News 24 HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="News24.np">
+    <display-name>News 24 HD</display-name>
+    <icon src="https://i.imgur.com/7PgAPMU.png" />
+  </channel>
+  <channel id="News24Nepal.np">
+    <display-name>News24 Nepal SD</display-name>
+    <icon src="https://www.news24nepal.tv/wp-content/themes/news24nepal/img/logo.png" />
+  </channel>
+  <channel id="News9Live.in">
+    <display-name>News9Live HD</display-name>
+    <icon src="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/News9_Transparent_0ebbb3fe-a786-401a-957d-2c37168aaa22.png" />
+  </channel>
+  <channel id="NewsNation.in">
+    <display-name>News Nation HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="NortheastLive.in">
+    <display-name>Northeast Live HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143633_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="PasandTV.in">
+    <display-name>Pasand TV SD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG002NFYY1.png?lock=720x540" />
+  </channel>
+  <channel id="PrudentMedia.in">
+    <display-name>Prudent Media HD</display-name>
+    <icon src="https://i.imgur.com/DG0x4UD.png" />
+  </channel>
+  <channel id="RTIndia.in">
+    <display-name>RT India HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" />
+  </channel>
+  <channel id="RepublicBharat.in">
+    <display-name>Republic Bharat (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="RepublicTV.in">
+    <display-name>Republic TV (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SVBC4.in">
+    <display-name>SVBC 4 HD</display-name>
+    <icon src="https://i.imgur.com/vCFdZny.png" />
+  </channel>
+  <channel id="Sadhna.in">
+    <display-name>Sadhna HD</display-name>
+    <icon src="https://i.imgur.com/x13iiuI.png" />
+  </channel>
+  <channel id="SadhnaPlusNews.in">
+    <display-name>Sadhna Plus News HD</display-name>
+    <icon src="https://i.imgur.com/h4UehKC.png" />
+  </channel>
+  <channel id="SalvationTV.in">
+    <display-name>Salvation TV HD</display-name>
+    <icon src="https://content.jdmagicbox.com/comp/bangalore/l5/080pxx80.xx80.150207120517.e4l5/catalogue/salvation-tv-network-pvt-m-g-road-bangalore-religious-organizations-1sabn2d.jpg" />
+  </channel>
+  <channel id="SangeetBhojpuri.in">
+    <display-name>Sangeet Bhojpuri HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143757_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SanskarTV.in">
+    <display-name>Sanskar TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143713_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SanskarUK.in">
+    <display-name>Sanskar UK HD</display-name>
+    <icon src="https://i.imgur.com/AU5vSPF.png" />
+  </channel>
+  <channel id="SanskarUSA.in">
+    <display-name>Sanskar USA HD</display-name>
+    <icon src="https://i.imgur.com/5WBWruX.png" />
+  </channel>
+  <channel id="SanskarWebTV.in">
+    <display-name>Sanskar Web TV HD</display-name>
+    <icon src="https://i.imgur.com/mu2B6hw.png" />
+  </channel>
+  <channel id="SatsangTV.in">
+    <display-name>Satsang TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143766_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SatsangWebTV.in">
+    <display-name>Satsang Web TV HD</display-name>
+    <icon src="https://i.imgur.com/40kNu1w.png" />
+  </channel>
+  <channel id="ShemarooFilmiGaane.in">
+    <display-name>Shemaroo Filmi Gaane HD</display-name>
+    <icon src="https://i.imgur.com/2yOij1b.png" />
+  </channel>
+  <channel id="ShemarooJosh.in">
+    <display-name>Shemaroo Josh HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG00297P3E.png?lock=720x540" />
+  </channel>
+  <channel id="ShemarooTV.in">
+    <display-name>Shemaroo TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143778_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ShemarooUmang.in">
+    <display-name>Shemaroo Umang HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="ShubhCinemaTV.in">
+    <display-name>Shubh Cinema TV HD</display-name>
+    <icon src="https://i.imgur.com/RQhorAG.png" />
+  </channel>
+  <channel id="ShubhsandeshTV.in">
+    <display-name>Shubhsandesh TV (720p) [Not 24/7] HD</display-name>
+    <icon src="https://i.imgur.com/hfk5jKE.png" />
+  </channel>
+  <channel id="SonyEntertainmentTelevision.in">
+    <display-name>Sony Entertainment Television HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SonyPix.in">
+    <display-name>Sony Pix HD (1080p) [Geo-blocked]</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143803_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SonyWah.in">
+    <display-name>Sony Wah (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="SouthStation.in">
+    <display-name>South Station HD</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20260325T012316SQUARE.png" />
+  </channel>
+  <channel id="StarGoldSelect.in">
+    <display-name>Star Gold Select HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143817_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarMovies.in">
+    <display-name>Star Movies HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarMoviesSelect.in">
+    <display-name>Star Movies Select HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarPlus.in">
+    <display-name>StarPlus HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarSports1.in">
+    <display-name>Star Sports 1 HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143837_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarSports1Hindi.in">
+    <display-name>Star Sports 1 Hindi HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143838_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarSports2.in">
+    <display-name>Star Sports 2 HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143845_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="StarSports2Hindi.in">
+    <display-name>Star Sports 2 Hindi HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" />
+  </channel>
+  <channel id="SteelbirdMusic.in">
+    <display-name>Steelbird Music (720p) [Not 24/7] HD</display-name>
+    <icon src="https://i.imgur.com/Egijzx3.png" />
+  </channel>
+  <channel id="SudarshanNews.in">
+    <display-name>Sudarshan News HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s143870_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="TNPNews.in">
+    <display-name>TNP News HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png" />
+  </channel>
+  <channel id="TOIGlobal.in">
+    <display-name>TOI Global HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/npnhm84gz9.png" />
+  </channel>
+  <channel id="TV9Bharatvarsh.in">
+    <display-name>TV9 Bharatvarsh HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s144027_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="TheMovieClub.in">
+    <display-name>The Movie Club HD</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" />
+  </channel>
+  <channel id="TimesNow.in">
+    <display-name>Times Now (720p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s144006_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="TimesNowNavbharat.in">
+    <display-name>Times Now Navbharat (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/NAV-BHARAT-HD-Transpatrnt.png" />
+  </channel>
+  <channel id="TimesNowWorld.in">
+    <display-name>Times Now World HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s144008_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="TotalBhakti.in">
+    <display-name>Total Bhakti HD</display-name>
+    <icon src="https://i.imgur.com/LPwRdmF.png" />
+  </channel>
+  <channel id="Travelxp.in">
+    <display-name>Travelxp 4K HDR (2160p) [Geo-blocked]</display-name>
+    <icon src="https://i.imgur.com/HUWEnc5.png" />
+  </channel>
+  <channel id="WION.in">
+    <display-name>WION HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s144087_ld_h15_aa.png?lock=720x540" />
+  </channel>
+  <channel id="YRFMusic.in">
+    <display-name>YRF Music HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" />
+  </channel>
+  <channel id="ZeeBharat.in">
+    <display-name>Zee Bharat HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeBiharJharkhand.in">
+    <display-name>Zee Bihar Jharkhand HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeBiskope.in">
+    <display-name>Zee Biskope SD</display-name>
+    <icon src="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BISKOPE/images/LOGO_HD/LOGO_HD_image.png" />
+  </channel>
+  <channel id="ZeeBollymovies.in">
+    <display-name>Zee Bollymovies (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" />
+  </channel>
+  <channel id="ZeeCafe.in">
+    <display-name>Zee Cafe HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022ZMMH.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeCinema.in">
+    <display-name>Zee Cinema APAC (1080p) [Geo-blocked] HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeComedyNation.in">
+    <display-name>Zee Comedy Nation HD</display-name>
+    <icon src="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcomedynation.png" />
+  </channel>
+  <channel id="ZeeDelhiNCRHaryana.in">
+    <display-name>Zee Delhi NCR Haryana HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0023166M.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeDilSe.in">
+    <display-name>Zee Dil Se HD</display-name>
+    <icon src="https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png" />
+  </channel>
+  <channel id="ZeeHorrorNights.in">
+    <display-name>Zee Horror Nights HD</display-name>
+    <icon src="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png" />
+  </channel>
+  <channel id="ZeeMadhyaPradeshChhattisgarh.in">
+    <display-name>Zee Madhya Pradesh Chhattisgarh HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG002316X5.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeNews.in">
+    <display-name>Zee News HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeRajasthan.in">
+    <display-name>Zee Rajasthan HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG00231732.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeSouthFlix.in">
+    <display-name>Zee South Flix HD</display-name>
+    <icon src="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png" />
+  </channel>
+  <channel id="ZeeTV.in">
+    <display-name>Zee TV HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeUttarPradeshUttarakhand.in">
+    <display-name>Zee Uttar Pradesh/Uttarakhand HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG002317GQ.png?lock=720x540" />
+  </channel>
+  <channel id="ZeeZest.in">
+    <display-name>Zee Zest HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022ZKWY.png?lock=720x540" />
+  </channel>
+  <channel id="Zoom.in">
+    <display-name>Zoom HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png?lock=720x540" />
+  </channel>
+</tv>

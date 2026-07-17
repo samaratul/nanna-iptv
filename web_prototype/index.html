@@ -162,26 +162,24 @@
                 for(let line of lines) {
                     line = line.trim();
                     if(line.startsWith('#EXTINF:')) {
-                        // parse logo
-                        let logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                        let logoUrl = logoMatch ? logoMatch[1] : null;
-                        
-                        // parse group-title (Genre)
+                        // parse group-title which contains "Language - Genre"
                         let groupMatch = line.match(/group-title="([^"]+)"/);
-                        let rawGroup = groupMatch ? groupMatch[1] : "General";
+                        let rawGroup = groupMatch ? groupMatch[1] : "Global - General";
+                        
+                        let lang = rawGroup.includes(' - ') ? rawGroup.split(' - ')[0].trim() : "Global";
                         let group = rawGroup.includes(' - ') ? rawGroup.split(' - ')[1].trim() : rawGroup;
                         
-                        // parse tvg-language (Language)
-                        let langMatch = line.match(/tvg-language="([^"]+)"/);
-                        let lang = langMatch ? langMatch[1] : "Global";
+                        // We no longer rely on tvg-language, since the new M3U format embeds it in group-title
                         
-                        // parse tvg-status (Active/Inactive)
-                        let statusMatch = line.match(/tvg-status="([^"]+)"/);
-                        let isActive = statusMatch ? (statusMatch[1] === "active") : true;
+                        let activeMatch = line.match(/tvg-status="([^"]+)"/);
+                        let isActive = activeMatch ? activeMatch[1] === "active" : true; // default true if not specified
                         
-                        // parse name
+                        // Also try parsing logo
+                        let logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                        let logoUrl = logoMatch ? logoMatch[1] : "";
+                        
                         let nameParts = line.split(',');
-                        let name = nameParts[nameParts.length - 1];
+                        let name = nameParts.length > 1 ? nameParts[1].trim() : "Unknown Channel";
                         
                         tempChannel = { name, logoUrl, genre: group, language: lang, active: isActive };
                     } else if (line.startsWith('http') && tempChannel) {
@@ -388,7 +386,7 @@
 
         // Initialize with local playlist and cache-buster
         const timestamp = new Date().getTime();
-        loadPlaylist('./playlist.m3u?t=' + timestamp);
+        loadPlaylist('./playlist.m3u8?t=' + timestamp);
     </script>
 </body>
 </html>
