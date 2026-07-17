@@ -18,6 +18,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import com.example.nannaiptv.data.Channel
 import com.example.nannaiptv.ui.player.PlayerScreen
+import com.example.nannaiptv.ui.settings.SettingsScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,15 +33,21 @@ class MainActivity : ComponentActivity() {
                         .background(MaterialTheme.colorScheme.background)
                 ) {
                     var activeChannel by remember { mutableStateOf<Channel?>(null) }
+                    var showSettings by remember { mutableStateOf(false) }
                     
-                    if (activeChannel == null) {
-                        MainScreen(
-                            onItemClick = { channel -> activeChannel = channel }
+                    if (showSettings) {
+                        SettingsScreen(
+                            onBack = { showSettings = false }
                         )
-                    } else {
+                    } else if (activeChannel != null) {
                         PlayerScreen(
                             channel = activeChannel!!,
                             onBack = { activeChannel = null }
+                        )
+                    } else {
+                        MainScreen(
+                            onItemClick = { channel -> activeChannel = channel },
+                            onSettingsClick = { showSettings = true }
                         )
                     }
                 }

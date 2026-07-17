@@ -94,6 +94,8 @@ dependencies {
   // Ktor for Networking
   implementation(libs.ktor.client.core)
   implementation(libs.ktor.client.android)
+  implementation(libs.coil.compose)
+  implementation(libs.androidx.datastore.preferences)
   implementation(libs.ktor.client.content.negotiation)
   implementation(libs.ktor.serialization.kotlinx.json)
 }

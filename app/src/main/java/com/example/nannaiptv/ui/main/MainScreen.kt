@@ -25,28 +25,40 @@ import com.example.nannaiptv.data.DefaultChannelData
 
 import com.example.nannaiptv.data.Channel
 
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Settings
+
 @Composable
 fun MainScreen(
     onItemClick: (Channel) -> Unit,
+    onSettingsClick: () -> Unit,
     modifier: Modifier = Modifier,
-    viewModel: MainScreenViewModel = viewModel { MainScreenViewModel(DefaultDataRepository()) },
+    viewModel: MainScreenViewModel = viewModel(),
 ) {
-    // 1. Load Data
-    val allCategories = DefaultChannelData.categories
+    // 1. Load Data from ViewModel
+    val allCategories by viewModel.categories.collectAsStateWithLifecycle()
+    val isLoading by viewModel.isLoading.collectAsStateWithLifecycle()
     
     // State: Selected Language (Main Category)
-    var selectedLanguage by remember { mutableStateOf(allCategories.firstOrNull()?.language ?: "") }
-    val currentCategory = allCategories.find { it.language == selectedLanguage }
+    var selectedLanguage by remember { mutableStateOf("") }
+    
+    // Initialize selectedLanguage when categories load
+    LaunchedEffect(allCategories) {
+        if (selectedLanguage.isEmpty() && allCategories.isNotEmpty()) {
+            selectedLanguage = allCategories.first().language
+        }
+    }
+    
+    val currentCategory = allCategories.find { it.language == selectedLanguage } ?: allCategories.firstOrNull()
     
     // State: Selected Genre (Sub Category)
     val availableGenres = currentCategory?.subCategories ?: emptyList()
-    var selectedGenre by remember { mutableStateOf(availableGenres.firstOrNull()?.genre ?: "") }
+    var selectedGenre by remember { mutableStateOf("") }
     
     // Auto-update genre if language changes and the old genre doesn't exist
-    LaunchedEffect(selectedLanguage) {
-        val newAvailableGenres = allCategories.find { it.language == selectedLanguage }?.subCategories ?: emptyList()
-        if (newAvailableGenres.none { it.genre == selectedGenre }) {
-            selectedGenre = newAvailableGenres.firstOrNull()?.genre ?: ""
+    LaunchedEffect(selectedLanguage, availableGenres) {
+        if (availableGenres.isNotEmpty() && availableGenres.none { it.genre == selectedGenre }) {
+            selectedGenre = availableGenres.first().genre
         }
     }
 
@@ -59,7 +71,6 @@ fun MainScreen(
 
     Row(modifier = modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
         // TIER 1: Left Sidebar (Main Categories / Languages)
-        // Uses surfaceContainerLow to give a glass/layered feel
         Box(
             modifier = Modifier
                 .width(260.dp)
@@ -67,7 +78,7 @@ fun MainScreen(
                 .background(MaterialTheme.colorScheme.surfaceContainerLow)
                 .padding(16.dp)
         ) {
-            Column {
+            Column(modifier = Modifier.fillMaxHeight()) {
                 Text(
                     text = "Nanna IPTV",
                     fontSize = 24.sp,
@@ -76,7 +87,7 @@ fun MainScreen(
                     modifier = Modifier.padding(bottom = 24.dp, start = 16.dp)
                 )
 
-                TvLazyColumn {
+                TvLazyColumn(modifier = Modifier.weight(1f)) {
                     items(allCategories) { category ->
                         val isSelected = category.language == selectedLanguage
                         Surface(
@@ -96,6 +107,27 @@ fun MainScreen(
                                 fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                             )
                         }
+                    }
+                }
+
+                // Settings Button at bottom of sidebar
+                Surface(
+                    onClick = onSettingsClick,
+                    shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(8.dp)),
+                    colors = ClickableSurfaceDefaults.colors(
+                        containerColor = androidx.compose.ui.graphics.Color.Transparent,
+                        contentColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                        focusedContainerColor = MaterialTheme.colorScheme.primary,
+                        focusedContentColor = MaterialTheme.colorScheme.onPrimary
+                    ),
+                    modifier = Modifier.fillMaxWidth().padding(top = 16.dp)
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Icon(imageVector = Icons.Default.Settings, contentDescription = "Settings", modifier = Modifier.padding(end = 12.dp))
+                        Text(text = "Settings", fontWeight = FontWeight.Medium)
                     }
                 }
             }
