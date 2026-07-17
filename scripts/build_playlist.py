@@ -69,6 +69,7 @@ for source in sources:
         
         current_logo = ""
         current_name = ""
+        current_group = "General"
         
         for line in lines:
             line = line.strip()
@@ -76,6 +77,10 @@ for source in sources:
                 logo_match = re.search(r'tvg-logo="([^"]+)"', line)
                 if logo_match:
                     current_logo = logo_match.group(1)
+                
+                group_match = re.search(r'group-title="([^"]+)"', line)
+                if group_match:
+                    current_group = group_match.group(1)
                 
                 parts = line.split(',')
                 if len(parts) > 1:
@@ -88,10 +93,12 @@ for source in sources:
                         if ch["search_name"].lower() == current_name.lower() or ch["search_name"].lower() in current_name.lower():
                             ch["active"] = True
                             ch["url"] = line
+                            ch["genre"] = current_group if current_group else "General"
                             if current_logo:
                                 ch["logo"] = current_logo
                 current_name = ""
                 current_logo = ""
+                current_group = "General"
     except Exception as e:
         print(f"Error fetching {source}: {e}")
 
@@ -111,7 +118,7 @@ with open("../playlist.m3u", "w", encoding="utf-8") as f:
     for ch in master_channels:
         status = "active" if ch["active"] else "inactive"
         logo_tag = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ''
-        f.write(f'#EXTINF:-1 tvg-language="Live TV" tvg-status="{status}"{logo_tag} group-title="{ch["language"]}",{ch["search_name"]}\n')
+        f.write(f'#EXTINF:-1 tvg-language="{ch["language"]}" tvg-status="{status}"{logo_tag} group-title="{ch["genre"]}",{ch["search_name"]}\n')
         f.write(f'{ch["url"]}\n\n')
 
 print(f"Master playlist generated! Total: {len(master_channels)} | Active: {active_count} | Inactive: {inactive_count}")

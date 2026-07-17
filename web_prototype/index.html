@@ -223,7 +223,7 @@
         }
 
         function render() {
-            // Render Languages
+            // Render Languages (Sidebar)
             const langList = document.getElementById('language-list');
             langList.innerHTML = '';
             categories.forEach(cat => {
@@ -235,18 +235,21 @@
                 langList.appendChild(btn);
             });
 
-            // Render Genres
+            // Render Genres (Top Row)
             const currentCat = categories.find(c => c.language === state.language);
             const genreList = document.getElementById('genre-list');
             genreList.innerHTML = '';
-            currentCat.subCategories.forEach(sub => {
-                const isSelected = sub.genre === state.genre;
-                const btn = document.createElement('button');
-                btn.className = `px-6 py-2 rounded-full font-medium whitespace-nowrap transition-colors ${isSelected ? 'bg-surface-variant text-on-surface' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high'}`;
-                btn.innerText = sub.genre;
-                btn.onclick = () => setGenre(sub.genre);
-                genreList.appendChild(btn);
-            });
+            
+            if (currentCat) {
+                currentCat.subCategories.forEach(sub => {
+                    const isSelected = sub.genre === state.genre;
+                    const btn = document.createElement('button');
+                    btn.className = `px-6 py-2 rounded-full font-medium whitespace-nowrap transition-colors ${isSelected ? 'bg-surface-variant text-on-surface' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high'}`;
+                    btn.innerText = sub.genre;
+                    btn.onclick = () => setGenre(sub.genre);
+                    genreList.appendChild(btn);
+                });
+            }
 
             // Render Tabs
             document.getElementById('tab-active').className = `text-lg focus:outline-none ${state.active ? 'text-primary font-bold' : 'text-on-surface-variant font-medium hover:text-on-surface'}`;
@@ -255,6 +258,9 @@
             // Render Channels
             const channelGrid = document.getElementById('channel-grid');
             channelGrid.innerHTML = '';
+            
+            if (!currentCat) return;
+            
             const currentSub = currentCat.subCategories.find(s => s.genre === state.genre);
             
             if (!currentSub || currentSub.channels.length === 0) {
