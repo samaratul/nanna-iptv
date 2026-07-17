@@ -23,9 +23,11 @@ import androidx.tv.material3.*
 import com.example.nannaiptv.data.DefaultDataRepository
 import com.example.nannaiptv.data.DefaultChannelData
 
+import com.example.nannaiptv.data.Channel
+
 @Composable
 fun MainScreen(
-    onItemClick: (NavKey) -> Unit,
+    onItemClick: (Channel) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: MainScreenViewModel = viewModel { MainScreenViewModel(DefaultDataRepository()) },
 ) {
@@ -175,7 +177,7 @@ fun MainScreen(
                 ) {
                     items(displayedChannels) { channel -> 
                         Surface(
-                            onClick = { /* Launch ExoPlayer */ },
+                            onClick = { onItemClick(channel) },
                             shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
                             colors = ClickableSurfaceDefaults.colors(
                                 containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,

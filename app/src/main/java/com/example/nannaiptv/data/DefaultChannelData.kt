@@ -97,7 +97,7 @@ object DefaultChannelData {
                     Channel("Star World Premiere"), Channel("Romedy Now"), Channel("FX"), Channel("AXN"), Channel("Warner TV")
                 )),
                 SubCategory("Movies", listOf(
-                    Channel("HBO", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png"), 
+                    Channel("HBO", url = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png"), 
                     Channel("Star Movies"), Channel("Sony Pix"), Channel("Movies Now"), 
                     Channel("Warner TV"), Channel("Star Movies Select"), Channel("&Flix"), Channel("Movies Now 2"), 
                     Channel("MGM HD"), Channel("TCM")
@@ -107,8 +107,8 @@ object DefaultChannelData {
                     Channel("MTV Live HD")
                 )),
                 SubCategory("News", listOf(
-                    Channel("BBC World News", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png"), 
-                    Channel("CNN International", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png"), Channel("Al Jazeera English"), 
+                    Channel("BBC World News", url = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png"), 
+                    Channel("CNN International", url = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png"), Channel("Al Jazeera English"), 
                     Channel("NDTV 24x7"), Channel("Republic World"), Channel("Times Now"), Channel("CNN-News18"), 
                     Channel("DW News"), Channel("France 24"), Channel("RT News"), Channel("Sky News"), Channel("ABC Australia")
                 )),

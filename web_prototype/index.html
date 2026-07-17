@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanna IPTV - Web Prototype</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -180,9 +181,52 @@
                     card.innerText = ch.name;
                 }
                 
-                card.onclick = () => alert(`Playing ${ch.name}... (ExoPlayer Placeholder)`);
+                card.onclick = () => playVideo(ch.name, ch.url);
                 channelGrid.appendChild(card);
             });
+        }
+
+        function playVideo(name, url) {
+            if (!url) {
+                alert(`No stream URL configured for ${name} yet.`);
+                return;
+            }
+            const playerOverlay = document.createElement('div');
+            playerOverlay.id = 'player-overlay';
+            playerOverlay.className = 'fixed inset-0 bg-black z-50 flex flex-col';
+            playerOverlay.innerHTML = `
+                <div class="p-4 flex justify-between items-center absolute top-0 left-0 w-full bg-gradient-to-b from-black/80 to-transparent z-10">
+                    <h2 class="text-2xl font-bold text-white">${name}</h2>
+                    <button onclick="closePlayer()" class="text-white hover:text-primary px-4 py-2 bg-surface-container rounded-lg font-bold">Close (Back)</button>
+                </div>
+                <video id="video-player" class="w-full h-full" controls autoplay></video>
+            `;
+            document.body.appendChild(playerOverlay);
+
+            const video = document.getElementById('video-player');
+            if (Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource(url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    video.play();
+                });
+                window.currentHls = hls;
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+                video.addEventListener('loadedmetadata', function() {
+                    video.play();
+                });
+            }
+        }
+
+        function closePlayer() {
+            if (window.currentHls) {
+                window.currentHls.destroy();
+                window.currentHls = null;
+            }
+            const overlay = document.getElementById('player-overlay');
+            if (overlay) overlay.remove();
         }
 
         function setLanguage(lang) {
