@@ -23,115 +23,115 @@ https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8
 #EXTINF:-1 tvg-language="Bhojpuri" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png?lock=720x540" group-title="News",Zee Bihar Jharkhand
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBiharJharkhand.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540" group-title="Religious",Aastha Bhajan
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540" group-title="Devotional",Aastha Bhajan
 https://mumt05.tangotv.in/87NeALx2AASTHABHAJAN/index.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Devotional",Angel TV
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Africa
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Africa
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Arabia
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Arabia
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Australia
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Australia
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Europe
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Europe
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV FarEast
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV FarEast
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Indo-China
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Indo-China
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Angel TV Indonesia
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",Angel TV Indonesia
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Nepal
+#EXTINF:-1 tvg-language="Nepali" tvg-status="active" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Devotional",Angel TV Nepal
 https://janya-digimix.akamaized.net/vglive-sk-109639/nepali/ngrp:angelnepali_all/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="News",CBS News Philadelphia
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="Devotional",CBS News Philadelphia
 https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/4tfUIEo.png" group-title="Culture",DD Bharati
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/4tfUIEo.png" group-title="Devotional",DD Bharati
 http://103.213.31.109:90/DDBharati/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/IjzCv8f.png" group-title="Religious",Daystar TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/IjzCv8f.png" group-title="Devotional",Daystar TV
 https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/EwDQ12F.png" group-title="Religious",Divya Darshan TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/EwDQ12F.png" group-title="Devotional",Divya Darshan TV
 http://live.divyadarshantv.com/hls/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",EWTN Africa-Asia
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",EWTN Africa-Asia
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",EWTN Asia-Pacific
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",EWTN Asia-Pacific
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",EWTN Canada
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",EWTN Canada
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",EWTN Europe
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",EWTN Europe
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="Religious",GOD TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="Devotional",GOD TV
 https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143102_ld_h15_aa.png?lock=720x540" group-title="Religious",Hare Krsna TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143102_ld_h15_aa.png?lock=720x540" group-title="Devotional",Hare Krsna TV
 https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143230_ld_h15_aa.png?lock=720x540" group-title="Religious",Jinvani Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143230_ld_h15_aa.png?lock=720x540" group-title="Devotional",Jinvani Channel
 https://cdn-2.pishow.tv/live/989/master.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Madani Channel English
+#EXTINF:-1 tvg-language="English" tvg-status="inactive" group-title="Devotional",Madani Channel English
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/pTn8Vc3.png" group-title="Religious",Miracle TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/pTn8Vc3.png" group-title="Devotional",Miracle TV
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143639_ld_h15_aa.png?lock=720x540" group-title="Culture",Odisha TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143639_ld_h15_aa.png?lock=720x540" group-title="Devotional",Odisha TV
 https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",Peace TV English
+#EXTINF:-1 tvg-language="English" tvg-status="inactive" group-title="Devotional",Peace TV English
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg" group-title="Religious",Peace TV Urdu
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg" group-title="Devotional",Peace TV Urdu
 https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540" group-title="Religious",SVBC 2
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540" group-title="Devotional",SVBC 2
 https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540" group-title="Religious",SVBC Sri Venkateswara Bhakti Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540" group-title="Devotional",SVBC Sri Venkateswara Bhakti Channel
 https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/TBN_logo_2015.jpg/960px-TBN_logo_2015.jpg" group-title="Religious",TBN
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/TBN_logo_2015.jpg/960px-TBN_logo_2015.jpg" group-title="Devotional",TBN
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/U5XsT3j.png" group-title="Undefined",TBN Armenia
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/U5XsT3j.png" group-title="Devotional",TBN Armenia
 https://164475.gvideo.io/mpegts/164475_650646/master_mpegts.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/GSM0Pkr.png" group-title="Religious",TBN Inspire
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/GSM0Pkr.png" group-title="Devotional",TBN Inspire
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/yWJTxKk.png" group-title="Undefined",TBN Pacific
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/yWJTxKk.png" group-title="Devotional",TBN Pacific
 https://broadcast.tbnpacific.org.au:4430/stream/TBNPacificTV/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="inactive" group-title="General",TBN TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Devotional",TBN TV
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/vFllwLd.png" group-title="Undefined",TBN UK
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/vFllwLd.png" group-title="Devotional",TBN UK
 https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://i.imgur.com/PhbrGyM.png" group-title="Undefined",TBN Україна
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/PhbrGyM.png" group-title="Devotional",TBN Україна
 https://5d23269b3ec0c.streamlock.net/WEB_Ukraine24/ngrp:Ukraine24.stream-adaptive/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png?lock=720x540" group-title="Religious",Vedic
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png?lock=720x540" group-title="Devotional",Vedic
 https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Devotional" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png" group-title="Undefined",WSLF-LD 35.1
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png" group-title="Devotional",WSLF-LD 35.1
 https://content.uplynk.com/channel/1992858a34c3423dbdad491d07ae6f75.m3u8
 
 #EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN
@@ -413,130 +413,130 @@ http://41.205.77.102/ZEE-TV/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Zee_TV_Logo_2025.svg/960px-Zee_TV_Logo_2025.svg.png" group-title="Entertainment",Zee TV UK HD
 https://mini.allinonereborn.fun/tata.php?id=11783
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/NTlC6e7.png" group-title="General",Amga TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/NTlC6e7.png" group-title="Life Style & Discovery",Amga TV
 https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Documentary",BBC Earth
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Life Style & Discovery",BBC Earth
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Documentary",BBC Earth Greece
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Life Style & Discovery",BBC Earth Greece
 http://185.102.171.218/BBCEarth/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary",CGTN Documentary
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Life Style & Discovery",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary",CGTN Documentary
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Life Style & Discovery",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="inactive" group-title="General",FASHION & LIFESTYLE
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Life Style & Discovery",FASHION & LIFESTYLE
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="inactive" group-title="General",HGTV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Life Style & Discovery",HGTV
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540" group-title="Documentary",History TV18
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540" group-title="Life Style & Discovery",History TV18
 http://103.72.101.252:8080/live/1471.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="Documentary",History TV18 HD
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="Life Style & Discovery",History TV18 HD
 http://103.154.3.101:5001/live/577.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="inactive" group-title="General",Jamaica Travel Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Life Style & Discovery",Jamaica Travel Channel
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Documentary",National Geographic
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Life Style & Discovery",National Geographic
 http://149.71.34.166:8002/play/a013/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Documentary",National Geographic
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Life Style & Discovery",National Geographic
 http://149.71.34.166:8002/play/a013/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Documentary",National Geographic HD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Life Style & Discovery",National Geographic HD
 http://149.71.34.166:8002/play/a013/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic HD East
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Life Style & Discovery",National Geographic HD East
 http://198.58.104.90:8989/natgeo/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic West
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Life Style & Discovery",National Geographic West
 http://206.212.244.63/122/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Documentary",National Geographic Wild
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Life Style & Discovery",National Geographic Wild
 http://149.71.34.166:8002/play/a012/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild HD East
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Life Style & Discovery",National Geographic Wild HD East
 http://198.58.104.90:8989/natgeowild/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Outdoor",Outdoor Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Life Style & Discovery",Outdoor Channel
 https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Outdoor",Outdoor Channel HD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Life Style & Discovery",Outdoor Channel HD
 http://40.160.24.55/OUTDOOR_CHANNEL/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="inactive" group-title="General",Quest TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Life Style & Discovery",Quest TV
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SmithsonianChannellogo.png/960px-SmithsonianChannellogo.png" group-title="Science",Smithsonian Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SmithsonianChannellogo.png/960px-SmithsonianChannellogo.png" group-title="Life Style & Discovery",Smithsonian Channel
 http://40.160.24.55/SMITHSONIAN/index.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="active" tvg-logo="https://i.imgur.com/Kt5j8Vr.png" group-title="Science",Smithsonian Channel Selects
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/Kt5j8Vr.png" group-title="Life Style & Discovery",Smithsonian Channel Selects
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
 
-#EXTINF:-1 tvg-language="Life Style & Discovery" tvg-status="inactive" group-title="General",The Pet Collective Sweden
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Life Style & Discovery",The Pet Collective Sweden
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="inactive" group-title="General",Amazing Discoveries TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="inactive" group-title="Music",Amazing Discoveries TV
 http://inactive.local/stream.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/4d65Bev.png" group-title="Religious",Amazing Facts TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/4d65Bev.png" group-title="Music",Amazing Facts TV
 https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music",B4U Music
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music",B4U Music
 https://cdn-2.pishow.tv/live/415/master.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/OqSl2Qf.png" group-title="News",Channel Y
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/OqSl2Qf.png" group-title="Music",Channel Y
 http://cdn19.live247stream.com/channely/tv/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/8mAJuut.png" group-title="Documentary",Dateline 24/7
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/8mAJuut.png" group-title="Music",Dateline 24/7
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896029/hls/master.m3u8?ads.xumo_channelId=88896029
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="Sports",FITE 24/7
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="Music",FITE 24/7
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/mJWBVH1.png" group-title="Kids",Kids Zone
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/mJWBVH1.png" group-title="Music",Kids Zone
 http://103.250.28.74:8000/play/a04m/index.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Sports",Kozoom TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Music",Kozoom TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/3UByLqb.png" group-title="Music",MTV Live
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/3UByLqb.png" group-title="Music",MTV Live
 http://40.160.24.53/MTV_LIVE/index.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143563_ld_h15_aa.png?lock=720x540" group-title="Music",Music India
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143563_ld_h15_aa.png?lock=720x540" group-title="Music",Music India
 https://cdn-2.pishow.tv/live/226/master.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143757_ld_h15_aa.png?lock=720x540" group-title="Music",Sangeet Bhojpuri
+#EXTINF:-1 tvg-language="Bhojpuri" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143757_ld_h15_aa.png?lock=720x540" group-title="Music",Sangeet Bhojpuri
 http://103.213.31.109:90/SangeetBhojpuri/playlist.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/5yzPhRo.png" group-title="Series",The Amazing Race
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/5yzPhRo.png" group-title="Music",The Amazing Race
 https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1
 http://40.160.24.55/VH1/index.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1 West
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1 West
 http://40.160.24.55/VH1_WEST/index.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KGXP.png?lock=720x540" group-title="News",Zee 24 Ghanta
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KGXP.png?lock=720x540" group-title="Music",Zee 24 Ghanta
 http://45.148.145.57/IN_Zee24Ghanta/index.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230P1R.png?lock=720x540" group-title="News",Zee 24 Kalak
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230P1R.png?lock=720x540" group-title="Music",Zee 24 Kalak
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/14b7c8ec-16da-47f2-8d7e-5bbaec67b3e2/3.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230LKE.png?lock=720x540" group-title="News",Zee 24 Taas
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230LKE.png?lock=720x540" group-title="Music",Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Music",Zing!
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Music",Zing!
 http://103.72.101.252:8080/live/585.m3u8
 
-#EXTINF:-1 tvg-language="Music" tvg-status="active" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",Zoo Moo
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Music",Zoo Moo
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-language="Nepali" tvg-status="active" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",&xplor HD
@@ -689,102 +689,102 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-status="active" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Documentary",National Geographic Wild HD
 http://149.71.34.166:8002/play/a012/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="News",ABP News
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="News",ABP News
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="News",Awaaz India TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="News",Awaaz India TV
 https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="News",CBS News 24/7
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="News",CBS News 24/7
 https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="News",Fox News Channel
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="News",Fox News Channel
 http://40.160.24.52/FOX_NEWS/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="News",Fox News Radio
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="News",Fox News Radio
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="News",News 24
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="News",News 24
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="News",News 24
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="News",News 24
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540" group-title="News",Republic Bharat
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540" group-title="News",Republic Bharat
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540" group-title="News",Republic TV
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540" group-title="News",Republic TV
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540" group-title="Legislative",Sansad TV 2
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540" group-title="News",Sansad TV 2
 https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540" group-title="Legislative",Sansad TV 2
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540" group-title="News",Sansad TV 2
 https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/9jcV9oG.png" group-title="News",Silverbird News 24
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/9jcV9oG.png" group-title="News",Silverbird News 24
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_029/Stream/playlist.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="Weather",Sky News
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="News",Sky News
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 1
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 1
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 2
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 2
 https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3
+#EXTINF:-1 tvg-language="English" tvg-status="active" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World HD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="News",TRT World HD
 https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="News",WION
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="News",WION
 http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540" group-title="Business",Zee Business
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540" group-title="News",Zee Business
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 
-#EXTINF:-1 tvg-language="News" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="News",Zee News
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="News",Zee News
 https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports",DD Sports SD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports",DD Sports SD
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="Sports",Golf Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="Sports",Golf Channel
 http://23.237.104.106:8080/USA_GOLF/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/sA5V39D.png" group-title="Sports",MLB Network
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/sA5V39D.png" group-title="Sports",MLB Network
 http://40.160.24.52/MLB_Network/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a4/NBA_TV_Canada_2020.png" group-title="Sports",NBA TV Canada
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a4/NBA_TV_Canada_2020.png" group-title="Sports",NBA TV Canada
 http://user.scalecdn.co:8080/live/54706135/09221986/3092.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="Sports",NFL Network
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="Sports",NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 Hindi
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 Hindi
 http://103.229.254.25:7001/play/a09q/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1
 https://tvsen7.aynaott.com/sspts1/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 HD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 HD
 http://103.253.18.58:8000/play/a00m
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2 Hindi HD
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2 Hindi HD
 http://103.157.248.140:8000/play/a01m/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Sports",Ten Sports Pakistan
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Sports",Ten Sports Pakistan
 http://121.91.61.106:8000/play/a04h/index.m3u8
 
-#EXTINF:-1 tvg-language="Sports" tvg-status="active" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="Sports",Tennis Channel
+#EXTINF:-1 tvg-language="Hindi" tvg-status="active" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="Sports",Tennis Channel
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
 

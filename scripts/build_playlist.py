@@ -13,12 +13,10 @@ with open(channel_list_file, "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
         if line.startswith("## "):
-            # Extract category name, ignoring the (XX channels) part
             match = re.match(r"## ([^\(]+)", line)
             if match:
                 current_lang = match.group(1).strip()
         elif line.startswith("- "):
-            # Extract channel name, ignoring (1080p) or [Not 24/7]
             raw_name = line[2:].strip()
             name_clean = re.sub(r"\(.*?\)", "", raw_name).strip()
             name_clean = re.sub(r"\[.*?\]", "", name_clean).strip()
@@ -27,13 +25,12 @@ with open(channel_list_file, "r", encoding="utf-8") as f:
                 "original_name": raw_name,
                 "search_name": name_clean,
                 "language": current_lang,
-                "genre": "General", # Default genre since the list doesn't specify deep subcategories
+                "genre": "General",
                 "active": False,
                 "url": "http://inactive.local/stream.m3u8",
                 "logo": ""
             })
 
-# Hardcoded fallback for some specific channels to ensure they always work
 hardcoded_streams = {
     "Kantipur TV HD": "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8",
     "AP1 TV HD": "http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8",
@@ -59,6 +56,27 @@ sources = [
     "https://iptv-org.github.io/iptv/categories/documentary.m3u"
 ]
 
+ALLOWED_LANGS = ["Nepali", "Hindi", "English", "Bhojpuri"]
+
+def get_best_language(name, orig_cat, iptv_lang):
+    if iptv_lang:
+        for l in iptv_lang.split(';'):
+            if l in ALLOWED_LANGS: return l
+    if orig_cat in ALLOWED_LANGS: return orig_cat
+    
+    n = name.lower()
+    if any(x in n for x in ["nepal", "kantipur", "ap1", "ntv", "himalaya", "image", "avenues", "sagarmatha"]): return "Nepali"
+    if any(x in n for x in ["bhojpuri", "biskope", "mahuwa", "ganga", "anjan"]): return "Bhojpuri"
+    if any(x in n for x in ["bbc", "cnn", "sky", "fox", "hbo", "movies now", "axn", "english", "discovery", "nat geo", "tlc", "history", "cbs", "bloomberg", "cnbc", "mtv"]): return "English"
+    return "Hindi"
+
+def get_best_genre(orig_cat, iptv_group):
+    if orig_cat not in ALLOWED_LANGS and orig_cat != "Global":
+        return orig_cat
+    if iptv_group and iptv_group != "General":
+        return iptv_group
+    return "General"
+
 # 2. Search for active links
 for source in sources:
     try:
@@ -69,47 +87,52 @@ for source in sources:
         
         current_logo = ""
         current_name = ""
-        current_group = "General"
+        current_group = ""
+        current_iptv_lang = ""
         
         for line in lines:
             line = line.strip()
             if line.startswith('#EXTINF'):
                 logo_match = re.search(r'tvg-logo="([^"]+)"', line)
-                if logo_match:
-                    current_logo = logo_match.group(1)
+                if logo_match: current_logo = logo_match.group(1)
                 
                 group_match = re.search(r'group-title="([^"]+)"', line)
-                if group_match:
-                    current_group = group_match.group(1)
+                if group_match: current_group = group_match.group(1)
+                
+                lang_match = re.search(r'tvg-language="([^"]+)"', line)
+                if lang_match: current_iptv_lang = lang_match.group(1)
                 
                 parts = line.split(',')
                 if len(parts) > 1:
                     current_name = parts[-1].strip()
             elif line.startswith('http') and current_name:
-                # Check if this channel matches any in our master list that isn't active yet
                 for ch in master_channels:
                     if not ch["active"]:
-                        # Exact match or very close substring match
                         if ch["search_name"].lower() == current_name.lower() or ch["search_name"].lower() in current_name.lower():
                             ch["active"] = True
                             ch["url"] = line
-                            ch["genre"] = current_group if current_group else "General"
+                            ch["genre"] = get_best_genre(ch["language"], current_group)
+                            ch["language"] = get_best_language(ch["search_name"], ch["language"], current_iptv_lang)
                             if current_logo:
                                 ch["logo"] = current_logo
                 current_name = ""
                 current_logo = ""
-                current_group = "General"
+                current_group = ""
+                current_iptv_lang = ""
     except Exception as e:
         print(f"Error fetching {source}: {e}")
 
-# Apply hardcoded streams
+# Apply hardcoded streams and cleanup inactive channels
 for ch in master_channels:
     for hc_name, hc_url in hardcoded_streams.items():
         if hc_name.lower() in ch["search_name"].lower() or hc_name.lower() in ch["original_name"].lower():
             ch["active"] = True
             ch["url"] = hc_url
+    
+    if not ch["active"]:
+        ch["genre"] = get_best_genre(ch["language"], "")
+        ch["language"] = get_best_language(ch["search_name"], ch["language"], "")
 
-# 3. Write to M3U
 active_count = sum(1 for ch in master_channels if ch["active"])
 inactive_count = len(master_channels) - active_count
 
