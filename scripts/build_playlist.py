@@ -59,15 +59,31 @@ sources = [
 ALLOWED_LANGS = ["Nepali", "Hindi", "English", "Bhojpuri"]
 
 def get_best_language(name, orig_cat, iptv_lang):
-    if iptv_lang:
-        for l in iptv_lang.split(';'):
-            if l in ALLOWED_LANGS: return l
-    if orig_cat in ALLOWED_LANGS: return orig_cat
-    
     n = name.lower()
-    if any(x in n for x in ["nepal", "kantipur", "ap1", "ntv", "himalaya", "image", "avenues", "sagarmatha"]): return "Nepali"
-    if any(x in n for x in ["bhojpuri", "biskope", "mahuwa", "ganga", "anjan"]): return "Bhojpuri"
-    if any(x in n for x in ["bbc", "cnn", "sky", "fox", "hbo", "movies now", "axn", "english", "discovery", "nat geo", "tlc", "history", "cbs", "bloomberg", "cnbc", "mtv"]): return "English"
+    
+    # 1. Strong Heuristics (Override everything)
+    if any(x in n for x in ["nepal", "kantipur", "ap1", "ntv", "himalaya", "image", "avenues", "sagarmatha", "capital", "dhaulagiri", "mithila", "yo ho", "news 24"]): return "Nepali"
+    if any(x in n for x in ["bhojpuri", "biskope", "mahuwa", "ganga", "anjan", "sangeet bhojpuri"]): return "Bhojpuri"
+    
+    # 2. IPTV-Org Language Codes
+    if iptv_lang:
+        langs = iptv_lang.lower().split(';')
+        for l in langs:
+            if "hin" in l or l == "hindi": return "Hindi"
+            if "eng" in l or l == "english": return "English"
+            if "nep" in l or l == "nepali": return "Nepali"
+            if "bho" in l or l == "bhojpuri": return "Bhojpuri"
+
+    # 3. Fallback Heuristics
+    if any(x in n for x in ["bbc", "cnn", "sky", "fox", "hbo", "movies now", "axn", "english", "discovery", "nat geo", "tlc", "history", "cbs", "bloomberg", "cnbc", "mtv", "wion", "arirang", "cgtn"]): return "English"
+    if any(x in n for x in ["aaj tak", "dd ", "india", "samachar", "khabar", "bharat", "zee", "star", "sony", "colors", "dangal", "b4u", "shemaroo", "abp", "republic", "ndtv", "manoranjan", "sansad", "9x", "goldmines", "maha", "shubh", "aastha", "jinvani", "ishwar"]): return "Hindi"
+    
+    # 4. Fallback to orig_cat ONLY if we are sure it makes sense (it usually doesn't because channel_list.md is bugged)
+    if orig_cat in ALLOWED_LANGS:
+        if orig_cat == "Nepali" and not any(x in n for x in ["nepal", "tv", "hd"]):
+            return "Hindi" # It's probably a mistakenly categorized Indian channel
+        return orig_cat
+        
     return "Hindi"
 
 def get_best_genre(orig_cat, iptv_group):
