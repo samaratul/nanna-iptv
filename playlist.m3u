@@ -1,0 +1,30 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kantipur_Television_logo.svg/512px-Kantipur_Television_logo.svg.png" group-title="Entertainment",Kantipur TV HD
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c6/AP1_TV_LOGO.png" group-title="Entertainment",AP1 TV HD
+http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7PgAPMU.png" group-title="News",News 24 HD
+http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hb4bq1t.png" group-title="News",Capital TV HD
+https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AxBreI5.png" group-title="Entertainment",City One Television HD
+http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zud862h.png" group-title="Entertainment",METV HD
+http://maxotts.maxdigitaltv.com/x-media/C168/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Xr4FjC8.png" group-title="Entertainment",Nepal 1
+https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CWn3fH9/1689333550464.jpg" group-title="Entertainment",Mithila Nepal TV HD
+http://150.107.205.212:1935/live/mithila/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1tTudCH.png" group-title="News",Dhaulagiri Television
+http://maxotts.maxdigitaltv.com/x-media/C117/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png" group-title="News",CNN International (Test)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8

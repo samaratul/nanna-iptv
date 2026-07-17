@@ -33,16 +33,66 @@
         body { background-color: #0b1326; color: #dae2fd; font-family: 'Inter', sans-serif; overflow: hidden; }
         .hide-scrollbar::-webkit-scrollbar { display: none; }
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        .settings-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .settings-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .settings-modal {
+            background: #18181b; /* surfaceContainerLow */
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 32px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+        }
+
+        .settings-overlay.active .settings-modal {
+            transform: translateY(0);
+        }
+
+        #settingsBtn:hover {
+            background: #00e5ff;
+            color: #000;
+            border-color: #00e5ff;
+        }
     </style>
 </head>
 <body class="h-screen w-screen flex bg-background">
 
     <!-- Sidebar: Languages -->
-    <div class="w-[260px] h-full bg-surface-container-low p-6 flex flex-col border-r border-surface-container-high">
+    <div class="w-[260px] h-full bg-surface-container-low p-6 flex flex-col border-r border-surface-container-high relative">
         <h1 class="text-2xl font-bold text-primary mb-8">Nanna IPTV</h1>
-        <div id="language-list" class="flex flex-col gap-2 overflow-y-auto hide-scrollbar">
+        <div id="language-list" class="flex flex-col gap-2 overflow-y-auto hide-scrollbar mb-16">
             <!-- Populated by JS -->
         </div>
+
+        <!-- Settings Button -->
+        <button id="settingsBtn" class="absolute bottom-6 left-6 right-6 p-4 rounded-lg bg-transparent border border-white/20 text-white font-medium flex items-center justify-center gap-3 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            Settings
+        </button>
     </div>
 
     <!-- Main Content Area -->
@@ -67,14 +117,26 @@
         </div>
     </div>
 
+    <!-- Settings Overlay Modal -->
+    <div class="settings-overlay" id="settingsOverlay">
+        <div class="settings-modal">
+            <h2 class="text-2xl font-bold text-white mb-6">Settings</h2>
+            <label class="block text-sm text-on-surface-variant mb-2">M3U Playlist URL</label>
+            <input type="text" id="m3uInput" placeholder="http://.../.m3u" class="w-full p-3 rounded-lg border border-white/20 bg-black/50 text-white outline-none mb-6">
+            <div class="flex justify-end gap-4">
+                <button id="cancelSettingsBtn" class="px-5 py-2 rounded-lg bg-white/10 text-white hover:bg-white/20 transition-colors">Cancel</button>
+                <button id="saveSettingsBtn" class="px-5 py-2 rounded-lg bg-[#00e5ff] text-black font-bold hover:bg-white transition-colors">Save & Restart</button>
+            </div>
+        </div>
+    </div>
+
     <script>
-        // Data Structure
         const categories = [
             {
                 language: "Nepali",
                 subCategories: [
                     { genre: "Sports", channels: [{name: "NTV Sports"}, {name: "AP1 TV (Cricket)"}, {name: "Himalaya TV Sports (occasional)"}, {name: "DishHome Sports (IPTV)"}] },
-                    { genre: "Entertainment", channels: [{name: "Kantipur TV"}, {name: "AP1 TV"}, {name: "Himalaya TV"}, {name: "Galaxy 4K"}, {name: "Image Channel"}, {name: "Sagarmatha TV"}, {name: "NTV Plus"}, {name: "Disha TV Nepal"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "TV Today"}, {name: "Mero TV"}] },
+                    { genre: "Entertainment", channels: [{name: "Kantipur TV", url: "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8", logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kantipur_Television_logo.svg/512px-Kantipur_Television_logo.svg.png"}, {name: "AP1 TV"}, {name: "Himalaya TV"}, {name: "Galaxy 4K"}, {name: "Image Channel"}, {name: "Sagarmatha TV"}, {name: "NTV Plus"}, {name: "Disha TV Nepal"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "TV Today"}, {name: "Mero TV"}] },
                     { genre: "Movies", channels: [{name: "Filmy Plus"}, {name: "Ramailo Chautari"}, {name: "Action Cinema"}, {name: "NTV Plus"}, {name: "Kalika TV"}, {name: "Mero Cinema (IPTV)"}, {name: "DishHome Cinema"}, {name: "Kanxa TV (Movie blocks)"}] },
                     { genre: "Music", channels: [{name: "Kantipur Gold"}, {name: "Music Nepal TV"}, {name: "Image Music"}, {name: "Channel Nepal"}, {name: "Beluga Music"}, {name: "TV Today (Music)"}, {name: "Avenues Music"}, {name: "Sagarmatha Music"}] },
                     { genre: "News", channels: [{name: "Kantipur TV"}, {name: "News 24"}, {name: "Avenues TV"}, {name: "NTV"}, {name: "Himalaya TV"}, {name: "AP1 TV"}, {name: "ABC TV"}, {name: "Image TV News"}, {name: "Sagarmatha TV"}, {name: "Kalika TV"}, {name: "Galaxy 4K"}, {name: "Janata TV"}, {name: "Nepal 1"}, {name: "Mountain TV"}, {name: "Awaaz TV"}, {name: "Terai TV"}] },
@@ -250,6 +312,27 @@
 
         // Initial Render
         render();
+
+        // Settings Logic
+        const settingsOverlay = document.getElementById('settingsOverlay');
+        const m3uInput = document.getElementById('m3uInput');
+
+        document.getElementById('settingsBtn').addEventListener('click', () => {
+            settingsOverlay.classList.add('active');
+            m3uInput.focus();
+        });
+
+        document.getElementById('cancelSettingsBtn').addEventListener('click', () => {
+            settingsOverlay.classList.remove('active');
+        });
+
+        document.getElementById('saveSettingsBtn').addEventListener('click', () => {
+            const url = m3uInput.value;
+            if (url) {
+                alert('Saved M3U URL: ' + url + '\nIn the real app, this will restart the app and load the new channels!');
+            }
+            settingsOverlay.classList.remove('active');
+        });
     </script>
 </body>
 </html>

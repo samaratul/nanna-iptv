@@ -9,7 +9,8 @@ object DefaultChannelData {
                     Channel("NTV Sports"), Channel("AP1 TV (Cricket)"), Channel("Himalaya TV Sports (occasional)"), Channel("DishHome Sports (IPTV)")
                 )),
                 SubCategory("Entertainment", listOf(
-                    Channel("Kantipur TV"), Channel("AP1 TV"), Channel("Himalaya TV"), Channel("Galaxy 4K"), 
+                    Channel("Kantipur TV", url = "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8", logoUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kantipur_Television_logo.svg/512px-Kantipur_Television_logo.svg.png"), 
+                    Channel("AP1 TV"), Channel("Himalaya TV"), Channel("Galaxy 4K"), 
                     Channel("Image Channel"), Channel("Sagarmatha TV"), Channel("NTV Plus"), Channel("Disha TV Nepal"), 
                     Channel("Janata TV"), Channel("Nepal 1"), Channel("TV Today"), Channel("Mero TV")
                 )),
