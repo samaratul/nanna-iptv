@@ -18,11 +18,11 @@ import androidx.tv.foundation.lazy.grid.TvGridCells
 import androidx.tv.foundation.lazy.grid.TvLazyVerticalGrid
 import androidx.tv.foundation.lazy.grid.items
 import androidx.tv.foundation.lazy.list.TvLazyColumn
+import androidx.tv.foundation.lazy.list.TvLazyRow
 import androidx.tv.foundation.lazy.list.items
 import androidx.tv.material3.*
 import com.example.nannaiptv.data.DefaultDataRepository
 import com.example.nannaiptv.data.DefaultChannelData
-import com.example.nannaiptv.data.Channel
 
 @Composable
 fun MainScreen(
@@ -30,22 +30,37 @@ fun MainScreen(
     modifier: Modifier = Modifier,
     viewModel: MainScreenViewModel = viewModel { MainScreenViewModel(DefaultDataRepository()) },
 ) {
-    // Load real data
-    val categoryMap = DefaultChannelData.flattenedCategories
-    val categoryNames = categoryMap.keys.toList()
+    // 1. Load Data
+    val allCategories = DefaultChannelData.categories
     
-    var selectedCategoryName by remember { mutableStateOf(categoryNames.firstOrNull() ?: "") }
+    // State: Selected Language (Main Category)
+    var selectedLanguage by remember { mutableStateOf(allCategories.firstOrNull()?.language ?: "") }
+    val currentCategory = allCategories.find { it.language == selectedLanguage }
+    
+    // State: Selected Genre (Sub Category)
+    val availableGenres = currentCategory?.subCategories ?: emptyList()
+    var selectedGenre by remember { mutableStateOf(availableGenres.firstOrNull()?.genre ?: "") }
+    
+    // Auto-update genre if language changes and the old genre doesn't exist
+    LaunchedEffect(selectedLanguage) {
+        val newAvailableGenres = allCategories.find { it.language == selectedLanguage }?.subCategories ?: emptyList()
+        if (newAvailableGenres.none { it.genre == selectedGenre }) {
+            selectedGenre = newAvailableGenres.firstOrNull()?.genre ?: ""
+        }
+    }
+
+    // State: Active/Inactive Filter
     var showActive by remember { mutableStateOf(true) }
 
-    // Get channels for the selected category, filtered by Active/Inactive
-    val channelsForCategory = categoryMap[selectedCategoryName] ?: emptyList()
-    val displayedChannels = channelsForCategory.filter { it.isActive == showActive }
+    // Final Channels to Display
+    val currentSubCategory = availableGenres.find { it.genre == selectedGenre }
+    val displayedChannels = currentSubCategory?.channels?.filter { it.isActive == showActive } ?: emptyList()
 
     Row(modifier = modifier.fillMaxSize().background(Color(0xFFF0F0F0))) {
-        // Left Sidebar (Categories)
+        // TIER 1: Left Sidebar (Main Categories / Languages)
         Box(
             modifier = Modifier
-                .width(280.dp)
+                .width(260.dp)
                 .fillMaxHeight()
                 .background(Color.White)
                 .padding(16.dp)
@@ -60,10 +75,10 @@ fun MainScreen(
                 )
 
                 TvLazyColumn {
-                    items(categoryNames) { categoryName ->
-                        val isSelected = categoryName == selectedCategoryName
+                    items(allCategories) { category ->
+                        val isSelected = category.language == selectedLanguage
                         Surface(
-                            onClick = { selectedCategoryName = categoryName },
+                            onClick = { selectedLanguage = category.language },
                             shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(8.dp)),
                             colors = ClickableSurfaceDefaults.colors(
                                 containerColor = if (isSelected) Color(0xFFE0E0E0) else Color.Transparent,
@@ -74,7 +89,7 @@ fun MainScreen(
                             modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)
                         ) {
                             Text(
-                                text = categoryName,
+                                text = category.language,
                                 modifier = Modifier.padding(16.dp),
                                 fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                             )
@@ -91,7 +106,33 @@ fun MainScreen(
                 .fillMaxHeight()
                 .padding(24.dp)
         ) {
-            // Tabs Row
+            // TIER 2: Sub-Categories (Genres) Row at the Top
+            TvLazyRow(
+                modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                items(availableGenres) { subCategory ->
+                    val isSelected = subCategory.genre == selectedGenre
+                    Surface(
+                        onClick = { selectedGenre = subCategory.genre },
+                        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(24.dp)),
+                        colors = ClickableSurfaceDefaults.colors(
+                            containerColor = if (isSelected) Color(0xFFD0D0D0) else Color.White,
+                            contentColor = Color.Black,
+                            focusedContainerColor = Color(0xFF2196F3),
+                            focusedContentColor = Color.White
+                        )
+                    ) {
+                        Text(
+                            text = subCategory.genre,
+                            modifier = Modifier.padding(horizontal = 24.dp, vertical = 12.dp),
+                            fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                        )
+                    }
+                }
+            }
+
+            // TIER 3: Active/Inactive Tabs
             TabRow(
                 selectedTabIndex = if (showActive) 0 else 1,
                 modifier = Modifier.padding(bottom = 24.dp)
@@ -121,30 +162,36 @@ fun MainScreen(
             }
 
             // 6-Column Channel Grid
-            TvLazyVerticalGrid(
-                columns = TvGridCells.Fixed(6),
-                horizontalArrangement = Arrangement.spacedBy(16.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
-                modifier = Modifier.fillMaxSize()
-            ) {
-                items(displayedChannels) { channel -> 
-                    Surface(
-                        onClick = { /* Launch ExoPlayer */ },
-                        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
-                        colors = ClickableSurfaceDefaults.colors(
-                            containerColor = Color.White,
-                            contentColor = Color.Black,
-                            focusedContainerColor = Color(0xFF2196F3),
-                            focusedContentColor = Color.White
-                        ),
-                        modifier = Modifier.aspectRatio(16f / 9f) // Standard TV Thumbnail aspect ratio
-                    ) {
-                        Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize().padding(8.dp)) {
-                            Text(
-                                text = channel.name,
-                                fontWeight = FontWeight.Medium,
-                                textAlign = TextAlign.Center
-                            )
+            if (displayedChannels.isEmpty()) {
+                Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                    Text("No channels available in this category.", color = Color.Gray, fontSize = 18.sp)
+                }
+            } else {
+                TvLazyVerticalGrid(
+                    columns = TvGridCells.Fixed(6),
+                    horizontalArrangement = Arrangement.spacedBy(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(16.dp),
+                    modifier = Modifier.fillMaxSize()
+                ) {
+                    items(displayedChannels) { channel -> 
+                        Surface(
+                            onClick = { /* Launch ExoPlayer */ },
+                            shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
+                            colors = ClickableSurfaceDefaults.colors(
+                                containerColor = Color.White,
+                                contentColor = Color.Black,
+                                focusedContainerColor = Color(0xFF2196F3),
+                                focusedContentColor = Color.White
+                            ),
+                            modifier = Modifier.aspectRatio(16f / 9f) // Standard TV Thumbnail aspect ratio
+                        ) {
+                            Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize().padding(8.dp)) {
+                                Text(
+                                    text = channel.name,
+                                    fontWeight = FontWeight.Medium,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
                         }
                     }
                 }
