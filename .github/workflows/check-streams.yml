@@ -1,0 +1,84 @@
+# Place this file at: .github/workflows/check-streams.yml
+#
+# What it does:
+#   - Runs every 6 hours (and manually on demand via the Actions tab)
+#   - Downloads check_streams.py's dependencies (none beyond stdlib)
+#   - Checks every stream in playlist.m3u8
+#   - Commits stream_report.md / stream_report.json / playlist_working.m3u8
+#     back into the repo if anything changed
+#   - Opens (or updates) a GitHub Issue listing dead channels whenever the
+#     dead-link rate crosses the threshold, so you get notified without
+#     having to check manually — this is the "bot" behavior.
+
+name: Check IPTV Streams
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours; adjust as you like
+  workflow_dispatch: {}       # lets you click "Run workflow" manually
+  push:
+    paths:
+      - "playlist.m3u8"
+      - "check_streams.py"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run stream checker
+        id: check
+        run: |
+          python check_streams.py playlist.m3u8 --fail-threshold 40
+        continue-on-error: true   # capture failure but still commit/report
+
+      - name: Commit updated report and working playlist
+        run: |
+          git config user.name "stream-check-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add stream_report.md stream_report.json playlist_working.m3u8
+          git diff --cached --quiet || git commit -m "chore: update stream check report [skip ci]"
+          git push
+
+      - name: Open/update issue on high dead-link rate
+        if: steps.check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('stream_report.md', 'utf8');
+            const title = "⚠️ IPTV playlist: high dead-stream rate";
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "stream-check",
+            });
+            const body = report.slice(0, 60000); // stay under GitHub's body size limit
+            if (issues.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ["stream-check"],
+              });
+            }

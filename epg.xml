@@ -73,7 +73,7 @@
     <icon src="https://i.imgur.com/9mK6dgM.png" />
   </channel>
   <channel id="AngelTV.in">
-    <display-name>Angel TV Nepal HD</display-name>
+    <display-name>Angel TV HD</display-name>
     <icon src="https://i.imgur.com/qKLEGU7.png" />
   </channel>
   <channel id="AnjanTV.in">
@@ -85,7 +85,7 @@
     <icon src="https://i.imgur.com/IM4D8Wz.png" />
   </channel>
   <channel id="AwaazIndiaTV.in">
-    <display-name>Awaaz India TV (720p) [Not 24/7] HD</display-name>
+    <display-name>Awaaz India TV HD [Not 24/7]</display-name>
     <icon src="https://i.imgur.com/eKQs51V.png" />
   </channel>
   <channel id="B4UBhojpuri.in">
@@ -93,11 +93,11 @@
     <icon src="https://i.imgur.com/NwOQUDp.png" />
   </channel>
   <channel id="B4UKadak.in">
-    <display-name>B4U Kadak (1080p) [Geo-blocked] HD</display-name>
+    <display-name>B4U Kadak HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="B4UMovies.in">
-    <display-name>B4U Movies (1080p) [Geo-blocked] HD</display-name>
+    <display-name>B4U Movies HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" />
   </channel>
   <channel id="BTTV.in">
@@ -133,7 +133,7 @@
     <icon src="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="ChannelY.ca">
-    <display-name>Channel Y (720p) [Not 24/7] HD</display-name>
+    <display-name>Channel Y HD [Not 24/7]</display-name>
     <icon src="https://i.imgur.com/OqSl2Qf.png" />
   </channel>
   <channel id="CityOneTelevision.np">
@@ -165,7 +165,7 @@
     <icon src="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="DDSports.in">
-    <display-name>DD Sports SD HD</display-name>
+    <display-name>DD Sports HD</display-name>
     <icon src="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" />
   </channel>
   <channel id="Dangal2.in">
@@ -201,7 +201,7 @@
     <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0032DV5H.png?lock=720x540" />
   </channel>
   <channel id="FatehTV.in">
-    <display-name>Fateh TV (1080p) [Not 24/7] HD</display-name>
+    <display-name>Fateh TV HD [Not 24/7]</display-name>
     <icon src="https://i.imgur.com/c4ItNkB.png" />
   </channel>
   <channel id="GangaurTV.in">
@@ -236,7 +236,7 @@
     <icon src="https://dtil.tmsimg.com/assets/s143199_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="IndiaTVAapKiAdalat.in">
-    <display-name>India TV Aap Ki Adalat (1080p) [Geo-blocked] HD</display-name>
+    <display-name>India TV Aap Ki Adalat HD [Geo-blocked]</display-name>
     <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Aap_Ki_Adalat.png" />
   </channel>
   <channel id="IndiaTVSpeedNews.in">
@@ -244,7 +244,7 @@
     <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Speed_News.png" />
   </channel>
   <channel id="IndiaToday.in">
-    <display-name>India Today (720p) [Geo-blocked] HD</display-name>
+    <display-name>India Today HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143197_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="IndigenousTelevision.np">
@@ -260,7 +260,7 @@
     <icon src="https://dtil.tmsimg.com/assets/s143213_ld_h9_aa.png?lock=720x540" />
   </channel>
   <channel id="JK24x7News.in">
-    <display-name>JK 24x7 News (720p) [Not 24/7] HD</display-name>
+    <display-name>JK 24x7 News HD [Not 24/7]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143237_ld_h9_aa.png?lock=720x540" />
   </channel>
   <channel id="JMusicTV.np">
@@ -272,7 +272,7 @@
     <icon src="https://i.imgur.com/0nKfwhV.png" />
   </channel>
   <channel id="KantipurMax.np">
-    <display-name>Kantipur Max [Geo-blocked] SD</display-name>
+    <display-name>Kantipur Max SD [Geo-blocked]</display-name>
     <icon src="https://i.ibb.co/KzQzd3Tw/kantipurmaxhd.png" />
   </channel>
   <channel id="KantipurTV.np">
@@ -447,11 +447,11 @@
     <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" />
   </channel>
   <channel id="RepublicBharat.in">
-    <display-name>Republic Bharat (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Republic Bharat HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="RepublicTV.in">
-    <display-name>Republic TV (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Republic TV HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="SVBC4.in">
@@ -519,7 +519,7 @@
     <icon src="https://i.imgur.com/RQhorAG.png" />
   </channel>
   <channel id="ShubhsandeshTV.in">
-    <display-name>Shubhsandesh TV (720p) [Not 24/7] HD</display-name>
+    <display-name>Shubhsandesh TV HD [Not 24/7]</display-name>
     <icon src="https://i.imgur.com/hfk5jKE.png" />
   </channel>
   <channel id="SonyEntertainmentTelevision.in">
@@ -527,11 +527,11 @@
     <icon src="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="SonyPix.in">
-    <display-name>Sony Pix HD (1080p) [Geo-blocked]</display-name>
+    <display-name>Sony Pix HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143803_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="SonyWah.in">
-    <display-name>Sony Wah (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Sony Wah HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="SouthStation.in">
@@ -571,7 +571,7 @@
     <icon src="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" />
   </channel>
   <channel id="SteelbirdMusic.in">
-    <display-name>Steelbird Music (720p) [Not 24/7] HD</display-name>
+    <display-name>Steelbird Music HD [Not 24/7]</display-name>
     <icon src="https://i.imgur.com/Egijzx3.png" />
   </channel>
   <channel id="SudarshanNews.in">
@@ -595,11 +595,11 @@
     <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" />
   </channel>
   <channel id="TimesNow.in">
-    <display-name>Times Now (720p) [Geo-blocked] HD</display-name>
+    <display-name>Times Now HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s144006_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="TimesNowNavbharat.in">
-    <display-name>Times Now Navbharat (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Times Now Navbharat HD [Geo-blocked]</display-name>
     <icon src="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/NAV-BHARAT-HD-Transpatrnt.png" />
   </channel>
   <channel id="TimesNowWorld.in">
@@ -611,7 +611,7 @@
     <icon src="https://i.imgur.com/LPwRdmF.png" />
   </channel>
   <channel id="Travelxp.in">
-    <display-name>Travelxp 4K HDR (2160p) [Geo-blocked]</display-name>
+    <display-name>Travelxp 4K HDR HD [Geo-blocked]</display-name>
     <icon src="https://i.imgur.com/HUWEnc5.png" />
   </channel>
   <channel id="WION.in">
@@ -635,7 +635,7 @@
     <icon src="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BISKOPE/images/LOGO_HD/LOGO_HD_image.png" />
   </channel>
   <channel id="ZeeBollymovies.in">
-    <display-name>Zee Bollymovies (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Zee Bollymovies HD [Geo-blocked]</display-name>
     <icon src="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" />
   </channel>
   <channel id="ZeeCafe.in">
@@ -643,7 +643,7 @@
     <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022ZMMH.png?lock=720x540" />
   </channel>
   <channel id="ZeeCinema.in">
-    <display-name>Zee Cinema APAC (1080p) [Geo-blocked] HD</display-name>
+    <display-name>Zee Cinema APAC HD [Geo-blocked]</display-name>
     <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png?lock=720x540" />
   </channel>
   <channel id="ZeeComedyNation.in">
