@@ -111,7 +111,7 @@ with open("../playlist.m3u", "w", encoding="utf-8") as f:
     for ch in master_channels:
         status = "active" if ch["active"] else "inactive"
         logo_tag = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ''
-        f.write(f'#EXTINF:-1 tvg-language="{ch["language"]}" tvg-status="{status}"{logo_tag} group-title="{ch["genre"]}",{ch["original_name"]}\n')
+        f.write(f'#EXTINF:-1 tvg-language="Live TV" tvg-status="{status}"{logo_tag} group-title="{ch["language"]}",{ch["search_name"]}\n')
         f.write(f'{ch["url"]}\n\n')
 
 print(f"Master playlist generated! Total: {len(master_channels)} | Active: {active_count} | Inactive: {inactive_count}")
