@@ -74,12 +74,12 @@ class M3uParser(private val client: HttpClient) {
     }
 
     private fun buildCategories(channels: List<Channel>, m3uContent: List<String>): List<Category> {
-        // We need to re-parse or hold the group during parsing. Let's do it better.
         val parsedData = mutableListOf<ParsedChannel>()
         
         var currentName = ""
         var currentLogoUrl: String? = null
-        var currentGroup = "Uncategorized"
+        var currentGroup = "General"
+        var currentLanguage = "Global"
 
         for (line in m3uContent) {
             val trimmed = line.trim()
@@ -94,6 +94,11 @@ class M3uParser(private val client: HttpClient) {
                     currentLogoUrl = logoMatch.groupValues[1]
                 }
 
+                val langMatch = Regex("""tvg-language="([^"]+)"""").find(trimmed)
+                if (langMatch != null) {
+                    currentLanguage = langMatch.groupValues[1]
+                }
+
                 val commaIndex = trimmed.lastIndexOf(',')
                 if (commaIndex != -1 && commaIndex < trimmed.length - 1) {
                     currentName = trimmed.substring(commaIndex + 1).trim()
@@ -105,34 +110,40 @@ class M3uParser(private val client: HttpClient) {
                             name = currentName,
                             url = trimmed,
                             logoUrl = currentLogoUrl,
-                            group = currentGroup
+                            group = currentGroup,
+                            language = currentLanguage
                         )
                     )
                 }
                 currentName = ""
                 currentLogoUrl = null
-                currentGroup = "Uncategorized"
+                currentGroup = "General"
+                currentLanguage = "Global"
             }
         }
 
-        // Group by 'group' -> SubCategory
-        val subCategories = parsedData.groupBy { it.group }.map { (groupName, channelsList) ->
-            SubCategory(
-                genre = groupName,
-                channels = channelsList.map { 
-                    Channel(name = it.name, url = it.url, logoUrl = it.logoUrl, isActive = true) 
-                }
-            )
+        // Group by 'language' -> Category
+        val categories = parsedData.groupBy { it.language }.map { (langName, channelsInLang) ->
+            // Within each language, group by 'group' (genre) -> SubCategory
+            val subCategories = channelsInLang.groupBy { it.group }.map { (groupName, channelsInGroup) ->
+                SubCategory(
+                    genre = groupName,
+                    channels = channelsInGroup.map { 
+                        Channel(name = it.name, url = it.url, logoUrl = it.logoUrl, isActive = true) 
+                    }
+                )
+            }
+            Category(language = langName, subCategories = subCategories)
         }
 
-        // For simplicity, wrap everything in one main "All" Category since M3U usually doesn't have 2 tiers of categories.
-        return listOf(Category(language = "All Channels", subCategories = subCategories))
+        return categories.sortedBy { if (it.language == "Nepali") 0 else 1 }
     }
 
     private data class ParsedChannel(
         val name: String,
         val url: String,
         val logoUrl: String?,
-        val group: String
+        val group: String,
+        val language: String
     )
 }

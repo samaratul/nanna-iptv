@@ -4,22 +4,34 @@ import os
 
 target_channels = {
     # Hindi Entertainment
-    "Star Plus": "Entertainment", "Sony Entertainment": "Entertainment", "Colors TV": "Entertainment", "Zee TV": "Entertainment", "SAB TV": "Entertainment",
+    "Star Plus": ("Hindi", "Entertainment"), "Sony Entertainment": ("Hindi", "Entertainment"), "Colors TV": ("Hindi", "Entertainment"), "Zee TV": ("Hindi", "Entertainment"), "SAB TV": ("Hindi", "Entertainment"),
     # Hindi Movies
-    "Star Gold": "Movies", "Sony Max": "Movies", "Zee Cinema": "Movies", "Colors Cineplex": "Movies", "B4U Movies": "Movies",
+    "Star Gold": ("Hindi", "Movies"), "Sony Max": ("Hindi", "Movies"), "Zee Cinema": ("Hindi", "Movies"), "Colors Cineplex": ("Hindi", "Movies"), "B4U Movies": ("Hindi", "Movies"),
     # English News
-    "BBC News": "News", "BBC World News": "News", "CNN": "News", "Al Jazeera": "News", "Sky News": "News", "Bloomberg": "News", "CNA": "News", "WION": "News",
+    "BBC News": ("English", "News"), "BBC World News": ("English", "News"), "CNN": ("English", "News"), "Al Jazeera": ("English", "News"), "Sky News": ("English", "News"), "Bloomberg": ("English", "News"), "CNA": ("English", "News"), "WION": ("English", "News"),
     # English Movies & Entertainment
-    "HBO": "Movies", "Star Movies": "Movies", "AXN": "Entertainment", "Warner TV": "Movies",
+    "HBO": ("English", "Movies"), "Star Movies": ("English", "Movies"), "AXN": ("English", "Entertainment"), "Warner TV": ("English", "Movies"),
     # Sports
-    "Star Sports": "Sports", "Sony Ten": "Sports", "Eurosport": "Sports", "Sky Sports": "Sports", "Red Bull TV": "Sports",
+    "Star Sports": ("English", "Sports"), "Sony Ten": ("English", "Sports"), "Eurosport": ("English", "Sports"), "Sky Sports": ("English", "Sports"), "Red Bull TV": ("English", "Sports"),
     # Kids
-    "Cartoon Network": "Kids", "Disney": "Kids", "Nickelodeon": "Kids", "Pogo": "Kids",
+    "Cartoon Network": ("English", "Kids"), "Disney": ("English", "Kids"), "Nickelodeon": ("English", "Kids"), "Pogo": ("English", "Kids"),
     # Infotainment
-    "Discovery": "Documentary", "National Geographic": "Documentary", "History": "Documentary", "Animal Planet": "Documentary",
+    "Discovery": ("English", "Documentary"), "National Geographic": ("English", "Documentary"), "History": ("English", "Documentary"), "Animal Planet": ("English", "Documentary"),
     # Music
-    "MTV": "Music", "9XM": "Music", "Zoom": "Music", "Vevo": "Music"
+    "MTV": ("English", "Music"), "9XM": ("Hindi", "Music"), "Zoom": ("Hindi", "Music"), "Vevo": ("English", "Music")
 }
+
+nepali_channels = [
+    {"name": "Kantipur TV HD", "url": "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Kantipur_Television_logo.svg/512px-Kantipur_Television_logo.svg.png", "genre": "Entertainment"},
+    {"name": "AP1 TV HD", "url": "http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8", "logo": "https://upload.wikimedia.org/wikipedia/en/c/c6/AP1_TV_LOGO.png", "genre": "Entertainment"},
+    {"name": "News 24 HD", "url": "http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8", "logo": "https://i.imgur.com/7PgAPMU.png", "genre": "News"},
+    {"name": "Capital TV HD", "url": "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8", "logo": "https://i.imgur.com/hb4bq1t.png", "genre": "News"},
+    {"name": "City One Television HD", "url": "http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8", "logo": "https://i.imgur.com/AxBreI5.png", "genre": "Entertainment"},
+    {"name": "METV HD", "url": "http://maxotts.maxdigitaltv.com/x-media/C168/master.m3u8", "logo": "https://i.imgur.com/Zud862h.png", "genre": "Entertainment"},
+    {"name": "Nepal 1", "url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8", "logo": "https://i.imgur.com/Xr4FjC8.png", "genre": "Entertainment"},
+    {"name": "Mithila Nepal TV HD", "url": "http://150.107.205.212:1935/live/mithila/playlist.m3u8", "logo": "https://i.ibb.co/CWn3fH9/1689333550464.jpg", "genre": "Entertainment"},
+    {"name": "Dhaulagiri Television", "url": "http://maxotts.maxdigitaltv.com/x-media/C117/master.m3u8", "logo": "https://i.imgur.com/1tTudCH.png", "genre": "News"}
+]
 
 sources = [
     "https://iptv-org.github.io/iptv/countries/in.m3u",
@@ -46,40 +58,26 @@ for source in sources:
             if line.startswith('#EXTINF'):
                 current_extinf = line
             elif line.startswith('http') and current_extinf:
-                # check if it matches target channels
-                for target, group in target_channels.items():
-                    # We want to match whole words or exact phrases in the EXTINF line
-                    # EXTINF format: #EXTINF:-1 tvg-id="..." tvg-logo="..." group-title="...",Channel Name
+                for target, (lang, group) in target_channels.items():
                     channel_name_part = current_extinf.split(',')[-1]
                     if target.lower() in channel_name_part.lower():
                         if target not in found_channels:
-                            # Update group-title to match our category
                             extinf_clean = re.sub(r'group-title="[^"]*"', f'group-title="{group}"', current_extinf)
-                            # if no group-title exists, add it
                             if 'group-title=' not in extinf_clean:
                                 extinf_clean = extinf_clean.replace(',', f' group-title="{group}",', 1)
-                            
+                            # Add tvg-language
+                            extinf_clean = extinf_clean.replace('#EXTINF:-1', f'#EXTINF:-1 tvg-language="{lang}"')
                             found_channels[target] = (extinf_clean, line)
                         break
                 current_extinf = None
     except Exception as e:
         print(f"Error fetching {source}: {e}")
 
-# Load existing nepali channels from playlist.m3u
-existing_content = ""
-try:
-    with open("playlist.m3u", "r", encoding="utf-8") as f:
-        existing_content = f.read()
-except:
-    pass
-
-with open("playlist.m3u", "w", encoding="utf-8") as f:
-    if not existing_content.startswith("#EXTM3U"):
-        f.write("#EXTM3U\n")
-    else:
-        f.write(existing_content.strip() + "\n\n")
-        
+with open("../playlist.m3u", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
+    for ch in nepali_channels:
+        f.write(f'#EXTINF:-1 tvg-language="Nepali" tvg-logo="{ch["logo"]}" group-title="{ch["genre"]}",{ch["name"]}\n{ch["url"]}\n\n')
     for target, (extinf, url) in found_channels.items():
         f.write(f"{extinf}\n{url}\n\n")
 
-print(f"Added {len(found_channels)} international channels to playlist.m3u!")
+print(f"Added Nepali and {len(found_channels)} international channels to playlist.m3u!")
