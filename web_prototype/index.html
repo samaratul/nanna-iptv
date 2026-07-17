@@ -174,11 +174,15 @@
                         let langMatch = line.match(/tvg-language="([^"]+)"/);
                         let lang = langMatch ? langMatch[1] : "Global";
                         
+                        // parse tvg-status (Active/Inactive)
+                        let statusMatch = line.match(/tvg-status="([^"]+)"/);
+                        let isActive = statusMatch ? (statusMatch[1] === "active") : true;
+                        
                         // parse name
                         let nameParts = line.split(',');
                         let name = nameParts[nameParts.length - 1];
                         
-                        tempChannel = { name, logoUrl, genre: group, language: lang };
+                        tempChannel = { name, logoUrl, genre: group, language: lang, active: isActive };
                     } else if (line.startsWith('http') && tempChannel) {
                         tempChannel.url = line;
                         
@@ -253,17 +257,20 @@
             channelGrid.innerHTML = '';
             const currentSub = currentCat.subCategories.find(s => s.genre === state.genre);
             
-            if (!state.active) {
-                channelGrid.innerHTML = '<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No inactive channels found.</div>';
-                return;
-            }
-
             if (!currentSub || currentSub.channels.length === 0) {
-                channelGrid.innerHTML = '<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No channels available.</div>';
+                channelGrid.innerHTML = '<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No channels available in this category.</div>';
                 return;
             }
 
-            currentSub.channels.forEach(ch => {
+            const displayChannels = currentSub.channels.filter(ch => ch.active === state.active);
+
+            if (displayChannels.length === 0) {
+                const statusStr = state.active ? "active" : "inactive";
+                channelGrid.innerHTML = `<div class="col-span-6 text-center text-on-surface-variant mt-10 text-lg">No ${statusStr} channels found in this genre.</div>`;
+                return;
+            }
+
+            displayChannels.forEach(ch => {
                 const card = document.createElement('div');
                 card.className = 'bg-surface-container-high rounded-xl aspect-video flex items-center justify-center p-4 text-center text-on-surface font-medium border-2 border-transparent hover:border-primary hover:bg-surface-variant cursor-pointer transition-all';
                 
@@ -372,8 +379,8 @@
             settingsOverlay.classList.remove('active');
         });
 
-        // Initialize with default GitHub playlist
-        loadPlaylist('https://raw.githubusercontent.com/samaratul/nanna-iptv/main/playlist.m3u');
+        // Initialize with local playlist to bypass GitHub cache during development
+        loadPlaylist('./playlist.m3u');
     </script>
 </body>
 </html>
