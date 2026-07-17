@@ -18,7 +18,9 @@ target_channels = {
     # Infotainment
     "Discovery": ("English", "Documentary"), "National Geographic": ("English", "Documentary"), "History": ("English", "Documentary"), "Animal Planet": ("English", "Documentary"),
     # Music
-    "MTV": ("English", "Music"), "9XM": ("Hindi", "Music"), "Zoom": ("Hindi", "Music"), "Vevo": ("English", "Music")
+    "MTV": ("English", "Music"), "9XM": ("Hindi", "Music"), "Zoom": ("Hindi", "Music"), "Vevo": ("English", "Music"),
+    # Bhojpuri
+    "Bhojpuri Cinema": ("Bhojpuri", "Movies"), "B4U Bhojpuri": ("Bhojpuri", "Movies"), "Zee Biskope": ("Bhojpuri", "Movies"), "Dabangg": ("Bhojpuri", "Entertainment"), "Oscar Movies Bhojpuri": ("Bhojpuri", "Movies")
 }
 
 nepali_channels = [
