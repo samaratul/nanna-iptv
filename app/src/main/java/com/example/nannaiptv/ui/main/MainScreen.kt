@@ -6,7 +6,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -56,13 +55,14 @@ fun MainScreen(
     val currentSubCategory = availableGenres.find { it.genre == selectedGenre }
     val displayedChannels = currentSubCategory?.channels?.filter { it.isActive == showActive } ?: emptyList()
 
-    Row(modifier = modifier.fillMaxSize().background(Color(0xFFF0F0F0))) {
+    Row(modifier = modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
         // TIER 1: Left Sidebar (Main Categories / Languages)
+        // Uses surfaceContainerLow to give a glass/layered feel
         Box(
             modifier = Modifier
                 .width(260.dp)
                 .fillMaxHeight()
-                .background(Color.White)
+                .background(MaterialTheme.colorScheme.surfaceContainerLow)
                 .padding(16.dp)
         ) {
             Column {
@@ -70,7 +70,7 @@ fun MainScreen(
                     text = "Nanna IPTV",
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.Black,
+                    color = MaterialTheme.colorScheme.primary, // Glowing cyan brand color
                     modifier = Modifier.padding(bottom = 24.dp, start = 16.dp)
                 )
 
@@ -81,10 +81,10 @@ fun MainScreen(
                             onClick = { selectedLanguage = category.language },
                             shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(8.dp)),
                             colors = ClickableSurfaceDefaults.colors(
-                                containerColor = if (isSelected) Color(0xFFE0E0E0) else Color.Transparent,
-                                contentColor = Color.Black,
-                                focusedContainerColor = Color(0xFF2196F3),
-                                focusedContentColor = Color.White
+                                containerColor = if (isSelected) MaterialTheme.colorScheme.surfaceVariant else androidx.compose.ui.graphics.Color.Transparent,
+                                contentColor = if (isSelected) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant,
+                                focusedContainerColor = MaterialTheme.colorScheme.primary,
+                                focusedContentColor = MaterialTheme.colorScheme.onPrimary
                             ),
                             modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)
                         ) {
@@ -117,10 +117,10 @@ fun MainScreen(
                         onClick = { selectedGenre = subCategory.genre },
                         shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(24.dp)),
                         colors = ClickableSurfaceDefaults.colors(
-                            containerColor = if (isSelected) Color(0xFFD0D0D0) else Color.White,
-                            contentColor = Color.Black,
-                            focusedContainerColor = Color(0xFF2196F3),
-                            focusedContentColor = Color.White
+                            containerColor = if (isSelected) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.surfaceContainer,
+                            contentColor = if (isSelected) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant,
+                            focusedContainerColor = MaterialTheme.colorScheme.primary,
+                            focusedContentColor = MaterialTheme.colorScheme.onPrimary
                         )
                     ) {
                         Text(
@@ -144,7 +144,7 @@ fun MainScreen(
                 ) {
                     Text(
                         "Active",
-                        color = if (showActive) Color(0xFF2196F3) else Color.Gray,
+                        color = if (showActive) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                         fontWeight = if (showActive) FontWeight.Bold else FontWeight.Normal
                     )
                 }
@@ -155,7 +155,7 @@ fun MainScreen(
                 ) {
                     Text(
                         "Inactive",
-                        color = if (!showActive) Color(0xFF2196F3) else Color.Gray,
+                        color = if (!showActive) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                         fontWeight = if (!showActive) FontWeight.Bold else FontWeight.Normal
                     )
                 }
@@ -164,7 +164,7 @@ fun MainScreen(
             // 6-Column Channel Grid
             if (displayedChannels.isEmpty()) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("No channels available in this category.", color = Color.Gray, fontSize = 18.sp)
+                    Text("No channels available in this category.", color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 18.sp)
                 }
             } else {
                 TvLazyVerticalGrid(
@@ -178,10 +178,10 @@ fun MainScreen(
                             onClick = { /* Launch ExoPlayer */ },
                             shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
                             colors = ClickableSurfaceDefaults.colors(
-                                containerColor = Color.White,
-                                contentColor = Color.Black,
-                                focusedContainerColor = Color(0xFF2196F3),
-                                focusedContentColor = Color.White
+                                containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
+                                contentColor = MaterialTheme.colorScheme.onSurface,
+                                focusedContainerColor = MaterialTheme.colorScheme.primary,
+                                focusedContentColor = MaterialTheme.colorScheme.onPrimary
                             ),
                             modifier = Modifier.aspectRatio(16f / 9f) // Standard TV Thumbnail aspect ratio
                         ) {

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nanna IPTV | Premium Streaming</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#bdc8d1",
+                    "primary-fixed-dim": "#7bd0ff",
+                    "on-primary": "#00354a",
+                    "on-error-container": "#ffdad6",
+                    "on-tertiary": "#003824",
+                    "on-secondary-fixed": "#2a1700",
+                    "on-tertiary-fixed-variant": "#005236",
+                    "outline-variant": "#3e484f",
+                    "inverse-surface": "#dae2fd",
+                    "background": "#0b1326",
+                    "on-secondary-fixed-variant": "#653e00",
+                    "tertiary-fixed": "#6ffbbe",
+                    "primary": "#8ed5ff",
+                    "on-tertiary-fixed": "#002113",
+                    "secondary": "#ffb95f",
+                    "surface-container-high": "#222a3d",
+                    "on-primary-fixed-variant": "#004c69",
+                    "error-container": "#93000a",
+                    "surface-container-low": "#131b2e",
+                    "inverse-primary": "#00668a",
+                    "tertiary-container": "#30c88f",
+                    "primary-fixed": "#c4e7ff",
+                    "on-secondary-container": "#5b3800",
+                    "outline": "#87929a",
+                    "on-error": "#690005",
+                    "secondary-fixed-dim": "#ffb95f",
+                    "primary-container": "#38bdf8",
+                    "surface-container": "#171f33",
+                    "secondary-fixed": "#ffddb8",
+                    "tertiary": "#56e5a9",
+                    "surface-dim": "#0b1326",
+                    "on-surface": "#dae2fd",
+                    "on-background": "#dae2fd",
+                    "inverse-on-surface": "#283044",
+                    "surface-container-lowest": "#060e20",
+                    "surface-bright": "#31394d",
+                    "secondary-container": "#ee9800",
+                    "on-secondary": "#472a00",
+                    "surface-tint": "#7bd0ff",
+                    "surface-variant": "#2d3449",
+                    "error": "#ffb4ab",
+                    "on-primary-fixed": "#001e2c",
+                    "tertiary-fixed-dim": "#4edea3",
+                    "surface-container-highest": "#2d3449",
+                    "on-primary-container": "#004965",
+                    "on-tertiary-container": "#004e34",
+                    "surface": "#0b1326"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-gap": "16px",
+                    "screen-margin": "64px",
+                    "sidebar-collapsed-width": "88px",
+                    "grid-gutter": "24px",
+                    "sidebar-width": "280px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "label-lg": ["Inter"],
+                    "headline-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["20px", {"lineHeight": "30px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #0b1326;
+            color: #dae2fd;
+            overflow-x: hidden;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .sidebar-transition {
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .channel-card-hover:focus {
+            transform: scale(1.05);
+            outline: 2px solid #8ed5ff;
+            box-shadow: 0 0 20px rgba(142, 213, 255, 0.4);
+        }
+        .pulse-active {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(142, 213, 255, 0.2); border-radius: 10px; }
+    </style>
+</head>
+<body class="font-body-md text-body-md select-none">
+<!-- Background Shader Overlay -->
+<div class="fixed inset-0 z-[-1] overflow-hidden opacity-40">
+
+</div>
+<!-- Side Navigation Shell -->
+<nav class="fixed left-0 top-0 h-full w-[88px] hover:w-[280px] bg-surface-container dark:bg-surface-container/80 backdrop-blur-xl z-50 sidebar-transition group flex flex-col py-screen-margin shadow-2xl overflow-hidden" id="sidebar">
+<!-- Brand Logo Area -->
+<div class="px-6 mb-12 flex items-center gap-4 overflow-hidden">
+<span class="material-symbols-outlined text-primary text-4xl shrink-0" data-icon="tv">tv</span>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+<h1 class="font-headline-lg text-headline-lg font-bold text-primary">Nanna IPTV</h1>
+<p class="text-on-surface-variant font-label-lg text-label-lg">Premium Streaming</p>
+</div>
+</div>
+<!-- Navigation Tabs -->
+<div class="flex flex-col gap-2">
+<!-- English - Active -->
+<button class="flex items-center gap-4 bg-secondary-container text-on-secondary-container rounded-r-full p-4 border-l-4 border-primary transition-all duration-200">
+<span class="material-symbols-outlined shrink-0" data-icon="public">public</span>
+<span class="opacity-0 group-hover:opacity-100 whitespace-nowrap font-label-lg text-label-lg">English</span>
+</button>
+<!-- Nepali -->
+<button class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200">
+<span class="material-symbols-outlined shrink-0" data-icon="language">language</span>
+<span class="opacity-0 group-hover:opacity-100 whitespace-nowrap font-label-lg text-label-lg">Nepali</span>
+</button>
+<!-- Hindi -->
+<button class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200">
+<span class="material-symbols-outlined shrink-0" data-icon="translate">translate</span>
+<span class="opacity-0 group-hover:opacity-100 whitespace-nowrap font-label-lg text-label-lg">Hindi</span>
+</button>
+<!-- Bhojpuri -->
+<button class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200">
+<span class="material-symbols-outlined shrink-0" data-icon="star">star</span>
+<span class="opacity-0 group-hover:opacity-100 whitespace-nowrap font-label-lg text-label-lg">Bhojpuri</span>
+</button>
+</div>
+<div class="mt-auto px-6 flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="person">person</span>
+</div>
+<div class="opacity-0 group-hover:opacity-100 whitespace-nowrap overflow-hidden">
+<p class="font-label-lg text-label-lg text-on-surface">Premium User</p>
+<p class="text-xs text-on-surface-variant">nanna-member-42</p>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="pl-sidebar-collapsed-width transition-all duration-300">
+<!-- Top App Bar Content -->
+<header class="sticky top-0 z-40 bg-gradient-to-b from-surface-container-lowest via-surface-container-lowest/80 to-transparent pt-8 pb-4 px-screen-margin flex flex-col gap-stack-gap">
+<div class="flex items-center justify-between">
+<!-- Search & Actions -->
+<div class="flex-1 max-w-xl">
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant" data-icon="search">search</span>
+<input class="w-full bg-surface-container-high/40 border-none rounded-xl py-3 pl-12 pr-4 focus:ring-2 focus:ring-primary text-on-surface font-body-md backdrop-blur-md" placeholder="Search movies, channels, or sports..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<!-- Status Tabs -->
+<div class="flex bg-surface-container-low p-1 rounded-lg backdrop-blur-md border border-outline-variant/30">
+<button class="px-6 py-1.5 rounded-md font-label-lg text-label-lg bg-primary text-on-primary shadow-lg transition-all">Active</button>
+<button class="px-6 py-1.5 rounded-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-all">Inactive</button>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant">
+<button class="hover:text-primary transition-all duration-200">
+<span class="material-symbols-outlined text-[28px]" data-icon="settings">settings</span>
+</button>
+<button class="hover:text-primary transition-all duration-200">
+<span class="material-symbols-outlined text-[28px]" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Category Links -->
+<nav class="flex items-center gap-8 overflow-x-auto no-scrollbar">
+<a class="text-primary border-b-2 border-primary pb-2 font-bold font-label-lg text-label-lg whitespace-nowrap" href="#">Movies</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Entertainment</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">News</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Sports</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Music</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Devotional</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Lifestyle</a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg whitespace-nowrap" href="#">Documentary</a>
+</nav>
+</header>
+<!-- Main Body Grid -->
+<div class="px-screen-margin pb-screen-margin flex flex-col gap-10">
+<!-- Hero Banner -->
+<section class="relative h-[480px] rounded-3xl overflow-hidden group focus-within:ring-4 focus-within:ring-primary transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="A cinematic, high-definition action movie poster featuring a futuristic urban landscape at night with neon lights reflecting on wet streets. The aesthetic is deep indigo and electric blue, conveying a high-stakes, premium entertainment mood. High-contrast lighting highlights a central silhouette against the glowing skyline." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD8XTzjFQHhUcMdooF4D3obvzAR69LnilZihh40JRen34iw_Lx9Bqc86Nm8BajkI2kFGREuitz9VyGFylVZOsIFdgmzNNgVI9E5_THVwGyP-4RR2gJZ0DATg3dzniwqnwyi34TQ0DIKTENcb6z52cCN7WMXfH_Ic_5Qyw076XdeQGvg-CfD_3-QYCeGE_xfPKHPIIY2iwAMzd9HUNdfbUKRv8ngH7pwwlBxBhgCsdKgqTdv--HgSAjqq30mmq1hZRTmkexqzcX4fUqV')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/60 to-transparent"></div>
+<div class="absolute bottom-12 left-12 max-w-2xl">
+<div class="flex items-center gap-2 mb-4">
+<span class="bg-primary/20 text-primary-fixed-dim px-3 py-1 rounded-full font-label-lg text-label-lg backdrop-blur-md border border-primary/30">FEATURED</span>
+<span class="flex items-center gap-1 text-secondary font-label-lg text-label-lg"><span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span> 4.9</span>
+</div>
+<h2 class="font-display-lg text-display-lg mb-4 leading-none">Apex Cyber: The Fall</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-8 line-clamp-2">In a world where technology is the only law, one rebel must find the core before the grid goes dark. Exclusive streaming now on Nanna IPTV.</p>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary px-8 py-3 rounded-xl font-bold flex items-center gap-2 hover:scale-105 transition-all">
+<span class="material-symbols-outlined" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span> Watch Now
+                        </button>
+<button class="bg-surface-container-high/60 backdrop-blur-md text-on-surface px-8 py-3 rounded-xl font-bold border border-outline-variant hover:bg-surface-container-high transition-all">
+                            Details
+                        </button>
+</div>
+</div>
+</section>
+<!-- Channels Section -->
+<section>
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-on-surface">Trending Channels</h3>
+<button class="text-primary font-label-lg text-label-lg flex items-center gap-1 hover:translate-x-1 transition-transform">View All <span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span></button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-grid-gutter">
+<!-- Channel Card 1 -->
+<div class="channel-card-hover group relative aspect-video bg-surface-container rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 shadow-lg" tabindex="0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A vivid high-quality sports broadcast thumbnail of a professional soccer match under stadium floodlights. The grass is lush green, and the stadium is packed with fans creating a dynamic, energetic atmosphere. The colors are vibrant and saturated, emphasizing a premium live sports experience." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQWJhblCL5uVB1GbWE9oIRAz-18DIK8kUXaC2iTnltZxaspXPdTp-MTbc2UC1UmkTvWcUoeSo1QREYYw_k3tVo0Or_VctWtE8gbsVBBdDKGBUmAqHPRof04P8iY_A10fMglFvjCUa0wD7QkwPDJ8dx-rLq8vwRfkqhjhNQmJ6UZKyRDFJsD3hdMpwNqCCcsRsKoeUtKAoZhz4dhnJfAoP8MQoIuy65LmdBwWfGmp1TE4gepCWbijo5jOb49kVcSDF2Ui7Cjcy9Fpxg')"></div>
+<div class="absolute top-3 right-3 z-10">
+<div class="flex items-center gap-2 bg-black/40 backdrop-blur-md px-2 py-1 rounded-lg border border-white/10">
+<span class="w-3 h-3 rounded-full bg-[#10B981] pulse-active"></span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-white">Live</span>
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-white p-1 shrink-0 shadow-md">
+<img class="w-full h-full object-contain" data-alt="Minimalist logo for a sports television network, featuring sharp typography and a dynamic abstract icon in bold navy and bright red." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQfG9nrjcabOb22NDf6riOiSJXtfL6Q3-yBzPait_NJbcWu87zicjYeTRO9VEhaMXdE1GWbdRCFIRIHN5498t3GZzSzo6TjEAES5V8LoSbGkL2_h2IY_iF0gUL_96kYJWf6r8Ee_Z5sode7udD25jf7DD3jF2dNBcyPGlVKmD2qzIddoWYLe3UcVY8ShEz1hDVseV0bO0QLbEuGx1PgKunryC-XvKUZIz9xy6CU_mgx4Ox-zseTIp5yepWJCqSa8YT6U5QGe_bXurO"/>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-white font-bold truncate">Premier Sports HD</p>
+<p class="text-xs text-slate-300 truncate">Football: London Derby Live</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Channel Card 2 -->
+<div class="channel-card-hover group relative aspect-video bg-surface-container rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 shadow-lg" tabindex="0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A cinematic news studio interior with professional studio lighting, large digital screens in the background showing global maps, and a modern glass anchor desk. The palette is a sophisticated mix of deep blues and silver, reflecting a high-quality global news broadcast environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB8ZcWxybYYxwFYHaS6ZadoXxTbuK0jWkLdCvi5QtOWay0nKtrYn4rrsyZFY-O4sIsysXVxJA2eK_vbYoodhzL3qga5JuJyPVNaZMtkkvzdCHPBmRwTCPtka320Y5mYjZwDH_2enpm_NY0CBct_O1cD8XEwFR7vEbu-JpeRF3lmeYcYNb18c6e2j0kDAVZXAuW7mU4oPeojhL-nbV2PxUz8g4uNtH4_VpOEDTn5oa4lWLJnOsY-qrMdMBllrNw47HvAzdaSLj_Y9aha')"></div>
+<div class="absolute top-3 right-3 z-10">
+<div class="flex items-center gap-2 bg-black/40 backdrop-blur-md px-2 py-1 rounded-lg border border-white/10">
+<span class="w-3 h-3 rounded-full bg-[#10B981] pulse-active"></span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-white">Live</span>
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-white p-1 shrink-0 shadow-md">
+<img class="w-full h-full object-contain" data-alt="Professional logo for a 24-hour news network, featuring clean sans-serif typography and a stylized globe icon in deep blue and metallic gray." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa1Q1-L5NrLCq7T6xb2q901bXXfq8-QznfE_WXN5lqocIjrDrr_QEZ6zb7QWZQ4la8kioGS01SGXsqBzwUYRni5SHsXPPoMC2TLT8OUuksrR1W-PM13WkFy3hVsk86JKMc4BtFXfB5e_g_FjIfPDgi2XEbTEzZF0QBuWKCLsaQrXOd7OfXxcZI3ftsfPhR8kZR8k6Xz-gNapzAbSjlcsJTI_Bsmc1sIyS34Ev7-VxXO-GiH9udT9Tk0zbURtM6-v7vnVmip5PbSW08"/>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-white font-bold truncate">Global News 24</p>
+<p class="text-xs text-slate-300 truncate">World Headlines Update</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Channel Card 3 -->
+<div class="channel-card-hover group relative aspect-video bg-surface-container rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 shadow-lg" tabindex="0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A lush, high-definition wildlife documentary scene showing a majestic snow leopard in a misty Himalayan mountain setting. The lighting is soft and natural, with cool tones and detailed textures of fur and rock, emphasizing the cinematic quality of nature programming." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBiRpL3v0ubzU-90KGP79WOyNpx7qN6QyiogDoA5DpyekjdOJz8LBrjKoOZRoEFS6-4RQ-P-72LmrbHqa_1Jw-RL8yi1ytgRU00zTsNslPL7jiIMdPVRywGmvBZLJqgZ3u2oUsHMjPl_u4xv_uBPbhKpCMuFC_ey3Q0HekeBeUDFkRP6rL4EFph9_4_ODma4DZ6JcdvEOh67pIhMyauONCs_BSxHDVQp5lqJpZyXeL3rvDNq-zlpJv_TAbW684ya6XSbsVBdouHw_ZQ')"></div>
+<div class="absolute top-3 right-3 z-10">
+<div class="flex items-center gap-2 bg-black/40 backdrop-blur-md px-2 py-1 rounded-lg border border-white/10">
+<span class="w-3 h-3 rounded-full bg-slate-500"></span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-white">Offline</span>
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-white p-1 shrink-0 shadow-md">
+<img class="w-full h-full object-contain" data-alt="Elegant logo for a nature and documentary channel, featuring a stylized leaf and mountain motif in earthy tones of green and brown." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcFhjaZAPDPRfBrAIcs0lehmLcFeqx_-WIJZUyTiArJ2xBA1bsQsqaEmRM7nHDKGkBMEFc1rzhsT37O1lEC7aXBZioLoLyOHHv5zNPerIidxcbwUIZxZhywVLu8eUHOsLI1TTff6VZq8sOyUN2Iyadf2Sc3KOUwE4qifosHJ-yXXgVoWn__KV1RwlwrjQJbeRhLzaj7IXo0bNVDPmwppQ-UnlLw0XL_5BszwALFCOYe5BNPNCk5Q-voC6gC8isehrlbS6dEqN0DKp-"/>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-white font-bold truncate">Wild Earth HD</p>
+<p class="text-xs text-slate-300 truncate">Starts in 45m: Frozen Peaks</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Channel Card 4 -->
+<div class="channel-card-hover group relative aspect-video bg-surface-container rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 shadow-lg" tabindex="0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A vibrant, high-energy music concert stage with dramatic lighting, laser effects, and a silhouetted crowd. The colors are electric magenta and deep purple, capturing the excitement of a premium live music broadcast." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8qMJHb17E8OeLdEdfJSVv75jrQSten1SU3YgowFd04TzNF-LwfYB2znk-TVeO2EFe5hBFhcSw7oxyTQ_VRqZlmViPjXi8Z-vBxM___KFqP-jz_8DNa82d6kDCSRgzpI6396O8B3ByIPb6PJ_wlvbKdKPNvdSIsSfF4B6Gp5BOyEPgxv-pe8d6Z1x_fcDrRR6grVVCINFPdPhMeaF_L9dkv4M4Is8WigBlg1ql_TX3-jEY0iadHK4pCK5DQ_QYBjOCWy72KTAj-rm6')"></div>
+<div class="absolute top-3 right-3 z-10">
+<div class="flex items-center gap-2 bg-black/40 backdrop-blur-md px-2 py-1 rounded-lg border border-white/10">
+<span class="w-3 h-3 rounded-full bg-[#10B981] pulse-active"></span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-white">Live</span>
+</div>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-white p-1 shrink-0 shadow-md">
+<img class="w-full h-full object-contain" data-alt="Modern logo for a music video channel, featuring bold typography and a waveform graphic in neon colors on a dark background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo4vzNXxK4_k_hA58X5MddxTVPAq_nNZU8XXjgEM6gHj4bKqT_WuArLgRA3VQwMntM_pKlJkPM_D3LDJ-DCn4IPmI0wswLo86LWjHHj8luK4z3CtcO0kwVTDbuS2fbq0xmi03N_KZZbS2vJlePTNpdURfj5ZdssIW9vzimWY9ySMTxyya-KOREx3eTPAdNgVb7aRMHSwnJZ-TWKo5d8pB9sZa8QjdLkMe748_4s0QI-7lacBDigkqhGUbTByYbzT_aRgfshkljh33w"/>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-white font-bold truncate">Beatbox Live</p>
+<p class="text-xs text-slate-300 truncate">Top 40 Hits Countdown</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Language & Region Specific Grid (Nepali Highlight) -->
+<section>
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-on-surface">Popular in Nepal</h3>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<p class="text-on-surface-variant text-label-lg">Regional Favorites</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-grid-gutter">
+<!-- Regional Bento 1 -->
+<div class="col-span-1 md:col-span-2 relative h-64 bg-surface-container rounded-2xl overflow-hidden group hover:shadow-primary/10 hover:shadow-xl transition-all duration-300 cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A breathtaking aerial view of the Kathmandu valley at dawn, with the ancient stupas and the majestic Himalayas in the distant background. The lighting is golden and soft, creating a serene and culturally rich atmosphere. High detail and cinematic wide-angle perspective." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQkyRI1w6weWDQICstfWLD4unKdjBgimuyBKo33fVvGY7iug7xfssOvgpewKe_VuOc-UsQbIDjjXAT5lNIcqI68R3j9tUuvuItQ_J4b7SiUBee16rdLVqe8ghAMRRseHv9sd912VqQJgn-IQZspDfUoex1EDlJOyC7CDgBryMp86ky8Uqg4r2tFa5diSAaFCATKGB2AYRNElJhwXU8Bltnhegf7Zgn5XIAeoGPrmMBWV9sNNOt4IBJzyilPY2_Y8OhVCsxNQcmTKfX')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent flex flex-col justify-center p-8">
+<span class="text-primary font-bold tracking-widest text-xs uppercase mb-2">Editor's Pick</span>
+<h4 class="font-headline-lg text-headline-lg text-white mb-2">Heritage of Nepal</h4>
+<p class="text-on-surface-variant max-w-sm mb-4">A journey through the architectural wonders and spiritual heart of the Himalayas.</p>
+<button class="w-fit flex items-center gap-2 text-white font-bold bg-white/10 backdrop-blur-md px-6 py-2 rounded-lg border border-white/20 hover:bg-white/20 transition-all">
+<span class="material-symbols-outlined" data-icon="play_arrow">play_arrow</span> Watch Now
+                            </button>
+</div>
+</div>
+<!-- Regional Bento 2 -->
+<div class="relative h-64 bg-surface-container rounded-2xl overflow-hidden group hover:shadow-primary/10 hover:shadow-xl transition-all duration-300 cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A festive and colorful cultural celebration in Nepal, featuring traditional dancers in vibrant costumes and traditional instruments. The atmosphere is joyous and lively, with warm tones and dynamic movement captured in the shot." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEKrEZM36YXr3vgiu7RCGRXBQVrCt3MJl-EdWhIYC-zvVDLjr2pJhH3Q1Af-RUGFYXyZ7yJ_Be-aVINNTOoEXqtyjW2anyJVjBmXsndN8OwJ3isovu7-XjN23irNhuayV0dOEVbPsaDFuFtp_XZPZlZhh0ahACu_H1f5efIuEhn99BmVpczrz2tPdmzEKcJY4HJmksrvsgbMB423adaBm0g-UYTjAq3bmZvax5WR_cIrDXnVFXKrzkmOWgDTPtnH_quFR413Q5MRi5')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+<h4 class="font-headline-md text-headline-md text-white mb-1">Mithila Arts</h4>
+<p class="text-slate-300 text-sm">Culture &amp; Tradition</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Floating Content Controls (only relevant on dashboard) -->
+<div class="fixed bottom-8 right-8 z-50">
+<button class="w-16 h-16 rounded-full bg-primary text-on-primary shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[32px]" data-icon="bolt" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</button>
+</div>
+<!-- Interaction Logic -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebar = document.getElementById('sidebar');
+            const navButtons = sidebar.querySelectorAll('button');
+
+            // Handle focus state for D-pad simulation
+            const focusableItems = document.querySelectorAll('.channel-card-hover, button, input, a');
+            focusableItems.forEach(item => {
+                item.addEventListener('focus', () => {
+                    item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                });
+            });
+
+            // Active tab toggle logic (Simulation)
+            const statusButtons = document.querySelectorAll('header button');
+            statusButtons.forEach(btn => {
+                if (btn.innerText === 'Active' || btn.innerText === 'Inactive') {
+                    btn.addEventListener('click', () => {
+                        statusButtons.forEach(b => {
+                            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-lg');
+                            b.classList.add('text-on-surface-variant');
+                        });
+                        btn.classList.add('bg-primary', 'text-on-primary', 'shadow-lg');
+                        btn.classList.remove('text-on-surface-variant');
+                    });
+                }
+            });
+        });
+    </script>
+</body></html>

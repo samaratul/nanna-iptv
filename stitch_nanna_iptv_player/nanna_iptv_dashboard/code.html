@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nanna IPTV - Premium Streaming</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#005236",
+                        "on-secondary-container": "#5b3800",
+                        "primary-fixed": "#c4e7ff",
+                        "on-tertiary": "#003824",
+                        "surface-container-lowest": "#060e20",
+                        "outline-variant": "#3e484f",
+                        "secondary-fixed-dim": "#ffb95f",
+                        "tertiary": "#56e5a9",
+                        "inverse-surface": "#dae2fd",
+                        "secondary-fixed": "#ffddb8",
+                        "surface": "#0b1326",
+                        "tertiary-fixed": "#6ffbbe",
+                        "on-secondary-fixed": "#2a1700",
+                        "tertiary-fixed-dim": "#4edea3",
+                        "surface-dim": "#0b1326",
+                        "primary-container": "#38bdf8",
+                        "on-primary-fixed": "#001e2c",
+                        "outline": "#87929a",
+                        "tertiary-container": "#30c88f",
+                        "primary-fixed-dim": "#7bd0ff",
+                        "error": "#ffb4ab",
+                        "on-surface-variant": "#bdc8d1",
+                        "surface-container": "#171f33",
+                        "surface-container-low": "#131b2e",
+                        "error-container": "#93000a",
+                        "on-tertiary-fixed": "#002113",
+                        "secondary-container": "#ee9800",
+                        "on-error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#004c69",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "inverse-primary": "#00668a",
+                        "on-secondary": "#472a00",
+                        "surface-container-high": "#222a3d",
+                        "on-primary-container": "#004965",
+                        "surface-tint": "#7bd0ff",
+                        "background": "#0b1326",
+                        "surface-bright": "#31394d",
+                        "on-surface": "#dae2fd",
+                        "on-error": "#690005",
+                        "on-primary": "#00354a",
+                        "surface-container-highest": "#2d3449",
+                        "on-background": "#dae2fd",
+                        "primary": "#8ed5ff",
+                        "surface-variant": "#2d3449",
+                        "secondary": "#ffb95f",
+                        "on-tertiary-container": "#004e34",
+                        "inverse-on-surface": "#283044"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-gap": "16px",
+                        "screen-margin": "64px",
+                        "sidebar-width": "280px",
+                        "grid-gutter": "24px",
+                        "sidebar-collapsed-width": "88px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Inter"],
+                        "label-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "label-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["20px", {"lineHeight": "30px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #0b1326;
+            color: #dae2fd;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .glass-sidebar {
+            background: rgba(23, 31, 51, 0.8);
+            backdrop-filter: blur(20px);
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .card-focus-effect:focus-within {
+            transform: scale(1.05);
+            border: 2px solid #8ed5ff;
+            box-shadow: 0 0 20px rgba(142, 213, 255, 0.3);
+            z-index: 10;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #2d3449;
+            border-radius: 10px;
+        }
+        .pulse-active {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: .7; transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body class="flex min-h-screen">
+<!-- Persistent SideNavBar -->
+<aside class="fixed left-0 top-0 h-full z-50 transition-all duration-300 w-sidebar-collapsed hover:w-sidebar-width glass-sidebar flex flex-col py-screen-margin overflow-hidden group" id="sidebar">
+<!-- Brand Logo Area -->
+<div class="px-6 mb-12 flex items-center gap-4">
+<img alt="Nanna IPTV Logo" class="w-12 h-12 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhaRtIai7YxmKxqfFNYkoxxyRtaTfclxwOwRXxrNwtQhAD6Xm1lA-O0RMPXh-N2AlQaG1XnBuanlsjkBfYA_B62D4SU0JUwqnqumb-0SQoZ9akFK4r4NOdRrLMIFae2zpnpu1OARqDjmCrfEPcZSpk_D4YK6eyEodV7eqqFSqCsQQojvTlxJOqGn73ndmFNVpVoFNtQM6sBnjgqQ5GHqsiNdENCmUnrQTZDsoPUcAhSyi5BX4STtEH2O97vKdKQQYrlvLZhQqu2X3"/>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+<h1 class="font-headline-lg text-headline-lg font-bold text-primary">Nanna IPTV</h1>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Premium Streaming</p>
+</div>
+</div>
+<!-- Navigation Links -->
+<nav class="flex-1 flex flex-col gap-2">
+<!-- Active Tab: Nepali -->
+<a class="flex items-center gap-4 bg-secondary-container text-on-secondary-container rounded-r-full p-4 border-l-4 border-primary transition-all duration-200" href="#">
+<span class="material-symbols-outlined shrink-0" data-icon="language">language</span>
+<span class="font-label-lg text-label-lg opacity-0 group-hover:opacity-100 whitespace-nowrap">Nepali</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined shrink-0" data-icon="translate">translate</span>
+<span class="font-label-lg text-label-lg opacity-0 group-hover:opacity-100 whitespace-nowrap">Hindi</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined shrink-0" data-icon="public">public</span>
+<span class="font-label-lg text-label-lg opacity-0 group-hover:opacity-100 whitespace-nowrap">English</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined shrink-0" data-icon="star">star</span>
+<span class="font-label-lg text-label-lg opacity-0 group-hover:opacity-100 whitespace-nowrap">Bhojpuri</span>
+</a>
+</nav>
+<!-- User Profile Bottom -->
+<div class="px-6 mt-auto">
+<div class="flex items-center gap-4 p-2 rounded-xl hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-bold">JD</div>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+<p class="font-label-lg text-label-lg text-on-surface">John Doe</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Pro Member</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- Right Pane (Main Canvas) -->
+<main class="flex-1 ml-sidebar-collapsed-width min-h-screen flex flex-col bg-surface-container-lowest">
+<!-- TopAppBar Area -->
+<header class="flex flex-col gap-stack-gap w-full pl-8 pr-screen-margin pt-8 bg-gradient-to-b from-surface-container-lowest to-transparent pb-6 sticky top-0 z-40">
+<div class="flex items-center justify-between">
+<div class="flex gap-8">
+<!-- Status Tabs -->
+<button class="font-headline-md text-headline-md text-primary border-b-2 border-primary pb-2 font-bold focus:outline-none">
+                        Active Channels
+                    </button>
+<button class="font-headline-md text-headline-md text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors focus:outline-none">
+                        Inactive Channels
+                    </button>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-6">
+<div class="relative flex items-center bg-surface-container-high rounded-full px-4 py-2 w-64 border border-outline-variant focus-within:border-primary transition-all">
+<span class="material-symbols-outlined text-on-surface-variant mr-2" data-icon="search">search</span>
+<input class="bg-transparent border-none text-on-surface placeholder:text-on-surface-variant text-label-lg focus:ring-0 w-full" placeholder="Search channels..." type="text"/>
+</div>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-all scale-110" data-icon="settings">settings</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-all scale-110" data-icon="account_circle">account_circle</button>
+</div>
+</div>
+<!-- Subcategory Bar -->
+<nav class="flex gap-6 overflow-x-auto custom-scrollbar no-scrollbar py-2">
+<a class="font-label-lg text-label-lg text-primary bg-primary/10 px-4 py-2 rounded-full whitespace-nowrap" href="#">Movies</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Entertainment</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">News</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Sports</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Music</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Devotional</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Lifestyle</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-4 py-2 transition-colors whitespace-nowrap" href="#">Documentary</a>
+</nav>
+</header>
+<!-- Channel Grid Content -->
+<section class="px-8 pb-screen-margin">
+<!-- Hero Featured Area (Bento Component) -->
+<div class="grid grid-cols-6 gap-grid-gutter mb-grid-gutter">
+<div class="col-span-4 h-[400px] rounded-xl overflow-hidden relative group cursor-pointer border border-white/5 transition-transform duration-500 hover:scale-[1.02]">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A high-definition, cinematic wide-angle shot of a Himalayan mountain range during sunset with deep orange and purple hues reflecting off the snow. The foreground features a subtle digital overlay of movie details, following the dark navy and high-contrast blue theme of the IPTV interface. The lighting is dramatic, emphasizing the premium quality of the content." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA3WPxYScyZHkI_NJfLyvYMuOwXgdwxOt1WkJ-jZinjcRI5q3ZpL_EGpcX7vBv-JD8ztFFqZB5kxFenOzk0TwbWkfAptN6T9P_OV84VGQ1MSGdFIzaAvYyCXwZIoDNiFM78_buFgK-2027WQvBvhkU4Yl5SI1rdSJeeVFAsLf2odwKsc62k02hWOdv4bXyjfbr6w1zALzbWqnN5FxTgwGb8FTlPkvMQh8Chl_6XxLoLsZ_YsFJcsFckqsvi1KvXo7nJETxPLOkNObe9')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded text-label-sm mb-4 inline-block">PREMIUM FEATURE</span>
+<h2 class="text-display-lg font-display-lg text-white mb-2">Nepali Cinema World</h2>
+<p class="text-body-lg text-on-surface-variant max-w-xl">Experience the best of Nepali cinema in stunning 4K resolution. Stream the latest blockbusters and timeless classics.</p>
+<div class="mt-6 flex gap-4">
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-label-lg flex items-center gap-2 hover:bg-primary-container transition-all">
+<span class="material-symbols-outlined" data-icon="play_arrow">play_arrow</span> Watch Now
+                            </button>
+<button class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-3 rounded-full font-label-lg hover:bg-white/20 transition-all">
+                                Details
+                            </button>
+</div>
+</div>
+</div>
+<div class="col-span-2 h-[400px] rounded-xl bg-surface-container flex flex-col p-6 border border-white/5 relative overflow-hidden">
+
+<div class="relative z-10 h-full flex flex-col">
+<h3 class="text-headline-md font-headline-md mb-4 text-primary">Trending Today</h3>
+<div class="space-y-4 flex-1 overflow-y-auto no-scrollbar">
+<!-- Trending Item 1 -->
+<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+<div class="w-16 h-10 bg-surface-variant rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo mini" class="w-full h-full object-contain scale-150 grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhaRtIai7YxmKxqfFNYkoxxyRtaTfclxwOwRXxrNwtQhAD6Xm1lA-O0RMPXh-N2AlQaG1XnBuanlsjkBfYA_B62D4SU0JUwqnqumb-0SQoZ9akFK4r4NOdRrLMIFae2zpnpu1OARqDjmCrfEPcZSpk_D4YK6eyEodV7eqqFSqCsQQojvTlxJOqGn73ndmFNVpVoFNtQM6sBnjgqQ5GHqsiNdENCmUnrQTZDsoPUcAhSyi5BX4STtEH2O97vKdKQQYrlvLZhQqu2X3"/>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">News 24 HD</p>
+<p class="text-label-sm text-on-surface-variant">Live: Evening Bulletin</p>
+</div>
+</div>
+<!-- Trending Item 2 -->
+<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+<div class="w-16 h-10 bg-surface-variant rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo mini" class="w-full h-full object-contain scale-150 grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhaRtIai7YxmKxqfFNYkoxxyRtaTfclxwOwRXxrNwtQhAD6Xm1lA-O0RMPXh-N2AlQaG1XnBuanlsjkBfYA_B62D4SU0JUwqnqumb-0SQoZ9akFK4r4NOdRrLMIFae2zpnpu1OARqDjmCrfEPcZSpk_D4YK6eyEodV7eqqFSqCsQQojvTlxJOqGn73ndmFNVpVoFNtQM6sBnjgqQ5GHqsiNdENCmUnrQTZDsoPUcAhSyi5BX4STtEH2O97vKdKQQYrlvLZhQqu2X3"/>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Kantipur TV</p>
+<p class="text-label-sm text-on-surface-variant">Music Awards 2024</p>
+</div>
+</div>
+<!-- Trending Item 3 -->
+<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-white/5 transition-colors cursor-pointer group">
+<div class="w-16 h-10 bg-surface-variant rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo mini" class="w-full h-full object-contain scale-150 grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhaRtIai7YxmKxqfFNYkoxxyRtaTfclxwOwRXxrNwtQhAD6Xm1lA-O0RMPXh-N2AlQaG1XnBuanlsjkBfYA_B62D4SU0JUwqnqumb-0SQoZ9akFK4r4NOdRrLMIFae2zpnpu1OARqDjmCrfEPcZSpk_D4YK6eyEodV7eqqFSqCsQQojvTlxJOqGn73ndmFNVpVoFNtQM6sBnjgqQ5GHqsiNdENCmUnrQTZDsoPUcAhSyi5BX4STtEH2O97vKdKQQYrlvLZhQqu2X3"/>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Image Channel</p>
+<p class="text-label-sm text-on-surface-variant">Morning Show Rewind</p>
+</div>
+</div>
+</div>
+<button class="mt-4 text-primary text-label-lg flex items-center gap-2 hover:underline">View All Trends <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span></button>
+</div>
+</div>
+</div>
+<!-- Standard Channel Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-grid-gutter">
+<!-- Channel Card Template -->
+<script>
+                    const channels = [
+                        'Nepali Cinema HD', 'Everest News', 'Sagarmatha TV', 'AP1 HD', 'Himalaya TV', 'ABC News', 
+                        'Nepal Television', 'NTV Plus', 'Avenues TV', 'Mountain TV', 'News 24', 'Kantipur Gold',
+                        'Cinema Nepal', 'Music Nepal', 'Bhakti Darshan', 'Krishi TV', 'NTV News', 'Janata TV'
+                    ];
+                    
+                    document.write(channels.map((name, i) => `
+                        <div class="group card-focus-effect focus-within:outline-none" tabindex="0">
+                            <div class="aspect-video bg-surface-container rounded-xl overflow-hidden relative border border-white/5 mb-3 transition-all duration-300">
+                                <div class="absolute inset-0 flex items-center justify-center bg-surface-container-high group-hover:bg-surface-container transition-colors p-6">
+                                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhaRtIai7YxmKxqfFNYkoxxyRtaTfclxwOwRXxrNwtQhAD6Xm1lA-O0RMPXh-N2AlQaG1XnBuanlsjkBfYA_B62D4SU0JUwqnqumb-0SQoZ9akFK4r4NOdRrLMIFae2zpnpu1OARqDjmCrfEPcZSpk_D4YK6eyEodV7eqqFSqCsQQojvTlxJOqGn73ndmFNVpVoFNtQM6sBnjgqQ5GHqsiNdENCmUnrQTZDsoPUcAhSyi5BX4STtEH2O97vKdKQQYrlvLZhQqu2X3" class="w-full h-full object-contain opacity-40 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" alt="Channel Logo">
+                                </div>
+                                <div class="absolute top-2 right-2 flex items-center gap-1 bg-black/60 backdrop-blur-md px-2 py-0.5 rounded-full">
+                                    <div class="w-2 h-2 rounded-full bg-[#10B981] pulse-active"></div>
+                                    <span class="text-[10px] font-bold text-white uppercase">Active</span>
+                                </div>
+                                <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/90 to-transparent"></div>
+                                <div class="absolute bottom-2 left-3">
+                                    <p class="text-white text-label-sm font-bold truncate pr-4">${name}</p>
+                                </div>
+                                <div class="absolute inset-0 border-2 border-transparent group-focus:border-primary group-hover:border-primary/50 rounded-xl transition-colors"></div>
+                            </div>
+                        </div>
+                    `).join(''));
+                </script>
+</div>
+</section>
+</main>
+<!-- Visual Polish: Floating Atmosphere Elements -->
+<div class="fixed top-0 right-0 w-1/3 h-1/3 bg-primary/5 blur-[120px] rounded-full -z-10 pointer-events-none"></div>
+<div class="fixed bottom-0 left-0 w-1/4 h-1/4 bg-secondary/5 blur-[100px] rounded-full -z-10 pointer-events-none"></div>
+<script>
+        // Simple D-pad like navigation helper for focus
+        document.addEventListener('keydown', (e) => {
+            const focusable = Array.from(document.querySelectorAll('[tabindex="0"], button, input, a'));
+            const index = focusable.indexOf(document.activeElement);
+            
+            if (e.key === 'ArrowRight') {
+                const next = focusable[index + 1] || focusable[0];
+                next.focus();
+            } else if (e.key === 'ArrowLeft') {
+                const prev = focusable[index - 1] || focusable[focusable.length - 1];
+                prev.focus();
+            }
+        });
+
+        // Initialize focus on first card
+        window.addEventListener('DOMContentLoaded', () => {
+            const firstCard = document.querySelector('.card-focus-effect');
+            if (firstCard) firstCard.focus();
+        });
+    </script>
+</body></html>

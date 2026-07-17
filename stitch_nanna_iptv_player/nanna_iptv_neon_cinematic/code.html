@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nanna IPTV - Premium Streaming</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #060e20;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #38bdf8;
+        }
+
+        .glass-panel {
+            background: rgba(23, 31, 51, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+
+        .focus-glow:focus-within {
+            box-shadow: 0 0 20px rgba(123, 208, 255, 0.3);
+            border-color: #8ed5ff;
+            transform: scale(1.02);
+        }
+
+        .channel-card-active:hover {
+            box-shadow: 0 0 25px rgba(142, 213, 255, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .neon-pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        .sidebar-transition {
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-surface-variant": "#bdc8d1",
+                      "primary-fixed-dim": "#7bd0ff",
+                      "on-primary": "#00354a",
+                      "on-error-container": "#ffdad6",
+                      "on-tertiary": "#003824",
+                      "on-secondary-fixed": "#2a1700",
+                      "on-tertiary-fixed-variant": "#005236",
+                      "outline-variant": "#3e484f",
+                      "inverse-surface": "#dae2fd",
+                      "background": "#0b1326",
+                      "on-secondary-fixed-variant": "#653e00",
+                      "tertiary-fixed": "#6ffbbe",
+                      "primary": "#8ed5ff",
+                      "on-tertiary-fixed": "#002113",
+                      "secondary": "#ffb95f",
+                      "surface-container-high": "#222a3d",
+                      "on-primary-fixed-variant": "#004c69",
+                      "error-container": "#93000a",
+                      "surface-container-low": "#131b2e",
+                      "inverse-primary": "#00668a",
+                      "tertiary-container": "#30c88f",
+                      "primary-fixed": "#c4e7ff",
+                      "on-secondary-container": "#5b3800",
+                      "outline": "#87929a",
+                      "on-error": "#690005",
+                      "secondary-fixed-dim": "#ffb95f",
+                      "primary-container": "#38bdf8",
+                      "surface-container": "#171f33",
+                      "secondary-fixed": "#ffddb8",
+                      "tertiary": "#56e5a9",
+                      "surface-dim": "#0b1326",
+                      "on-surface": "#dae2fd",
+                      "on-background": "#dae2fd",
+                      "inverse-on-surface": "#283044",
+                      "surface-container-lowest": "#060e20",
+                      "surface-bright": "#31394d",
+                      "secondary-container": "#ee9800",
+                      "on-secondary": "#472a00",
+                      "surface-tint": "#7bd0ff",
+                      "surface-variant": "#2d3449",
+                      "error": "#ffb4ab",
+                      "on-primary-fixed": "#001e2c",
+                      "tertiary-fixed-dim": "#4edea3",
+                      "surface-container-highest": "#2d3449",
+                      "on-primary-container": "#004965",
+                      "on-tertiary-container": "#004e34",
+                      "surface": "#0b1326"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-gap": "16px",
+                      "screen-margin": "64px",
+                      "sidebar-collapsed-width": "88px",
+                      "grid-gutter": "24px",
+                      "sidebar-width": "280px"
+              },
+              "fontFamily": {
+                      "headline-md": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "body-md": ["Inter"],
+                      "display-lg": ["Inter"],
+                      "label-sm": ["Inter"],
+                      "label-lg": ["Inter"],
+                      "headline-lg": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-lg": ["20px", {"lineHeight": "30px", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                      "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Background Shader -->
+
+<!-- Sidebar Navigation -->
+<aside class="fixed left-0 top-0 h-full z-50 group sidebar-transition w-sidebar-collapsed hover:w-sidebar-width bg-surface-container/80 backdrop-blur-xl shadow-2xl border-r border-outline-variant/20 flex flex-col py-screen-margin">
+<div class="px-6 mb-12 flex items-center gap-4 overflow-hidden">
+<div class="min-w-[40px] h-10 bg-primary-container rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(56,189,248,0.5)]">
+<span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+</div>
+<span class="font-headline-lg text-headline-lg font-bold text-primary whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">Nanna IPTV</span>
+</div>
+<nav class="flex-1 flex flex-col gap-2 overflow-hidden">
+<a class="flex items-center gap-4 bg-secondary-container text-on-secondary-container rounded-r-full p-4 border-l-4 border-primary transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]">language</span>
+<span class="font-label-lg text-label-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Nepali</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]">translate</span>
+<span class="font-label-lg text-label-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Hindi</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]">public</span>
+<span class="font-label-lg text-label-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">English</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]">star</span>
+<span class="font-label-lg text-label-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Bhojpuri</span>
+</a>
+</nav>
+<div class="px-6 mt-auto">
+<div class="flex items-center gap-4 overflow-hidden">
+<img class="w-10 h-10 rounded-full border-2 border-primary/30 object-cover min-w-[40px]" data-alt="A cinematic, high-resolution portrait of a stylish user profile avatar with soft neon backlighting, reflecting a premium digital streaming service aesthetic. The character has a modern, minimalist look with subtle blue glows on the edges of their silhouette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSTH2heamn6MG1nerCbetyzzWw2xWcACSYioV_NI0UGfOkx2w7z1fUyy7jMXF40lYf5eJCJvXPKORY1YmoCxdoBWZ9HFUSM1p71fE9aEVML6sAKMON_cUExZSN8W9YRMvfV4RMzNV4sRBN3puQLkQnNjOYKIuZaFna_TAVER1fANAqDbSg-lTWBfaOIarKt9XoeQvHRZsV_JFeC2cZsjXz7DA3W-fEMz6zy1gmjbZ8AfPcJ0JbQdjl_hfMLz1OTaGF3_7m75TMguM3"/>
+<div class="flex flex-col opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+<span class="font-label-lg text-label-lg text-on-surface">Alex Rivera</span>
+<span class="text-[10px] text-primary uppercase tracking-widest font-bold">Premium Plan</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-sidebar-collapsed-width min-h-screen relative z-10 flex flex-col">
+<!-- Top App Bar Content -->
+<header class="flex flex-col gap-stack-gap w-full pr-screen-margin pt-8 pl-8">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<h1 class="font-display-lg text-display-lg text-primary drop-shadow-[0_0_10px_rgba(142,213,255,0.4)]">Discover Channels</h1>
+<p class="font-body-md text-on-surface-variant">Live streaming and premium entertainment across 250+ channels</p>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative group">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline">search</span>
+<input class="bg-surface-container-low border-outline-variant/30 text-on-surface rounded-full pl-12 pr-6 py-3 w-80 focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="Search movies, live news..." type="text"/>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-high text-on-surface hover:text-primary hover:scale-110 transition-all border border-outline-variant/20">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<button class="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container-high text-on-surface hover:text-primary hover:scale-110 transition-all border border-outline-variant/20">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Category Carousel -->
+<div class="flex items-center gap-4 overflow-x-auto py-4 no-scrollbar">
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-primary text-on-primary shadow-[0_0_15px_rgba(142,213,255,0.3)] transition-all">Movies</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Entertainment</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">News</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Sports</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Music</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Devotional</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Lifestyle</button>
+<button class="flex-none px-6 py-2 rounded-full font-label-lg text-label-lg bg-surface-container border border-outline-variant/30 text-on-surface hover:border-primary transition-all">Documentary</button>
+</div>
+</header>
+<!-- Main Grid -->
+<section class="flex-1 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-grid-gutter overflow-y-auto max-h-[calc(100vh-280px)]">
+<!-- Active Channel Card -->
+<div class="group relative aspect-video bg-surface-container-high rounded-xl overflow-hidden cursor-pointer channel-card-active transition-all duration-300 border border-outline-variant/20 focus-within:ring-2 focus-within:ring-primary">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="A vibrant, high-energy live cinematic broadcast of a global sports event. Stadium lights flare with electric blue and white hues. The scene is crisp and high-contrast, captured with a professional broadcast camera. Deep shadows and saturated colors emphasize the premium entertainment quality." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC0h3_yh8tnszFoOzzwImHQgT4ft-XT8aLyz684SUcMonI4xL5paM3MWe42-D45_jLvRwTTp60DBZd2bIeyjBkqZTCw7W3VRfx2lVua2EnJo_y1EHkTW4qytbCx7ABpGTUeVyeyg2N88jzMk3WoSIKI0gjDUEcsjBi9FySkgSaqjhpO3L_4mKhLoSamGy66GPmAKPHCmhSYHMTmzszqPb-tsV7oF2n3hX-tbUlLkRTBEG9ogGW10rIgSXsui_c2ShpgndBbmmdR0G8s')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-tertiary/30">
+<div class="w-3 h-3 bg-tertiary rounded-full neon-pulse shadow-[0_0_10px_#10B981]"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-tertiary">LIVE</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">HBO Premium HD</h3>
+<div class="flex items-center gap-2 mt-1">
+<span class="text-label-sm text-primary">Now: House of the Dragon</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-2/3 shadow-[0_0_8px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Inactive Channel Card -->
+<div class="group relative aspect-video bg-surface-container-low rounded-xl overflow-hidden cursor-pointer grayscale opacity-60 border border-dashed border-outline-variant/40 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A moody, atmospheric scene of an empty high-tech news studio. The lighting is low with subtle blue ambient glows. Screens in the background show 'Signal Lost' patterns. The overall mood is cold and quiet, indicating a channel that is currently off-air or in standby mode." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCwo-Nz-2UpqlFnSnSSx5Omg3YOpQxoTG7hv_QXMwUWML4fgJ5E-nWsI3kJ4ipmUvCTapqg6AM8Ec7fy1c1-V0QprL4_IoGux7OfMVcrSJyw4KGvkH4K4pcryJ-CMmghwfngiOJc-SNGXKV9hWtVpjDhvVgW7T7QmeSB5Z8hri7Ke2RvIryDEXrO9Q99wqcSy-bRskeFTavXbleA-7M0MrnpxATOWRWjn85jpDSHcGW03x_qVw0OaAMlU-8Wq-Fj_jDPCl89HmBBGmE')"></div>
+<div class="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-outline-variant/30">
+<div class="w-3 h-3 bg-slate-500 rounded-full"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant">OFFLINE</span>
+</div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<span class="material-symbols-outlined text-4xl text-on-surface-variant/50">signal_disconnected</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface-variant leading-tight">National Geo</h3>
+<p class="text-label-sm text-on-surface-variant/60">Broadcast starts at 06:00 AM</p>
+</div>
+</div>
+<!-- Active Channel Card 2 -->
+<div class="group relative aspect-video bg-surface-container-high rounded-xl overflow-hidden cursor-pointer channel-card-active transition-all duration-300 border border-outline-variant/20">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="A dynamic music festival scene with laser lights and high-definition stage visuals. Purple and neon blue streaks of light pierce through a foggy atmosphere. The aesthetic is high-end, cinematic, and digitally polished for a premium music channel experience." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAwy_W5ru0z-RReTPyn1ADQn0WIYvdCr0L8EAg2NzF9QwJjtlAUaIrf5ASpV2X_2NLcjmdEEwNj9mLf5tD6ratQT5yShaMwJ3LYI_j1mjQ5hpuNxGH4qx8xhp9b3ZcHqGGJYdPWUPtHnegKdXfXRzi6IoX-1dNvmlqIHQZlxKPOW2bl6RacTzZPI2IDs3olsYbQMrvD-SRMKfzgYkDa_v8rmJWMb3kbTE9RsfiZqN2IwUUHcLQmwA9Ehpjq46_qbnxwLPhy6WCmNmwd')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-tertiary/30">
+<div class="w-3 h-3 bg-tertiary rounded-full neon-pulse shadow-[0_0_10px_#10B981]"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-tertiary">LIVE</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">MTV Live</h3>
+<div class="flex items-center gap-2 mt-1">
+<span class="text-label-sm text-primary">Now: EDM World Tour</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-1/4 shadow-[0_0_8px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Active Channel Card 3 -->
+<div class="group relative aspect-video bg-surface-container-high rounded-xl overflow-hidden cursor-pointer channel-card-active transition-all duration-300 border border-outline-variant/20">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="A professional news anchor desk in a futuristic, glass-heavy studio. Bright blue backlighting and digital tickers create a high-contrast, authoritative mood. Sharp details, cinematic depth of field, and cool-toned color grading." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7-8pWJcyoJRHIOG0sY5_rXRVC5rTlW8FW6OvECxGGTtv0v3_RnT7ymJrPNHoKm0c2m5eNKjGu69hUeE-sxeWB-gGZlPr0DrBGR45RieVhbMaTkIcJFx1WDVFdKIL25_DRTayO3KHOf6Wi90Ea9egoWn_2KdtKU8p2M-l77tRH-9S-G7eFE8vOlfv1n7HMllWipMdkfcnM6DOHFtTJ_9LwCkZTFCzwqE-S2X6y_SnJ4c2Ydc9yhPDz4-bP5gMiAo3m4erlRMhi7Ebf')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-tertiary/30">
+<div class="w-3 h-3 bg-tertiary rounded-full neon-pulse shadow-[0_0_10px_#10B981]"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-tertiary">LIVE</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">BBC World News</h3>
+<div class="flex items-center gap-2 mt-1">
+<span class="text-label-sm text-primary">Now: Global Update</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-4/5 shadow-[0_0_8px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Repeat for Grid Density -->
+<!-- Inactive 2 -->
+<div class="group relative aspect-video bg-surface-container-low rounded-xl overflow-hidden cursor-pointer grayscale opacity-60 border border-dashed border-outline-variant/40 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A dramatic mountain landscape at dusk, perfectly still and serene. The lighting is deep indigo and black. The atmosphere is cinematic but stationary, representing a nature channel currently in its night-loop or offline cycle." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCv1qQi7x1oL4K2KU7KSIeTKh2oGNXOV2REsC2BMKRj-XbhzOOO_v1iVDuWKBn4gHaPdr7di85iYP0MvfneWMqucH_9ZlMpac5ZACRgJedXcNkcF_0DUsKmbu7NdKNlHM325q9zBIOhmVEIAxjWLOhdfN7X6aaa9m2QC0L7WKDKxvLxgoVMyJXU__4jDqJNUV7Oh56FyFyZehRgB097L8dWcIJqXjnkQLhB4LYwWh_YFDzjSWudE1QD7J_kDivFfbgMiVz79aukUd-Q')"></div>
+<div class="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-outline-variant/30">
+<div class="w-3 h-3 bg-slate-500 rounded-full"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant">OFFLINE</span>
+</div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<span class="material-symbols-outlined text-4xl text-on-surface-variant/50">timer</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface-variant leading-tight">Discovery 4K</h3>
+<p class="text-label-sm text-on-surface-variant/60">Resumes in 2h 15m</p>
+</div>
+</div>
+<!-- Active 4 -->
+<div class="group relative aspect-video bg-surface-container-high rounded-xl overflow-hidden cursor-pointer channel-card-active transition-all duration-300 border border-outline-variant/20">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="A neon-drenched futuristic racing track from a high-end sports broadcast. Sleek cars leaving streaks of light. The color palette is dominated by electric blues, purples, and deep blacks. Highly detailed, cinematic wide shot." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEE5mLUALmeYhyYp7BnA4R5qnU0Fr6jG_HMzL0Cq3li18ZOEG3R_VTqUMT-4osDXH3T9eZtK57QpJEP-YDCGhY5lF6X130Pzf4IjJC4LibnknTXmrlfNKH6Y0aJN2qmxUQQbwtlZv8v8U9xn4S1DOyIkvIeY8Ntl8-tACH8Dv1qfL_E1mc_OT60ox_bDN8jSHd666rTNPK6fDJQccPQThqwXw6oKl_HkLJccdsGOShYWQw7jlr-Hq9hJqMY6BKRuVprCUKpY2PqWdi')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-tertiary/30">
+<div class="w-3 h-3 bg-tertiary rounded-full neon-pulse shadow-[0_0_10px_#10B981]"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-tertiary">LIVE</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">Speed Channel</h3>
+<div class="flex items-center gap-2 mt-1">
+<span class="text-label-sm text-primary">Now: Midnight Grand Prix</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-1/2 shadow-[0_0_8px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Active 5 -->
+<div class="group relative aspect-video bg-surface-container-high rounded-xl overflow-hidden cursor-pointer channel-card-active transition-all duration-300 border border-outline-variant/20">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="A lush, high-definition culinary set with steam rising from a gourmet dish. Warm golden accent lighting contrasts with deep professional kitchen shadows. The visual is crisp, high-end, and mouth-watering, captured in a modern TV studio setting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAKyinzqSIMMcNwgHpjiJ1VUTjFl67qdqBkCOsQIHShbUitrZplxhJXmic6wR74yZw-xFfo0-YjvX3aLz2jFrRjSvxluR7PRf47IleFjeYbZ7DKLJpibJlKOHeU3ICc_WZAJ0g6rOl86rse437UHCb15M4vW6aftXQ-2JSdiNfrnSW2U3Eiagzq6DQJpd6esl2X4AsO0Btdui_FnebvkH6W_mypqBq7DjyiR8FcbwN-wl52qlNTjf_7_prbBx4TAwCNooHUJtd8wirm')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-tertiary/30">
+<div class="w-3 h-3 bg-tertiary rounded-full neon-pulse shadow-[0_0_10px_#10B981]"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-tertiary">LIVE</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">Food Network</h3>
+<div class="flex items-center gap-2 mt-1">
+<span class="text-label-sm text-primary">Now: Masterclass Live</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-3/4 shadow-[0_0_8px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Inactive 3 -->
+<div class="group relative aspect-video bg-surface-container-low rounded-xl overflow-hidden cursor-pointer grayscale opacity-60 border border-dashed border-outline-variant/40 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A stylized animated movie scene with a quiet village at night. The lighting is soft and magical, but the frame is frozen and dim. The aesthetic is clean and artistic, indicating a kids channel that is currently inactive." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQU2ciKeGD7eKcAJejdye9LJIKX2MC88z59-90LNu-OGLcEh0WksVfaoeNfolFXI0KGrU35YjyJ8t4BOjb3iinTdwR11UXjpM7PfRUETgHyr4ix4vWznfgdCWBuSFRjMmsFq_qUsCWf5Ya71Fyf8Tl_MuTfNcsi3qqz1agnBLXUcsNCmWVPoFcCjyLVS9nacNnC3n3dcWlnuJTYiRtgW4ATvEnaWXi1Bphzb1JLQweh0gklibChXsv9aRAZvreqaeMIc3XtO-h2PxI')"></div>
+<div class="absolute inset-0 bg-background/40 backdrop-blur-[2px]"></div>
+<div class="absolute top-4 right-4 flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full border border-outline-variant/30">
+<div class="w-3 h-3 bg-slate-500 rounded-full"></div>
+<span class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant">OFFLINE</span>
+</div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<span class="material-symbols-outlined text-4xl text-on-surface-variant/50">nights_stay</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-4">
+<h3 class="font-headline-md text-headline-md text-on-surface-variant leading-tight">Disney Channel</h3>
+<p class="text-label-sm text-on-surface-variant/60">Sleep Mode: Resumes 7 AM</p>
+</div>
+</div>
+</section>
+<!-- Player Controls (Docked at Bottom) -->
+<footer class="mt-auto glass-panel border-t border-outline-variant/20 p-6 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-16 h-10 bg-surface-container-highest rounded-lg overflow-hidden border border-primary/20">
+<div class="w-full h-full bg-cover bg-center" data-alt="A miniature preview of a high-resolution cinematic film scene. Deep blacks, saturated blues, and professional lighting highlight the premium quality of the small thumbnail." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuALxIKPvGnq3_5lY_kD4G68yhoZiN1oLGs6p1xXv_Kq1b8G7jwDTQlffLGA74qqxY5UgOOANEmJY7qK4C1Cf7h8lE_Zf2z46R4RGveEIxZ0ciAPz2Yb5zfeWM1g7K2BpyBoeQ26RklyOFkqp7BLPLEJ92n6R4MG5QWUBj33d4GGT2dYfETf5He26slu5NZ0obOpF-ki5kp0myzFWDRayoJxlNDmlZP6_NjO4NDPV8epJNbzLE_zdN1tATocpgN4aA9foSREQYi0ZSDs')"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary">Now Playing: HBO Premium</span>
+<span class="text-[12px] text-on-surface-variant">House of the Dragon - S2 E4</span>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">skip_previous</span></button>
+<button class="w-12 h-12 flex items-center justify-center bg-primary text-on-primary rounded-full shadow-[0_0_15px_rgba(142,213,255,0.4)] hover:scale-110 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">pause</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">skip_next</span></button>
+</div>
+<div class="flex items-center gap-4 w-48">
+<span class="material-symbols-outlined text-on-surface-variant">volume_up</span>
+<div class="flex-1 h-1 bg-white/10 rounded-full">
+<div class="h-full bg-primary w-2/3"></div>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-highest text-on-surface rounded-lg hover:bg-primary/20 transition-all border border-outline-variant/30">
+<span class="material-symbols-outlined text-primary">closed_caption</span>
+<span class="text-label-sm">Subtitles</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-highest text-on-surface rounded-lg hover:bg-primary/20 transition-all border border-outline-variant/30">
+<span class="material-symbols-outlined text-primary">fullscreen</span>
+<span class="text-label-sm">Full Screen</span>
+</button>
+</div>
+</footer>
+</main>
+<!-- Micro-interactions Script -->
+<script>
+        // Smooth scroll for category carousel
+        const carousel = document.querySelector('.overflow-x-auto');
+        if (carousel) {
+            carousel.addEventListener('wheel', (evt) => {
+                evt.preventDefault();
+                carousel.scrollLeft += evt.deltaY;
+            });
+        }
+
+        // Channel card focus effect
+        const cards = document.querySelectorAll('.channel-card-active, .opacity-60');
+        cards.forEach(card => {
+            card.setAttribute('tabindex', '0');
+            card.addEventListener('keydown', (e) => {
+                if(e.key === 'Enter') {
+                    // Visual feedback for selection
+                    card.style.transform = 'scale(0.98)';
+                    setTimeout(() => card.style.transform = '', 100);
+                }
+            });
+        });
+    </script>
+</body></html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nanna IPTV | Premium Streaming</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#bdc8d1",
+                    "primary-fixed-dim": "#7bd0ff",
+                    "on-primary": "#00354a",
+                    "on-error-container": "#ffdad6",
+                    "on-tertiary": "#003824",
+                    "on-secondary-fixed": "#2a1700",
+                    "on-tertiary-fixed-variant": "#005236",
+                    "outline-variant": "#3e484f",
+                    "inverse-surface": "#dae2fd",
+                    "background": "#0b1326",
+                    "on-secondary-fixed-variant": "#653e00",
+                    "tertiary-fixed": "#6ffbbe",
+                    "primary": "#8ed5ff",
+                    "on-tertiary-fixed": "#002113",
+                    "secondary": "#ffb95f",
+                    "surface-container-high": "#222a3d",
+                    "on-primary-fixed-variant": "#004c69",
+                    "error-container": "#93000a",
+                    "surface-container-low": "#131b2e",
+                    "inverse-primary": "#00668a",
+                    "tertiary-container": "#30c88f",
+                    "primary-fixed": "#c4e7ff",
+                    "on-secondary-container": "#5b3800",
+                    "outline": "#87929a",
+                    "on-error": "#690005",
+                    "secondary-fixed-dim": "#ffb95f",
+                    "primary-container": "#38bdf8",
+                    "surface-container": "#171f33",
+                    "secondary-fixed": "#ffddb8",
+                    "tertiary": "#56e5a9",
+                    "surface-dim": "#0b1326",
+                    "on-surface": "#dae2fd",
+                    "on-background": "#dae2fd",
+                    "inverse-on-surface": "#283044",
+                    "surface-container-lowest": "#060e20",
+                    "surface-bright": "#31394d",
+                    "secondary-container": "#ee9800",
+                    "on-secondary": "#472a00",
+                    "surface-tint": "#7bd0ff",
+                    "surface-variant": "#2d3449",
+                    "error": "#ffb4ab",
+                    "on-primary-fixed": "#001e2c",
+                    "tertiary-fixed-dim": "#4edea3",
+                    "surface-container-highest": "#2d3449",
+                    "on-primary-container": "#004965",
+                    "on-tertiary-container": "#004e34",
+                    "surface": "#0b1326"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-gap": "16px",
+                    "screen-margin": "64px",
+                    "sidebar-collapsed-width": "88px",
+                    "grid-gutter": "24px",
+                    "sidebar-width": "280px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "label-lg": ["Inter"],
+                    "headline-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["20px", {"lineHeight": "30px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      body {
+        background-color: #0b1326;
+        color: #dae2fd;
+        overflow-x: hidden;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .mesh-gradient {
+        background: radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.05) 0px, transparent 50%),
+                    radial-gradient(at 100% 100%, rgba(238, 152, 0, 0.05) 0px, transparent 50%);
+      }
+      .glass-card {
+        background: rgba(30, 41, 59, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .channel-card-focus:focus-within {
+        transform: scale(1.05);
+        border-color: #8ed5ff;
+        box-shadow: 0 0 20px rgba(142, 213, 255, 0.3);
+      }
+      .sidebar-hover:hover {
+        width: 280px;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2d3449;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3e484f;
+      }
+    </style>
+</head>
+<body class="font-body-md text-body-md selection:bg-primary selection:text-on-primary">
+<!-- Subtle Mesh Background -->
+<div class="fixed inset-0 z-[-1] mesh-gradient"></div>
+<!-- SideNavBar Shell -->
+<nav class="fixed left-0 top-0 h-full w-sidebar-collapsed hover:w-sidebar-width transition-all duration-300 z-50 bg-surface-container dark:bg-surface-container/80 backdrop-blur-xl shadow-2xl flex flex-col py-screen-margin group overflow-hidden border-r border-outline-variant/10">
+<div class="px-6 mb-12 flex items-center gap-4 overflow-hidden">
+<div class="min-w-[40px] h-[40px] bg-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-2xl" data-icon="tv">tv</span>
+</div>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+<h1 class="font-headline-lg text-headline-lg font-bold text-primary">Nanna IPTV</h1>
+<p class="text-label-sm text-on-surface-variant uppercase tracking-widest">Premium Streaming</p>
+</div>
+</div>
+<div class="flex-1 flex flex-col gap-2">
+<!-- Navigation Items mapped from JSON -->
+<a class="flex items-center gap-4 bg-secondary-container text-on-secondary-container rounded-r-full p-4 border-l-4 border-primary scale-105 transition-transform duration-200 group/item" href="#">
+<span class="material-symbols-outlined min-w-[24px]" data-icon="language">language</span>
+<span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-label-lg text-label-lg">Nepali</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]" data-icon="translate">translate</span>
+<span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-label-lg text-label-lg">Hindi</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]" data-icon="public">public</span>
+<span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-label-lg text-label-lg">English</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" href="#">
+<span class="material-symbols-outlined min-w-[24px]" data-icon="star">star</span>
+<span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-label-lg text-label-lg">Bhojpuri</span>
+</a>
+</div>
+<div class="px-6 flex items-center gap-4 overflow-hidden">
+<div class="min-w-[40px] h-[40px] rounded-full overflow-hidden border-2 border-primary/20">
+<img class="w-full h-full object-cover" data-alt="Close-up professional studio portrait of a user for a profile avatar. The person has a friendly expression, wearing a sleek modern headset, set against a dark cinematic blue and orange neon light background to match the IPTV aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA48zhdLPIHKWqDwKowO_LSk170P2GvqQ7kaNNOUhicUbqBoWU67XsgIfoiOmxdNDvf1C5iwpqjGffvCLDZnOGuIqSU83EWyAaJBCSrlwnMxJ3tA9rvlwHmJh-5UcQtdWJeewm2yHm4yVyF1p3D5n5LSaXClIZ6MHzAus78AVR8imgozYvK5WCYp_nP_R1rXjYxjsGv_dsK8yaG6A_iaDKVr6kA0ozS1Ora26SksitOo7yUSIjOI_qY1HyjUPcYE5l8SwfQzq9adwDx"/>
+</div>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+<p class="font-label-lg text-on-surface">Premium User</p>
+<p class="text-label-sm text-primary">Pro Member</p>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pl-sidebar-collapsed-width min-h-screen flex flex-col">
+<!-- TopAppBar Shell -->
+<header class="flex flex-col gap-stack-gap w-full pr-screen-margin pt-8 bg-gradient-to-b from-surface-container-lowest to-transparent sticky top-0 z-40">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-8">
+<!-- Modern Icon Navigation -->
+<nav class="flex items-center gap-6">
+<a class="text-primary border-b-2 border-primary pb-2 font-bold font-label-lg text-label-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="movie">movie</span>
+                            Movies
+                        </a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="theaters">theaters</span>
+                            Entertainment
+                        </a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="news">news</span>
+                            News
+                        </a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="sports_soccer">sports_soccer</span>
+                            Sports
+                        </a>
+<a class="text-on-surface-variant font-medium pb-2 hover:text-on-surface transition-colors font-label-lg text-label-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="music_note">music_note</span>
+                            Music
+                        </a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<!-- Status Toggle -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 border border-outline-variant/20">
+<button class="px-4 py-1.5 rounded-full text-label-sm font-bold bg-primary text-on-primary transition-all duration-300" id="activeToggle">Active</button>
+<button class="px-4 py-1.5 rounded-full text-label-sm font-bold text-on-surface-variant hover:text-on-surface transition-all duration-300" id="inactiveToggle">History</button>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<div class="relative">
+<input class="bg-surface-container-low border-none rounded-full px-5 py-2 w-64 focus:ring-2 focus:ring-primary text-label-lg placeholder:text-on-surface-variant/50" placeholder="Search channels..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant" data-icon="search">search</span>
+</div>
+<button class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-surface-container-high transition-colors focus:scale-110">
+<span class="material-symbols-outlined text-on-surface" data-icon="settings">settings</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- Channel Grid Content -->
+<section class="flex-1 px-screen-margin py-8">
+<div class="flex items-end justify-between mb-8">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary flex items-center gap-3">
+<span class="material-symbols-outlined" data-icon="trending_up">trending_up</span>
+                        Trending Now
+                    </h2>
+<p class="text-on-surface-variant mt-1">Showing 24 highly-rated live channels in your region</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+</button>
+<button class="p-2 rounded-lg bg-transparent text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="view_list">view_list</span>
+</button>
+</div>
+</div>
+<!-- Grid Layout -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-grid-gutter">
+<!-- Channel Card 1 -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A cinematic cinematic still from an high-action sci-fi movie featuring glowing blue futuristic technology and starships against a deep space nebula. The lighting is dramatic and moody with strong primary blue highlights and orange rim light, fitting a premium 4K television interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtsPy7L3wTysThjuU-YhIpe-y4JNLuZPXokDmmbo9ZgpPrhpCLnS3v0Nf5ScNpRFnR3hO879M8mXa-cn3t8BkSQFrQGKactbywn7Mkl-btjXgxgpACQ162gh8Zf_xonc5-9yHdYOYMFfe7WWZTjOk0-UET4B6H9JVosKABLfUl08p73TXGmLiRMsvSL5B7WwUtVglJcbWnMzHh2cB9kCIIep40h6F3xV84icRYZnSDZ8t0fgyiRqnh5I_-_0FgogPG24WYfCBs6VFn"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+<span class="bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider">Live</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<div class="flex items-start justify-between gap-2">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">HBO Premium HD</h3>
+<span class="material-symbols-outlined text-primary text-[18px]" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Interstellar (2014)</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-2/3 shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- Channel Card 2 -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="A high-intensity football match capturing a player about to strike a ball in a packed stadium under bright floodlights. The grass is vivid green, and the atmosphere is electric with blurred crowds in the background. Cinematic sports photography with high contrast and sharp detail." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzGNQ4_c9pSmiYw4FZuRYH-7nVF6oWpcYQEkNlGvos9m1NB7jol-ho9Wm-qL72GuioF0n6zDRD2PfkgdjX6-qiXr9rIGf5WNPFLVjj7f1LfGWPyPCDYRWwk9-V3WLtDyXYnQT78cht5Sq5nMdCa270fF1x0plDaZswcBqo8gnSPPiPfvxPcwqJlzGlgLshME2KcEkq2hQ5JymVzrf62qxnD00EAAu3XqtnBBs3Y4e0SN5PjPmjWbY2qPf9TO0sxg2dcOje9ilvm4sB"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+<span class="bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider">Live</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<div class="flex items-start justify-between gap-2">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Sky Sports Main</h3>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]" data-icon="star">star</span>
+</div>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Premier League: MCI vs LIV</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[85%] shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- Repeatable patterns with slight variations -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Breathtaking nature documentary shot of a snow leopard in a high altitude mountain range. Cool blue and white color palette, cinematic wide shot, sharp focus on the animal's eyes, professional wildlife photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbCRvPnnV6rMGFrYLcM_C8TkxX5TA06H0b6DiS_L5RXVd5IYKiUHgdKTOyyvGqzDX2C3c_f7F2gwA7-hA2YwN_xT6Q8_mmk7S7a_WrRb62P9xctjcbUgfpBGxaaGooQ5d9UNwPEEXNdmwmLsn467vXBfCgf4C417aBj9Usj3nkw9GK-FwPyOUEkdzCnyA7YmkKTJ5RX5YAsOAgrU5MExmehlFGUQo-w9lBM3n2hsYIBAsqA-2VwGHGqxD0kgqbbraj4QdG72_Aoynd"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Nat Geo Wild</h3>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Wildest Paradises</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-1/4 shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- Channel Card 4 -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern news studio setting with a clean, high-tech aesthetic. Multiple digital screens displaying world maps and stock data. Vibrant blue and red color accents, minimalist furniture, sophisticated broadcast environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU38te0D-Bav8MaTyJxXk7-rJ_EiKuI240RI4L3hd24c6jF9xg2zm-2PgOZZClRmpPhE3ZvADRfahnSPB-4sqQ51bh5bQLCQp4hVqgSenJHfnO9xHht5GCObZmqBiOVEJRvn22EJqVdSj03xyD86qe-WRUGWqOVrN1yKhd9NTCP-oNoFwmXC8RCWIYtSqIk81oIlXRZASJMVJVlc3FzAEdHkLgj0Aex-azL6soqtnCTF2ieTilT60F7k4LdHyWY2ADZOVIst2SB4AW"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">CNN International</h3>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Connect the World</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-1/2 shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- Channel Card 5 -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Vibrant pop music video scene with neon pink and purple lighting, professional stage lighting, artistic bokeh, energy and motion, modern pop aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2nXSaNZ5h6esn56ihzQ-3-cCRyw4QnVOjKPRdpFXcTgxkjpg9Qtc6DBKJPaiQjUVpd5Dd75JWZSNRxiUnQcik-YjRPhq3rRXBLi2Syc4CueDHMQSFTaUXiVPsyc0khi-yZlztU24TMtQCHRU-io5nCYyIdOUU2GrWqp7yZfCK4wIv3GbgAyqQAhGcrgWKkvOvaGP91pqq6sX6ThoyrFY1xhIVOQmRcucKZ7VlTYeEddTve_kgWTQgyEcaEfQhoc5bLvcE8aGFcfth"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">MTV Music Plus</h3>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Top 40 Countdown</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[90%] shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- Channel Card 6 -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Gourmet cooking show close-up of a chef plating a high-end artistic dish in a modern professional kitchen. Warm soft lighting, shallow depth of field, vibrant food colors, culinary perfection." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXGNyYlK6IdgP1FFDRFpuqRo6tp2qJsaiQLgdE6weqL0xpoxhHeeNBySmAVhzPKX0igDIjBdFugk80Tjn3Rk7sFvGSduNB0BzoTcm1DI0_ROYruyvHZezELzFXP-jqFophNVCNP4IcZy3l6RRB4sKsJ17_7IMlKjggtmzht-hXV-g1F4B0E-Ai3aRquFuvHgp76giQZb-lROKCZoBGIZQsYANddvR_3GJzsKAt8JPDdFyZaQHgcGfoqpm3OMYYjPT_wyXrddUQqLQ8"/>
+<div class="absolute top-3 right-3 flex gap-2">
+<div class="w-2.5 h-2.5 bg-[#10B981] rounded-full shadow-[0_0_8px_#10B981] animate-pulse"></div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
+</div>
+<div class="p-4">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Food Network HD</h3>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Chopped: Mystery Box</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[15%] shadow-[0_0_4px_#8ed5ff]"></div>
+</div>
+</div>
+</div>
+<!-- More Cards can follow the same pattern for density -->
+<!-- Example of 6 more cards for density -->
+<div class="group relative bg-surface-container rounded-xl overflow-hidden glass-card transition-all duration-300 channel-card-focus outline-none border-2 border-transparent" tabindex="0">
+<div class="aspect-video relative overflow-hidden bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-on-surface-variant/30" data-icon="videocam_off">videocam_off</span>
+</div>
+<div class="p-4">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Upcoming Channel</h3>
+<p class="text-label-sm text-on-surface-variant mt-1 truncate">Starting in 2h 30m</p>
+<div class="mt-3 w-full h-[3px] bg-white/10 rounded-full"></div>
+</div>
+</div>
+<!-- ... additional grid items ... -->
+<script>
+                    // Dynamic filler to show density as requested
+                    const container = document.querySelector('.grid');
+                    const cardTemplate = container.children[0].outerHTML;
+                    for(let i=0; i<11; i++) {
+                        const temp = document.createElement('div');
+                        temp.innerHTML = cardTemplate;
+                        container.appendChild(temp.firstChild);
+                    }
+                </script>
+</div>
+</section>
+<!-- Floating Player Mini-View -->
+<div class="fixed bottom-8 right-8 w-80 glass-card rounded-xl p-3 shadow-2xl border border-primary/20 z-40 transform hover:scale-105 transition-all cursor-pointer">
+<div class="flex gap-4">
+<div class="w-24 aspect-video rounded-lg overflow-hidden bg-black">
+<img class="w-full h-full object-cover" data-alt="A small cinematic screen preview showing a futuristic cyberpunk city with neon lights and flying vehicles at night. High contrast, glowing blues and purples." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl9SGWTyNBiC1YZSRti909nzGouK_vDZHzvtQw3QsJmXiqMpH6D3sqpiiV-UkCJ1ZFnaCC636gjwXRdo5A8ry6KwOlVBfW9SPjLpiuf5xIZJnMaqdL7vxuW779i2x_HNqcAgxIGvJRFJCFA-e8wxVNnUtR_AsXlJ2IAdEfZTS_p3DnitX_rGO3QZy6j6d6GZ2O1qoDAAiHEPz0C3WP2KgUKArd5VjmS4_mz4CQtewW8kPypjtPTk2wfyENXygif2r6on9w0obe0wIM"/>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-[10px] uppercase font-bold text-primary tracking-widest">Now Watching</p>
+<h4 class="text-label-lg text-on-surface truncate">Interstellar</h4>
+<div class="flex items-center gap-2 mt-1">
+<div class="flex-1 h-[2px] bg-white/10 rounded-full">
+<div class="h-full bg-primary w-2/3"></div>
+</div>
+<span class="text-[10px] text-on-surface-variant">1:42 / 2:49</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Interactions & Logic -->
+<script>
+        // Toggle Logic
+        const activeBtn = document.getElementById('activeToggle');
+        const inactiveBtn = document.getElementById('inactiveToggle');
+
+        activeBtn.addEventListener('click', () => {
+            activeBtn.classList.add('bg-primary', 'text-on-primary');
+            activeBtn.classList.remove('text-on-surface-variant');
+            inactiveBtn.classList.remove('bg-primary', 'text-on-primary');
+            inactiveBtn.classList.add('text-on-surface-variant');
+        });
+
+        inactiveBtn.addEventListener('click', () => {
+            inactiveBtn.classList.add('bg-primary', 'text-on-primary');
+            inactiveBtn.classList.remove('text-on-surface-variant');
+            activeBtn.classList.remove('bg-primary', 'text-on-primary');
+            activeBtn.classList.add('text-on-surface-variant');
+        });
+
+        // Remote Navigation Emulation (Focus handling)
+        document.addEventListener('keydown', (e) => {
+            const current = document.activeElement;
+            const focusables = Array.from(document.querySelectorAll('[tabindex="0"], a, button, input'));
+            const index = focusables.indexOf(current);
+
+            if (e.key === 'ArrowRight' && index < focusables.length - 1) {
+                focusables[index + 1].focus();
+            } else if (e.key === 'ArrowLeft' && index > 0) {
+                focusables[index - 1].focus();
+            }
+        });
+
+        // Micro-interaction: Sidebar focus expansion logic is handled by CSS (hover/focus-within)
+    </script>
+</body></html>

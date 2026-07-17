@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nanna IPTV Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(32px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .glass-card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 40px 40px -15px rgba(15, 23, 42, 0.08);
+            z-index: 10;
+        }
+        .glass-glow-focus:focus-within {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(0, 102, 138, 0.2);
+            border-color: #00668a;
+        }
+        body {
+            background-color: #f7f9fb;
+            overflow: hidden;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 102, 138, 0.1);
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 102, 138, 0.3);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#6e7980",
+                        "surface-container": "#eceef0",
+                        "on-secondary-container": "#5c647a",
+                        "on-tertiary": "#ffffff",
+                        "tertiary": "#516072",
+                        "surface-container-low": "#f2f4f6",
+                        "inverse-surface": "#2d3133",
+                        "tertiary-fixed-dim": "#b9c8de",
+                        "on-error": "#ffffff",
+                        "inverse-primary": "#7bd0ff",
+                        "on-primary-fixed": "#001e2c",
+                        "surface-dim": "#d8dadc",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#004965",
+                        "surface": "#f7f9fb",
+                        "on-background": "#191c1e",
+                        "on-tertiary-fixed": "#0d1c2d",
+                        "primary-fixed-dim": "#7bd0ff",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#364557",
+                        "tertiary-container": "#a3b2c7",
+                        "secondary": "#565e74",
+                        "on-surface": "#191c1e",
+                        "primary-fixed": "#c4e7ff",
+                        "inverse-on-surface": "#eff1f3",
+                        "surface-variant": "#e0e3e5",
+                        "surface-bright": "#f7f9fb",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "on-secondary-fixed": "#131b2e",
+                        "on-surface-variant": "#3e484f",
+                        "outline-variant": "#bdc8d1",
+                        "background": "#f7f9fb",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#004c69",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#e6e8ea",
+                        "secondary-fixed": "#dae2fd",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "tertiary-fixed": "#d4e4fa",
+                        "surface-container-lowest": "#ffffff",
+                        "primary": "#00668a",
+                        "surface-tint": "#00668a",
+                        "on-tertiary-fixed-variant": "#39485a",
+                        "primary-container": "#38bdf8",
+                        "secondary-container": "#dae2fd"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "24px",
+                        "gutter": "24px",
+                        "stack-sm": "12px",
+                        "edge-margin": "80px",
+                        "section-gap": "80px",
+                        "stack-lg": "48px"
+                    },
+                    "fontFamily": {
+                        "title-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "label-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "title-lg": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                        "headline-md": ["36px", {"lineHeight": "44px", "fontWeight": "600"}],
+                        "body-lg": ["24px", {"lineHeight": "32px", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "body-md": ["20px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-sm": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                        "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "label-lg": ["18px", {"lineHeight": "24px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-body-md text-on-surface bg-background">
+<!-- Sidebar Navigation Shell -->
+<nav class="h-screen w-64 fixed left-0 top-0 border-r border-white/20 bg-white/60 backdrop-blur-[60px] shadow-[40px_0_40px_-15px_rgba(15,23,42,0.08)] flex flex-col py-80px px-stack-md z-50">
+<div class="mb-12 px-2">
+<h1 class="font-headline-md text-headline-md font-bold text-primary">Premium IPTV</h1>
+<p class="text-on-surface-variant opacity-70 font-label-sm">Cinematic Experience</p>
+</div>
+<div class="flex flex-col gap-4">
+<button class="bg-primary text-on-primary rounded-xl scale-110 shadow-lg flex items-center gap-4 p-4 transition-all duration-300 ease-out group">
+<span class="material-symbols-outlined" data-icon="language">language</span>
+<span class="font-label-lg text-label-lg">Nepali</span>
+</button>
+<button class="text-on-surface-variant hover:bg-white/15 hover:scale-105 transition-transform duration-300 flex items-center gap-4 p-4 rounded-xl group">
+<span class="material-symbols-outlined" data-icon="translate">translate</span>
+<span class="font-label-lg text-label-lg">Hindi</span>
+</button>
+<button class="text-on-surface-variant hover:bg-white/15 hover:scale-105 transition-transform duration-300 flex items-center gap-4 p-4 rounded-xl group">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+<span class="font-label-lg text-label-lg">English</span>
+</button>
+<button class="text-on-surface-variant hover:bg-white/15 hover:scale-105 transition-transform duration-300 flex items-center gap-4 p-4 rounded-xl group">
+<span class="material-symbols-outlined" data-icon="movie_filter">movie_filter</span>
+<span class="font-label-lg text-label-lg">Bhojpuri</span>
+</button>
+</div>
+<div class="mt-auto p-4 flex items-center gap-4 glass-card rounded-2xl">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A clean professional studio portrait of a young user with a friendly expression, soft cinematic lighting, neutral gray background, high-end photography style consistent with a modern premium streaming app interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHmYqrs11bkEgdMwSCkTONEUYBaVZ-J4ygG3RjPnurpEt4xnjeD9x7HyAsb70xaqMeLa2XrPD_Wq_PhF0JEWzeOXvoCA2OsPUMWPFjU4aCIPzFPg6qR2UmJH4H3L1W5UgBNfE-nEmA65VLB7GWrSjrJSal6zIj2BeaJLJIvQd1g-PPDUMY1NzHctxKcXMe4OuF7xpf8_cb0evYoFL9Qf2U1aUkzP-6lIyrDxeXnCvLCihiwihNzUZcSfs9XBLMq64vFhFYZqL-7Cyb"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm font-bold">User Profile</span>
+<span class="text-[10px] text-primary">Premium Member</span>
+</div>
+</div>
+</nav>
+<!-- Top AppBar Shell -->
+<header class="fixed top-0 right-0 w-[calc(100%-256px)] h-24 bg-white/20 backdrop-blur-lg flex justify-between items-center px-80px z-40">
+<div class="flex items-center gap-8">
+<span class="font-title-lg text-title-lg font-black text-primary">Live Stream</span>
+<nav class="flex gap-6">
+<a class="text-primary border-b-4 border-primary pb-2 font-label-lg text-label-lg" href="#">Movies</a>
+<a class="text-on-secondary-container opacity-70 hover:text-primary transition-colors font-label-lg text-label-lg" href="#">Entertainment</a>
+<a class="text-on-secondary-container opacity-70 hover:text-primary transition-colors font-label-lg text-label-lg" href="#">News</a>
+<a class="text-on-secondary-container opacity-70 hover:text-primary transition-colors font-label-lg text-label-lg" href="#">Sports</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative flex items-center bg-white/40 rounded-full px-4 py-2 border border-white/40 glass-glow-focus">
+<span class="material-symbols-outlined text-outline" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-48 placeholder-outline/50" placeholder="Search channels..." type="text"/>
+</div>
+<div class="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+<span class="font-label-sm font-bold uppercase tracking-wider">Active</span>
+</div>
+<div class="flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container opacity-50">
+<span class="font-label-sm font-bold text-on-surface-variant uppercase tracking-wider">Inactive</span>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="ml-64 pt-24 pb-32 h-screen overflow-y-auto custom-scrollbar px-80px">
+<!-- Hero Featured Section -->
+<section class="mt-8 mb-12">
+<div class="relative w-full h-[400px] rounded-3xl overflow-hidden glass-card group">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A cinematic wide shot of a high-production value Nepali movie scene, featuring breathtaking Himalayan landscapes at sunset with golden light hitting the peaks. The overall mood is epic and premium, styled for a high-end IPTV background, with soft blur in the periphery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYJDsHRq06AjnOOtR6_521BdHdWJg5v9SUvI0SdX2WBHo9jLxRSOAovuStQuKffur_VdJqbEwwdQkM8yqn4Lya2E_SeY0lF3gB3bVoZTvtgXIL0VCdc9Mak9xb6o_qDURqwRmZJ5YCsIUjmY0ljTB3VnozSEho0iuI_clw7v3pNObeg0RLaOmAWQXb24KCPssbUaRSHu_pNYVm4dLUE2cug-gjA92AAfvVeUcxSEk0fzNMzYMz4-5sQzA4qMesvDpV49_6eeB2Liod"/>
+<div class="absolute bottom-0 left-0 p-12 z-20 w-2/3">
+<span class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-4 inline-block">Featured Channel</span>
+<h2 class="font-display-lg text-display-lg text-white mb-2 leading-tight">Kantipur TV HD</h2>
+<p class="text-white/80 font-body-lg mb-6 max-w-xl">Live: Morning News Bulletin & Exclusive Political Analysis. Stay informed with the nation's most trusted news source.</p>
+<div class="flex gap-4">
+<button class="bg-primary text-white px-8 py-3 rounded-full font-label-lg flex items-center gap-2 hover:bg-primary/90 transition-all shadow-lg">
+<span class="material-symbols-outlined" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+                            Watch Now
+                        </button>
+<button class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-3 rounded-full font-label-lg hover:bg-white/30 transition-all">
+                            View Schedule
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Channel Grid -->
+<section>
+<div class="flex justify-between items-end mb-8">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-background">Live Now</h3>
+<p class="text-on-surface-variant opacity-70">Popular channels in Nepali language</p>
+</div>
+<div class="flex gap-2">
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+</button>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined" data-icon="format_list_bulleted">format_list_bulleted</span>
+</button>
+</div>
+</div>
+<!-- Bento Grid of Channels -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-gutter">
+<!-- Channel Card 1 (Active) -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A high-definition 16:9 still from a Nepali news broadcast, showing a professional studio with modern LED screens and a focused news anchor. The lighting is crisp and the aesthetic is clean and corporate, dominated by light blues and whites." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOvctBI5OOvHfPz5SFjHzJMcIFeFGGgLQxocICKg0BAH7W12SOSOOS_nnONTfjiyd5sCy9mX39En47EGJ9pZzyRDLHPL5IbZJfnm37-n6BbMuVpsKe2ABS3jzcmqN_gQ1kHY_MGAVmT5Wo3yopZUaCV-GQJAt1W6QLs7lCkagg8yNVxhq4PxVQpQa7bROOi64ZueWAN5BDjCsf0v9_C1cu38HBucP-tpHXPO_lkayYbT9bWA4OBYvYqPBOOgzkJus7WlgDV6HEzOds"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[75%] shadow-[0_0_8px_rgba(0,102,138,0.8)]"></div>
+</div>
+<div class="absolute top-2 left-2 bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase animate-pulse">Live</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-primary">Image Channel</span>
+<span class="material-symbols-outlined text-primary text-sm" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Current: Evening News with Bharat</p>
+</div>
+</div>
+<!-- Channel Card 2 (Active) -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A vibrant still from a Nepali music video channel, featuring traditional dancers in colorful ethnic wear against a lush green mountain backdrop. Bright, sunny lighting and high saturation to pop against the light UI." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBldogSMqH2CauvEYz3VyGcY0CTG9wTHqIqaM_TITPd35jyv7-EEd8xXvIj-2hYiIdl3rEqIOcWTImnwC9O1iwQiaavz_xxImFYYNQbsjQtb0plfvqf_CBuKtk95lr06GaFwnrI8OPdkohs1jsS63E5yse_aY1NLunO-ejivNJ134nxk-gXyQf6NDRtUx9IDGfBF4u47FUBIUVomNAve3s_yHm4WFigf8h6KRSxu58eOVsbbsG1tqzv5hIqWv78M6j3UeRINlHy7r6"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[40%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Music Nepal</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Non-stop Folk Hits</p>
+</div>
+</div>
+<!-- Channel Card 3 (Active) -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A dynamic action shot from a football match, featuring players in bright jerseys under stadium floodlights. Crisp photography, high contrast, focused on a goal celebration, giving a high-energy sports broadcasting feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbgQSHeHns1kG4hA1l7tsST0cOhqOjLOIlsQJ8C_Wtqj64WopxvTXn4BTBRakmhrHXP5vqOTY2UlL-9jcHjxXoT8ampHw0rbxdLeXnAHspj_bnPojVLUDbNNIZIgw2EdI5TQoQ8JXR4T6Dd7ooK3o1obsicHbn3-GHaBP6cDQpg9SxqTtC8c7v7VJ0XgukykJEOyx-u-iM30lIIcGVGex12I5UmK7ZlCeBKio1YCzkczx63-AJKdWjwEjmizPaD82CSLIm0Km9RzUw"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[90%]"></div>
+</div>
+<div class="absolute top-2 left-2 bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">Live</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Action Sports</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Local League: Round 12</p>
+</div>
+</div>
+<!-- Channel Card 4 (Active) -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A peaceful and serene cinematic shot of a spiritual documentary, showing incense smoke rising in a Buddhist monastery with soft morning light streaming through windows. Calm, ethereal atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiy614US3UOqUg6PbWxjQIsUl08Iou13kQXLc5760-INDPSg2VY1azWi_cDu5FspYBa7AVNdQJgt4CkqpRFXWUKAqGz1aei0e_VKyLzxNucZdstbfG9P1hCPWqgkkhPn6LOTqu26zAclz75TxseUMRx3r-N1AY9RQUePk_BG8ugVYf4koQkxgnKI4ruj9oaMd5JjN30OgaMgt0hrj29e1zJzVAjsWL1P_LVj-PtOiw4wmzCfdMOKC8hjV-n563tvV1KBvI2DYn_IsM"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[15%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Bhakti TV</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Morning Mantras</p>
+</div>
+</div>
+<!-- Channel Card 5 (Active) -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A cooking show still featuring a chef preparing traditional Nepali cuisine in a modern, brightly lit kitchen. Fresh ingredients, high-detail macro shots of food, professional culinary aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP4MJ2b2JpI-qDCGK4MVaix_n3jErwOdfvTKqYWVXVXiZT2z8fVoAheoWHdNJLbnU9qvkbQ5WXGhaGdxtBk9jxosLFGjI0oFbqoowfGtIccIvTynk-B-Zn_SaF8Ri-U0M2V5wXeORMXBaUBk4FSfKRNegljFf1xLntnl7GpNGlaYNWrCtWzQqzRZR_PjSTercdh0Yc6yTYvsq_saITPHfHbZ5hdBbmH9tqudbg2iQoGc31OlOpbiapHimioQ1YiN6zoq1pFTs4VrQ-"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[60%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Swaad Channel</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Next: Momo Masterclass</p>
+</div>
+</div>
+<!-- More cards can be generated similarly -->
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A lively entertainment talk show set with vibrant neon accents and comfortable seating. The hosts are laughing, and the set is brightly lit with high production value colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHSpZ3Q0op5ikazPnjo9vjE5QPnaqTKchnVnZPT08OYWYQzCTXCojtcq2s1bTOp5aCm7depVXwy-d1ZsaS4mgOGM6yhGDYwqf1R6Rh7wsl_54jZnPA6a31o24uARsV-SaZDzVfuRGaBjDnHPbzOQS4GKaWDDCZ7ocKBX0voN-rhdkyyEUnT05zezJOd71J-72mNsEgioNoHohzhTEm3xgcQRDig_AD4VytrphtAL2DceOl2pTZcF1rEBLrsY_1EROx0X3B0okzHb6H"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[30%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Mero TV</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Comedy Club Live</p>
+</div>
+</div>
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A tech review segment showing high-end gadgets on a clean white desk. Minimalist framing, professional softbox lighting, high-key light mode style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkUsAeUV3Er8zokyod_M8PwoF8CgD3sE6ceJH6sj6wohVjmbv4P74h8QLLm3TBdylpT1w0DgpTajInl9NPo6l3i4pYkBMoqVpqM-rsOvmStgc1501q0qfzeQMet9zJFBweZs3DiG9YgySfvQ1UXgY6tNQoxcQKkdIelGv1vlCVGtLVByft9647FD33QJgzYXekQsf5SAtseOD7ERGN2B01pTyQuJ27jpvYv4aDhaILvqhQAWoobfiFajwRF5jPN-auSCjh3KBaQpoo"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[85%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Tech Nepal</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Weekly Mobile Reviews</p>
+</div>
+</div>
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A nature documentary still showing a close-up of a tiger in the jungle. High detail on the fur and whiskers, lush greens and organic earth tones, National Geographic style photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQz8mUkG5LQtZNrLf4kA372kJSTvKiLsHaqg1u4ZVVFoGrnspUZ9kA-lRqSy7equC-uGj7dCKY2UBlO4ql4ORR-SkFZUK626227yRb0ayqKxMztQmsia5xC6VWZnQJLIobFltdwh64S4KwNOvpAXyytsRuwmpj7TD011wbW8-TcqHlhp85XvFnCzTm654A5Zpk1Nv6dYNG85cDDBA3kkfk2hgotnxQJdpROyEVlsCgq0Qi3bD_7fBAODf2_MD09hYAA4h3aavfJ4vL"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[10%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Prakriti HD</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Wilds of Terai</p>
+</div>
+</div>
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer opacity-70">
+<div class="aspect-video relative overflow-hidden bg-surface-dim grayscale">
+<img class="w-full h-full object-cover" data-alt="A vintage black and white movie scene with dramatic lighting and high grain. Classic cinema aesthetic for an inactive or classic movies channel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTx2dFXpjq1bX8rCefJLN_3NZW-6v2G4f2KLzg5nl_vukiHNyaohRRKpIConW-GX1PD8f5VE1KP3Fie4ifIZpxz6retYS6F8-dGWMuNjaINsrbVH2yPsq2vvyfB5jzHsho8r5dHo2ms3QHdbvj6Xn4XfOZsQ2U0uZkbrrUWHVrvZkp6Mmq_d8zo9x3ZYXT5MeIcV-tp5go3DZV2jpR2uhN1bq0AVEqCjC14Bli4nZFMyFqomH9DQX2R_0cJSf6nSrqjYOnYqI1hNTD"/>
+<div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-4xl" data-icon="lock">lock</span>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface-variant">Classic Hits</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Starts in 2 hours</p>
+</div>
+</div>
+<div class="glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer">
+<div class="aspect-video relative overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A children's animation still with bright primary colors and cute expressive characters. Fun, playful, and high-energy visual style suited for a kids' channel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5oP7hBwg9KmfLU0B056FDl4pEsr72ZsAoc80hawtTRm8eGOfPByAIU6ybVu8er6Qp2CICYbsCoFsxk38Y50ZTJ3Kee5C0y3SgnqPut1tlaLPIk1QHvtINgeUeD6FI-EG4fu7RArjqUmma66JSuR4rid3lI8JFV0pJSh4QmgiA0M2FelrIMDJWlCEPMTYi9Jw9eyR0mh0Uw7qmOxs97N0UtKPuTnYW8FJ6rnOJ-DbFRB9HYJvw2u57VHC4g6xSmpz280eMYOFpJVO7"/>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-surface-variant">
+<div class="h-full bg-primary w-[50%]"></div>
+</div>
+</div>
+<div class="p-4">
+<div class="flex justify-between items-start mb-1">
+<span class="font-label-lg text-on-surface">Bal Sansar</span>
+</div>
+<p class="text-on-surface-variant font-label-sm truncate">Toon Time</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Now Watching Status Bar (Bottom) -->
+<footer class="fixed bottom-0 right-0 w-[calc(100%-256px)] h-20 bg-white/60 backdrop-blur-3xl border-t border-white/30 z-50 px-8 flex items-center justify-between shadow-[0_-20px_40px_rgba(0,0,0,0.05)]">
+<div class="flex items-center gap-4">
+<div class="w-24 h-14 rounded-lg overflow-hidden bg-black flex-shrink-0 group relative cursor-pointer">
+<img class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" data-alt="A high-production value Nepali movie scene, featuring breathtaking Himalayan landscapes at sunset with golden light hitting the peaks. Small thumbnail version for the mini-player." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU-W3AyDMB0jZiH8PeTPSxMio0f4ilTWmYUQweDhr34La1FOuRbCdMAwRrhZXklJZfbQzRSofHsaLHZvYFgtVutYHyljki7kjbiVwMNhwWVcPDq-d55I2bTHTc0jenvtDN7vU61OiWk-oS07n4NyZcSYcE1rktEyNMEqyQNsCJQPYZi7FSYrP7LEuXIBtYB34eaHCn11ALBuWN8HMhEwUXtXTwtUXMAD0m5dJnSr5XWJMMpeNxwJeirlEO7WvWLai7gvxA6XPoKr8h"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-xl" data-icon="play_circle" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+</div>
+</div>
+<div>
+<p class="text-xs text-primary font-bold uppercase tracking-widest">Now Watching</p>
+<h4 class="font-label-lg text-on-surface leading-tight">Kantipur TV HD - Morning Bulletin</h4>
+<p class="text-xs text-on-surface-variant opacity-60">08:45 / 09:30 (45 mins remaining)</p>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="skip_previous">skip_previous</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform shadow-md">
+<span class="material-symbols-outlined" data-icon="pause" style="font-variation-settings: 'FILL' 1;">pause</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="skip_next">skip_next</span>
+</button>
+</div>
+<div class="h-8 w-px bg-outline-variant/30 mx-2"></div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="volume_up">volume_up</span>
+<div class="w-24 h-1.5 bg-surface-container rounded-full relative overflow-hidden">
+<div class="absolute top-0 left-0 h-full w-[70%] bg-primary"></div>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary-container p-2 rounded-lg hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined" data-icon="fullscreen">fullscreen</span>
+</button>
+</div>
+</footer>
+<script>
+        // Micro-interactions for hover effects and active states
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                // Potential expansion of details or play buttons
+            });
+        });
+
+        // Simple Tab Logic for Active/Inactive
+        const activeBtn = document.querySelector('.bg-primary\\/10');
+        const inactiveBtn = document.querySelector('.bg-surface-container');
+        
+        inactiveBtn.addEventListener('click', () => {
+            // Swap classes to show state change
+            alert("Switching to inactive channels view...");
+        });
+    </script>
+</body></html>
