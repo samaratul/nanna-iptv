@@ -97,7 +97,7 @@ object DefaultChannelData {
                     Channel("Star World Premiere"), Channel("Romedy Now"), Channel("FX"), Channel("AXN"), Channel("Warner TV")
                 )),
                 SubCategory("Movies", listOf(
-                    Channel("HBO", logoUrl = "https://logo.clearbit.com/hbo.com"), 
+                    Channel("HBO", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png"), 
                     Channel("Star Movies"), Channel("Sony Pix"), Channel("Movies Now"), 
                     Channel("Warner TV"), Channel("Star Movies Select"), Channel("&Flix"), Channel("Movies Now 2"), 
                     Channel("MGM HD"), Channel("TCM")
@@ -107,8 +107,8 @@ object DefaultChannelData {
                     Channel("MTV Live HD")
                 )),
                 SubCategory("News", listOf(
-                    Channel("BBC World News", logoUrl = "https://logo.clearbit.com/bbc.com"), 
-                    Channel("CNN International", logoUrl = "https://logo.clearbit.com/cnn.com"), Channel("Al Jazeera English"), 
+                    Channel("BBC World News", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png"), 
+                    Channel("CNN International", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png"), Channel("Al Jazeera English"), 
                     Channel("NDTV 24x7"), Channel("Republic World"), Channel("Times Now"), Channel("CNN-News18"), 
                     Channel("DW News"), Channel("France 24"), Channel("RT News"), Channel("Sky News"), Channel("ABC Australia")
                 )),
@@ -120,7 +120,7 @@ object DefaultChannelData {
                     Channel("God TV (English Christian channel)"), Channel("Faith World TV")
                 )),
                 SubCategory("Others (Kids/Infotainment)", listOf(
-                    Channel("Cartoon Network", logoUrl = "https://logo.clearbit.com/cartoonnetwork.com"), 
+                    Channel("Cartoon Network", logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png"), 
                     Channel("Disney Channel"), Channel("Discovery Channel"), 
                     Channel("National Geographic"), Channel("Animal Planet"), Channel("Nat Geo Wild"), 
                     Channel("Nick HD+"), Channel("Baby TV"), Channel("Discovery Science"), 

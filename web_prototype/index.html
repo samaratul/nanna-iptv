@@ -96,9 +96,9 @@
                 subCategories: [
                     { genre: "Sports", channels: [{name: "Star Sports 1 (English)"}, {name: "Sony Sports Ten 1/3/4"}, {name: "Eurosport"}, {name: "Star Sports Select 1/2"}, {name: "Premier Sports"}, {name: "Sky Sports"}, {name: "Sony Sports Ten 5"}] },
                     { genre: "Entertainment", channels: [{name: "Zee Cafe"}, {name: "Star World"}, {name: "Colors Infinity"}, {name: "Comedy Central"}, {name: "Star World Premiere"}, {name: "Romedy Now"}, {name: "FX"}, {name: "AXN"}, {name: "Warner TV"}] },
-                    { genre: "Movies", channels: [{name: "HBO", logoUrl: "https://logo.clearbit.com/hbo.com"}, {name: "Star Movies"}, {name: "Sony Pix"}, {name: "Movies Now"}, {name: "Warner TV"}, {name: "Star Movies Select"}, {name: "&Flix"}, {name: "Movies Now 2"}, {name: "MGM HD"}, {name: "TCM"}] },
-                    { genre: "News", channels: [{name: "BBC World News", logoUrl: "https://logo.clearbit.com/bbc.com"}, {name: "CNN International", logoUrl: "https://logo.clearbit.com/cnn.com"}, {name: "Al Jazeera English"}, {name: "NDTV 24x7"}, {name: "Republic World"}, {name: "Times Now"}] },
-                    { genre: "Kids", channels: [{name: "Cartoon Network", logoUrl: "https://logo.clearbit.com/cartoonnetwork.com"}, {name: "Disney Channel"}] }
+                    { genre: "Movies", channels: [{name: "HBO", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png"}, {name: "Star Movies"}, {name: "Sony Pix"}, {name: "Movies Now"}, {name: "Warner TV"}, {name: "Star Movies Select"}, {name: "&Flix"}, {name: "Movies Now 2"}, {name: "MGM HD"}, {name: "TCM"}] },
+                    { genre: "News", channels: [{name: "BBC World News", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png"}, {name: "CNN International", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png"}, {name: "Al Jazeera English"}, {name: "NDTV 24x7"}, {name: "Republic World"}, {name: "Times Now"}] },
+                    { genre: "Kids", channels: [{name: "Cartoon Network", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png"}, {name: "Disney Channel"}] }
                 ]
             },
             {
@@ -171,6 +171,10 @@
                     img.src = ch.logoUrl;
                     img.alt = ch.name;
                     img.className = 'max-w-full max-h-full object-contain';
+                    img.onerror = function() {
+                        this.style.display = 'none';
+                        card.innerText = ch.name;
+                    };
                     card.appendChild(img);
                 } else {
                     card.innerText = ch.name;
