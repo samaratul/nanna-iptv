@@ -168,7 +168,8 @@
                         
                         // parse group-title (Genre)
                         let groupMatch = line.match(/group-title="([^"]+)"/);
-                        let group = groupMatch ? groupMatch[1] : "General";
+                        let rawGroup = groupMatch ? groupMatch[1] : "General";
+                        let group = rawGroup.includes(' - ') ? rawGroup.split(' - ')[1].trim() : rawGroup;
                         
                         // parse tvg-language (Language)
                         let langMatch = line.match(/tvg-language="([^"]+)"/);
@@ -385,8 +386,9 @@
             settingsOverlay.classList.remove('active');
         });
 
-        // Initialize with local playlist to bypass GitHub cache during development
-        loadPlaylist('./playlist.m3u');
+        // Initialize with local playlist and cache-buster
+        const timestamp = new Date().getTime();
+        loadPlaylist('./playlist.m3u?t=' + timestamp);
     </script>
 </body>
 </html>
