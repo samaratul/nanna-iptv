@@ -1,6 +1,6 @@
 # Stream Check Report
 
-Checked **196** streams — **103 working**, **93 dead** (47.4% dead).
+Checked **196** streams — **102 working**, **94 dead** (48.0% dead).
 
 ## Bhojpuri - Entertainment (2/2 working)
 - ✅ all working
@@ -48,22 +48,22 @@ Checked **196** streams — **103 working**, **93 dead** (47.4% dead).
   `http://103.161.153.165:8000/play/mnh/index.m3u8`
 - ❌ **Zee Cafe HD [India]** — connection error: timed out  
   `http://103.72.101.252:8080/live/1319.m3u8`
-- ❌ **&flix HD [India]** — connection error: timed out  
-  `http://103.72.101.252:8080/live/1322.m3u8`
-- ❌ **Star Movies Select HD [India]** — connection error: timed out  
-  `http://149.71.34.166:8000/play/a01g/index.m3u8`
-- ❌ **Movies Now + HD [India]** — connection error: timed out  
-  `http://149.71.34.166:8000/play/a05t/index.m3u8`
 - ❌ **Star Movies HD [India]** — connection error: timed out  
   `http://149.71.34.166:8000/play/a01f/index.m3u8`
+- ❌ **Movies Now + HD [India]** — connection error: timed out  
+  `http://149.71.34.166:8000/play/a05t/index.m3u8`
 - ❌ **MNX HD [India]** — connection error: timed out  
   `http://149.71.34.166:8000/play/a05u/index.m3u8`
+- ❌ **Star Movies Select HD [India]** — connection error: timed out  
+  `http://149.71.34.166:8000/play/a01g/index.m3u8`
+- ❌ **&flix HD [India]** — connection error: timed out  
+  `http://103.72.101.252:8080/live/1322.m3u8`
 
 ## English - News (13/17 working)
-- ❌ **Mirror Now HD [India]** — no http(s) url  
-  `#EXTVLCOPT:http-referrer=https://www.timesnownews.com/`
 - ❌ **Northeast Live HD [India]** — no http(s) url  
   `#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html`
+- ❌ **Mirror Now HD [India]** — no http(s) url  
+  `#EXTVLCOPT:http-referrer=https://www.timesnownews.com/`
 - ❌ **Times Now HD [Geo-blocked] [India]** — no http(s) url  
   `#EXTVLCOPT:http-referrer=https://www.timesnownews.com/`
 - ❌ **Times Now World HD [India]** — connection error: timed out  
@@ -78,10 +78,10 @@ Checked **196** streams — **103 working**, **93 dead** (47.4% dead).
 ## Hindi - Devotional (11/19 working)
 - ❌ **Sanskar TV HD [India]** — HTTP 403  
   `https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8`
-- ❌ **Sanskar USA HD [India]** — HTTP 403  
-  `https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8`
 - ❌ **Sanskar UK HD [India]** — HTTP 403  
   `https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8`
+- ❌ **Sanskar USA HD [India]** — HTTP 403  
+  `https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8`
 - ❌ **Sanskar Web TV HD [India]** — HTTP 403  
   `https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8`
 - ❌ **Satsang TV HD [India]** — HTTP 403  
@@ -94,10 +94,10 @@ Checked **196** streams — **103 working**, **93 dead** (47.4% dead).
   `http://103.213.31.109:90/AasthaSD/playlist.m3u8`
 
 ## Hindi - Entertainment (8/19 working)
-- ❌ **Sony Entertainment Television HD [India]** — HTTP 400  
-  `http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&pass=krish-ka&uid=gana-sunega`
 - ❌ **Zee Comedy Nation HD [India]** — HTTP 403  
   `https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8`
+- ❌ **Sony Entertainment Television HD [India]** — HTTP 400  
+  `http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&pass=krish-ka&uid=gana-sunega`
 - ❌ **Zee Dil Se HD [India]** — HTTP 403  
   `https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8`
 - ❌ **Zee Horror Nights HD [India]** — HTTP 403  
@@ -194,15 +194,17 @@ Checked **196** streams — **103 working**, **93 dead** (47.4% dead).
 ## Nepali - Devotional (2/2 working)
 - ✅ all working
 
-## Nepali - Entertainment (4/17 working)
-- ❌ **Bagmati TV SD [Nepal]** — HTTP 404  
-  `http://maxotts.maxdigitaltv.com/x-media/C167/master.m3u8`
-- ❌ **City One Television HD [Nepal]** — HTTP 404  
-  `http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8`
+## Nepali - Entertainment (3/17 working)
 - ❌ **AP1 TV HD [Nepal]** — HTTP 404  
   `http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8`
+- ❌ **City One Television HD [Nepal]** — HTTP 404  
+  `http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8`
 - ❌ **Dhaulagiri Television SD [Nepal]** — HTTP 404  
   `http://maxotts.maxdigitaltv.com/x-media/C117/master.m3u8`
+- ❌ **Bagmati TV SD [Nepal]** — HTTP 404  
+  `http://maxotts.maxdigitaltv.com/x-media/C167/master.m3u8`
+- ❌ **Capital TV HD [Nepal]** — HTTP 404  
+  `https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8`
 - ❌ **METV HD [Nepal]** — HTTP 404  
   `http://maxotts.maxdigitaltv.com/x-media/C168/master.m3u8`
 - ❌ **Indigenous Television HD [Nepal]** — HTTP 403  
