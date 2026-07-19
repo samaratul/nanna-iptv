@@ -41,8 +41,8 @@ fun DashboardScreen(
             .background(
                 brush = Brush.verticalGradient(
                     colors = listOf(
-                        Color(0xFF0F172A), // Midnight Blue
-                        Color(0xFF020617)  // Deepest Dark
+                        Color(0xFFF8FAFC), // Very soft slate white
+                        Color(0xFFE2E8F0)  // Soft slate gray
                     )
                 )
             )
@@ -52,7 +52,7 @@ fun DashboardScreen(
             modifier = Modifier
                 .width(220.dp)
                 .fillMaxHeight()
-                .background(Color.White.copy(alpha = 0.03f))
+                .background(Color.White.copy(alpha = 0.4f))
                 .padding(20.dp)
         ) {
             TvLazyColumn(
@@ -65,7 +65,7 @@ fun DashboardScreen(
                             fontWeight = FontWeight.ExtraBold,
                             letterSpacing = 1.sp
                         ),
-                        color = Color(0xFF60A5FA), // Neon Blue accent
+                        color = Color(0xFF2563EB), // Deep Blue accent for contrast
                         modifier = Modifier.padding(bottom = 24.dp, top = 8.dp)
                     )
                 }
@@ -78,9 +78,9 @@ fun DashboardScreen(
                         onClick = { selectedLanguageIndex = index },
                         shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
                         colors = ClickableSurfaceDefaults.colors(
-                            containerColor = if (selectedLanguageIndex == index) Color.White.copy(alpha = 0.1f) else Color.Transparent,
+                            containerColor = if (selectedLanguageIndex == index) Color.White else Color.Transparent,
                             focusedContainerColor = Color(0xFF3B82F6),
-                            contentColor = if (selectedLanguageIndex == index) Color.White else Color.LightGray,
+                            contentColor = if (selectedLanguageIndex == index) Color(0xFF1E293B) else Color(0xFF64748B),
                             focusedContentColor = Color.White
                         ),
                         modifier = Modifier
@@ -119,7 +119,7 @@ fun DashboardScreen(
                         Text(
                             text = "${currentLangGroup.language} Channels",
                             style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
-                            color = Color.White,
+                            color = Color(0xFF0F172A),
                             modifier = Modifier.padding(bottom = 16.dp)
                         )
                     }
@@ -132,7 +132,7 @@ fun DashboardScreen(
                                     fontWeight = FontWeight.SemiBold,
                                     letterSpacing = 0.5.sp
                                 ),
-                                color = Color.White.copy(alpha = 0.7f),
+                                color = Color(0xFF475569),
                                 modifier = Modifier.padding(top = 16.dp, bottom = 8.dp, start = 4.dp)
                             )
                         }
@@ -146,7 +146,7 @@ fun DashboardScreen(
                     }
                 }
             } else {
-                Text("No channels available.", color = Color.White.copy(alpha = 0.5f))
+                Text("No channels available.", color = Color(0xFF64748B))
             }
         }
     }
@@ -165,9 +165,10 @@ fun ChannelCard(
         onClick = onClick,
         shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
         colors = ClickableSurfaceDefaults.colors(
-            containerColor = Color(0xFF1E293B).copy(alpha = 0.4f), // Translucent card
+            containerColor = Color.White.copy(alpha = 0.7f), // Light translucent card
             focusedContainerColor = Color(0xFF3B82F6), // Blue glow on focus
-            contentColor = Color.White
+            contentColor = Color(0xFF1E293B), // Dark text normally
+            focusedContentColor = Color.White // White text on focus
         ),
         modifier = Modifier
             .fillMaxWidth()
@@ -182,7 +183,7 @@ fun ChannelCard(
                     .fillMaxSize()
                     .background(
                         Brush.verticalGradient(
-                            colors = listOf(Color.Transparent, Color.Black.copy(alpha = 0.6f))
+                            colors = listOf(Color.Transparent, if (isFocused) Color.Transparent else Color.White.copy(alpha = 0.9f))
                         )
                     )
             )
@@ -206,10 +207,10 @@ fun ChannelCard(
                         modifier = Modifier
                             .size(48.dp)
                             .padding(bottom = 8.dp)
-                            .background(Color.White.copy(alpha = 0.1f), shape = RoundedCornerShape(8.dp)),
+                            .background(Color(0xFFCBD5E1), shape = RoundedCornerShape(8.dp)),
                         contentAlignment = Alignment.Center
                     ) {
-                        Text("TV", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                        Text("TV", color = Color(0xFF475569), fontWeight = FontWeight.Bold, fontSize = 14.sp)
                     }
                 }
                 Text(
