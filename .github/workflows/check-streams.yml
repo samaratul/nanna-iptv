@@ -40,10 +40,7 @@ jobs:
       - name: Run dual-bucket pipeline
         id: check
         run: |
-          cd scripts
-          python build_large_bucket.py
-          mv bucket_public.m3u8 ..
-          cd ..
+          python scripts/build_large_bucket.py
           
           # Check all public links (allow very high failure rates since it's a massive raw list)
           python check_streams.py bucket_public.m3u8 --fail-threshold 95
@@ -52,10 +49,7 @@ jobs:
           mv playlist_working.m3u8 bucket_public_working.m3u8
           
           # Build the curated 280-channel UI bucket
-          cd scripts
-          python build_small_bucket.py
-          mv playlist_working.m3u8 ..
-          cd ..
+          python scripts/build_small_bucket.py
         continue-on-error: true   # capture failure but still commit/report
 
       - name: Commit updated reports and buckets
