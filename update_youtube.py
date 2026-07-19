@@ -4,12 +4,16 @@ import urllib.request
 import yt_dlp
 
 YOUTUBE_CHANNELS = {
-    'Aaj Tak': 'https://www.youtube.com/@aajtak/live',
+    'Aaj Tak': 'https://www.youtube.com/channel/UCt4t-jeY85JegMlZ-E5UWtA/live',
+    'ABP News': 'https://www.youtube.com/channel/UCRWFSbif-RFENbBrSiez1DA/live',
+    'Al Jazeera HD': 'https://www.youtube.com/aljazeeraenglish/live',
+    'France 24': 'https://www.youtube.com/@France24_en/live',
+    'TRT World HD': 'https://www.youtube.com/c/trtworld/live',
+    'Kantipur Max HD': 'https://www.youtube.com/channel/UC3yDoaqQzOd1bNP74ZrGPTA/live',
+    'Kantipur HD': 'https://www.youtube.com/channel/UC3yDoaqQzOd1bNP74ZrGPTA/live',
+    'Kantipur TV HD': 'https://www.youtube.com/channel/UC3yDoaqQzOd1bNP74ZrGPTA/live',
     'NDTV 24x7': 'https://www.youtube.com/@NDTV/live',
-    'ABP News': 'https://www.youtube.com/@abpnews/live',
-    'Al Jazeera HD': 'https://www.youtube.com/@aljazeeraenglish/live',
     'India Today': 'https://www.youtube.com/@indiatoday/live',
-    'Kantipur HD': 'https://www.youtube.com/@kantipurtvhd/live',
     'News 24': 'https://www.youtube.com/@news24tvchannel/live'
 }
 
