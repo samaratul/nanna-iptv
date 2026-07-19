@@ -48,7 +48,7 @@ def build_playlist():
     # We will group them by their category
     categories = {}
     for stream in original_streams:
-        cat = stream.get('group-title', 'Uncategorized')
+        cat = stream.get('category') or 'Uncategorized'
         if cat not in categories:
             categories[cat] = []
         categories[cat].append(stream)
