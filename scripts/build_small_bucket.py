@@ -53,13 +53,18 @@ for line in lines:
                 for target in target_list:
                     if target.lower() in name_lower:
                         # Found a match!
-                        # We deduplicate by exact channel name (so we get both Goldmines Action and Goldmines Bollywood,
-                        # but only one version of 'Star Plus HD').
-                        # If we already have this channel name, only replace it if this one is HD and the old one isn't.
-                        existing = final_buckets[lang][genre].get(current_name)
+                        # We deduplicate by the exact TARGET name from JSON.
+                        # If we already have a stream for this target, only replace it if this one is HD and the old one isn't.
+                        existing = final_buckets[lang][genre].get(target)
                         if not existing or (is_hd and not existing['is_hd']):
-                            final_buckets[lang][genre][current_name] = {
-                                'extinf': current_extinf,
+                            # Rewrite the EXTINF name to perfectly match the requested target string
+                            import re
+                            new_extinf = current_extinf
+                            # Replace the channel name (everything after the last comma) with the target
+                            new_extinf = re.sub(r',(.*)$', f',{target}', new_extinf)
+                            
+                            final_buckets[lang][genre][target] = {
+                                'extinf': new_extinf,
                                 'url': url,
                                 'is_hd': is_hd
                             }

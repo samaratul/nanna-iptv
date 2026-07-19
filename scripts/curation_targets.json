@@ -1,23 +1,23 @@
 {
   "Nepali": {
-    "Entertainment": ["Kantipur Max", "Nari", "Indreni", "GNN", "Prime TV"],
+    "Entertainment": ["Kantipur Max HD", "Nari HD", "Indreni TV", "GNN", "Prime TV"],
     "Movies": ["A1 TV", "Mega Gold", "Kasthamandap Gold"],
-    "Sports": ["Himalaya Sports", "Action Sports"],
-    "News": ["Nepal TV", "NTV", "Kantipur", "AP1", "Himalaya TV", "News 24", "Image", "Sagarmatha", "Avenues", "ABC News", "Mountain TV", "Janata TV", "Channel 4"],
-    "Infotainment/Other": ["Indigenous", "Nepal Mandal", "Bodhi TV", "Krishi TV", "Business Plus", "Dharma TV", "Deep Television"]
+    "Sports": ["Himalaya Sports HD", "Action Sports HD"],
+    "News": ["Nepal TV HD", "NTV News/Plus HD", "Kantipur HD", "AP1 HD", "Himalaya TV HD", "News 24", "Image HD", "Sagarmatha TV", "Avenues TV", "ABC News", "Mountain TV", "Janata TV", "Channel 4 Nepal"],
+    "Infotainment/Other": ["Indigenous Television", "Nepal Mandal", "Bodhi TV", "Krishi TV", "Business Plus", "Dharma TV", "Deep Television"]
   },
   "Hindi": {
-    "Entertainment": ["Star Plus", "Star Bharat", "Sony Entertainment", "Sony SAB", "Zee TV", "Colors", "&TV", "Colors Rishtey", "Zee Cafe"],
-    "Movies": ["Star Gold", "Zee Cinema", "Sony Max", "&Pictures", "Colors Cineplex", "B4U", "Zee Anmol", "Star Utsav", "Sony PAL"],
-    "Sports": ["Star Sports", "Sony Ten"],
-    "News": ["Aaj Tak", "News 18", "ABP", "NDTV", "Zee News", "India Today", "WION"]
+    "Entertainment": ["Star Plus HD", "Star Bharat HD", "Sony Entertainment HD", "Sony SAB HD", "Zee TV HD", "Colors HD", "&TV HD", "Colors Rishtey", "Zee Cafe"],
+    "Movies": ["Star Gold HD", "Zee Cinema HD", "Sony Max HD", "&Pictures HD", "Colors Cineplex HD", "B4U Movies", "Zee Anmol", "Star Utsav", "Sony PAL"],
+    "Sports": ["Star Sports 1 HD", "Star Sports 2 HD", "Star Sports 3 HD", "Star Sports Select HD", "Sony Ten 1 HD", "Sony Ten 2 HD", "Sony Ten 3 HD", "Sony Ten 5 HD"],
+    "News": ["Aaj Tak", "News 18", "ABP News", "NDTV 24x7", "Zee News", "India Today", "WION"]
   },
   "English": {
     "Entertainment": ["Comedy Central", "AXN", "Romedy Now"],
-    "Movies": ["Star Movies", "Sony Pix"],
-    "News": ["BBC News", "CNN", "Al Jazeera", "TRT World", "France 24", "CGTN", "RT English", "ABC Australia"],
-    "Infotainment": ["National Geographic", "Nat Geo", "Discovery", "Animal Planet", "TLC", "Sony BBC Earth", "History"],
-    "Kids": ["Nickelodeon", "Nick Jr", "Pogo", "Cartoon Network", "Disney", "Sony YAY", "Hungama"]
+    "Movies": ["Star Movies HD", "Star Movies Select HD", "Sony Pix"],
+    "News": ["BBC News", "CNN", "Al Jazeera HD", "TRT World HD", "France 24", "CGTN News HD", "RT English", "ABC Australia"],
+    "Infotainment": ["National Geographic HD", "Nat Geo Wild HD", "Discovery HD", "Animal Planet HD", "TLC", "Sony BBC Earth HD", "History TV18"],
+    "Kids": ["Nickelodeon HD", "Nick Jr", "Pogo", "Cartoon Network HD+", "Disney International HD", "Sony YAY!", "Hungama"]
   },
   "Bhojpuri": {
     "General/Movies": ["B4U Bhojpuri", "Goldmines"]
