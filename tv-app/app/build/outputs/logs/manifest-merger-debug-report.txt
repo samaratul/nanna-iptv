@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.media3:media3-ui:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\7f3117f45ca103187282bbe631dbf346\transformed\jetified-media3-ui-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media3:media3-extractor:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\013bc719496b5db0fa372bb305cd8d97\transformed\jetified-media3-extractor-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media3:media3-container:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\f69fd8790bec10fd579390cc5076a2ea\transformed\jetified-media3-container-1.2.0\AndroidManifest.xml:17:1-22:12
@@ -93,8 +93,8 @@ ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:11:9-49
 application
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-29:19
-INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-29:19
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-30:19
+INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-30:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
@@ -112,33 +112,35 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Atul Upadhyaya\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:18:9-41
 	android:icon
 		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:16:9-45
 	android:allowBackup
 		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:15:9-35
+	android:banner
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:17:9-45
 	android:theme
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:19:9-47
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:20:9-47
 activity#com.samaratul.nannaiptv.MainActivity
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:exported
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:23:13-36
 	android:theme
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:23:13-51
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:24:13-51
 	android:name
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:17-86
+ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:27:17-86
 	android:name
-		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:27-83
+		ADDED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:27:27-83
 uses-sdk
 INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml

@@ -1,0 +1,165 @@
+# Verified 280-Channel Lineup
+
+
+## ENGLISH (70 Channels)
+- CGTN (1080p)
+- CGTN Documentary (1080p)
+- Arirang TV UN (1080p)
+- CGTN Español (1080p)
+- WION (1080p)
+- Bloomberg TV EMEA Live Event (720p)
+- Sky Racing 1 (720p)
+- Sky Racing 2 (720p)
+- AXN Latin America Andes (1080p)
+- AXN (720p)
+- 24 Hour Free Movies (720p)
+- 30A TV Classic Movies (720p)
+- ABN Bible Movies (720p)
+- Artflix Movie Classics (720p)
+- DiscoverFilm (720p)
+- FilmRise Anime (720p)
+- FilmRise Westerns (720p)
+- FilmRise Classic TV (720p)
+- Gravitas Movies (1080p)
+- Grjngo Western Movies (720p)
+- MTV Latin America (1080p)
+- Pluto TV MTV Tattoo A Dos (720p)
+- Costa Mesa's Municipal Access Channel CMTV 3 (720p)
+- Canal Womtv (720p)
+- MTV (720p)
+- GAMTV.cr (720p)
+- Pluto TV MTV (Brazil) (720p)
+- GMTV (1080p)
+- Pluto TV MTV Latino (720p)
+- SUMtv Latino (1080p)
+- CGTN Français (1080p) [Not 24/7]
+- BBC Drama (720p)
+- Pluto TV MTV Music Made in Spain (720p) [Not 24/7]
+- Sky News Extra 3 (1080p)
+- CNN Prima News (1080p)
+- Sky News Arabia (1080p) [Not 24/7]
+- BBC Arabic (720p)
+- CromTV (1080p) [Not 24/7]
+- BBC Earth Greece (1080p)
+- Alkarma TV Youth & English (1080p) [Not 24/7]
+- Peace TV English (1080p)
+- Angel TV Africa (720p)
+- Angel TV Arabia (720p)
+- Angel TV FarEast (720p)
+- Angel TV Indonesia (720p)
+- Angel TV Australia (720p)
+- Angel TV Europe (720p)
+- Angel TV Indo-China (720p)
+- Iqraa Quran (1080p)
+- KRCA-TV Estrella Los Angeles (720p)
+- Autentic History (1080p)
+- Fox Sports 1 (720p)
+- 30A Golf Kingdom (720p)
+- Altitude Sports (720p)
+- Autentic Travel (1080p)
+- beIN Sports USA (720p)
+- beIN SPORTS XTRA (1080p)
+- BEK TV Sports West (720p)
+- Big Ten Network (720p)
+- fubo Sports Network (1080p)
+- History Latin America (1080p)
+- History 2 Latin America Brazil (720p)
+- History (720p)
+- Viasat History (720p)
+- Asharq Discovery (1080p)
+- True History (720p)
+- History 2 Latin America (1080p)
+- Fox 25 Boston (WFXT-TV) (1080p) [Geo-blocked]
+- History (720p)
+- History Hit (1080p)
+
+## HINDI (70 Channels)
+- Sony Channel (1080p)
+- Star Jalsha HD (720p)
+- Zee One German (720p)
+- Star Channel Latin America (1080p)
+- Canal START (720p)
+- Zee One Français (720p)
+- Sony Channel (720p)
+- Azstar TV HD (1080p)
+- Prima Star (1080p)
+- Star Channel Latin America Central America (1080p)
+- Sony Movies (720p)
+- Sony Movies Latin America (720p)
+- Zee Cinema ME (720p)
+- Starz Cinema (720p)
+- Movie Star (720p)
+- The Movie Club +2 (1080p)
+- The Movie Club (1080p)
+- Star Cinema
+- Star Trek Movies
+- Star Movies
+- CBS 3 Omaha NE (KMTV) (720p)
+- 9X Jalwa (1080p)
+- YRF Music (1080p)
+- Al Jazeera Mubasher 24 (1080p)
+- AfroLandTV (1080p)
+- Aaj Tak HD (1080p)
+- ABP News (1080p)
+- Awaaz India TV (720p) [Not 24/7]
+- Cnews Bharat (720p)
+- DD News HD (1080p)
+- India TV Speed News (1080p)
+- Music India (720p) [Not 24/7]
+- Living India News (1080p)
+- Aastha Prime 1 (720p)
+- Mahaa Bhakti (1080p)
+- Gyandarshan (720p)
+- Ishwar Bhakti TV (720p)
+- Aastha Kannada (480p)
+- Aastha Tamil (480p)
+- Aastha Telugu (480p)
+- God Stands TV Hindi
+- Trace Sport Stars (Australia) (1080p)
+- DD Sports SD (1080p)
+- Star Sports Select 1 HD (720p)
+- Trace Sport Stars Russia (720p)
+- Trace Sport Stars SD
+- Sony One Competencias
+- STAR HD (1080p) [Non geo blocked]
+- Sony Wah (1080p) [Geo-blocked]
+- Sony Marathi (1080p) [Geo-blocked]
+
+## NEPALI (70 Channels)
+- 8NTV (1080p)
+- ntv (720p)
+- NTV IC Kakanj (720p)
+- NTV (720p)
+- KNTV-DT1 (1080p)
+- Canal Capital (1080p)
+- TNTV (1080p)
+- NTV Telugu (1080p)
+- PONTV (720p)
+- EmanTv (1080p)
+- Radio Imagen 105.1 FM (720p) [Not 24/7]
+- News 24 (720p)
+- NTV Afrique (1080p) [Not 24/7]
+- Capital 21 (1080p) [Not 24/7]
+- CBS News 24/7 (720p)
+- Rai News 24 HD
+- News 24 Ⓢ
+- LaC News 24
+- Rai News 24 Ⓖ
+- News 24 Albania (392p)
+- Angel TV Nepal (720p)
+- Divya Darshan TV (720p)
+- FashionTV (720p)
+- FashionTV Paris L'Original (1080p)
+- FashionTV Secrets (1080p)
+- Kantipur Max [Geo-blocked]
+
+## BHOJPURI (70 Channels)
+- ABP Ganga (1080p)
+- Anjan TV (720p)
+- B4U Bhojpuri (1080p)
+- Manoranjan Grand (720p)
+- Gangaur TV (1080p)
+- Manoranjan Prime
+- Inspetor Bugiganga
+- Oscar Movies Bhojpuri (720p)
+- Star Sports 1 Hindi HD

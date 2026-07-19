@@ -2,5 +2,9 @@
     {
         "merged": "com.samaratul.nannaiptv.app-debug-47:/drawable_ic_launcher.xml.flat",
         "source": "com.samaratul.nannaiptv.app-main-49:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.samaratul.nannaiptv.app-debug-47:/drawable_ic_banner.xml.flat",
+        "source": "com.samaratul.nannaiptv.app-main-49:/drawable/ic_banner.xml"
     }
 ]

@@ -28,6 +28,7 @@
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:banner="@drawable/ic_banner"
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@drawable/ic_launcher"
