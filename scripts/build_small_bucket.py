@@ -41,6 +41,11 @@ for line in lines:
     elif line.startswith('http') and current_extinf:
         url = line
         if current_lang in LANGUAGES and current_genre in GENRES:
+            # Completely ban 576p streams as requested
+            if "576" in current_name.lower():
+                current_extinf = ""
+                continue
+                
             is_hd = "hd" in current_name.lower() or "1080" in current_name.lower() or "720" in current_name.lower()
             
             buckets[current_lang][current_genre].append({
