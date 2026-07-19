@@ -194,7 +194,12 @@ def run_checks(entries, max_workers=MAX_WORKERS, writer: "IncrementalPlaylistWri
                 writer.add(res.entry)  # written to disk immediately, not batched
             status = "OK  " if res.ok else "DEAD"
             live_note = " -> written to playlist_working.m3u8" if (res.ok and writer is not None) else ""
-            print(f"[{i}/{len(entries)}] {status} {res.entry.group:<28} {res.entry.name}  ({res.reason}){live_note}")
+            try:
+                print(f"[{i}/{len(entries)}] {status} {res.entry.group:<28} {res.entry.name}  ({res.reason}){live_note}")
+            except UnicodeEncodeError:
+                # Fallback for Windows consoles that don't support UTF-8
+                safe_name = res.entry.name.encode('ascii', 'ignore').decode('ascii')
+                print(f"[{i}/{len(entries)}] {status} {res.entry.group:<28} {safe_name}  ({res.reason}){live_note}")
     return results
 
 
