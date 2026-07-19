@@ -1,6 +1,204 @@
 #EXTM3U
 
 # ======================
+# Uncategorized
+# ======================
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EZUyzhG.jpg" group-title="Uncategorized",Kantipur Max HD
+https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HEVo2Gc.png" group-title="Uncategorized",Kantipur HD
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7PgAPMU.png" group-title="Uncategorized",News 24
+http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c6/AP1_TV_LOGO.png" group-title="Uncategorized",AP1 HD
+http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2MByL1X/indigenous-television.png" group-title="Uncategorized",Indigenous Television
+https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Himalaya_Television_Logo.png" group-title="Uncategorized",Himalaya TV HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Sagarmatha TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Himalaya_Television_Logo.png" group-title="Uncategorized",Himalaya Sports HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Indreni TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Kasthamandap Gold
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Nari HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Channel 4 Nepal
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Nepal Mandal
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/98/Nepal_Television_Logo.png" group-title="Uncategorized",NTV News/Plus HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Krishi TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Bodhi TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",Dharma TV
+https://cdn-1.pishow.tv/live/959/master.m3u8
+#EXTINF:-1 group-title="Uncategorized",Avenues TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Deep Television
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/zee5.com" group-title="Uncategorized",Zee Anmol
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Janata TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Business Plus
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/news18.com" group-title="Uncategorized",News 18
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/nationalgeographic.com" group-title="Uncategorized",Nat Geo Wild HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/discovery.com" group-title="Uncategorized",Discovery HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="Uncategorized",Comedy Central
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/animalplanet.com" group-title="Uncategorized",Animal Planet HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/rt.com" group-title="Uncategorized",RT English
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/cartoonnetwork.com" group-title="Uncategorized",Cartoon Network HD+
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",TV Birgunj (Bilingual/Regional focus) [1.3.1
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",1.3.3]
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",1.2.4]
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/pogo.tv" group-title="Uncategorized",Pogo
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",1.2.4]
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/disney.in" group-title="Uncategorized",Hungama
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",1.2.4]
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized",Mountain TV
+https://pb-tc97nokxg85ph.akamaized.net/Mountain_Men.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Xr4FjC8.png" group-title="Uncategorized",Nepal TV HD
+https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Uncategorized",BBC News
+https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Uncategorized",B4U Movies
+https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="Uncategorized",France 24
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_24X7/images/LOGO_HD/image.png" group-title="Uncategorized",NDTV 24x7
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="Uncategorized",Zee News
+https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143638_ld_h9_ab.png?lock=720x540" group-title="Uncategorized",Oscar Movies Bhojpuri
+https://cdn-4.pishow.tv/live/233/master.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORANJAN_TV/images/LOGO_HD/image.png" group-title="Uncategorized",Manoranjan Prime
+https://cdn-4.pishow.tv/live/1474/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="Uncategorized",WION
+http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Uncategorized",Star Bharat HD
+http://103.253.18.58:8000/play/a00u
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Uncategorized",Star Gold HD
+http://103.253.18.58:8000/play/a00r
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143302_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",Manoranjan Grand
+https://cdn-1.pishow.tv/live/1011/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sh0yFSf.png" group-title="Uncategorized",Anjan TV
+https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Uncategorized",Zee Cinema HD
+https://trs1.aynaott.com/ZeeCinemaHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="Uncategorized",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Uncategorized",Goldmines Bhojpuri [1.2.3
+https://trs1.aynaott.com/Goldmines/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Uncategorized",&TV HD
+https://trs1.aynaott.com/andtvhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Uncategorized",&Pictures HD
+https://trs1.aynaott.com/andpictureshd/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",ABP News
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/nickjr.com" group-title="Uncategorized",Nick Jr
+http://40.160.24.55/NICK_JR/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png" group-title="Uncategorized",India Today
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Uncategorized",B4U Bhojpuri [1.2.3
+https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/itetPKw.png" group-title="Uncategorized",GNN
+https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/live.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_Asia_HD.png" group-title="Uncategorized",Prime TV
+http://primeasia.selfip.net/Samsung/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony PAL
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony Entertainment (SET) HD
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony YAY!
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony Ten 1/2/3/5 HD
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Uncategorized",Star Sports 1/2/3/Select HD
+http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony BBC Earth HD
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Uncategorized",Star Plus HD
+http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" group-title="Uncategorized",CGTN News HD
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="Uncategorized",TRT World HD
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Uncategorized",AXN
+http://45.190.28.50/AXN_HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="Uncategorized",Mega Gold
+http://45.162.193.35/MEGAHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Uncategorized",Nickelodeon (Nick) HD
+https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="Uncategorized",Al Jazeera HD
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JZ1oTM2.png" group-title="Uncategorized",A1 TV
+https://stream.a1mediagroep.nl/hls/a1tv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zv9VsVq.png" group-title="Uncategorized",Action Sports HD
+http://rezofoot.tv/Action/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Uncategorized",Sony Pix
+https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
+#EXTINF:-1 group-title="Uncategorized",Image HD
+https://stream.arcast.com.ar/casse/casse/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Uncategorized",Sony SAB HD
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Uncategorized",Colors Cineplex HD
+http://103.122.249.134:8000/play/a058
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/tlc.com" group-title="Uncategorized",TLC
+https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Uncategorized",Zee TV HD
+http://41.205.77.102/ZEE-TV/index.m3u8
+#EXTINF:-1 tvg-logo="https://logo.clearbit.com/cnn.com" group-title="Uncategorized",CNN
+https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Uncategorized",Disney International HD
+http://149.71.34.166:8002/play/a01p/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qQ33TVM.png" group-title="Uncategorized",ABC Australia
+http://103.154.3.101:5001/live/2782.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Uncategorized",Star Movies HD
+http://149.71.34.166:8000/play/a01f/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LBICKI5.png" group-title="Uncategorized",Sony Max HD
+http://149.71.34.166:8000/play/a00z/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Uncategorized",Colors HD
+http://103.72.101.252:8080/live/1368.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT_HD/images/LOGO_HD/image.png" group-title="Uncategorized",Star Movies Select HD
+http://149.71.34.166:8000/play/a01g/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",National Geographic HD
+http://167.250.126.140:7777/NATGEO-HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",History TV18
+http://103.72.101.252:8080/live/1471.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ROMEDY_NOW/images/LOGO_HD/image.png" group-title="Uncategorized",Romedy Now
+http://103.157.248.140:8000/play/a015/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="Uncategorized",Aaj Tak
+http://103.213.31.109:90/AajtakHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Uncategorized",Star Utsav
+http://149.71.34.166:8000/play/a059/index.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143757_ld_h15_aa.png?lock=720x540" group-title="Uncategorized",Sangeet Bhojpuri [1.2.3
+http://103.213.31.109:90/SangeetBhojpuri/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Uncategorized",Colors Rishtey
+http://103.72.101.252:8080/live/1368.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZMMH.png?lock=720x540" group-title="Uncategorized",Zee Cafe
+http://103.72.101.252:8080/live/1319.m3u8
+
+# ======================
 # Bhojpuri - General
 # ======================
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png?lock=720x540" group-title="Bhojpuri - General",Zee Bihar Jharkhand (720p)
@@ -11,10 +209,10 @@ https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8
 https://cdn-4.pishow.tv/live/1474/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143638_ld_h9_ab.png?lock=720x540" group-title="Bhojpuri - General",Oscar Movies Bhojpuri (720p)
 https://cdn-4.pishow.tv/live/233/master.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" group-title="Bhojpuri - General",Star Sports 1 Hindi HD
-http://103.253.18.58:8000/play/a00t
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" group-title="Bhojpuri - General",Star Sports 1 Hindi (576p)
 http://103.253.18.58:8000/play/a03o
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" group-title="Bhojpuri - General",Star Sports 1 Hindi HD
+http://103.253.18.58:8000/play/a00t
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Bhojpuri - General",B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 
