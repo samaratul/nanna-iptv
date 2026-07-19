@@ -233,6 +233,12 @@ http://offline.stream/playlist.m3u8
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bhojpuri - General/Entertainment",1.3.3]
 http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bhojpuri - General/Entertainment",Anjan TV
+https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 group-title="Bhojpuri - General/Entertainment",Manoranjan Prime
+https://cdn-4.pishow.tv/live/1474/master.m3u8
+#EXTINF:-1 group-title="Bhojpuri - General/Entertainment",Manoranjan Grand
+https://cdn-1.pishow.tv/live/1011/master.m3u8
 
 # ======================
 # Bhojpuri - Movies/Music
@@ -249,3 +255,5 @@ http://offline.stream/playlist.m3u8
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bhojpuri - Movies/Music",1.2.4]
 http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bhojpuri - Movies/Music",Oscar Movies Bhojpuri
+https://cdn-4.pishow.tv/live/233/master.m3u8

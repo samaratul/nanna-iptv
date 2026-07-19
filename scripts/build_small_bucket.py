@@ -17,8 +17,8 @@ English,Movies,"Star Movies HD, Star Movies Select HD, Sony Pix"
 English,News,"BBC News, CNN, Al Jazeera HD, TRT World HD, France 24, CGTN News HD, RT English, ABC Australia"
 English,Infotainment,"National Geographic HD, Nat Geo Wild HD, Discovery HD, Animal Planet HD, TLC, Sony BBC Earth HD, History TV18"
 English,Kids,"Nickelodeon (Nick) HD, Nick Jr, Pogo, Cartoon Network HD+, Disney International HD, Sony YAY!, Hungama"
-Bhojpuri,General/Entertainment,"TV Birgunj (Bilingual/Regional focus) [1.3.1, 1.3.3]"
-Bhojpuri,Movies/Music,"B4U Bhojpuri [1.2.3, 1.2.4], Goldmines Bhojpuri [1.2.3, 1.2.4], Sangeet Bhojpuri [1.2.3, 1.2.4]"
+Bhojpuri,General/Entertainment,"TV Birgunj (Bilingual/Regional focus) [1.3.1, 1.3.3], Anjan TV, Manoranjan Prime, Manoranjan Grand"
+Bhojpuri,Movies/Music,"B4U Bhojpuri [1.2.3, 1.2.4], Goldmines Bhojpuri [1.2.3, 1.2.4], Sangeet Bhojpuri [1.2.3, 1.2.4], Oscar Movies Bhojpuri"
 """
 
 # Read existing streams to find URLs
