@@ -17,7 +17,8 @@ English,Movies,"Star Movies HD, Star Movies Select HD, Sony Pix"
 English,News,"BBC News, CNN, Al Jazeera HD, TRT World HD, France 24, CGTN News HD, RT English, ABC Australia"
 English,Infotainment,"National Geographic HD, Nat Geo Wild HD, Discovery HD, Animal Planet HD, TLC, Sony BBC Earth HD, History TV18"
 English,Kids,"Nickelodeon (Nick) HD, Nick Jr, Pogo, Cartoon Network HD+, Disney International HD, Sony YAY!, Hungama"
-Bhojpuri,General/Movies,"B4U Bhojpuri, Various regional Goldmines variants"
+Bhojpuri,General/Entertainment,"TV Birgunj (Bilingual/Regional focus) [1.3.1, 1.3.3]"
+Bhojpuri,Movies/Music,"B4U Bhojpuri [1.2.3, 1.2.4], Goldmines Bhojpuri [1.2.3, 1.2.4], Sangeet Bhojpuri [1.2.3, 1.2.4]"
 """
 
 # Read existing streams to find URLs
@@ -37,8 +38,9 @@ except:
 
 # Helper to find a stream url
 def find_stream(target):
-    # strip HD and other common suffixes for looser matching in the public bucket
-    clean_target = target.replace('HD+', '').replace('HD', '').replace('(SET)', '').replace('(Nick)', '').strip().lower()
+    # strip HD and bracketed/parenthesized metadata for looser matching
+    clean_target = re.sub(r'\[.*?\]|\(.*?\)', '', target)
+    clean_target = clean_target.replace('HD+', '').replace('HD', '').strip().lower()
     
     # if it's a bundled string like "Star Sports 1/2/3/Select HD", just try to find the first one
     if '/' in clean_target:
