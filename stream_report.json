@@ -1,15 +1,5 @@
 [
   {
-    "name": "Northeast Live HD [India]",
-    "group": "English - News",
-    "tvg_id": "NortheastLive.in",
-    "url": "#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html",
-    "ok": false,
-    "reason": "no http(s) url",
-    "attempts": 0,
-    "elapsed_ms": 0
-  },
-  {
     "name": "Mirror Now HD [India]",
     "group": "English - News",
     "tvg_id": "MirrorNow.in",
@@ -20,34 +10,14 @@
     "elapsed_ms": 0
   },
   {
-    "name": "India Today HD [Geo-blocked] [India]",
+    "name": "Northeast Live HD [India]",
     "group": "English - News",
-    "tvg_id": "IndiaToday.in",
-    "url": "https://amg00644-amg00644c1-ondemandkorea-amesia-10266.playouts.now.amagi.tv/playlist/amg00644-tvtodaynetworkltdfast-indiatoday-ondemandkoreaamesia/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 99
-  },
-  {
-    "name": "Indywood TV HD [India]",
-    "group": "English - Movies",
-    "tvg_id": "IndywoodTV.in",
-    "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 138B received",
-    "attempts": 1,
-    "elapsed_ms": 174
-  },
-  {
-    "name": "BT TV HD [India]",
-    "group": "English - News",
-    "tvg_id": "BTTV.in",
-    "url": "https://feeds.intoday.in/bttv/itgd.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 121
+    "tvg_id": "NortheastLive.in",
+    "url": "#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html",
+    "ok": false,
+    "reason": "no http(s) url",
+    "attempts": 0,
+    "elapsed_ms": 0
   },
   {
     "name": "NDTV 24x7 HD [India]",
@@ -57,7 +27,37 @@
     "ok": true,
     "reason": "HTTP 200, 1073B received",
     "attempts": 1,
-    "elapsed_ms": 144
+    "elapsed_ms": 168
+  },
+  {
+    "name": "India Today HD [Geo-blocked] [India]",
+    "group": "English - News",
+    "tvg_id": "IndiaToday.in",
+    "url": "https://amg00644-amg00644c1-ondemandkorea-amesia-10266.playouts.now.amagi.tv/playlist/amg00644-tvtodaynetworkltdfast-indiatoday-ondemandkoreaamesia/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 239
+  },
+  {
+    "name": "ABP News HD [India]",
+    "group": "English - News",
+    "tvg_id": "ABPNews.in",
+    "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 198B received",
+    "attempts": 1,
+    "elapsed_ms": 399
+  },
+  {
+    "name": "Prudent Media HD [India]",
+    "group": "English - News",
+    "tvg_id": "PrudentMedia.in",
+    "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 407B received",
+    "attempts": 1,
+    "elapsed_ms": 311
   },
   {
     "name": "Times Now HD [Geo-blocked] [India]",
@@ -70,14 +70,14 @@
     "elapsed_ms": 0
   },
   {
-    "name": "ABP News HD [India]",
+    "name": "News9Live HD [India]",
     "group": "English - News",
-    "tvg_id": "ABPNews.in",
-    "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8",
+    "tvg_id": "News9Live.in",
+    "url": "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 198B received",
+    "reason": "HTTP 200, 1749B received",
     "attempts": 1,
-    "elapsed_ms": 280
+    "elapsed_ms": 626
   },
   {
     "name": "Sony Pix HD [Geo-blocked] [India]",
@@ -87,37 +87,17 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 328
-  },
-  {
-    "name": "Republic TV HD [Geo-blocked] [India]",
-    "group": "English - News",
-    "tvg_id": "RepublicTV.in",
-    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 767B received",
-    "attempts": 1,
-    "elapsed_ms": 307
-  },
-  {
-    "name": "News9Live HD [India]",
-    "group": "English - News",
-    "tvg_id": "News9Live.in",
-    "url": "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1744B received",
-    "attempts": 1,
-    "elapsed_ms": 607
+    "elapsed_ms": 749
   },
   {
     "name": "Indywood TV HD [India]",
-    "group": "English - News",
+    "group": "English - Movies",
     "tvg_id": "IndywoodTV.in",
     "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
     "ok": true,
     "reason": "HTTP 200, 138B received",
     "attempts": 1,
-    "elapsed_ms": 587
+    "elapsed_ms": 697
   },
   {
     "name": "MediBizTV HD [India]",
@@ -127,7 +107,7 @@
     "ok": true,
     "reason": "HTTP 200, 138B received",
     "attempts": 1,
-    "elapsed_ms": 656
+    "elapsed_ms": 706
   },
   {
     "name": "News18 Assam North-East HD [India]",
@@ -137,7 +117,27 @@
     "ok": true,
     "reason": "HTTP 200, 1104B received",
     "attempts": 1,
-    "elapsed_ms": 834
+    "elapsed_ms": 1021
+  },
+  {
+    "name": "BT TV HD [India]",
+    "group": "English - News",
+    "tvg_id": "BTTV.in",
+    "url": "https://feeds.intoday.in/bttv/itgd.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 1063
+  },
+  {
+    "name": "Republic TV HD [Geo-blocked] [India]",
+    "group": "English - News",
+    "tvg_id": "RepublicTV.in",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 767B received",
+    "attempts": 1,
+    "elapsed_ms": 804
   },
   {
     "name": "Epic TV Digital HD [India]",
@@ -147,17 +147,17 @@
     "ok": true,
     "reason": "HTTP 200, 1092B received",
     "attempts": 1,
-    "elapsed_ms": 930
+    "elapsed_ms": 1072
   },
   {
-    "name": "Prudent Media HD [India]",
+    "name": "Indywood TV HD [India]",
     "group": "English - News",
-    "tvg_id": "PrudentMedia.in",
-    "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
+    "tvg_id": "IndywoodTV.in",
+    "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 407B received",
+    "reason": "HTTP 200, 138B received",
     "attempts": 1,
-    "elapsed_ms": 956
+    "elapsed_ms": 1248
   },
   {
     "name": "Kantipur TV HD [Nepal]",
@@ -167,7 +167,17 @@
     "ok": true,
     "reason": "HTTP 200, 337B received",
     "attempts": 1,
-    "elapsed_ms": 1122
+    "elapsed_ms": 1181
+  },
+  {
+    "name": "Salvation TV HD [India]",
+    "group": "English - Devotional",
+    "tvg_id": "SalvationTV.in",
+    "url": "https://ktismaservers.in:3902/live/salvationtvlive.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 877B received",
+    "attempts": 1,
+    "elapsed_ms": 620
   },
   {
     "name": "WION HD [India]",
@@ -177,7 +187,7 @@
     "ok": true,
     "reason": "HTTP 200, 1028B received",
     "attempts": 1,
-    "elapsed_ms": 865
+    "elapsed_ms": 789
   },
   {
     "name": "TOI Global HD [India]",
@@ -187,17 +197,7 @@
     "ok": true,
     "reason": "HTTP 200, 333B received",
     "attempts": 1,
-    "elapsed_ms": 1038
-  },
-  {
-    "name": "GoodNews TV HD [India]",
-    "group": "English - Devotional",
-    "tvg_id": "GoodNewsTV.in",
-    "url": "https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 122B received",
-    "attempts": 1,
-    "elapsed_ms": 745
+    "elapsed_ms": 1151
   },
   {
     "name": "NDTV Good Times HD [India]",
@@ -207,37 +207,17 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 310
+    "elapsed_ms": 362
   },
   {
-    "name": "Salvation TV HD [India]",
+    "name": "GoodNews TV HD [India]",
     "group": "English - Devotional",
-    "tvg_id": "SalvationTV.in",
-    "url": "https://ktismaservers.in:3902/live/salvationtvlive.m3u8",
+    "tvg_id": "GoodNewsTV.in",
+    "url": "https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 856B received",
+    "reason": "HTTP 200, 122B received",
     "attempts": 1,
-    "elapsed_ms": 631
-  },
-  {
-    "name": "Apna Punjab TV HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "ApnaPunjabTV.ca",
-    "url": "https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 182B received",
-    "attempts": 1,
-    "elapsed_ms": 100
-  },
-  {
-    "name": "RT India HD [India]",
-    "group": "English - News",
-    "tvg_id": "RTIndia.in",
-    "url": "https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 850B received",
-    "attempts": 1,
-    "elapsed_ms": 1509
+    "elapsed_ms": 771
   },
   {
     "name": "Angel TV HD [India]",
@@ -247,37 +227,17 @@
     "ok": true,
     "reason": "HTTP 200, 575B received",
     "attempts": 1,
-    "elapsed_ms": 1289
+    "elapsed_ms": 867
   },
   {
-    "name": "Star Sports 1 HD [India]",
-    "group": "English - Sports",
-    "tvg_id": "StarSports1.in",
-    "url": "http://103.253.18.58:8000/play/a00m",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 1101
-  },
-  {
-    "name": "Anjan TV HD [India]",
+    "name": "Apna Punjab TV HD [India]",
     "group": "Hindi - Entertainment",
-    "tvg_id": "AnjanTV.in",
-    "url": "https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8",
+    "tvg_id": "ApnaPunjabTV.ca",
+    "url": "https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 353B received",
+    "reason": "HTTP 200, 182B received",
     "attempts": 1,
-    "elapsed_ms": 844
-  },
-  {
-    "name": "Gangaur TV HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "GangaurTV.in",
-    "url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 761B received",
-    "attempts": 1,
-    "elapsed_ms": 418
+    "elapsed_ms": 208
   },
   {
     "name": "Epic TV Digital HD [India]",
@@ -287,7 +247,47 @@
     "ok": true,
     "reason": "HTTP 200, 1092B received",
     "attempts": 1,
-    "elapsed_ms": 773
+    "elapsed_ms": 292
+  },
+  {
+    "name": "RT India HD [India]",
+    "group": "English - News",
+    "tvg_id": "RTIndia.in",
+    "url": "https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 850B received",
+    "attempts": 1,
+    "elapsed_ms": 1871
+  },
+  {
+    "name": "Star Sports 1 HD [India]",
+    "group": "English - Sports",
+    "tvg_id": "StarSports1.in",
+    "url": "http://103.253.18.58:8000/play/a00m",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 1029
+  },
+  {
+    "name": "Gangaur TV HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "GangaurTV.in",
+    "url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 761B received",
+    "attempts": 1,
+    "elapsed_ms": 437
+  },
+  {
+    "name": "Anjan TV HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "AnjanTV.in",
+    "url": "https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 353B received",
+    "attempts": 1,
+    "elapsed_ms": 948
   },
   {
     "name": "Kaumudy TV HD [India]",
@@ -297,7 +297,7 @@
     "ok": true,
     "reason": "HTTP 200, 122B received",
     "attempts": 1,
-    "elapsed_ms": 816
+    "elapsed_ms": 798
   },
   {
     "name": "Nazara HD [India]",
@@ -307,7 +307,7 @@
     "ok": true,
     "reason": "HTTP 200, 1095B received",
     "attempts": 1,
-    "elapsed_ms": 919
+    "elapsed_ms": 995
   },
   {
     "name": "Zee Bollymovies HD [Geo-blocked] [India]",
@@ -317,7 +317,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3140
+    "elapsed_ms": 3207
   },
   {
     "name": "Sony Entertainment Television HD [India]",
@@ -327,7 +327,7 @@
     "ok": false,
     "reason": "HTTP 400",
     "attempts": 3,
-    "elapsed_ms": 3290
+    "elapsed_ms": 3221
   },
   {
     "name": "Shemaroo TV HD [India]",
@@ -337,7 +337,7 @@
     "ok": true,
     "reason": "HTTP 200, 111B received",
     "attempts": 1,
-    "elapsed_ms": 1121
+    "elapsed_ms": 1177
   },
   {
     "name": "Movies Now HD [India]",
@@ -347,7 +347,7 @@
     "ok": false,
     "reason": "connection error: [Errno 111] Connection refused",
     "attempts": 3,
-    "elapsed_ms": 3658
+    "elapsed_ms": 3720
   },
   {
     "name": "Travelxp 4K HDR HD [Geo-blocked] [India]",
@@ -357,7 +357,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3145
+    "elapsed_ms": 3138
   },
   {
     "name": "Zee TV HD [India]",
@@ -367,7 +367,7 @@
     "ok": true,
     "reason": "HTTP 200, 387B received",
     "attempts": 1,
-    "elapsed_ms": 535
+    "elapsed_ms": 487
   },
   {
     "name": "&TV International HD [India]",
@@ -377,7 +377,7 @@
     "ok": true,
     "reason": "HTTP 200, 43B received",
     "attempts": 1,
-    "elapsed_ms": 397
+    "elapsed_ms": 243
   },
   {
     "name": "Zee Comedy Nation HD [India]",
@@ -387,7 +387,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3056
+    "elapsed_ms": 3114
   },
   {
     "name": "Sony Entertainment Television HD [India]",
@@ -397,7 +397,7 @@
     "ok": false,
     "reason": "HTTP 400",
     "attempts": 3,
-    "elapsed_ms": 3318
+    "elapsed_ms": 3423
   },
   {
     "name": "Zee Dil Se HD [India]",
@@ -407,27 +407,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3076
-  },
-  {
-    "name": "B4U Kadak HD [Geo-blocked] [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "B4UKadak.in",
-    "url": "https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 640B received",
-    "attempts": 1,
-    "elapsed_ms": 58
-  },
-  {
-    "name": "B4U Movies HD [Geo-blocked] [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "B4UMovies.in",
-    "url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 640B received",
-    "attempts": 1,
-    "elapsed_ms": 55
+    "elapsed_ms": 3133
   },
   {
     "name": "Zee Horror Nights HD [India]",
@@ -437,7 +417,27 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3060
+    "elapsed_ms": 3087
+  },
+  {
+    "name": "B4U Movies HD [Geo-blocked] [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "B4UMovies.in",
+    "url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 640B received",
+    "attempts": 1,
+    "elapsed_ms": 86
+  },
+  {
+    "name": "B4U Kadak HD [Geo-blocked] [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "B4UKadak.in",
+    "url": "https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 640B received",
+    "attempts": 1,
+    "elapsed_ms": 401
   },
   {
     "name": "StarPlus HD [India]",
@@ -447,7 +447,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 4979
+    "elapsed_ms": 5373
   },
   {
     "name": "Zee Cafe HD [India]",
@@ -457,7 +457,27 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27051
+    "elapsed_ms": 27022
+  },
+  {
+    "name": "Star Movies Select HD [India]",
+    "group": "English - Movies",
+    "tvg_id": "StarMoviesSelect.in",
+    "url": "http://149.71.34.166:8000/play/a01g/index.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27035
+  },
+  {
+    "name": "DD India HD [India]",
+    "group": "English - Entertainment",
+    "tvg_id": "DDIndia.in",
+    "url": "http://103.213.31.109:90/DDIndia/playlist.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27026
   },
   {
     "name": "Star Movies HD [India]",
@@ -467,13 +487,33 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27036
+    "elapsed_ms": 27029
   },
   {
     "name": "Movies Now + HD [India]",
     "group": "English - Movies",
     "tvg_id": "MoviesNowPlus.in",
     "url": "http://149.71.34.166:8000/play/a05t/index.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27030
+  },
+  {
+    "name": "&flix HD [India]",
+    "group": "English - Movies",
+    "tvg_id": "Andflix.in",
+    "url": "http://103.72.101.252:8080/live/1322.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27037
+  },
+  {
+    "name": "Colors Infinity HD [India]",
+    "group": "English - Entertainment",
+    "tvg_id": "ColorsInfinity.in",
+    "url": "http://149.71.34.166:8002/play/a01d/index.m3u8",
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
@@ -487,67 +527,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27033
-  },
-  {
-    "name": "Colors Infinity HD [India]",
-    "group": "English - Entertainment",
-    "tvg_id": "ColorsInfinity.in",
-    "url": "http://149.71.34.166:8002/play/a01d/index.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27028
-  },
-  {
-    "name": "DD India HD [India]",
-    "group": "English - Entertainment",
-    "tvg_id": "DDIndia.in",
-    "url": "http://103.213.31.109:90/DDIndia/playlist.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27021
-  },
-  {
-    "name": "Star Movies Select HD [India]",
-    "group": "English - Movies",
-    "tvg_id": "StarMoviesSelect.in",
-    "url": "http://149.71.34.166:8000/play/a01g/index.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27031
-  },
-  {
-    "name": "&flix HD [India]",
-    "group": "English - Movies",
-    "tvg_id": "Andflix.in",
-    "url": "http://103.72.101.252:8080/live/1322.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27022
-  },
-  {
-    "name": "Sony Wah HD [Geo-blocked] [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "SonyWah.in",
-    "url": "https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 143
-  },
-  {
-    "name": "Times Now World HD [India]",
-    "group": "English - News",
-    "tvg_id": "TimesNowWorld.in",
-    "url": "http://103.72.101.252:8080/live/876.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27016
+    "elapsed_ms": 27044
   },
   {
     "name": "Sony Pix HD [Geo-blocked] [India]",
@@ -557,7 +537,27 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 179
+    "elapsed_ms": 270
+  },
+  {
+    "name": "Sony Wah HD [Geo-blocked] [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "SonyWah.in",
+    "url": "https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 287
+  },
+  {
+    "name": "Times Now World HD [India]",
+    "group": "English - News",
+    "tvg_id": "TimesNowWorld.in",
+    "url": "http://103.72.101.252:8080/live/876.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27026
   },
   {
     "name": "DD Sports HD [India]",
@@ -567,17 +567,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27019
-  },
-  {
-    "name": "Star Sports 2 HD [India]",
-    "group": "English - Sports",
-    "tvg_id": "StarSports2.in",
-    "url": "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27121
+    "elapsed_ms": 27026
   },
   {
     "name": "South Station HD [India]",
@@ -587,7 +577,17 @@
     "ok": true,
     "reason": "HTTP 200, 1342B received",
     "attempts": 1,
-    "elapsed_ms": 1073
+    "elapsed_ms": 1033
+  },
+  {
+    "name": "Star Gold Select HD [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "StarGoldSelect.in",
+    "url": "http://103.253.18.58:8000/play/a02u",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 1096
   },
   {
     "name": "Zee Zest HD [India]",
@@ -600,54 +600,14 @@
     "elapsed_ms": 27026
   },
   {
-    "name": "Star Gold Select HD [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "StarGoldSelect.in",
-    "url": "http://103.253.18.58:8000/play/a02u",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 1114
-  },
-  {
-    "name": "The Movie Club HD [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "TheMovieClub.in",
-    "url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1342B received",
-    "attempts": 1,
-    "elapsed_ms": 1013
-  },
-  {
-    "name": "Colors HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "Colors.in",
-    "url": "http://149.71.34.166:8000/play/a00c/index.m3u8",
+    "name": "Star Sports 2 HD [India]",
+    "group": "English - Sports",
+    "tvg_id": "StarSports2.in",
+    "url": "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27026
-  },
-  {
-    "name": "Dangal 2 HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "Dangal2.in",
-    "url": "http://103.213.31.109:90/Dangal2/playlist.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27027
-  },
-  {
-    "name": "Dangal TV HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "DangalTV.in",
-    "url": "http://103.213.31.109:90/Dangal/playlist.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27024
+    "elapsed_ms": 27260
   },
   {
     "name": "Balle Balle HD [India]",
@@ -657,27 +617,47 @@
     "ok": true,
     "reason": "HTTP 200, 185B received",
     "attempts": 1,
-    "elapsed_ms": 242
+    "elapsed_ms": 220
   },
   {
-    "name": "YRF Music HD [India]",
-    "group": "Hindi - Music",
-    "tvg_id": "YRFMusic.in",
-    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 2048B received",
-    "attempts": 1,
-    "elapsed_ms": 380
-  },
-  {
-    "name": "MTV HD [India]",
+    "name": "Colors HD [India]",
     "group": "Hindi - Entertainment",
-    "tvg_id": "MTV.in",
-    "url": "http://103.72.101.252:8080/live/248.m3u8",
+    "tvg_id": "Colors.in",
+    "url": "http://149.71.34.166:8000/play/a00c/index.m3u8",
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27026
+    "elapsed_ms": 27021
+  },
+  {
+    "name": "Dangal 2 HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "Dangal2.in",
+    "url": "http://103.213.31.109:90/Dangal2/playlist.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27022
+  },
+  {
+    "name": "Dangal TV HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "DangalTV.in",
+    "url": "http://103.213.31.109:90/Dangal/playlist.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27025
+  },
+  {
+    "name": "The Movie Club HD [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "TheMovieClub.in",
+    "url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 1342B received",
+    "attempts": 1,
+    "elapsed_ms": 1518
   },
   {
     "name": "9XM HD [India]",
@@ -687,7 +667,27 @@
     "ok": true,
     "reason": "HTTP 200, 761B received",
     "attempts": 1,
-    "elapsed_ms": 815
+    "elapsed_ms": 682
+  },
+  {
+    "name": "YRF Music HD [India]",
+    "group": "Hindi - Music",
+    "tvg_id": "YRFMusic.in",
+    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 2048B received",
+    "attempts": 1,
+    "elapsed_ms": 370
+  },
+  {
+    "name": "MTV HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "MTV.in",
+    "url": "http://103.72.101.252:8080/live/248.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27020
   },
   {
     "name": "Manoranjan TV HD [India]",
@@ -697,7 +697,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27022
+    "elapsed_ms": 27025
   },
   {
     "name": "ABP News HD [India]",
@@ -707,17 +707,7 @@
     "ok": true,
     "reason": "HTTP 200, 198B received",
     "attempts": 1,
-    "elapsed_ms": 312
-  },
-  {
-    "name": "Steelbird Music HD [Not 24/7] [India]",
-    "group": "Hindi - Music",
-    "tvg_id": "SteelbirdMusic.in",
-    "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 425B received",
-    "attempts": 1,
-    "elapsed_ms": 926
+    "elapsed_ms": 290
   },
   {
     "name": "Zoom HD [India]",
@@ -727,17 +717,27 @@
     "ok": true,
     "reason": "HTTP 200, 943B received",
     "attempts": 1,
-    "elapsed_ms": 962
+    "elapsed_ms": 762
   },
   {
-    "name": "22Scope News HD [India]",
+    "name": "ABP Ganga HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "22ScopeNews.in",
-    "url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+    "tvg_id": "ABPGanga.in",
+    "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 301B received",
+    "reason": "HTTP 200, 493B received",
     "attempts": 1,
-    "elapsed_ms": 920
+    "elapsed_ms": 770
+  },
+  {
+    "name": "Shemaroo Umang HD [India]",
+    "group": "Hindi - Entertainment",
+    "tvg_id": "ShemarooUmang.in",
+    "url": "http://103.213.31.109:90/ShemarooUmang/playlist.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27023
   },
   {
     "name": "Bharat24 HD [India]",
@@ -750,24 +750,24 @@
     "elapsed_ms": 0
   },
   {
-    "name": "ABP Ganga HD [India]",
+    "name": "AmarUjala HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "ABPGanga.in",
-    "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
+    "tvg_id": "AmarUjala.in",
+    "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 493B received",
+    "reason": "HTTP 200, 183B received",
     "attempts": 1,
-    "elapsed_ms": 746
+    "elapsed_ms": 574
   },
   {
-    "name": "Shemaroo Umang HD [India]",
-    "group": "Hindi - Entertainment",
-    "tvg_id": "ShemarooUmang.in",
-    "url": "http://103.213.31.109:90/ShemarooUmang/playlist.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27026
+    "name": "22Scope News HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "22ScopeNews.in",
+    "url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 301B received",
+    "attempts": 1,
+    "elapsed_ms": 986
   },
   {
     "name": "Channel Y HD [Not 24/7] [India]",
@@ -777,17 +777,7 @@
     "ok": true,
     "reason": "HTTP 200, 314B received",
     "attempts": 1,
-    "elapsed_ms": 166
-  },
-  {
-    "name": "ANB News HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "ANBNews.in",
-    "url": "https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 182B received",
-    "attempts": 1,
-    "elapsed_ms": 922
+    "elapsed_ms": 202
   },
   {
     "name": "Shubh Cinema TV HD [India]",
@@ -797,17 +787,17 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3042
+    "elapsed_ms": 3056
   },
   {
-    "name": "India Daily Live HD [India]",
+    "name": "ANB News HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "IndiaDailyLive.in",
-    "url": "https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8",
+    "tvg_id": "ANBNews.in",
+    "url": "https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 703B received",
+    "reason": "HTTP 200, 182B received",
     "attempts": 1,
-    "elapsed_ms": 529
+    "elapsed_ms": 982
   },
   {
     "name": "Good News Today HD [India]",
@@ -817,17 +807,7 @@
     "ok": true,
     "reason": "HTTP 200, 1167B received",
     "attempts": 1,
-    "elapsed_ms": 690
-  },
-  {
-    "name": "India TV HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "IndiaTV.in",
-    "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 380B received",
-    "attempts": 1,
-    "elapsed_ms": 368
+    "elapsed_ms": 350
   },
   {
     "name": "Zee Cinema APAC HD [Geo-blocked] [India]",
@@ -837,7 +817,17 @@
     "ok": false,
     "reason": "HTTP 401",
     "attempts": 3,
-    "elapsed_ms": 3066
+    "elapsed_ms": 3107
+  },
+  {
+    "name": "India Daily Live HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "IndiaDailyLive.in",
+    "url": "https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 703B received",
+    "attempts": 1,
+    "elapsed_ms": 555
   },
   {
     "name": "Awaaz India TV HD [Not 24/7] [India]",
@@ -845,9 +835,19 @@
     "tvg_id": "AwaazIndiaTV.in",
     "url": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 399B received",
+    "reason": "HTTP 200, 412B received",
     "attempts": 1,
-    "elapsed_ms": 1083
+    "elapsed_ms": 1276
+  },
+  {
+    "name": "India TV HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "IndiaTV.in",
+    "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 380B received",
+    "attempts": 1,
+    "elapsed_ms": 537
   },
   {
     "name": "Cnews Bharat HD [India]",
@@ -857,27 +857,7 @@
     "ok": true,
     "reason": "HTTP 200, 301B received",
     "attempts": 1,
-    "elapsed_ms": 919
-  },
-  {
-    "name": "Zee South Flix HD [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "ZeeSouthFlix.in",
-    "url": "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8",
-    "ok": false,
-    "reason": "HTTP 403",
-    "attempts": 3,
-    "elapsed_ms": 3066
-  },
-  {
-    "name": "AmarUjala HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "AmarUjala.in",
-    "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 183B received",
-    "attempts": 1,
-    "elapsed_ms": 1698
+    "elapsed_ms": 987
   },
   {
     "name": "India TV Aap Ki Adalat HD [Geo-blocked] [India]",
@@ -887,37 +867,17 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 823
+    "elapsed_ms": 874
   },
   {
-    "name": "Kashish News HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "KashishNews.in",
-    "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 182B received",
-    "attempts": 1,
-    "elapsed_ms": 698
-  },
-  {
-    "name": "NDTV Madhya Pradesh Chhattisgarh HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "NDTVMadhyaPradeshChhattisgarh.in",
-    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 752B received",
-    "attempts": 1,
-    "elapsed_ms": 593
-  },
-  {
-    "name": "NDTV Rajasthan HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "NDTVRajasthan.in",
-    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 752B received",
-    "attempts": 1,
-    "elapsed_ms": 292
+    "name": "Zee South Flix HD [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "ZeeSouthFlix.in",
+    "url": "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8",
+    "ok": false,
+    "reason": "HTTP 403",
+    "attempts": 3,
+    "elapsed_ms": 3093
   },
   {
     "name": "India TV Speed News HD [India]",
@@ -927,17 +887,37 @@
     "ok": true,
     "reason": "HTTP 200, 1072B received",
     "attempts": 1,
-    "elapsed_ms": 982
+    "elapsed_ms": 979
   },
   {
-    "name": "News Nation HD [India]",
+    "name": "Kashish News HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "NewsNation.in",
-    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+    "tvg_id": "KashishNews.in",
+    "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 767B received",
+    "reason": "HTTP 200, 182B received",
     "attempts": 1,
-    "elapsed_ms": 293
+    "elapsed_ms": 768
+  },
+  {
+    "name": "NDTV Rajasthan HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "NDTVRajasthan.in",
+    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 752B received",
+    "attempts": 1,
+    "elapsed_ms": 731
+  },
+  {
+    "name": "NDTV Madhya Pradesh Chhattisgarh HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "NDTVMadhyaPradeshChhattisgarh.in",
+    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 752B received",
+    "attempts": 1,
+    "elapsed_ms": 951
   },
   {
     "name": "9X Jalwa HD [India]",
@@ -947,7 +927,17 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3342
+    "elapsed_ms": 3753
+  },
+  {
+    "name": "News Nation HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "NewsNation.in",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 767B received",
+    "attempts": 1,
+    "elapsed_ms": 766
   },
   {
     "name": "News 24 HD [India]",
@@ -957,7 +947,17 @@
     "ok": true,
     "reason": "HTTP 200, 431B received",
     "attempts": 1,
-    "elapsed_ms": 835
+    "elapsed_ms": 859
+  },
+  {
+    "name": "&flix HD [India]",
+    "group": "Hindi - Movies",
+    "tvg_id": "Andflix.in",
+    "url": "http://103.72.101.252:8080/live/1322.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27021
   },
   {
     "name": "News18 Bihar Jharkhand HD [India]",
@@ -967,7 +967,7 @@
     "ok": true,
     "reason": "HTTP 200, 1099B received",
     "attempts": 1,
-    "elapsed_ms": 796
+    "elapsed_ms": 910
   },
   {
     "name": "Northeast Live HD [India]",
@@ -987,7 +987,7 @@
     "ok": true,
     "reason": "HTTP 200, 1044B received",
     "attempts": 1,
-    "elapsed_ms": 770
+    "elapsed_ms": 799
   },
   {
     "name": "News18 India HD [India]",
@@ -997,7 +997,7 @@
     "ok": true,
     "reason": "HTTP 200, 1049B received",
     "attempts": 1,
-    "elapsed_ms": 765
+    "elapsed_ms": 803
   },
   {
     "name": "News18 Madhya Pradesh/Chhattisgarh HD [India]",
@@ -1007,7 +1007,17 @@
     "ok": true,
     "reason": "HTTP 200, 1099B received",
     "attempts": 1,
-    "elapsed_ms": 783
+    "elapsed_ms": 807
+  },
+  {
+    "name": "News18 Uttar Pradesh Uttarakhand HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "News18UttarPradeshUttarakhand.in",
+    "url": "https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 1094B received",
+    "attempts": 1,
+    "elapsed_ms": 694
   },
   {
     "name": "News18 Punjab/Haryana/Himachal HD [India]",
@@ -1017,17 +1027,7 @@
     "ok": true,
     "reason": "HTTP 200, 1109B received",
     "attempts": 1,
-    "elapsed_ms": 809
-  },
-  {
-    "name": "&flix HD [India]",
-    "group": "Hindi - Movies",
-    "tvg_id": "Andflix.in",
-    "url": "http://103.72.101.252:8080/live/1322.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27026
+    "elapsed_ms": 805
   },
   {
     "name": "Times Now HD [Geo-blocked] [India]",
@@ -1047,37 +1047,17 @@
     "ok": false,
     "reason": "HTTP 401",
     "attempts": 3,
-    "elapsed_ms": 3206
+    "elapsed_ms": 3294
   },
   {
-    "name": "Sadhna Plus News HD [India]",
+    "name": "News18 Rajasthan HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "SadhnaPlusNews.in",
-    "url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8",
+    "tvg_id": "News18Rajasthan.in",
+    "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 124B received",
+    "reason": "HTTP 200, 1069B received",
     "attempts": 1,
-    "elapsed_ms": 741
-  },
-  {
-    "name": "TNP News HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "TNPNews.in",
-    "url": "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 182B received",
-    "attempts": 1,
-    "elapsed_ms": 694
-  },
-  {
-    "name": "News18 Uttar Pradesh Uttarakhand HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "News18UttarPradeshUttarakhand.in",
-    "url": "https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1094B received",
-    "attempts": 1,
-    "elapsed_ms": 889
+    "elapsed_ms": 939
   },
   {
     "name": "Republic Bharat HD [Geo-blocked] [India]",
@@ -1087,67 +1067,7 @@
     "ok": true,
     "reason": "HTTP 200, 1243B received",
     "attempts": 1,
-    "elapsed_ms": 812
-  },
-  {
-    "name": "TV9 Bharatvarsh HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "TV9Bharatvarsh.in",
-    "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 404B received",
-    "attempts": 1,
-    "elapsed_ms": 705
-  },
-  {
-    "name": "Sudarshan News HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "SudarshanNews.in",
-    "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 302B received",
-    "attempts": 1,
-    "elapsed_ms": 919
-  },
-  {
-    "name": "Zee Bharat HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "ZeeBharat.in",
-    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1028B received",
-    "attempts": 1,
-    "elapsed_ms": 369
-  },
-  {
-    "name": "Zee Rajasthan HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "ZeeRajasthan.in",
-    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1028B received",
-    "attempts": 1,
-    "elapsed_ms": 269
-  },
-  {
-    "name": "Zee Delhi NCR Haryana HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "ZeeDelhiNCRHaryana.in",
-    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1028B received",
-    "attempts": 1,
-    "elapsed_ms": 510
-  },
-  {
-    "name": "Zee Madhya Pradesh Chhattisgarh HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "ZeeMadhyaPradeshChhattisgarh.in",
-    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1028B received",
-    "attempts": 1,
-    "elapsed_ms": 604
+    "elapsed_ms": 806
   },
   {
     "name": "&pictures HD [India]",
@@ -1157,17 +1077,37 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27019
+    "elapsed_ms": 27023
   },
   {
-    "name": "Aastha Prime 1 HD [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "AasthaPrime1.in",
-    "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+    "name": "TNP News HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "TNPNews.in",
+    "url": "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 416B received",
+    "reason": "HTTP 200, 182B received",
     "attempts": 1,
-    "elapsed_ms": 440
+    "elapsed_ms": 741
+  },
+  {
+    "name": "TV9 Bharatvarsh HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "TV9Bharatvarsh.in",
+    "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 404B received",
+    "attempts": 1,
+    "elapsed_ms": 752
+  },
+  {
+    "name": "Sudarshan News HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "SudarshanNews.in",
+    "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 302B received",
+    "attempts": 1,
+    "elapsed_ms": 984
   },
   {
     "name": "&xplor HD [India]",
@@ -1180,14 +1120,34 @@
     "elapsed_ms": 27026
   },
   {
-    "name": "Zee News HD [India]",
+    "name": "Zee Uttar Pradesh/Uttarakhand HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "ZeeNews.in",
-    "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+    "tvg_id": "ZeeUttarPradeshUttarakhand.in",
+    "url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 706B received",
+    "reason": "HTTP 200, 596B received",
     "attempts": 1,
-    "elapsed_ms": 758
+    "elapsed_ms": 69
+  },
+  {
+    "name": "Zee Delhi NCR Haryana HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "ZeeDelhiNCRHaryana.in",
+    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 1028B received",
+    "attempts": 1,
+    "elapsed_ms": 697
+  },
+  {
+    "name": "Zee Bharat HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "ZeeBharat.in",
+    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 1028B received",
+    "attempts": 1,
+    "elapsed_ms": 711
   },
   {
     "name": "Colors Cineplex HD [India]",
@@ -1197,17 +1157,37 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27026
+    "elapsed_ms": 27023
   },
   {
-    "name": "Channel Divya HD [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "ChannelDivya.in",
-    "url": "https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8",
+    "name": "Zee Madhya Pradesh Chhattisgarh HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "ZeeMadhyaPradeshChhattisgarh.in",
+    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 559B received",
+    "reason": "HTTP 200, 1028B received",
     "attempts": 1,
-    "elapsed_ms": 351
+    "elapsed_ms": 697
+  },
+  {
+    "name": "Sadhna Plus News HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "SadhnaPlusNews.in",
+    "url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 124B received",
+    "attempts": 1,
+    "elapsed_ms": 1340
+  },
+  {
+    "name": "Aastha Prime 1 HD [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "AasthaPrime1.in",
+    "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 416B received",
+    "attempts": 1,
+    "elapsed_ms": 378
   },
   {
     "name": "Goldmines Movies HD [India]",
@@ -1217,67 +1197,37 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27021
+    "elapsed_ms": 27027
   },
   {
-    "name": "Zee Uttar Pradesh/Uttarakhand HD [India]",
+    "name": "Zee Rajasthan HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "ZeeUttarPradeshUttarakhand.in",
-    "url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
+    "tvg_id": "ZeeRajasthan.in",
+    "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 596B received",
+    "reason": "HTTP 200, 1028B received",
     "attempts": 1,
-    "elapsed_ms": 994
+    "elapsed_ms": 643
   },
   {
-    "name": "Adhyatm TV HD [India]",
+    "name": "Channel Divya HD [India]",
     "group": "Hindi - Devotional",
-    "tvg_id": "AdhyatmTV.in",
-    "url": "https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8",
+    "tvg_id": "ChannelDivya.in",
+    "url": "https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 182B received",
+    "reason": "HTTP 200, 559B received",
     "attempts": 1,
-    "elapsed_ms": 1001
+    "elapsed_ms": 398
   },
   {
-    "name": "News18 Rajasthan HD [India]",
+    "name": "Zee News HD [India]",
     "group": "Hindi - News",
-    "tvg_id": "News18Rajasthan.in",
-    "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8",
+    "tvg_id": "ZeeNews.in",
+    "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 1069B received",
-    "attempts": 2,
-    "elapsed_ms": 2648
-  },
-  {
-    "name": "Anand TV HD [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "AnandTV.in",
-    "url": "https://live.legitpro.co.in/anandtv/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 183B received",
+    "reason": "HTTP 200, 706B received",
     "attempts": 1,
-    "elapsed_ms": 923
-  },
-  {
-    "name": "SVBC 4 HD [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "SVBC4.in",
-    "url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 139B received",
-    "attempts": 1,
-    "elapsed_ms": 659
-  },
-  {
-    "name": "Fateh TV HD [Not 24/7] [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "FatehTV.in",
-    "url": "https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 183B received",
-    "attempts": 1,
-    "elapsed_ms": 921
+    "elapsed_ms": 809
   },
   {
     "name": "Ishwar Bhakti TV HD [India]",
@@ -1287,27 +1237,57 @@
     "ok": true,
     "reason": "HTTP 200, 122B received",
     "attempts": 1,
-    "elapsed_ms": 886
+    "elapsed_ms": 688
   },
   {
-    "name": "Janta TV HD [India]",
-    "group": "Hindi - News",
-    "tvg_id": "JantaTV.in",
-    "url": "https://live.jswk.online/IK_RTPM/live/index.m3u8",
-    "ok": false,
-    "reason": "HTTP 403",
-    "attempts": 3,
-    "elapsed_ms": 4020
-  },
-  {
-    "name": "Sadhna HD [India]",
+    "name": "Adhyatm TV HD [India]",
     "group": "Hindi - Devotional",
-    "tvg_id": "Sadhna.in",
-    "url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8",
+    "tvg_id": "AdhyatmTV.in",
+    "url": "https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 122B received",
+    "reason": "HTTP 200, 182B received",
     "attempts": 1,
-    "elapsed_ms": 712
+    "elapsed_ms": 1022
+  },
+  {
+    "name": "Steelbird Music HD [Not 24/7] [India]",
+    "group": "Hindi - Music",
+    "tvg_id": "SteelbirdMusic.in",
+    "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 6212
+  },
+  {
+    "name": "Anand TV HD [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "AnandTV.in",
+    "url": "https://live.legitpro.co.in/anandtv/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 183B received",
+    "attempts": 1,
+    "elapsed_ms": 971
+  },
+  {
+    "name": "Fateh TV HD [Not 24/7] [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "FatehTV.in",
+    "url": "https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 183B received",
+    "attempts": 1,
+    "elapsed_ms": 979
+  },
+  {
+    "name": "SVBC 4 HD [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "SVBC4.in",
+    "url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 139B received",
+    "attempts": 1,
+    "elapsed_ms": 758
   },
   {
     "name": "Hare Krsna TV HD [India]",
@@ -1317,7 +1297,27 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 1050
+    "elapsed_ms": 1051
+  },
+  {
+    "name": "Sadhna HD [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "Sadhna.in",
+    "url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 122B received",
+    "attempts": 1,
+    "elapsed_ms": 826
+  },
+  {
+    "name": "Janta TV HD [India]",
+    "group": "Hindi - News",
+    "tvg_id": "JantaTV.in",
+    "url": "https://live.jswk.online/IK_RTPM/live/index.m3u8",
+    "ok": false,
+    "reason": "HTTP 403",
+    "attempts": 3,
+    "elapsed_ms": 4686
   },
   {
     "name": "Mercy TV HD [India]",
@@ -1327,17 +1327,7 @@
     "ok": true,
     "reason": "HTTP 200, 139B received",
     "attempts": 1,
-    "elapsed_ms": 1337
-  },
-  {
-    "name": "Shubhsandesh TV HD [Not 24/7] [India]",
-    "group": "Hindi - Devotional",
-    "tvg_id": "ShubhsandeshTV.in",
-    "url": "https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 122B received",
-    "attempts": 1,
-    "elapsed_ms": 834
+    "elapsed_ms": 1416
   },
   {
     "name": "Shemaroo Filmi Gaane HD [India]",
@@ -1347,7 +1337,17 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27026
+    "elapsed_ms": 27022
+  },
+  {
+    "name": "Shubhsandesh TV HD [Not 24/7] [India]",
+    "group": "Hindi - Devotional",
+    "tvg_id": "ShubhsandeshTV.in",
+    "url": "https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 122B received",
+    "attempts": 1,
+    "elapsed_ms": 801
   },
   {
     "name": "NDTV Good Times HD [India]",
@@ -1357,7 +1357,7 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 144
+    "elapsed_ms": 304
   },
   {
     "name": "Star Sports 1 Hindi HD [India]",
@@ -1367,7 +1367,7 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 1647
+    "elapsed_ms": 1924
   },
   {
     "name": "JK 24x7 News HD [Not 24/7] [India]",
@@ -1377,7 +1377,7 @@
     "ok": false,
     "reason": "HTTP 404",
     "attempts": 3,
-    "elapsed_ms": 6425
+    "elapsed_ms": 6593
   },
   {
     "name": "Sanskar TV HD [India]",
@@ -1387,7 +1387,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3039
+    "elapsed_ms": 3056
   },
   {
     "name": "Sanskar UK HD [India]",
@@ -1397,7 +1397,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3041
+    "elapsed_ms": 3048
   },
   {
     "name": "Sanskar USA HD [India]",
@@ -1407,7 +1407,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3032
+    "elapsed_ms": 3051
   },
   {
     "name": "Sanskar Web TV HD [India]",
@@ -1417,7 +1417,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3039
+    "elapsed_ms": 3061
   },
   {
     "name": "Satsang TV HD [India]",
@@ -1427,7 +1427,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3037
+    "elapsed_ms": 3050
   },
   {
     "name": "Satsang Web TV HD [India]",
@@ -1437,7 +1437,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3033
+    "elapsed_ms": 3059
   },
   {
     "name": "Total Bhakti HD [India]",
@@ -1447,7 +1447,17 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 3029
+    "elapsed_ms": 3027
+  },
+  {
+    "name": "Capital TV HD [Nepal]",
+    "group": "Nepali - Entertainment",
+    "tvg_id": "CapitalTVHD.np",
+    "url": "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 219B received",
+    "attempts": 1,
+    "elapsed_ms": 1256
   },
   {
     "name": "Sanskar TV HD [India]",
@@ -1467,27 +1477,7 @@
     "ok": true,
     "reason": "HTTP 200, 337B received",
     "attempts": 1,
-    "elapsed_ms": 1109
-  },
-  {
-    "name": "Travelxp 4K HDR HD [Geo-blocked] [India]",
-    "group": "Hindi - Lifestyle",
-    "tvg_id": "Travelxp.in",
-    "url": "https://deltatesttatasky.akamaized.net/out/i/968284.m3u8",
-    "ok": false,
-    "reason": "HTTP 403",
-    "attempts": 3,
-    "elapsed_ms": 3052
-  },
-  {
-    "name": "Star Sports 2 Hindi HD [India]",
-    "group": "Hindi - Sports",
-    "tvg_id": "StarSports2Hindi.in",
-    "url": "http://103.157.248.140:8000/play/a01m/index.m3u8",
-    "ok": false,
-    "reason": "HTTP 403",
-    "attempts": 3,
-    "elapsed_ms": 4567
+    "elapsed_ms": 1125
   },
   {
     "name": "Mithila Nepal TV HD [Nepal]",
@@ -1497,7 +1487,27 @@
     "ok": true,
     "reason": "HTTP 200, 143B received",
     "attempts": 1,
-    "elapsed_ms": 1107
+    "elapsed_ms": 839
+  },
+  {
+    "name": "Travelxp 4K HDR HD [Geo-blocked] [India]",
+    "group": "Hindi - Lifestyle",
+    "tvg_id": "Travelxp.in",
+    "url": "https://deltatesttatasky.akamaized.net/out/i/968284.m3u8",
+    "ok": false,
+    "reason": "HTTP 403",
+    "attempts": 3,
+    "elapsed_ms": 3105
+  },
+  {
+    "name": "Star Sports 2 Hindi HD [India]",
+    "group": "Hindi - Sports",
+    "tvg_id": "StarSports2Hindi.in",
+    "url": "http://103.157.248.140:8000/play/a01m/index.m3u8",
+    "ok": false,
+    "reason": "HTTP 403",
+    "attempts": 3,
+    "elapsed_ms": 4697
   },
   {
     "name": "Nepal 1 SD [India]",
@@ -1505,9 +1515,9 @@
     "tvg_id": "Nepal1.in",
     "url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8",
     "ok": true,
-    "reason": "HTTP 200, 1263B received",
+    "reason": "HTTP 200, 1295B received",
     "attempts": 1,
-    "elapsed_ms": 322
+    "elapsed_ms": 315
   },
   {
     "name": "Times Now Navbharat HD [Geo-blocked] [India]",
@@ -1517,87 +1527,7 @@
     "ok": false,
     "reason": "HTTP 307",
     "attempts": 3,
-    "elapsed_ms": 7548
-  },
-  {
-    "name": "AP1 TV HD [Nepal]",
-    "group": "Nepali - Entertainment",
-    "tvg_id": "AP1TV.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8",
-    "ok": false,
-    "reason": "HTTP 404",
-    "attempts": 3,
-    "elapsed_ms": 5467
-  },
-  {
-    "name": "City One Television HD [Nepal]",
-    "group": "Nepali - Entertainment",
-    "tvg_id": "CityOneTelevision.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8",
-    "ok": false,
-    "reason": "HTTP 404",
-    "attempts": 3,
-    "elapsed_ms": 5193
-  },
-  {
-    "name": "Dhaulagiri Television SD [Nepal]",
-    "group": "Nepali - Entertainment",
-    "tvg_id": "DhaulagiriTelevision.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C117/master.m3u8",
-    "ok": false,
-    "reason": "HTTP 404",
-    "attempts": 3,
-    "elapsed_ms": 5147
-  },
-  {
-    "name": "Bagmati TV SD [Nepal]",
-    "group": "Nepali - Entertainment",
-    "tvg_id": "BagmatiTV.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C167/master.m3u8",
-    "ok": false,
-    "reason": "HTTP 404",
-    "attempts": 3,
-    "elapsed_ms": 5436
-  },
-  {
-    "name": "Pasand TV SD [India]",
-    "group": "Bhojpuri - Entertainment",
-    "tvg_id": "PasandTV.in",
-    "url": "https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 137B received",
-    "attempts": 1,
-    "elapsed_ms": 264
-  },
-  {
-    "name": "B4U Bhojpuri HD [India]",
-    "group": "Bhojpuri - Movies",
-    "tvg_id": "B4UBhojpuri.in",
-    "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 761B received",
-    "attempts": 1,
-    "elapsed_ms": 243
-  },
-  {
-    "name": "Divya Darshan TV HD [Nepal]",
-    "group": "Nepali - Devotional",
-    "tvg_id": "DivyaDarshanTV.np",
-    "url": "http://live.divyadarshantv.com/hls/stream.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 1590B received",
-    "attempts": 1,
-    "elapsed_ms": 600
-  },
-  {
-    "name": "Manoranjan Prime SD [India]",
-    "group": "Bhojpuri - Entertainment",
-    "tvg_id": "ManoranjanPrime.in",
-    "url": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
-    "ok": true,
-    "reason": "HTTP 200, 370B received",
-    "attempts": 1,
-    "elapsed_ms": 663
+    "elapsed_ms": 7792
   },
   {
     "name": "Angel TV HD [India]",
@@ -1607,17 +1537,87 @@
     "ok": true,
     "reason": "HTTP 200, 575B received",
     "attempts": 1,
-    "elapsed_ms": 796
+    "elapsed_ms": 1725
   },
   {
-    "name": "Capital TV HD [Nepal]",
+    "name": "Divya Darshan TV HD [Nepal]",
+    "group": "Nepali - Devotional",
+    "tvg_id": "DivyaDarshanTV.np",
+    "url": "http://live.divyadarshantv.com/hls/stream.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 1590B received",
+    "attempts": 1,
+    "elapsed_ms": 659
+  },
+  {
+    "name": "Dhaulagiri Television SD [Nepal]",
     "group": "Nepali - Entertainment",
-    "tvg_id": "CapitalTVHD.np",
-    "url": "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8",
+    "tvg_id": "DhaulagiriTelevision.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C117/master.m3u8",
     "ok": false,
     "reason": "HTTP 404",
     "attempts": 3,
-    "elapsed_ms": 6449
+    "elapsed_ms": 5493
+  },
+  {
+    "name": "City One Television HD [Nepal]",
+    "group": "Nepali - Entertainment",
+    "tvg_id": "CityOneTelevision.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C209/master.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 5510
+  },
+  {
+    "name": "AP1 TV HD [Nepal]",
+    "group": "Nepali - Entertainment",
+    "tvg_id": "AP1TV.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 6049
+  },
+  {
+    "name": "Bagmati TV SD [Nepal]",
+    "group": "Nepali - Entertainment",
+    "tvg_id": "BagmatiTV.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C167/master.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 6024
+  },
+  {
+    "name": "Pasand TV SD [India]",
+    "group": "Bhojpuri - Entertainment",
+    "tvg_id": "PasandTV.in",
+    "url": "https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 137B received",
+    "attempts": 1,
+    "elapsed_ms": 270
+  },
+  {
+    "name": "B4U Bhojpuri HD [India]",
+    "group": "Bhojpuri - Movies",
+    "tvg_id": "B4UBhojpuri.in",
+    "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 761B received",
+    "attempts": 1,
+    "elapsed_ms": 320
+  },
+  {
+    "name": "Manoranjan Prime SD [India]",
+    "group": "Bhojpuri - Entertainment",
+    "tvg_id": "ManoranjanPrime.in",
+    "url": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
+    "ok": true,
+    "reason": "HTTP 200, 370B received",
+    "attempts": 1,
+    "elapsed_ms": 714
   },
   {
     "name": "Zee Bihar Jharkhand HD [India]",
@@ -1627,7 +1627,7 @@
     "ok": true,
     "reason": "HTTP 200, 855B received",
     "attempts": 1,
-    "elapsed_ms": 129
+    "elapsed_ms": 148
   },
   {
     "name": "METV HD [Nepal]",
@@ -1637,17 +1637,7 @@
     "ok": false,
     "reason": "HTTP 404",
     "attempts": 3,
-    "elapsed_ms": 5498
-  },
-  {
-    "name": "Indigenous Television HD [Nepal]",
-    "group": "Nepali - Entertainment",
-    "tvg_id": "IndigenousTelevision.np",
-    "url": "https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8",
-    "ok": false,
-    "reason": "HTTP 403",
-    "attempts": 3,
-    "elapsed_ms": 7164
+    "elapsed_ms": 5056
   },
   {
     "name": "National Gold TV SD [Nepal]",
@@ -1657,27 +1647,17 @@
     "ok": false,
     "reason": "HTTP 404",
     "attempts": 3,
-    "elapsed_ms": 5515
+    "elapsed_ms": 4913
   },
   {
-    "name": "News 24 HD [Nepal]",
-    "group": "Nepali - News",
-    "tvg_id": "News24.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8",
+    "name": "Indigenous Television HD [Nepal]",
+    "group": "Nepali - Entertainment",
+    "tvg_id": "IndigenousTelevision.np",
+    "url": "https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8",
     "ok": false,
-    "reason": "HTTP 404",
+    "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 5172
-  },
-  {
-    "name": "J Music TV SD [Nepal]",
-    "group": "Nepali - Music",
-    "tvg_id": "JMusicTV.np",
-    "url": "http://maxotts.maxdigitaltv.com/x-media/C180/master.m3u8",
-    "ok": false,
-    "reason": "HTTP 404",
-    "attempts": 3,
-    "elapsed_ms": 5176
+    "elapsed_ms": 7135
   },
   {
     "name": "Star Sports 1 Hindi HD [India]",
@@ -1687,7 +1667,27 @@
     "ok": true,
     "reason": "HTTP 200, 2048B received",
     "attempts": 1,
-    "elapsed_ms": 1487
+    "elapsed_ms": 1646
+  },
+  {
+    "name": "J Music TV SD [Nepal]",
+    "group": "Nepali - Music",
+    "tvg_id": "JMusicTV.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C180/master.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 5536
+  },
+  {
+    "name": "News 24 HD [Nepal]",
+    "group": "Nepali - News",
+    "tvg_id": "News24.np",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8",
+    "ok": false,
+    "reason": "HTTP 404",
+    "attempts": 3,
+    "elapsed_ms": 5461
   },
   {
     "name": "Kantipur Max SD [Geo-blocked] [Nepal]",
@@ -1697,7 +1697,7 @@
     "ok": false,
     "reason": "HTTP 403",
     "attempts": 3,
-    "elapsed_ms": 6309
+    "elapsed_ms": 6758
   },
   {
     "name": "NTV HD [Nepal]",
@@ -1707,7 +1707,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3181
+    "elapsed_ms": 3252
   },
   {
     "name": "NTV Plus HD [Nepal]",
@@ -1717,7 +1717,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3069
+    "elapsed_ms": 3236
   },
   {
     "name": "NTV Kohalpur HD [Nepal]",
@@ -1727,7 +1727,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3191
+    "elapsed_ms": 3125
   },
   {
     "name": "NTV News HD [Nepal]",
@@ -1737,7 +1737,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3192
+    "elapsed_ms": 3163
   },
   {
     "name": "NTV Itahari HD [Nepal]",
@@ -1747,7 +1747,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3197
+    "elapsed_ms": 3122
   },
   {
     "name": "News24 Nepal SD [Nepal]",
@@ -1757,7 +1757,7 @@
     "ok": false,
     "reason": "HTTP 404",
     "attempts": 3,
-    "elapsed_ms": 4173
+    "elapsed_ms": 4064
   },
   {
     "name": "Image Channel Nepal SD [Nepal]",
@@ -1767,7 +1767,7 @@
     "ok": false,
     "reason": "connection error: [Errno -2] Name or service not known",
     "attempts": 3,
-    "elapsed_ms": 3089
+    "elapsed_ms": 3145
   },
   {
     "name": "Shemaroo Josh HD [India]",
@@ -1777,7 +1777,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27022
+    "elapsed_ms": 27026
   },
   {
     "name": "Star Movies HD [India]",
@@ -1787,7 +1787,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27027
+    "elapsed_ms": 27026
   },
   {
     "name": "Star Movies Select HD [India]",
@@ -1797,7 +1797,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27027
+    "elapsed_ms": 27026
   },
   {
     "name": "Zee Cafe HD [India]",
@@ -1807,7 +1807,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27024
+    "elapsed_ms": 27027
   },
   {
     "name": "Epic Music HD [India]",
@@ -1817,7 +1817,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27025
+    "elapsed_ms": 27027
   },
   {
     "name": "Shemaroo Filmi Gaane HD [India]",
@@ -1827,7 +1827,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27023
+    "elapsed_ms": 27021
   },
   {
     "name": "Aaj Tak HD [India]",
@@ -1837,7 +1837,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27032
+    "elapsed_ms": 27027
   },
   {
     "name": "NDTV India HD [India]",
@@ -1847,7 +1847,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27018
+    "elapsed_ms": 27026
   },
   {
     "name": "Aastha HD [India]",
@@ -1857,7 +1857,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27015
+    "elapsed_ms": 27026
   },
   {
     "name": "DD Sports HD [India]",
@@ -1867,7 +1867,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27028
+    "elapsed_ms": 27026
   },
   {
     "name": "Star Sports 2 HD [India]",
@@ -1877,7 +1877,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27071
+    "elapsed_ms": 27227
   },
   {
     "name": "DD Bharati HD [India]",
@@ -1887,7 +1887,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27026
+    "elapsed_ms": 27018
   },
   {
     "name": "Zee Zest HD [India]",
@@ -1900,16 +1900,6 @@
     "elapsed_ms": 27026
   },
   {
-    "name": "Bhojpuri Cinema HD [India]",
-    "group": "Bhojpuri - Movies",
-    "tvg_id": "BhojpuriCinema.in",
-    "url": "http://103.213.31.109:90/BhojpuriCinema/playlist.m3u8",
-    "ok": false,
-    "reason": "connection error: timed out",
-    "attempts": 3,
-    "elapsed_ms": 27024
-  },
-  {
     "name": "Epic Bhojpuri SD [India]",
     "group": "Bhojpuri - Movies",
     "tvg_id": "EpicBhojpuri.in",
@@ -1917,7 +1907,17 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27024
+    "elapsed_ms": 27017
+  },
+  {
+    "name": "Bhojpuri Cinema HD [India]",
+    "group": "Bhojpuri - Movies",
+    "tvg_id": "BhojpuriCinema.in",
+    "url": "http://103.213.31.109:90/BhojpuriCinema/playlist.m3u8",
+    "ok": false,
+    "reason": "connection error: timed out",
+    "attempts": 3,
+    "elapsed_ms": 27021
   },
   {
     "name": "Zee Biskope SD [India]",
@@ -1927,7 +1927,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27022
+    "elapsed_ms": 27027
   },
   {
     "name": "Sangeet Bhojpuri HD [India]",
@@ -1937,7 +1937,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27019
+    "elapsed_ms": 27021
   },
   {
     "name": "DD Sports HD [India]",
@@ -1947,7 +1947,7 @@
     "ok": false,
     "reason": "connection error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27027
+    "elapsed_ms": 27021
   },
   {
     "name": "ABC Nepal SD [Nepal]",
@@ -1957,6 +1957,6 @@
     "ok": false,
     "reason": "timeout/os error: timed out",
     "attempts": 3,
-    "elapsed_ms": 27574
+    "elapsed_ms": 27626
   }
 ]
