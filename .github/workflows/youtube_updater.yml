@@ -20,11 +20,11 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install yt-dlp
-        run: pip install yt-dlp
+      - name: Install m3u-parser
+        run: pip install m3u-parser
 
       - name: Run Update Script
-        run: python update_youtube.py
+        run: python update_from_iptv_org.py
 
       - name: Commit and Push changes
         run: |
