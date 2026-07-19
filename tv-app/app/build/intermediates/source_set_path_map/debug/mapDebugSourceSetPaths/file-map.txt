@@ -1,0 +1,51 @@
+com.samaratul.nannaiptv.app-jetified-activity-compose-1.8.2-0 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\0a7c94320ae1685083bc554c82005ded\transformed\jetified-activity-compose-1.8.2\res
+com.samaratul.nannaiptv.app-lifecycle-livedata-core-2.6.2-1 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\1716a2dd77d8e2c743d168eb9dadec92\transformed\lifecycle-livedata-core-2.6.2\res
+com.samaratul.nannaiptv.app-jetified-runtime-release-2 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\17ee981c3ab844ac30d6e1028661f5bf\transformed\jetified-runtime-release\res
+com.samaratul.nannaiptv.app-jetified-animation-release-3 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\1c52d22c97b4fca062bfc1765393f373\transformed\jetified-animation-release\res
+com.samaratul.nannaiptv.app-jetified-foundation-layout-release-4 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\1ef33dd591b0cf2d143fe0ed2c45f7b2\transformed\jetified-foundation-layout-release\res
+com.samaratul.nannaiptv.app-jetified-emoji2-1.3.0-5 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\res
+com.samaratul.nannaiptv.app-jetified-tv-material-1.0.0-alpha10-6 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\287443373d27db257799c1c3d32c33ea\transformed\jetified-tv-material-1.0.0-alpha10\res
+com.samaratul.nannaiptv.app-jetified-animation-core-release-7 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\2e369e21c2aed65d634b1f6f045cb08c\transformed\jetified-animation-core-release\res
+com.samaratul.nannaiptv.app-jetified-activity-1.8.2-8 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\31e869fd78b649ee7033ee1c39ef3d20\transformed\jetified-activity-1.8.2\res
+com.samaratul.nannaiptv.app-jetified-tv-foundation-1.0.0-alpha10-9 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\32e023f2905a963f239e871545c04659\transformed\jetified-tv-foundation-1.0.0-alpha10\res
+com.samaratul.nannaiptv.app-jetified-runtime-saveable-release-10 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\33de4cf3290439b3f079202df88f7e20\transformed\jetified-runtime-saveable-release\res
+com.samaratul.nannaiptv.app-jetified-lifecycle-process-2.6.2-11 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\359ebb8bdfe23d2e460aea84c955476f\transformed\jetified-lifecycle-process-2.6.2\res
+com.samaratul.nannaiptv.app-jetified-lifecycle-runtime-ktx-2.6.2-12 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\37eaa6636dd3e77b26f3eca7aaf09bdb\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.samaratul.nannaiptv.app-jetified-annotation-experimental-1.4.0-13 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\38370539393e2df7ca16295c89439667\transformed\jetified-annotation-experimental-1.4.0\res
+com.samaratul.nannaiptv.app-jetified-appcompat-resources-1.6.1-14 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\3d7992c39f7faef0351df675ae7d397e\transformed\jetified-appcompat-resources-1.6.1\res
+com.samaratul.nannaiptv.app-jetified-profileinstaller-1.3.1-15 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\res
+com.samaratul.nannaiptv.app-core-runtime-2.2.0-16 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\50f1e48a59f4eaea8aa0088b43894c74\transformed\core-runtime-2.2.0\res
+com.samaratul.nannaiptv.app-jetified-foundation-release-17 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\5156c0648336986c6a144e9b2ffcd585\transformed\jetified-foundation-release\res
+com.samaratul.nannaiptv.app-jetified-media3-exoplayer-1.2.0-18 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\58b487ae44bf0c5edef248d0824ccdb9\transformed\jetified-media3-exoplayer-1.2.0\res
+com.samaratul.nannaiptv.app-jetified-savedstate-ktx-1.2.1-19 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\58f72ecf1a8f74fa8ed9cef51abfc36d\transformed\jetified-savedstate-ktx-1.2.1\res
+com.samaratul.nannaiptv.app-jetified-ui-text-release-20 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\5ab24ce595da2553720ef7ce7f61b0e1\transformed\jetified-ui-text-release\res
+com.samaratul.nannaiptv.app-jetified-material-ripple-release-21 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\5b63f67d30f8fac8293a333d9576bb93\transformed\jetified-material-ripple-release\res
+com.samaratul.nannaiptv.app-jetified-activity-ktx-1.8.2-22 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\5d93558b820d32299284a0935a10492a\transformed\jetified-activity-ktx-1.8.2\res
+com.samaratul.nannaiptv.app-lifecycle-viewmodel-2.6.2-23 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\6130651f60d0ff84187fb4fddcb24e8d\transformed\lifecycle-viewmodel-2.6.2\res
+com.samaratul.nannaiptv.app-jetified-savedstate-1.2.1-24 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\752bd824c97f6241e7f22a16ad76299c\transformed\jetified-savedstate-1.2.1\res
+com.samaratul.nannaiptv.app-jetified-media3-ui-1.2.0-25 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\7f3117f45ca103187282bbe631dbf346\transformed\jetified-media3-ui-1.2.0\res
+com.samaratul.nannaiptv.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-26 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\9070f5e09e45ed77221c95649ae82eca\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.samaratul.nannaiptv.app-recyclerview-1.3.0-27 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\9c391cfabc0bd479ce194cd5d0963739\transformed\recyclerview-1.3.0\res
+com.samaratul.nannaiptv.app-jetified-ui-unit-release-28 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\a46576b0aef964d793a7734fd49ad6da\transformed\jetified-ui-unit-release\res
+com.samaratul.nannaiptv.app-jetified-ui-util-release-29 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\b39ff81f9f54f862d024cd127b8b4bf5\transformed\jetified-ui-util-release\res
+com.samaratul.nannaiptv.app-jetified-material3-release-30 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\b912e752770308e41969b9683f242eba\transformed\jetified-material3-release\res
+com.samaratul.nannaiptv.app-jetified-ui-graphics-release-31 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\bacbdb651228ba3db4e36bb58f7cc516\transformed\jetified-ui-graphics-release\res
+com.samaratul.nannaiptv.app-jetified-customview-poolingcontainer-1.0.0-32 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\be140c4b094bb7848e679c06843eaf58\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.samaratul.nannaiptv.app-jetified-lifecycle-viewmodel-ktx-2.6.2-33 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\bf81674bb183486825fa7d3eea6c3eb4\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.samaratul.nannaiptv.app-core-1.12.0-34 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\res
+com.samaratul.nannaiptv.app-media-1.6.0-35 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\d20ed7d0b8464166cb8657be618202fb\transformed\media-1.6.0\res
+com.samaratul.nannaiptv.app-jetified-material-icons-core-release-36 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\d8dd1d744c3ec8730d77586b89e8ce33\transformed\jetified-material-icons-core-release\res
+com.samaratul.nannaiptv.app-jetified-ui-release-37 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\dccef4463dc3e88040c41b63baec60ae\transformed\jetified-ui-release\res
+com.samaratul.nannaiptv.app-jetified-core-ktx-1.12.0-38 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\e9c30b20695643ee931a9a815023aa4a\transformed\jetified-core-ktx-1.12.0\res
+com.samaratul.nannaiptv.app-jetified-startup-runtime-1.1.1-39 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\f195d3b5cb37d86eb8d9eed076532242\transformed\jetified-startup-runtime-1.1.1\res
+com.samaratul.nannaiptv.app-lifecycle-runtime-2.6.2-40 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\f62ccbff41a1bcc79457723056caa633\transformed\lifecycle-runtime-2.6.2\res
+com.samaratul.nannaiptv.app-jetified-coil-base-2.5.0-41 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\fe13024f637f86adc5de2dfe42a58d51\transformed\jetified-coil-base-2.5.0\res
+com.samaratul.nannaiptv.app-jetified-ui-geometry-release-42 C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\fe261e9fb21ebc41c737923fd94b7740\transformed\jetified-ui-geometry-release\res
+com.samaratul.nannaiptv.app-pngs-43 D:\My Project\My Project\OS Live Tv\tv-app\app\build\generated\res\pngs\debug
+com.samaratul.nannaiptv.app-resValues-44 D:\My Project\My Project\OS Live Tv\tv-app\app\build\generated\res\resValues\debug
+com.samaratul.nannaiptv.app-updated_navigation_xml-45 D:\My Project\My Project\OS Live Tv\tv-app\app\build\generated\updated_navigation_xml\debug
+com.samaratul.nannaiptv.app-packageDebugResources-46 D:\My Project\My Project\OS Live Tv\tv-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.samaratul.nannaiptv.app-packageDebugResources-47 D:\My Project\My Project\OS Live Tv\tv-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.samaratul.nannaiptv.app-debug-48 D:\My Project\My Project\OS Live Tv\tv-app\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.samaratul.nannaiptv.app-debug-49 D:\My Project\My Project\OS Live Tv\tv-app\app\src\debug\res
+com.samaratul.nannaiptv.app-main-50 D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\res

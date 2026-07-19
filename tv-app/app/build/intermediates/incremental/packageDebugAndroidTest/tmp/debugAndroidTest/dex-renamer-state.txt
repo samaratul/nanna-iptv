@@ -1,0 +1,4 @@
+#Sun Jul 19 13:38:08 NPT 2026
+base.0=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+tv-app/gradle-8.4-bin.zip
+tv-app/gradle-8.4/
