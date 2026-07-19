@@ -3,15 +3,15 @@
 # ======================
 # Nepali - Entertainment
 # ======================
-#EXTINF:-1 group-title="Nepali - Entertainment",Kantipur Max HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Kantipur_Television_Logo.png" group-title="Nepali - Entertainment",Kantipur Max HD
 http://offline.stream/playlist.m3u8
-#EXTINF:-1 group-title="Nepali - Entertainment",Nari HD
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kH1FhE9Uo-O0qO3XWw2Wc3m_c4N9sD2B03m3-e=s900-c-k-c0x00ffffff-no-rj" group-title="Nepali - Entertainment",Nari HD
 https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
-#EXTINF:-1 group-title="Nepali - Entertainment",Indreni TV
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mN-uR8hZ08v6m5k81C537_a4hYw_F3t2M8V26g=s900-c-k-c0x00ffffff-no-rj" group-title="Nepali - Entertainment",Indreni TV
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - Entertainment",GNN
 https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/live.m3u8
-#EXTINF:-1 group-title="Nepali - Entertainment",Prime TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6f/Prime_Times_Television_logo.png" group-title="Nepali - Entertainment",Prime TV
 https://2-fss-1.streamhoster.com/pl_122/206858-4405346-1/playlist.m3u8
 
 # ======================
@@ -29,7 +29,7 @@ http://offline.stream/playlist.m3u8
 # ======================
 #EXTINF:-1 group-title="Nepali - Sports",Himalaya Sports HD
 http://offline.stream/playlist.m3u8
-#EXTINF:-1 group-title="Nepali - Sports",Action Sports HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/23/Action_Sports_Nepal.png" group-title="Nepali - Sports",Action Sports HD
 http://offline.stream/playlist.m3u8
 
 # ======================
@@ -41,7 +41,7 @@ http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR=
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - News",Kantipur HD
 https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8
-#EXTINF:-1 group-title="Nepali - News",AP1 HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/Ap1_TV_logo.png" group-title="Nepali - News",AP1 HD
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - News",Himalaya TV HD
 http://offline.stream/playlist.m3u8
