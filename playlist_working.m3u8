@@ -46,7 +46,7 @@ http://maxotts.maxdigitaltv.com/x-media/C22/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Himalaya_Television_Logo.png" group-title="Nepali - News",Himalaya TV HD
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7PgAPMU.png" group-title="Nepali - News",News 24
-https://bozztv.com/rongo/rongo-News24HD/index.m3u8
+http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8
 #EXTINF:-1 group-title="Nepali - News",Image HD
 https://stream.arcast.com.ar/casse/casse/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - News",Sagarmatha TV
@@ -106,11 +106,11 @@ http://103.72.101.252:8080/live/1319.m3u8
 # Hindi - Movies
 # ======================
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Hindi - Movies",Star Gold HD
-http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8
+http://103.253.18.58:8000/play/a00r
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi - Movies",Zee Cinema HD
 https://trs1.aynaott.com/ZeeCinemaHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LBICKI5.png" group-title="Hindi - Movies",Sony Max HD
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-max/index.m3u8
+http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Hindi - Movies",&Pictures HD
 https://trs1.aynaott.com/andpictureshd/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Hindi - Movies",Colors Cineplex HD
@@ -120,7 +120,7 @@ https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/zee5.com" group-title="Hindi - Movies",Zee Anmol
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Hindi - Movies",Star Utsav
-http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8
+http://149.71.34.166:8000/play/a059/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Hindi - Movies",Sony PAL
 http://138.121.15.230:9002/SONY/index.m3u8
 
@@ -136,17 +136,17 @@ http://138.121.15.230:9002/SONY/index.m3u8
 # Hindi - News
 # ======================
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="Hindi - News",Aaj Tak
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1784475712/ei/4Jtcat_FL4zI4t4P6_aEsAU/ip/103.186.196.70/id/KrV2e7-kY34.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr3---sn-jboxuo2-3uhe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/AZFlqhPHL2rW3l4R7sUJjzK8MRCETiawTPEhmJs6TbV4ENeyR4gxmdFSvdwjPaTTb-U9GpCU6bgQ3BOm/spc/SQ-umrz5diC9rR0oGyeMM2VvSc57VT2KUzUTrKH0_unUG30hSg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1563750/met/1784454113,/mh/9D/mm/44/mn/sn-jboxuo2-3uhe/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1784453782/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJ-7XXF7BslnGWlVr_tvkra-1cEEE3aQEa_BDpDOTtl1AiEA6brZiUJ8bz5Z9uHGRVwcz0CTKOn6oE3q6Y2XTkBQX4E%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgKpXuVGWA0uTNJIADp96qV3J5lMidT99dsewD2f5BXucCIQCIBw637F7GRloYyGRxVkUQ9s-RuTkdgNp5cbapnWS4Yw%3D%3D/playlist/index.m3u8
+http://103.213.31.109:90/AajtakHD/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/news18.com" group-title="Hindi - News",News 18
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="Hindi - News",ABP News
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1784475715/ei/45tcaorXA_OEjuMP6-OMsQk/ip/103.186.196.70/id/qyeZ63O2AC8.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr3---sn-jboxuo2-3uhl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFlqhOYZNAbYZu2n34xBaq9DPjySwQxrgQcjaB5-eY0_LANpv9t6uGKr1viABud-H4sAKkSmfQftidu/spc/SQ-umqJKtQkq29cmuqVqqxEIxy_1tbQSeEsPcbB6RVvHxD8qEQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1582500/met/1784454115,/mh/qF/mm/44/mn/sn-jboxuo2-3uhl/ms/lva/mv/m/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992867/mt/1784453782/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMk1tre8Q-jlA7fC5UtPcR4oyI6uHvJyk2KnxDsBEQhQAiEA0Ek_d8ArFZTAVM-Vn8NrI8AX8SXD1NW5iUkBSeS8_CA%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgfZ9dUEeY5FYj73fuB271At7yh2CunirPAeeK7IJHUc8CIQCJmCrke__DsFQ3ify19yYSAYocUZW3yGdUdw5GRmzTmg%3D%3D/playlist/index.m3u8
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_24X7/images/LOGO_HD/image.png" group-title="Hindi - News",NDTV 24x7
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1784475717/ei/5ZtcapOtEOur4-EPp8zu-AQ/ip/103.186.196.70/id/Fk59KklzQto.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-jboxuo2-3uhl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFlqhOdfN0MjFGYLsP0s8vzxlcxqYxSgfvJeB3vZFrT-SKnwiJPJkKjT0p_WLpeo1Y1wvVIxf2zuLXm/spc/SQ-umuvofLv84ZycgRUtE81bCYgRltiTAiH-lpPk-LWDxK-7gw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1582500/met/1784454117,/mh/Fc/mm/44/mn/sn-jboxuo2-3uhl/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1784453782/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgR-AW4DETqO6q63R5-MKOPeITucD6Id-z06TRQuv7fP8CIB0YorY5UZOpw0qjQ6C0fwlhIf3MTCn7PZIA4_83uftS/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPkrP4y-Td7Gd8KYsfDRlvHnbB7TT7qFIC5vcG97_ya4AiEAgpltxl0DJaYB1pFFS_HDCvj2FUTZ8ogV1qNanto_r1E%3D/playlist/index.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="Hindi - News",Zee News
 https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png" group-title="Hindi - News",India Today
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1784475719/ei/55tcarilFb6i9fwP7KvE2A0/ip/103.186.196.70/id/TyEj3rnfvtY.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-jboxuo2-3uhe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFlqhMo9wm2Gfj7IzUD20PtFikrJphyMrmGuE-wEbz2MEuJN8qNb78CCIh_gR1JJz_OJbUn1WVF2Qqe/spc/SQ-umugwgnyqK2riWgbLutEGZqXmHjEGWh9Z-lD5RHqg8J83pg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1563750/met/1784454119,/mh/bx/mm/44/mn/sn-jboxuo2-3uhe/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1784453782/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgFrUCN-IZnJp6z_oMpMwm69EuB9_k8j1EW6baODmMreQCIA7ToIH9jUkbPkrSCBmlrFAgnsPoIJ73kgmNIF-t4HtH/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgeG0qWx--BlM31vetmx-Ki7J1hUGkTvaOHjy6lv6u8d0CIC5e38vqImrXUI1_itLzetDJTO0yuULKsCxe9lJqf2SD/playlist/index.m3u8
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="Hindi - News",WION
 http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
 
@@ -178,11 +178,11 @@ https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_u
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/cnn.com" group-title="English - News",CNN
 https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="English - News",Al Jazeera HD
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1784475721/ei/6ZtcapC5LfnS3LUPufTV4QU/ip/103.186.196.70/id/gCNeDWCI0vo.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-jboxuo2-3uhl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/gcr/np/bui/AZFlqhM-qEHEbw-i96h8-kyZFv5x9EI_ve24rQl7JwMhvHnX7RAC22YLa1PlnyQqfjLxO7GPyiAIYgfL/spc/SQ-umrDUAnmj49f5jYMFLHN0TkT2L1MOny9pcFU5yeQDrE3xvg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1582500/met/1784454122,/mh/Dn/mm/44/mn/sn-jboxuo2-3uhl/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1784453782/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgDq8279tPVirRl6cw6iW-HYkcSAkUMCI77_h-w5aw6z8CIDVpkjMIx_C5etBv3fGqQdM6Fdm93pi5dMQ6egkcWfXa/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhALWqoZoKgZwx-t-w5UViTUslGq4yRikd2xcsLUGrE1r7AiEA6fJsZt9695yyCGGZyVsjD37UVoMbttwZu6A-Wiv39dw%3D/playlist/index.m3u8
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="English - News",TRT World HD
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="English - News",France 24
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" group-title="English - News",CGTN News HD
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/rt.com" group-title="English - News",RT English

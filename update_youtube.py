@@ -20,33 +20,29 @@ def clean_channel_name(name):
     name = re.sub(r'\s+', ' ', name)
     return name
 
-def get_iptv_org_data():
-    print("Fetching iptv-org fallback URLs...")
-    url = "https://iptv-org.github.io/iptv/index.m3u"
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+def fetch_m3u_dict(url):
+    print(f"Fetching {url}...")
     try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         data = urllib.request.urlopen(req).read().decode('utf-8')
         lines = data.split('\n')
-        
-        channels_data = {}
+        channels = {}
         current_name = None
-        
         for line in lines:
             line = line.strip()
             if not line: continue
-            
             if line.startswith('#EXTINF:'):
                 name_match = re.search(r',(.*)$', line)
                 if name_match:
                     current_name = name_match.group(1).strip()
             elif not line.startswith('#') and current_name:
                 clean = clean_channel_name(current_name)
-                if clean not in channels_data:
-                    channels_data[clean] = line
+                if clean not in channels:
+                    channels[clean] = line
                 current_name = None
-        return channels_data
+        return channels
     except Exception as e:
-        print(f"Failed to fetch iptv-org data: {e}")
+        print(f"Failed to fetch {url}: {e}")
         return {}
 
 def extract_youtube_m3u8(url):
@@ -67,7 +63,10 @@ def extract_youtube_m3u8(url):
         return None
 
 def process_m3u(file_path):
-    iptv_data = get_iptv_org_data()
+    nepali_data = fetch_m3u_dict("https://iptv-org.github.io/iptv/countries/np.m3u")
+    indian_data = fetch_m3u_dict("https://iptv-org.github.io/iptv/countries/in.m3u")
+    english_data = fetch_m3u_dict("https://iptv-org.github.io/iptv/languages/eng.m3u")
+    global_data = fetch_m3u_dict("https://iptv-org.github.io/iptv/index.m3u")
     
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -79,6 +78,7 @@ def process_m3u(file_path):
         
         if line.startswith('#EXTINF:'):
             name_match = re.search(r',(.*)$', line)
+            group_match = re.search(r'group-title="(.*?)"', line)
             new_lines.append(line)
             
             i += 1
@@ -86,29 +86,49 @@ def process_m3u(file_path):
                 url_line = lines[i]
                 if name_match and not url_line.startswith('#'):
                     name = name_match.group(1).strip()
+                    group = group_match.group(1) if group_match else ""
+                    
                     raw_clean = re.sub(r'\[.*$', '', name).strip()
                     clean = clean_channel_name(raw_clean)
                     
                     target_url = url_line.strip()
                     
-                    # 1. Try YouTube Live first
+                    # 1. Try YouTube Live first if applicable
+                    is_yt_success = False
                     if name in YOUTUBE_CHANNELS:
                         print(f"Checking YouTube live for {name}...")
                         yt_m3u8 = extract_youtube_m3u8(YOUTUBE_CHANNELS[name])
                         if yt_m3u8:
                             target_url = yt_m3u8
                             print(f" -> Success! Using YouTube stream.")
+                            is_yt_success = True
                         else:
-                            print(f" -> Not live. Falling back to iptv-org.")
-                            # Fallback to iptv-org
-                            if clean in iptv_data:
-                                target_url = iptv_data[clean]
-                            else:
-                                for k, v in iptv_data.items():
-                                    if len(clean) > 3 and len(k) > 3:
-                                        if k == clean or k.startswith(clean + " ") or clean.startswith(k + " "):
-                                            target_url = v
-                                            break
+                            print(f" -> Not live. Falling back to targeted iptv-org.")
+                    
+                    # 2. Fallback to targeted iptv-org if youtube fails or isn't applicable
+                    if not is_yt_success:
+                        primary_data = None
+                        if "Nepali" in group:
+                            primary_data = nepali_data
+                        elif "Indian" in group or "Kids" in group or "Movies" in group:
+                            primary_data = indian_data
+                        elif "News" in group or "International" in group:
+                            primary_data = english_data
+                            
+                        best_match_url = None
+                        if primary_data and clean in primary_data:
+                            best_match_url = primary_data[clean]
+                        if not best_match_url and primary_data:
+                            for k, v in primary_data.items():
+                                if len(clean) > 3 and len(k) > 3:
+                                    if k == clean or k.startswith(clean + " ") or clean.startswith(k + " "):
+                                        best_match_url = v
+                                        break
+                        if not best_match_url and clean in global_data:
+                            best_match_url = global_data[clean]
+                            
+                        if best_match_url:
+                            target_url = best_match_url
                     
                     new_lines.append(target_url + '\n')
                 else:
