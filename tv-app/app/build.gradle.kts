@@ -44,6 +44,7 @@ dependencies {
     
     // ExoPlayer (Media3)
     implementation("androidx.media3:media3-exoplayer:1.2.0")
+    implementation("androidx.media3:media3-exoplayer-hls:1.2.0")
     implementation("androidx.media3:media3-ui:1.2.0")
     
     // Coil for image loading
