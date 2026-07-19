@@ -6,7 +6,7 @@
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EZUyzhG.jpg" group-title="Nepali - Entertainment",Kantipur Max HD
 https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - Entertainment",Nari HD
-https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
+http://offline.stream/playlist.m3u8
 #EXTINF:-1 group-title="Nepali - Entertainment",Indreni TV
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/itetPKw.png" group-title="Nepali - Entertainment",GNN
@@ -154,7 +154,7 @@ http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f5
 # English - Entertainment
 # ======================
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="English - Entertainment",Comedy Central
-https://jmp2.uk/plu-61c0989431084d0007eab12d.m3u8
+http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="English - Entertainment",AXN
 http://45.190.28.50/AXN_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ROMEDY_NOW/images/LOGO_HD/image.png" group-title="English - Entertainment",Romedy Now
@@ -198,7 +198,7 @@ http://167.250.126.140:7777/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/nationalgeographic.com" group-title="English - Infotainment",Nat Geo Wild HD
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/discovery.com" group-title="English - Infotainment",Discovery HD
-https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
+http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/animalplanet.com" group-title="English - Infotainment",Animal Planet HD
 http://offline.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://logo.clearbit.com/tlc.com" group-title="English - Infotainment",TLC
