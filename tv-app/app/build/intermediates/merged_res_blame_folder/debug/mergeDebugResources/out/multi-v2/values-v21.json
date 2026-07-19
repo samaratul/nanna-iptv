@@ -4,7 +4,26 @@
             "outputFile": "com.samaratul.nannaiptv.app-mergeDebugResources-45:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\8.14.5\\transforms\\d20ed7d0b8464166cb8657be618202fb\\transformed\\media-1.6.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\9.5.0\\transforms\\db311a8151caeee4d8bdc1c2eddb060c\\transformed\\core-1.12.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,12,13,20,24,28,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
+                        "endLines": "2,4,5,6,12,13,20,24,30,35",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\9.5.0\\transforms\\893a57254492c7d3275311255c6e4b75\\transformed\\media-1.6.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\8.14.5\\transforms\\7f3117f45ca103187282bbe631dbf346\\transformed\\jetified-media3-ui-1.2.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\9.5.0\\transforms\\4feb43f707a6ada6defba3b352e822a2\\transformed\\jetified-media3-ui-1.2.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -39,25 +58,6 @@
                         "endLines": "3,11",
                         "endColumns": "58,10",
                         "endOffsets": "227,709"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\caches\\8.14.5\\transforms\\c191d6c20421577b04fcc6705f63a175\\transformed\\core-1.12.0\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,4,5,6,12,13,20,24,28,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,232,296,363,714,830,1287,1581,1876,2048",
-                        "endLines": "2,4,5,6,12,13,20,24,30,35",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,291,358,422,825,951,1408,1704,2043,2395"
                     }
                 }
             ]

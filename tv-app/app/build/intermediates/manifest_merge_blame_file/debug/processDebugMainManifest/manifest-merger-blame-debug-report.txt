@@ -5,8 +5,11 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
+7-->INJECTED
 8        android:minSdkVersion="26"
+8-->INJECTED
 9        android:targetSdkVersion="34" />
+9-->INJECTED
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:6:5-67
@@ -26,124 +29,129 @@
 18-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:12:9-32
 19
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->[androidx.media3:media3-common:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\4dcd8ec18b35915bca37a17a5d67f757\transformed\jetified-media3-common-1.2.0\AndroidManifest.xml:22:5-79
-20-->[androidx.media3:media3-common:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\4dcd8ec18b35915bca37a17a5d67f757\transformed\jetified-media3-common-1.2.0\AndroidManifest.xml:22:22-76
+20-->[androidx.media3:media3-common:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\feac53030d9fb0760792c0add539f5d1\transformed\jetified-media3-common-1.2.0\AndroidManifest.xml:22:5-79
+20-->[androidx.media3:media3-common:1.2.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\feac53030d9fb0760792c0add539f5d1\transformed\jetified-media3-common-1.2.0\AndroidManifest.xml:22:22-76
 21
 22    <permission
-22-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+22-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 23        android:name="com.samaratul.nannaiptv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-23-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+23-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 24        android:protectionLevel="signature" />
-24-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+24-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 25
 26    <uses-permission android:name="com.samaratul.nannaiptv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-26-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-26-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+26-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-30:19
+28-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:14:5-32:19
 29        android:allowBackup="true"
 29-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:15:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\c191d6c20421577b04fcc6705f63a175\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30-->[androidx.core:core:1.12.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\db311a8151caeee4d8bdc1c2eddb060c\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 31        android:banner="@drawable/ic_banner"
-31-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:17:9-45
+31-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:18:9-45
 32        android:debuggable="true"
 33        android:extractNativeLibs="false"
+33-->INJECTED
 34        android:icon="@drawable/ic_launcher"
-34-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:16:9-45
+34-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:17:9-45
 35        android:label="@string/app_name"
-35-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:18:9-41
-36        android:supportsRtl="true"
-36-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:19:9-35
-37        android:testOnly="true"
-38        android:theme="@style/Theme.NannaIPTV" >
-38-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:20:9-47
-39        <activity
-39-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:21:9-29:20
-40            android:name="com.samaratul.nannaiptv.MainActivity"
-40-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:22:13-41
-41            android:exported="true"
-41-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:23:13-36
-42            android:theme="@style/Theme.NannaIPTV" >
-42-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:24:13-51
-43            <intent-filter>
-43-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:25:13-28:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:17-69
-44-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:25-66
-45
-46                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-46-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:27:17-86
-46-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:27:27-83
-47            </intent-filter>
-48        </activity>
-49
-50        <provider
-50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-52            android:authorities="com.samaratul.nannaiptv.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-54            <meta-data
-54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\252df2f24c9814632b4f23e4781cbf92\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\359ebb8bdfe23d2e460aea84c955476f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\359ebb8bdfe23d2e460aea84c955476f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\359ebb8bdfe23d2e460aea84c955476f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-60            <meta-data
-60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-62                android:value="androidx.startup" />
-62-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-63        </provider>
-64
-65        <receiver
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-67            android:directBootAware="false"
-67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-68            android:enabled="true"
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-69            android:exported="true"
-69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-70            android:permission="android.permission.DUMP" >
-70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-71            <intent-filter>
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-73            </intent-filter>
-74            <intent-filter>
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-75                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-76            </intent-filter>
-77            <intent-filter>
-77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-78                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-79            </intent-filter>
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-81                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\8.14.5\transforms\467b9ef4217b0a1795e363d908a1cb42\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-82            </intent-filter>
-83        </receiver>
-84    </application>
-85
-86</manifest>
+35-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:20:9-41
+36        android:logo="@drawable/ic_banner"
+36-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:19:9-43
+37        android:supportsRtl="true"
+37-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.NannaIPTV"
+39-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:22:9-47
+40        android:usesCleartextTraffic="true" >
+40-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:16:9-44
+41        <activity
+41-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:23:9-31:20
+42            android:name="com.samaratul.nannaiptv.MainActivity"
+42-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:24:13-41
+43            android:exported="true"
+43-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:25:13-36
+44            android:theme="@style/Theme.NannaIPTV" >
+44-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:26:13-51
+45            <intent-filter>
+45-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:27:13-30:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:28:17-69
+46-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+48-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:29:17-86
+48-->D:\My Project\My Project\OS Live Tv\tv-app\app\src\main\AndroidManifest.xml:29:27-83
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.samaratul.nannaiptv.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\85a8d2a532548751806652226f4b97d1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\fae6785417906370e0c26c24156a10d2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\fae6785417906370e0c26c24156a10d2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\fae6785417906370e0c26c24156a10d2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+64                android:value="androidx.startup" />
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+65        </provider>
+66
+67        <receiver
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+68            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+69            android:directBootAware="false"
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+70            android:enabled="true"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+71            android:exported="true"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+72            android:permission="android.permission.DUMP" >
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+74                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+75            </intent-filter>
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+77                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+80                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+83                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Atul Upadhyaya\.gradle\caches\9.5.0\transforms\d42c8488330d91f6086d14d64124d18d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+84            </intent-filter>
+85        </receiver>
+86    </application>
+87
+88</manifest>

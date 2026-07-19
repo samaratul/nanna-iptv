@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\8.14.5\\com.samaratul.nannaiptv.app-debug-47:\\drawable_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\8.14.5\\com.samaratul.nannaiptv.app-main-49:\\drawable\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\8.14.5\\com.samaratul.nannaiptv.app-debug-47:\\drawable_ic_banner.xml.flat",
-        "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\8.14.5\\com.samaratul.nannaiptv.app-main-49:\\drawable\\ic_banner.xml"
-    },
-    {
         "merged": "com.samaratul.nannaiptv.app-debug-47:/drawable_ic_banner.png.flat",
         "source": "com.samaratul.nannaiptv.app-main-49:/drawable/ic_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\9.5.0\\com.samaratul.nannaiptv.app-debug-47:\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\9.5.0\\com.samaratul.nannaiptv.app-main-49:\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\9.5.0\\com.samaratul.nannaiptv.app-debug-47:\\drawable_ic_banner.png.flat",
+        "source": "C:\\Users\\Atul Upadhyaya\\.gradle\\daemon\\9.5.0\\com.samaratul.nannaiptv.app-main-49:\\drawable\\ic_banner.png"
     }
 ]

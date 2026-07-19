@@ -1,19 +1,22 @@
-#Sun Jul 19 15:54:13 NPT 2026
+#Sun Jul 19 17:12:03 NPT 2026
 base.0=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.3=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.4=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.4=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex
+base.5=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.6=D\:\\My Project\\My Project\\OS Live Tv\\tv-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex
 path.3=6/classes.dex
-path.4=classes2.dex
-path.5=classes3.dex
+path.4=classes.dex
+path.5=classes2.dex
+path.6=classes3.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
 renamed.4=classes5.dex
 renamed.5=classes6.dex
+renamed.6=classes7.dex
