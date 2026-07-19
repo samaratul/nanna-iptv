@@ -17,9 +17,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.tv.foundation.lazy.grid.TvGridCells
+import androidx.tv.foundation.lazy.grid.TvGridItemSpan
+import androidx.tv.foundation.lazy.grid.TvLazyVerticalGrid
+import androidx.tv.foundation.lazy.grid.items
 import androidx.tv.foundation.lazy.list.TvLazyColumn
-import androidx.tv.foundation.lazy.list.TvLazyRow
-import androidx.tv.foundation.lazy.list.items
 import androidx.tv.material3.*
 import coil.compose.AsyncImage
 import com.samaratul.nannaiptv.data.Channel
@@ -107,20 +109,23 @@ fun DashboardScreen(
         ) {
             val currentLangGroup = languageGroups.getOrNull(selectedLanguageIndex)
             if (currentLangGroup != null) {
-                TvLazyColumn(
-                    verticalArrangement = Arrangement.spacedBy(32.dp),
+                TvLazyVerticalGrid(
+                    columns = TvGridCells.Fixed(6),
+                    verticalArrangement = Arrangement.spacedBy(16.dp),
+                    horizontalArrangement = Arrangement.spacedBy(16.dp),
                     contentPadding = PaddingValues(bottom = 32.dp)
                 ) {
-                    item {
+                    item(span = { TvGridItemSpan(maxLineSpan) }) {
                         Text(
                             text = "${currentLangGroup.language} Channels",
                             style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
-                            color = Color.White
+                            color = Color.White,
+                            modifier = Modifier.padding(bottom = 16.dp)
                         )
                     }
 
-                    items(currentLangGroup.categories) { category ->
-                        Column {
+                    currentLangGroup.categories.forEach { category ->
+                        item(span = { TvGridItemSpan(maxLineSpan) }) {
                             Text(
                                 text = category.title,
                                 style = MaterialTheme.typography.titleMedium.copy(
@@ -128,20 +133,15 @@ fun DashboardScreen(
                                     letterSpacing = 0.5.sp
                                 ),
                                 color = Color.White.copy(alpha = 0.7f),
-                                modifier = Modifier.padding(bottom = 16.dp, start = 4.dp)
+                                modifier = Modifier.padding(top = 16.dp, bottom = 8.dp, start = 4.dp)
                             )
-                            
-                            TvLazyRow(
-                                horizontalArrangement = Arrangement.spacedBy(20.dp),
-                                contentPadding = PaddingValues(start = 4.dp, end = 20.dp, top = 8.dp, bottom = 8.dp)
-                            ) {
-                                items(category.channels) { channel ->
-                                    ChannelCard(
-                                        channel = channel,
-                                        onClick = { onChannelSelected(channel) }
-                                    )
-                                }
-                            }
+                        }
+                        
+                        items(category.channels) { channel ->
+                            ChannelCard(
+                                channel = channel,
+                                onClick = { onChannelSelected(channel) }
+                            )
                         }
                     }
                 }
@@ -163,15 +163,15 @@ fun ChannelCard(
 
     Surface(
         onClick = onClick,
-        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(16.dp)),
+        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
         colors = ClickableSurfaceDefaults.colors(
             containerColor = Color(0xFF1E293B).copy(alpha = 0.4f), // Translucent card
             focusedContainerColor = Color(0xFF3B82F6), // Blue glow on focus
             contentColor = Color.White
         ),
         modifier = Modifier
-            .width(200.dp)
-            .height(140.dp)
+            .fillMaxWidth()
+            .aspectRatio(1.3f)
             .scale(scale)
             .onFocusChanged { isFocused = it.isFocused }
     ) {
@@ -188,7 +188,7 @@ fun ChannelCard(
             )
 
             Column(
-                modifier = Modifier.fillMaxSize().padding(12.dp),
+                modifier = Modifier.fillMaxSize().padding(8.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
@@ -197,24 +197,24 @@ fun ChannelCard(
                         model = channel.logo,
                         contentDescription = channel.name,
                         modifier = Modifier
-                            .size(72.dp)
-                            .padding(bottom = 12.dp),
+                            .size(48.dp)
+                            .padding(bottom = 8.dp),
                         contentScale = ContentScale.Fit
                     )
                 } else {
                     Box(
                         modifier = Modifier
-                            .size(72.dp)
-                            .padding(bottom = 12.dp)
-                            .background(Color.White.copy(alpha = 0.1f), shape = RoundedCornerShape(12.dp)),
+                            .size(48.dp)
+                            .padding(bottom = 8.dp)
+                            .background(Color.White.copy(alpha = 0.1f), shape = RoundedCornerShape(8.dp)),
                         contentAlignment = Alignment.Center
                     ) {
-                        Text("TV", color = Color.White, fontWeight = FontWeight.Bold)
+                        Text("TV", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
                     }
                 }
                 Text(
                     text = channel.name,
-                    style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Medium),
+                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -225,13 +225,13 @@ fun ChannelCard(
                 Box(
                     modifier = Modifier
                         .align(Alignment.TopEnd)
-                        .padding(8.dp)
+                        .padding(6.dp)
                         .background(Color(0xFFEF4444).copy(alpha = 0.9f), shape = RoundedCornerShape(4.dp))
-                        .padding(horizontal = 6.dp, vertical = 2.dp)
+                        .padding(horizontal = 4.dp, vertical = 2.dp)
                 ) {
                     Text(
                         text = "OFFLINE",
-                        style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold, fontSize = 9.sp),
+                        style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold, fontSize = 8.sp),
                         color = Color.White
                     )
                 }
