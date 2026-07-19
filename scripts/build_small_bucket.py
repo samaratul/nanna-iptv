@@ -1,112 +1,73 @@
-import os
-import json
+import csv
+import io
+import re
 
-# Use paths relative to this script so it works from anywhere
-script_dir = os.path.dirname(os.path.abspath(__file__))
-root_dir = os.path.dirname(script_dir)
+user_data = """Main Category,Sub-Category,Representative Channels
+Nepali,Entertainment,"Kantipur Max HD, Nari HD, Indreni TV, GNN, Prime TV"
+Nepali,Movies,"A1 TV, Mega Gold, Kasthamandap Gold"
+Nepali,Sports,"Himalaya Sports HD, Action Sports HD"
+Nepali,News,"Nepal TV HD, NTV News/Plus HD, Kantipur HD, AP1 HD, Himalaya TV HD, News 24, Image HD, Sagarmatha TV, Avenues TV, ABC News, Mountain TV, Janata TV, Channel 4 Nepal"
+Nepali,Infotainment/Other,"Indigenous Television, Nepal Mandal, Bodhi TV, Krishi TV, Business Plus, Dharma TV, Deep Television"
+Hindi,Entertainment,"Star Plus HD, Star Bharat HD, Sony Entertainment (SET) HD, Sony SAB HD, Zee TV HD, Colors HD, &TV HD, Colors Rishtey, Zee Cafe"
+Hindi,Movies,"Star Gold HD, Zee Cinema HD, Sony Max HD, &Pictures HD, Colors Cineplex HD, B4U Movies, Zee Anmol, Star Utsav, Sony PAL"
+Hindi,Sports,"Star Sports 1/2/3/Select HD, Sony Ten 1/2/3/5 HD"
+Hindi,News,"Aaj Tak, News 18, ABP News, NDTV 24x7, Zee News, India Today, WION"
+English,Entertainment,"Comedy Central, AXN, Romedy Now"
+English,Movies,"Star Movies HD, Star Movies Select HD, Sony Pix"
+English,News,"BBC News, CNN, Al Jazeera HD, TRT World HD, France 24, CGTN News HD, RT English, ABC Australia"
+English,Infotainment,"National Geographic HD, Nat Geo Wild HD, Discovery HD, Animal Planet HD, TLC, Sony BBC Earth HD, History TV18"
+English,Kids,"Nickelodeon (Nick) HD, Nick Jr, Pogo, Cartoon Network HD+, Disney International HD, Sony YAY!, Hungama"
+Bhojpuri,General/Movies,"B4U Bhojpuri, Various regional Goldmines variants"
+"""
 
-targets_file = os.path.join(script_dir, 'curation_targets.json')
-input_file = os.path.join(root_dir, 'bucket_public_working.m3u8')
-output_file = os.path.join(root_dir, 'playlist_working.m3u8')
-
-with open(targets_file, 'r', encoding='utf-8') as f:
-    targets = json.load(f)
-
-# Structure to hold final selected channels:
-# final_buckets[lang][genre] = { 'Channel Name': { 'url': ..., 'is_hd': ... } }
-final_buckets = {}
-for lang in targets:
-    final_buckets[lang] = {}
-    for genre in targets[lang]:
-        final_buckets[lang][genre] = {}
-
-if os.path.exists(input_file):
-    with open(input_file, 'r', encoding='utf-8') as f:
+# Read existing streams to find URLs
+public_streams = {} # lowercase channel name -> url
+try:
+    with open('bucket_public_working.m3u8', 'r', encoding='utf-8') as f:
         lines = f.readlines()
-else:
-    print(f"{input_file} not found.")
-    lines = []
+        current_name = ""
+        for line in lines:
+            if line.startswith('#EXTINF'):
+                current_name = line.split(',')[-1].strip()
+            elif line.startswith('http') and current_name:
+                public_streams[current_name.lower()] = line.strip()
+                current_name = ""
+except:
+    pass
 
-current_extinf = ""
-current_name = ""
-
-for line in lines:
-    line = line.strip()
-    if line.startswith('#EXTINF'):
-        current_extinf = line
-        current_name = line.split(',')[-1].strip()
-    elif line.startswith('http') and current_extinf:
-        url = line
-        name_lower = current_name.lower()
-        
-        # 1. Completely ban 576p streams
-        if "576" in name_lower:
-            current_extinf = ""
-            continue
-            
-        # 2. Check if it matches any target
-        is_hd = "hd" in name_lower or "1080" in name_lower or "720" in name_lower
-        
-        matched = False
-        for lang, genres in targets.items():
-            for genre, target_list in genres.items():
-                for target in target_list:
-                    if target.lower() in name_lower:
-                        # Found a match!
-                        # We deduplicate by the exact TARGET name from JSON.
-                        # If we already have a stream for this target, only replace it if this one is HD and the old one isn't.
-                        existing = final_buckets[lang][genre].get(target)
-                        if not existing or (is_hd and not existing['is_hd']):
-                            # Rewrite the EXTINF name to perfectly match the requested target string
-                            import re
-                            new_extinf = current_extinf
-                            # Replace the channel name (everything after the last comma) with the target
-                            new_extinf = re.sub(r',(.*)$', f',{target}', new_extinf)
-                            
-                            final_buckets[lang][genre][target] = {
-                                'extinf': new_extinf,
-                                'url': url,
-                                'is_hd': is_hd
-                            }
-                        matched = True
-                        break # stop checking targets in this genre
-                if matched:
-                    break
-            if matched:
-                break
-                
-        current_extinf = ""
-
-# Now write the curated playlist
-with open(output_file, 'w', encoding='utf-8') as out:
-    out.write('#EXTM3U\n')
+# Helper to find a stream url
+def find_stream(target):
+    # strip HD and other common suffixes for looser matching in the public bucket
+    clean_target = target.replace('HD+', '').replace('HD', '').replace('(SET)', '').replace('(Nick)', '').strip().lower()
     
-    total_added = 0
-    
-    for lang in targets:
-        for genre in targets[lang]:
-            channels = final_buckets[lang][genre]
-            if not channels:
-                continue
-                
-            out.write('\n# ======================\n')
-            out.write(f'# {lang} - {genre}\n')
-            out.write('# ======================\n')
-            
-            # Sort by name, HD first
-            sorted_channels = sorted(channels.items(), key=lambda x: (not x[1]['is_hd'], x[0]))
-            
-            for name, data in sorted_channels:
-                # Rewrite the group-title so it is uniform
-                # We can replace the existing group-title with our curated one
-                import re
-                extinf = data['extinf']
-                extinf = re.sub(r'group-title=".*?"', f'group-title="{lang} - {genre}"', extinf)
-                if 'group-title' not in extinf:
-                    extinf = extinf.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{lang} - {genre}"')
-                
-                out.write(f'{extinf}\n')
-                out.write(f"{data['url']}\n")
-                total_added += 1
+    # if it's a bundled string like "Star Sports 1/2/3/Select HD", just try to find the first one
+    if '/' in clean_target:
+        clean_target = clean_target.split('/')[0].strip()
+        
+    for pub_name, url in public_streams.items():
+        if clean_target in pub_name:
+            return url
+    return "http://offline.stream/playlist.m3u8"
 
-print(f"Successfully generated curated {total_added}-channel 'playlist_working.m3u8' using strict target whitelist.")
+
+reader = csv.reader(io.StringIO(user_data))
+header = next(reader)
+
+with open('playlist_working.m3u8', 'w', encoding='utf-8') as f:
+    f.write('#EXTM3U\n')
+    
+    for row in reader:
+        lang = row[0].strip()
+        genre = row[1].strip()
+        channels = [c.strip() for c in row[2].split(',')]
+        
+        f.write('\n# ======================\n')
+        f.write(f'# {lang} - {genre}\n')
+        f.write('# ======================\n')
+        
+        for ch in channels:
+            url = find_stream(ch)
+            f.write(f'#EXTINF:-1 group-title="{lang} - {genre}",{ch}\n')
+            f.write(f'{url}\n')
+
+print("Successfully generated exact mapping playlist_working.m3u8")

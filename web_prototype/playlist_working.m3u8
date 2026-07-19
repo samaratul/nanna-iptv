@@ -3,95 +3,233 @@
 # ======================
 # Nepali - Entertainment
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/itetPKw.png" group-title="Nepali - Entertainment",GNN
+#EXTINF:-1 group-title="Nepali - Entertainment",Kantipur Max HD
+https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Entertainment",Nari HD
+https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
+#EXTINF:-1 group-title="Nepali - Entertainment",Indreni TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Entertainment",GNN
 https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/live.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/dGoQ88j.png" group-title="Nepali - Entertainment",Prime TV
+#EXTINF:-1 group-title="Nepali - Entertainment",Prime TV
 https://2-fss-1.streamhoster.com/pl_122/206858-4405346-1/playlist.m3u8
+
+# ======================
+# Nepali - Movies
+# ======================
+#EXTINF:-1 group-title="Nepali - Movies",A1 TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Movies",Mega Gold
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Movies",Kasthamandap Gold
+http://offline.stream/playlist.m3u8
+
+# ======================
+# Nepali - Sports
+# ======================
+#EXTINF:-1 group-title="Nepali - Sports",Himalaya Sports HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Sports",Action Sports HD
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Nepali - News
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="Nepali - News",ABC News
+#EXTINF:-1 group-title="Nepali - News",Nepal TV HD
+http://150.107.205.212:1935/live/mithila/playlist.m3u8?DVR=
+#EXTINF:-1 group-title="Nepali - News",NTV News/Plus HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Kantipur HD
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8
+#EXTINF:-1 group-title="Nepali - News",AP1 HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Himalaya TV HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",News 24
+https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Image HD
+https://stream.arcast.com.ar/casse/casse/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Sagarmatha TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Avenues TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",ABC News
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="Nepali - News",News 24
-https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Mountain TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Janata TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - News",Channel 4 Nepal
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Nepali - Infotainment/Other
 # ======================
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.ibb.co/2MByL1X/indigenous-television.png" group-title="Nepali - Infotainment/Other",Indigenous Television
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Indigenous Television
 https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Nepal Mandal
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Bodhi TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Krishi TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Business Plus
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Dharma TV
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Nepali - Infotainment/Other",Deep Television
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Hindi - Entertainment
 # ======================
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi - Entertainment",Zee TV HD
+#EXTINF:-1 group-title="Hindi - Entertainment",Star Plus HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Star Bharat HD
+http://103.253.18.58:8000/play/a00u
+#EXTINF:-1 group-title="Hindi - Entertainment",Sony Entertainment (SET) HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Sony SAB HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Zee TV HD
 http://41.205.77.102/ZEE-TV/index.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Colors HD
+http://103.175.73.12:8080/live/29/29_0.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",&TV HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Colors Rishtey
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Entertainment",Zee Cafe
+http://offline.stream/playlist.m3u8
+
+# ======================
+# Hindi - Movies
+# ======================
+#EXTINF:-1 group-title="Hindi - Movies",Star Gold HD
+http://103.253.18.58:8000/play/a02u
+#EXTINF:-1 group-title="Hindi - Movies",Zee Cinema HD
+http://41.205.77.102/ZEE-CINEMA/index.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",Sony Max HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",&Pictures HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",Colors Cineplex HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",B4U Movies
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",Zee Anmol
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",Star Utsav
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - Movies",Sony PAL
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Hindi - Sports
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Hindi - Sports",Star Sports 1 HD
-http://103.253.18.58:8000/play/a00m
+#EXTINF:-1 group-title="Hindi - Sports",Star Sports 1/2/3/Select HD
+http://103.253.18.58:8000/play/a03o
+#EXTINF:-1 group-title="Hindi - Sports",Sony Ten 1/2/3/5 HD
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Hindi - News
 # ======================
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="Hindi - News",ABP News
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="Hindi - News",Aaj Tak
+#EXTINF:-1 group-title="Hindi - News",Aaj Tak
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png" group-title="Hindi - News",India Today
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_24X7/images/LOGO_HD/image.png" group-title="Hindi - News",NDTV 24x7
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="Hindi - News",WION
-https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="Hindi - News",Zee News
+#EXTINF:-1 group-title="Hindi - News",News 18
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - News",ABP News
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
+#EXTINF:-1 group-title="Hindi - News",NDTV 24x7
+https://ythls.armelin.one/channel/UCZFMm1mMw0F81Z37aaEzTUA.m3u8
+#EXTINF:-1 group-title="Hindi - News",Zee News
 https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
+#EXTINF:-1 group-title="Hindi - News",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 group-title="Hindi - News",WION
+http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
 
 # ======================
 # English - Entertainment
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="English - Entertainment",AXN
-http://138.186.23.7:8082/AXN/index.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="English - Entertainment",Comedy Central
-http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="English - Entertainment",Comedy Central
+https://jmp2.uk/plu-64f8a408bd341e000818fcda.m3u8
+#EXTINF:-1 group-title="English - Entertainment",AXN
+http://45.228.235.116:8000/play/a0iy/index.m3u8
+#EXTINF:-1 group-title="English - Entertainment",Romedy Now
+http://offline.stream/playlist.m3u8
 
 # ======================
 # English - Movies
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="English - Movies",Sony Pix
+#EXTINF:-1 group-title="English - Movies",Star Movies HD
+http://znty.dyndns.org:5010/hls/foxm.m3u8
+#EXTINF:-1 group-title="English - Movies",Star Movies Select HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Movies",Sony Pix
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
 
 # ======================
 # English - News
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="English - News",BBC News
+#EXTINF:-1 group-title="English - News",BBC News
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/elZyUjX.png" group-title="English - News",CNN
-http://88.212.15.19/live/test_cnn_pirma_news/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="English - News",France 24
+#EXTINF:-1 group-title="English - News",CNN
+https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
+#EXTINF:-1 group-title="English - News",Al Jazeera HD
+https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
+#EXTINF:-1 group-title="English - News",TRT World HD
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="English - News",France 24
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="English - News",TRT World HD
-https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
+#EXTINF:-1 group-title="English - News",CGTN News HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - News",RT English
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - News",ABC Australia
+http://offline.stream/playlist.m3u8
 
 # ======================
 # English - Infotainment
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English - Infotainment",National Geographic HD
-http://198.58.104.90:8989/natgeo/index.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/0d5hP3A.png" group-title="English - Infotainment",TLC
+#EXTINF:-1 group-title="English - Infotainment",National Geographic HD
+http://40.160.24.53/NAT_GEO/index.m3u8
+#EXTINF:-1 group-title="English - Infotainment",Nat Geo Wild HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Infotainment",Discovery HD
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
+#EXTINF:-1 group-title="English - Infotainment",Animal Planet HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Infotainment",TLC
 https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
+#EXTINF:-1 group-title="English - Infotainment",Sony BBC Earth HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Infotainment",History TV18
+http://offline.stream/playlist.m3u8
 
 # ======================
 # English - Kids
 # ======================
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/960px-Nick_Jr._logo_2023_%28outline%29.svg.png" group-title="English - Kids",Nick Jr
+#EXTINF:-1 group-title="English - Kids",Nickelodeon (Nick) HD
+http://stream.mcquack.net/443/index.m3u8
+#EXTINF:-1 group-title="English - Kids",Nick Jr
 http://103.137.83.62:9090/play/27/index.m3u8
+#EXTINF:-1 group-title="English - Kids",Pogo
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Kids",Cartoon Network HD+
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Kids",Disney International HD
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Kids",Sony YAY!
+http://offline.stream/playlist.m3u8
+#EXTINF:-1 group-title="English - Kids",Hungama
+http://offline.stream/playlist.m3u8
 
 # ======================
 # Bhojpuri - General/Movies
 # ======================
-#EXTINF:-1 tvg-language="Bhojpuri" tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Bhojpuri - General/Movies",B4U Bhojpuri
+#EXTINF:-1 group-title="Bhojpuri - General/Movies",B4U Bhojpuri
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
+#EXTINF:-1 group-title="Bhojpuri - General/Movies",Various regional Goldmines variants
+http://offline.stream/playlist.m3u8
