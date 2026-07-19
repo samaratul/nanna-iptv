@@ -29,8 +29,8 @@ class MainActivity : ComponentActivity() {
             LaunchedEffect(Unit) {
                 scope.launch {
                     val parser = M3uParser()
-                    // Fetch directly from the repository's main branch
-                    val url = "https://raw.githubusercontent.com/samaratul/nanna-iptv/main/playlist_working.m3u8"
+                    // Fetch directly from the repository's main branch, appending timestamp to bypass GitHub's 5-minute cache
+                    val url = "https://raw.githubusercontent.com/samaratul/nanna-iptv/main/playlist_working.m3u8?t=${System.currentTimeMillis()}"
                     languageGroups = parser.fetchAndParseM3u(url)
                     isLoading = false
                 }
