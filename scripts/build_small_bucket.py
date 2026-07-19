@@ -1,94 +1,107 @@
-import urllib.request
-import re
+import os
+import json
 
-LANGUAGES = ["English", "Hindi", "Nepali", "Bhojpuri"]
-GENRES = ["Entertainment", "Movies", "Music", "News", "Devotional", "Sports", "Lifestyle"]
+# Use paths relative to this script so it works from anywhere
+script_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.dirname(script_dir)
 
-buckets = {l: {g: [] for g in GENRES} for l in LANGUAGES}
+targets_file = os.path.join(script_dir, 'curation_targets.json')
+input_file = os.path.join(root_dir, 'bucket_public_working.m3u8')
+output_file = os.path.join(root_dir, 'playlist_working.m3u8')
 
-# Read working channels from the checked large bucket
-try:
-    with open("bucket_public_working.m3u8", "r", encoding="utf-8") as f:
+with open(targets_file, 'r', encoding='utf-8') as f:
+    targets = json.load(f)
+
+# Structure to hold final selected channels:
+# final_buckets[lang][genre] = { 'Channel Name': { 'url': ..., 'is_hd': ... } }
+final_buckets = {}
+for lang in targets:
+    final_buckets[lang] = {}
+    for genre in targets[lang]:
+        final_buckets[lang][genre] = {}
+
+if os.path.exists(input_file):
+    with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
-except FileNotFoundError:
-    print("bucket_public_working.m3u8 not found. Make sure check_streams.py ran on the large bucket.")
-    exit(1)
+else:
+    print(f"{input_file} not found.")
+    lines = []
 
 current_extinf = ""
 current_name = ""
-current_lang = ""
-current_genre = ""
-current_logo = ""
 
 for line in lines:
     line = line.strip()
-    if not line:
-        continue
     if line.startswith('#EXTINF'):
         current_extinf = line
-        name_parts = line.split(',')
-        current_name = name_parts[-1].strip() if len(name_parts) > 1 else ""
-        
-        grp = re.search(r'group-title="([^"]+)"', line)
-        if grp:
-            parts = grp.group(1).split(' - ')
-            if len(parts) == 2:
-                current_lang, current_genre = parts[0].strip(), parts[1].strip()
-        
-        lgo = re.search(r'tvg-logo="([^"]+)"', line)
-        current_logo = lgo.group(1) if lgo else ""
-        
+        current_name = line.split(',')[-1].strip()
     elif line.startswith('http') and current_extinf:
         url = line
-        if current_lang in LANGUAGES and current_genre in GENRES:
-            # Completely ban 576p streams as requested
-            if "576" in current_name.lower():
-                current_extinf = ""
-                continue
+        name_lower = current_name.lower()
+        
+        # 1. Completely ban 576p streams
+        if "576" in name_lower:
+            current_extinf = ""
+            continue
+            
+        # 2. Check if it matches any target
+        is_hd = "hd" in name_lower or "1080" in name_lower or "720" in name_lower
+        
+        matched = False
+        for lang, genres in targets.items():
+            for genre, target_list in genres.items():
+                for target in target_list:
+                    if target.lower() in name_lower:
+                        # Found a match!
+                        # We deduplicate by exact channel name (so we get both Goldmines Action and Goldmines Bollywood,
+                        # but only one version of 'Star Plus HD').
+                        # If we already have this channel name, only replace it if this one is HD and the old one isn't.
+                        existing = final_buckets[lang][genre].get(current_name)
+                        if not existing or (is_hd and not existing['is_hd']):
+                            final_buckets[lang][genre][current_name] = {
+                                'extinf': current_extinf,
+                                'url': url,
+                                'is_hd': is_hd
+                            }
+                        matched = True
+                        break # stop checking targets in this genre
+                if matched:
+                    break
+            if matched:
+                break
                 
-            is_hd = "hd" in current_name.lower() or "1080" in current_name.lower() or "720" in current_name.lower()
-            
-            buckets[current_lang][current_genre].append({
-                "name": current_name,
-                "url": url,
-                "logo": current_logo,
-                "is_hd": is_hd
-            })
-            
         current_extinf = ""
 
-# Write Final Small Bucket
-with open("playlist_working.m3u8", "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    f.write("#EXTVLCOPT:http-user-agent=Mozilla/5.0\n")
-    f.write("# Nepal & India IPTV Playlist - Auto-Healing Verified List\n")
-    f.write("# 70 channels per main category (English/Hindi/Nepali/Bhojpuri)\n")
-    f.write("# 10 per subcategory: Entertainment | Movies | Music | News | Devotional | Sports | Lifestyle\n")
-    f.write("# HD Priority & Popular Channels\n\n")
-
-    for lang in LANGUAGES:
-        f.write(f"# ====================== {lang.upper()} (70 Channels) ======================\n")
-        for genre in GENRES:
-            f.write(f"# {lang} - {genre} (10)\n")
-            
-            # Sort bucket: HD first
-            ch_list = buckets[lang][genre]
-            ch_list.sort(key=lambda x: x["is_hd"], reverse=True)
-            
-            # Take top 10 working streams
-            top_10 = ch_list[:10]
-            
-            # Output them
-            for i, ch in enumerate(top_10):
-                logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ''
-                f.write(f'#EXTINF:-1 tvg-language="{lang}"{logo_attr} group-title="{lang} - {genre}",{ch["name"]}\n')
-                f.write(f'{ch["url"]}\n')
-            
-            # Pad to 10 if necessary (so UI structure remains strict if that's desired, though UI can handle fewer)
-            for i in range(len(top_10) + 1, 11):
-                f.write(f'#EXTINF:-1 tvg-language="{lang}" group-title="{lang} - {genre}",{lang} {genre} {i} HD (Offline)\n')
-                f.write(f'https://example-{lang.lower()}-{genre.lower()}{i}.m3u8\n')
+# Now write the curated playlist
+with open(output_file, 'w', encoding='utf-8') as out:
+    out.write('#EXTM3U\n')
+    
+    total_added = 0
+    
+    for lang in targets:
+        for genre in targets[lang]:
+            channels = final_buckets[lang][genre]
+            if not channels:
+                continue
                 
-            f.write("\n")
+            out.write('\n# ======================\n')
+            out.write(f'# {lang} - {genre}\n')
+            out.write('# ======================\n')
+            
+            # Sort by name, HD first
+            sorted_channels = sorted(channels.items(), key=lambda x: (not x[1]['is_hd'], x[0]))
+            
+            for name, data in sorted_channels:
+                # Rewrite the group-title so it is uniform
+                # We can replace the existing group-title with our curated one
+                import re
+                extinf = data['extinf']
+                extinf = re.sub(r'group-title=".*?"', f'group-title="{lang} - {genre}"', extinf)
+                if 'group-title' not in extinf:
+                    extinf = extinf.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{lang} - {genre}"')
+                
+                out.write(f'{extinf}\n')
+                out.write(f"{data['url']}\n")
+                total_added += 1
 
-print("Successfully generated curated 280-channel 'playlist_working.m3u8' from verified links.")
+print(f"Successfully generated curated {total_added}-channel 'playlist_working.m3u8' using strict target whitelist.")

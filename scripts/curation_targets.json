@@ -1,0 +1,25 @@
+{
+  "Nepali": {
+    "Entertainment": ["Kantipur Max", "Nari", "Indreni", "GNN", "Prime TV"],
+    "Movies": ["A1 TV", "Mega Gold", "Kasthamandap Gold"],
+    "Sports": ["Himalaya Sports", "Action Sports"],
+    "News": ["Nepal TV", "NTV", "Kantipur", "AP1", "Himalaya TV", "News 24", "Image", "Sagarmatha", "Avenues", "ABC News", "Mountain TV", "Janata TV", "Channel 4"],
+    "Infotainment/Other": ["Indigenous", "Nepal Mandal", "Bodhi TV", "Krishi TV", "Business Plus", "Dharma TV", "Deep Television"]
+  },
+  "Hindi": {
+    "Entertainment": ["Star Plus", "Star Bharat", "Sony Entertainment", "Sony SAB", "Zee TV", "Colors", "&TV", "Colors Rishtey", "Zee Cafe"],
+    "Movies": ["Star Gold", "Zee Cinema", "Sony Max", "&Pictures", "Colors Cineplex", "B4U", "Zee Anmol", "Star Utsav", "Sony PAL"],
+    "Sports": ["Star Sports", "Sony Ten"],
+    "News": ["Aaj Tak", "News 18", "ABP", "NDTV", "Zee News", "India Today", "WION"]
+  },
+  "English": {
+    "Entertainment": ["Comedy Central", "AXN", "Romedy Now"],
+    "Movies": ["Star Movies", "Sony Pix"],
+    "News": ["BBC News", "CNN", "Al Jazeera", "TRT World", "France 24", "CGTN", "RT English", "ABC Australia"],
+    "Infotainment": ["National Geographic", "Nat Geo", "Discovery", "Animal Planet", "TLC", "Sony BBC Earth", "History"],
+    "Kids": ["Nickelodeon", "Nick Jr", "Pogo", "Cartoon Network", "Disney", "Sony YAY", "Hungama"]
+  },
+  "Bhojpuri": {
+    "General/Movies": ["B4U Bhojpuri", "Goldmines"]
+  }
+}
