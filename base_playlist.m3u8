@@ -1,0 +1,455 @@
+#EXTM3U
+
+# ==========================================
+# ENGLISH
+# ==========================================
+
+# Movies & Entertainment
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Star Movies HD
+http://placeholder-stream-url/star_movies_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Sony Pix HD
+http://placeholder-stream-url/sony_pix_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",HBO HD
+http://placeholder-stream-url/hbo_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Warner TV
+http://placeholder-stream-url/warner_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Zee Cafe HD
+http://placeholder-stream-url/zee_cafe_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Star World HD
+http://placeholder-stream-url/star_world_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Colors Infinity HD
+http://placeholder-stream-url/colors_infinity_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Comedy Central HD
+http://placeholder-stream-url/comedy_central_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",AXN HD
+http://placeholder-stream-url/axn_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",FX HD
+http://placeholder-stream-url/fx_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",HITS HD
+http://placeholder-stream-url/hits_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Star Movies Select HD
+http://placeholder-stream-url/star_movies_select_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Movies Now HD
+http://placeholder-stream-url/movies_now_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",MNX HD
+http://placeholder-stream-url/mnx_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Movies & Entertainment",Romedy Now
+http://placeholder-stream-url/romedy_now.m3u8
+
+# Sports
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Star Sports 1 HD
+http://placeholder-stream-url/star_sports_1_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Star Sports 2 HD
+http://placeholder-stream-url/star_sports_2_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Star Sports Select 1 HD
+http://placeholder-stream-url/star_sports_select_1_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Star Sports Select 2 HD
+http://placeholder-stream-url/star_sports_select_2_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Sony Sports Ten 1 HD
+http://placeholder-stream-url/sony_sports_ten_1_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Sony Sports Ten 2 HD
+http://placeholder-stream-url/sony_sports_ten_2_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Eurosport HD
+http://placeholder-stream-url/eurosport_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Ten Sports
+http://placeholder-stream-url/ten_sports.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",WWE Network HD
+http://placeholder-stream-url/wwe_network_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Sports",Fox Sports Asia
+http://placeholder-stream-url/fox_sports_asia.m3u8
+
+# News
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",CNN International
+http://placeholder-stream-url/cnn_international.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",BBC News
+https://www.youtube.com/@BBCNews/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",Al Jazeera English
+https://www.youtube.com/@aljazeeraenglish/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",Republic TV
+http://placeholder-stream-url/republic_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",Times Now World HD
+http://placeholder-stream-url/times_now_world_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",CNN-News18
+https://www.youtube.com/@cnnnews18/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",WION HD
+https://www.youtube.com/@WION/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",France 24 English
+https://www.youtube.com/@France24_en/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",Bloomberg Television
+https://www.youtube.com/@bloomberg/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - News",Fox News
+http://placeholder-stream-url/fox_news.m3u8
+
+# Lifestyle, Discovery & Kids
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",National Geographic HD
+http://placeholder-stream-url/national_geographic_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Discovery Channel HD
+http://placeholder-stream-url/discovery_channel_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Animal Planet HD
+http://placeholder-stream-url/animal_planet_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",TLC HD
+http://placeholder-stream-url/tlc_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",History TV18 HD
+http://placeholder-stream-url/history_tv18_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Cartoon Network HD+
+http://placeholder-stream-url/cartoon_network_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Disney Channel HD
+http://placeholder-stream-url/disney_channel_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Nick HD+
+http://placeholder-stream-url/nick_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Animax HD
+http://placeholder-stream-url/animax_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Lifestyle & Kids",Discovery Kids
+http://placeholder-stream-url/discovery_kids.m3u8
+
+# Music
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Music",Vh1 HD
+http://placeholder-stream-url/vh1_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Music",MTV Live HD
+http://placeholder-stream-url/mtv_live_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Music",Nat Geo Music
+http://placeholder-stream-url/nat_geo_music.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Music",Club MTV
+http://placeholder-stream-url/club_mtv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="English - Music",9xO
+http://placeholder-stream-url/9xo.m3u8
+
+# ==========================================
+# HINDI
+# ==========================================
+
+# General Entertainment
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Star Plus HD
+http://placeholder-stream-url/star_plus_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Zee TV HD
+http://placeholder-stream-url/zee_tv_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Colors HD
+http://placeholder-stream-url/colors_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Sony Entertainment Television HD
+http://placeholder-stream-url/sony_entertainment_television_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Sony SAB HD
+http://placeholder-stream-url/sony_sab_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Star Bharat HD
+http://placeholder-stream-url/star_bharat_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",&TV HD
+http://placeholder-stream-url/and_tv_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Sony Pal
+http://placeholder-stream-url/sony_pal.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Star Utsav
+http://placeholder-stream-url/star_utsav.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - General Entertainment",Dangal TV
+http://placeholder-stream-url/dangal_tv.m3u8
+
+# Movies
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Star Gold HD
+http://placeholder-stream-url/star_gold_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Zee Cinema HD
+http://placeholder-stream-url/zee_cinema_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Sony Max HD
+http://placeholder-stream-url/sony_max_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Colors Cineplex HD
+http://placeholder-stream-url/colors_cineplex_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Star Gold 2 HD
+http://placeholder-stream-url/star_gold_2_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Zee Classic
+http://placeholder-stream-url/zee_classic.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Zee Action
+http://placeholder-stream-url/zee_action.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",UTV Action
+http://placeholder-stream-url/utv_action.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",B4U Movies
+http://placeholder-stream-url/b4u_movies.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Movies",Goldmines
+http://placeholder-stream-url/goldmines.m3u8
+
+# News
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",Aaj Tak HD
+https://www.youtube.com/@aajtak/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",ABP News HD
+https://www.youtube.com/@abpnews/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",Zee News
+https://www.youtube.com/@zeenews/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",India TV
+https://www.youtube.com/@IndiaTV/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",News18 India
+https://www.youtube.com/@News18India/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",NDTV India
+https://www.youtube.com/@ndtvindia/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",TV9 Bharatvarsh
+https://www.youtube.com/@tv9bharatvarsh/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",Republic Bharat
+https://www.youtube.com/@RepublicBharat/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",CNBC Awaaz
+https://www.youtube.com/@cnbcawaaz/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - News",Zee Business
+https://www.youtube.com/@zeebusiness/live
+
+# Sports
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Sports",Star Sports 1 Hindi HD
+http://placeholder-stream-url/star_sports_1_hindi_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Sports",Sony Sports Ten 3 HD
+http://placeholder-stream-url/sony_sports_ten_3_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Sports",Sports18 Khel
+http://placeholder-stream-url/sports18_khel.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Sports",DD Sports HD
+http://placeholder-stream-url/dd_sports_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Sports",Star Sports First
+http://placeholder-stream-url/star_sports_first.m3u8
+
+# Music & Devotional
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",MTV India HD
+http://placeholder-stream-url/mtv_india_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",MTV Beats HD
+http://placeholder-stream-url/mtv_beats_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",9XM
+http://placeholder-stream-url/9xm.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Zing
+http://placeholder-stream-url/zing.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Mastiii
+http://placeholder-stream-url/mastiii.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Aastha TV
+https://www.youtube.com/@AasthaTvOfficial/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Sanskar TV
+https://www.youtube.com/@SanskarTV/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Satsang TV
+http://placeholder-stream-url/satsang_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Peace of Mind
+http://placeholder-stream-url/peace_of_mind.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Bhakti Darshan
+http://placeholder-stream-url/bhakti_darshan.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Showbox
+http://placeholder-stream-url/showbox.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Zoom
+http://placeholder-stream-url/zoom.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",E24
+http://placeholder-stream-url/e24.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Disha TV
+http://placeholder-stream-url/disha_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Hindi - Music & Devotional",Vedic
+http://placeholder-stream-url/vedic.m3u8
+
+# ==========================================
+# NEPALI
+# ==========================================
+
+# General & Entertainment
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Kantipur HD
+https://www.youtube.com/@kantipurtvhd/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",AP1 HD
+https://www.youtube.com/@ap1hdtv/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Himalaya TV HD
+https://www.youtube.com/@himalayatv/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Nepal TV HD
+https://www.youtube.com/@ntvnewshd/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",NTV Plus HD
+http://placeholder-stream-url/ntv_plus_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Prime HD
+https://www.youtube.com/@PrimeTimesHDTV/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Galaxy 4K
+http://placeholder-stream-url/galaxy_4k.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Yoho TV HD
+https://www.youtube.com/@YohoTelevisionHD/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",TV Today HD
+http://placeholder-stream-url/tv_today_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Entertainment",Image HD
+https://www.youtube.com/@imagechannelnepal/live
+
+# News
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Kantipur News
+http://placeholder-stream-url/kantipur_news.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",NTV News HD
+https://www.youtube.com/@ntvnewshd/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",News 24 Nepal
+https://www.youtube.com/@news24tv/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",ABC News Nepal
+https://www.youtube.com/@ABCNewsNepal/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Avenues TV
+https://www.youtube.com/@AvenuesTV/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Sagarmatha TV
+https://www.youtube.com/@SagarmathaTv/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Mountain TV
+https://www.youtube.com/@MountainTV/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Galaxy 4K News
+http://placeholder-stream-url/galaxy_4k_news.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Janata HD News
+http://placeholder-stream-url/janata_hd_news.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - News",Prime Times News
+https://www.youtube.com/@PrimeTimesHDTV/live
+
+# Sports
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Sports",Action Sports HD
+http://placeholder-stream-url/action_sports_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Sports",Himalaya Sports HD
+http://placeholder-stream-url/himalaya_sports_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Sports",Kantipur Max HD
+http://placeholder-stream-url/kantipur_max_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Sports",Sports 1
+http://placeholder-stream-url/sports_1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Sports",Sports 2
+http://placeholder-stream-url/sports_2.m3u8
+
+# Music & Infotainment
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Image Channel Music
+http://placeholder-stream-url/image_channel_music.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Hits FM TV
+http://placeholder-stream-url/hits_fm_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Nepal Music TV
+http://placeholder-stream-url/nepal_music_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Mountain Music Channel
+http://placeholder-stream-url/mountain_music_channel.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Kantipur Gold Music
+http://placeholder-stream-url/kantipur_gold_music.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Makalu TV HD
+http://placeholder-stream-url/makalu_tv_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Business Plus HD
+http://placeholder-stream-url/business_plus_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",BTV Business
+http://placeholder-stream-url/btv_business.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Krishi TV HD
+http://placeholder-stream-url/krishi_tv_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Music & Infotainment",Kisan TV
+http://placeholder-stream-url/kisan_tv.m3u8
+
+# Movies & Regional
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Kantipur Cineplex HD
+http://placeholder-stream-url/kantipur_cineplex_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",TV Filmy
+http://placeholder-stream-url/tv_filmy.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Space 4K
+http://placeholder-stream-url/space_4k.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Kastamandap Gold HD
+http://placeholder-stream-url/kastamandap_gold_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Himalaya Premium HD
+http://placeholder-stream-url/himalaya_premium_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",BM HD
+http://placeholder-stream-url/bm_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Nepal Network TV
+http://placeholder-stream-url/nepal_network_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Channel 4 Nepal
+http://placeholder-stream-url/channel_4_nepal.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Kastamandap Television
+http://placeholder-stream-url/kastamandap_television.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Indigenous Television
+http://placeholder-stream-url/indigenous_television.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Kalika HD
+http://placeholder-stream-url/kalika_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Nice Television HD
+http://placeholder-stream-url/nice_television_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Life Ok Nepal
+http://placeholder-stream-url/life_ok_nepal.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Mega TV
+http://placeholder-stream-url/mega_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Nepali - Movies & Regional",Bodhi TV HD
+http://placeholder-stream-url/bodhi_tv_hd.m3u8
+
+# ==========================================
+# BHOJPURI
+# ==========================================
+
+# Movies
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Zee Biskope
+http://placeholder-stream-url/zee_biskope.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Bhojpuri Cinema
+http://placeholder-stream-url/bhojpuri_cinema.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",B4U Bhojpuri
+http://placeholder-stream-url/b4u_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Dabangg
+http://placeholder-stream-url/dabangg.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Filamchi Bhojpuri
+http://placeholder-stream-url/filamchi_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Surya Bhojpuri
+http://placeholder-stream-url/surya_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Dishum TV
+http://placeholder-stream-url/dishum_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Anmol Cinema 2
+http://placeholder-stream-url/anmol_cinema_2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Abzy Dhakad
+http://placeholder-stream-url/abzy_dhakad.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Oscar Movies Bhojpuri
+http://placeholder-stream-url/oscar_movies_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Goldmines Bhojpuri
+http://placeholder-stream-url/goldmines_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Big Ganga HD
+http://placeholder-stream-url/big_ganga_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Bhojpuri Cinema HD
+http://placeholder-stream-url/bhojpuri_cinema_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",B4U Bhojpuri HD
+http://placeholder-stream-url/b4u_bhojpuri_hd.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Movies",Zee Biskope HD
+http://placeholder-stream-url/zee_biskope_hd.m3u8
+
+# General Entertainment
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Mahuaa TV
+http://placeholder-stream-url/mahuaa_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Mahuaa Plus
+http://placeholder-stream-url/mahuaa_plus.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Anjan TV
+http://placeholder-stream-url/anjan_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Hamar TV
+http://placeholder-stream-url/hamar_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Zee Ganga
+http://placeholder-stream-url/zee_ganga.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Enterr10 Rangeela
+http://placeholder-stream-url/enterr10_rangeela.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Dangal Bhojpuri
+http://placeholder-stream-url/dangal_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Shemaroo Umang
+http://placeholder-stream-url/shemaroo_umang.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Chintu TV
+http://placeholder-stream-url/chintu_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Dangal 2
+http://placeholder-stream-url/dangal_2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Surya Cinema
+http://placeholder-stream-url/surya_cinema.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Manoranjan Bhojpuri
+http://placeholder-stream-url/manoranjan_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Pasand TV
+http://placeholder-stream-url/pasand_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Appan TV
+http://placeholder-stream-url/appan_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Entertainment",Saubhagya Mithila
+http://placeholder-stream-url/saubhagya_mithila.m3u8
+
+# News & Regional
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",DD Bihar
+http://placeholder-stream-url/dd_bihar.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",DD UP
+http://placeholder-stream-url/dd_up.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",News18 Bihar-Jharkhand
+http://placeholder-stream-url/news18_bihar_jharkhand.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Zee Bihar Jharkhand
+http://placeholder-stream-url/zee_bihar_jharkhand.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",ABP Ganga
+http://placeholder-stream-url/abp_ganga.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Sahara Samay UP/Uttarakhand
+http://placeholder-stream-url/sahara_samay_up_uttarakhand.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Kashish News
+http://placeholder-stream-url/kashish_news.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Aryan TV
+http://placeholder-stream-url/aryan_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Nepal 1 TV
+http://placeholder-stream-url/nepal_1_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - News",Kalinga TV
+http://placeholder-stream-url/kalinga_tv.m3u8
+
+# Music, Devotional & Speciality
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Sangeet Bhojpuri
+http://placeholder-stream-url/sangeet_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",MH1 Bhojpuri Gehna
+http://placeholder-stream-url/mh1_bhojpuri_gehna.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Sanatan Bhojpuri
+http://placeholder-stream-url/sanatan_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Sadhna Bhojpuri
+http://placeholder-stream-url/sadhna_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Divya TV
+http://placeholder-stream-url/divya_tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Rishtey Bhojpuri
+http://placeholder-stream-url/rishtey_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Rishtey Laheriya
+http://placeholder-stream-url/rishtey_laheriya.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Raapchik
+http://placeholder-stream-url/raapchik.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Rishu Movies Bhojpuri
+http://placeholder-stream-url/rishu_movies_bhojpuri.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bhojpuri - Music & Speciality",Anjan TV Devotional
+http://placeholder-stream-url/anjan_tv_devotional.m3u8
