@@ -281,6 +281,8 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8
 http://45.228.235.116:8000/play/a0iy/index.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/U9NuJQC.png" group-title="Nepali - News",Cable Imagen Armstrong (540p) [Not 24/7]
 https://stream.arcast.com.ar/casse/casse/playlist.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="English - News",Fox Sports (720p) [Not 24/7]
+https://futbol9865.ultratv13.workers.dev/deportivo111/78.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="English - Music",MTV Latin America (1080p)
 http://179.60.51.134:8888/MTV/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Hindi - Entertainment",Sony Channel (1080p)
@@ -415,6 +417,10 @@ https://cnbc-live.akamaized.net/cnbc/master.m3u8
 https://stream.skynewsarabia.com/ott/ott.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/FjtzQQs.png" group-title="English - News",Sky News Arabia (Portrait) (1280p) [Not 24/7]
 https://stream.skynewsarabia.com/vertical/vertical.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/jk1lkOV.png" group-title="English - News",CromTV (1080p) [Not 24/7]
+https://fox.hostlagarto.com:8081/cromtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/DP6HmDV.png" group-title="Nepali - Entertainment",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Hindi - Entertainment",STAR Channel (Finland) (720p)
 https://live-fi.tvkaista.net/star-channel/live.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="English - Entertainment",CBS 12 West Palm Beach FL (WPEC) (1080p)
@@ -587,8 +593,6 @@ https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654102ed770cf1000866c307/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c9e98-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4c7b00a0-d803-41b5-95bb-c20d39e69ce2
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/sknLXZI.jpeg" group-title="Nepali - Entertainment",Nuestra Imagen TV
 https://live.tvcontrolcp.com:1936/tvnitelevision/tvnitelevision/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Ky70brA.png" group-title="English - News",MTV Guyana (1080p) [Not 24/7]
-https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.ibb.co/C9zjz9p/343159606-190989583743350-3489987129696505785-n.jpg" group-title="Nepali - News",Radio Imagen 105.1 FM (720p) [Not 24/7]
 https://streaming.imagenfm105-1.com/hls/stream.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540" group-title="Hindi - Entertainment",9X Jhakaas (1080p)
@@ -625,6 +629,8 @@ https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-language="Bhojpuri" tvg-logo="https://i.imgur.com/sh0yFSf.png" group-title="Bhojpuri - Entertainment",Anjan TV (720p)
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="Hindi - News",Awaaz India TV (720p) [Not 24/7]
+https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 tvg-language="Bhojpuri" tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Bhojpuri - Entertainment",B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Hindi - Movies",B4U Movies (1080p) [Geo-blocked]
@@ -747,8 +753,6 @@ https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_PROFIT_PRIME/images/LOGO_HD/image.png" group-title="Hindi - News",NDTV Profit (1080p)
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/Xr4FjC8.png" group-title="Nepali - Entertainment",Nepal 1 (396p)
-https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_INDIA/images/LOGO_HD/image.png" group-title="Hindi - News",News18 India (1080p)
 https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540" group-title="Nepali - News",News 24 (720p)
@@ -777,8 +781,6 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/in
 https://cdn-2.pishow.tv/live/39/master.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://dtil.tmsimg.com/assets/s143763_ld_h15_aa.png?lock=720x540" group-title="Nepali - Entertainment",Santvani Channel (576p)
 https://cdn-2.pishow.tv/live/475/master.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Hindi - Entertainment",Shemaroo Marathi Bana (720p)
-https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8]
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_TV/images/LOGO_HD/image.png" group-title="Hindi - Entertainment",Shemaroo TV (720p)
 https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/RQhorAG.png" group-title="Hindi - Movies",Shubh Cinema TV (720p)
@@ -1003,8 +1005,6 @@ https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8
 https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Abi9j0A.png" group-title="English - Entertainment",Madani Channel English (720p)
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png" group-title="English - News",Sky News Urdu (720p)
-https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="English - Entertainment",CBS 21 Harrisburg PA (WHP) (1080p)
 https://linear-697.frequency.stream/dist/stirr/697/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Peo1QiZ.png" group-title="English - Entertainment",AXN Black Poland (576p)
@@ -1015,6 +1015,8 @@ http://185.227.34.179:8080/axn-white/index.m3u8
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6108/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png" group-title="Hindi - Entertainment",Lone Star (720p)
 https://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/I66IkCw.png" group-title="English - Entertainment",TV Maná English (1080p)
+https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Peo1QiZ.png" group-title="English - News",AXN Black Romania [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6952/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/bNdpyAZ.png" group-title="Hindi - Entertainment",Realitatea Star (576i)
@@ -1135,6 +1137,8 @@ http://45.190.28.50/FOX_NEWS/index.m3u8
 https://gpuserver3.tier1streams.com/FOX/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/gR7u8DM.png" group-title="English - Entertainment",Fox Soccer Plus (720p)
 https://gpuserver3.tier1streams.com/FOX_SOCCER_PLUS/index.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="English - Sports",Fox Sports 1 (1080p) [Geo-blocked]
+https://messi.damitv.st/papi/ts/fox-sports-1/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="English - Sports",Fox Sports 2 (1080p) [Geo-blocked]
 https://messi.damitv.st/papi/ts/fox-sports-2/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png" group-title="English - Lifestyle",FOX Weather (1080p) [Geo-blocked]
@@ -3177,8 +3181,6 @@ https://webstreaming-3.viewmedia.tv/web_033/Stream/playlist.m3u8
 https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="English - Entertainment",Fox Soul (1080p)
 https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="English - Sports",Fox Sports 1 (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/fox-sports-1/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://images.pluto.tv/channels/6400c095498393000878a634/colorLogoPNG.png" group-title="English - Entertainment",Frasier
 https://jmp2.uk/plu-6400c095498393000878a634.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png" group-title="English - Entertainment",Frasier
@@ -4355,6 +4357,8 @@ https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
 https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/n2BoU7Q.png" group-title="English - Music",MTV Global (576p)
 https://shift03.isp.bg/MTVEurope/index.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Ky70brA.png" group-title="English - News",MTV Guyana (1080p) [Not 24/7]
+https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://images.pluto.tv/channels/68b9b0dbf9cf3d7cb9f56d88/colorLogoPNG_1757455543454.png" group-title="English - Music",MTV Jersey Shore
 https://jmp2.uk/plu-68b9b0dbf9cf3d7cb9f56d88.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="English - Music",MTV Pluto TV
@@ -6545,8 +6549,6 @@ http://40.160.24.55/TV_LAND/index.m3u8
 https://jmp2.uk/plu-5d40bebc5e3d2750a2239d7e.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/phHHs7l.png" group-title="English - Entertainment",TV Land Sitcoms
 https://jmp2.uk/plu-5c2d64ffbdf11b71587184b8.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/I66IkCw.png" group-title="English - Entertainment",TV Maná English (1080p)
-https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/qkbRslf.png" group-title="English - Entertainment",TV One (576p)
 http://92.114.85.72:8000/play/a070
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/tthm8Q5.png" group-title="English - Entertainment",TV One (1080p)
@@ -7245,8 +7247,6 @@ https://cdn-1.pishow.tv/live/961/master.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/index.m3u8?ads.vf=IvskZqDOz5G
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" group-title="Hindi - Entertainment",Aryan TV National (576p)
 https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="Hindi - News",Awaaz India TV (720p) [Not 24/7]
-https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 tvg-language="Hindi" group-title="Hindi - Entertainment",B4U Hitz (576p)
 http://115.42.65.142:9981/stream/channelid/1099703605
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Hindi - News",B4U Kadak (1080p) [Not 24/7]
@@ -7707,6 +7707,8 @@ http://103.72.101.252:8080/live/755.m3u8
 https://cdn-3.pishow.tv/live/1465/master.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_MARATHI/images/LOGO_HD/image.png" group-title="Hindi - News",NDTV Marathi (1080p)
 https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Hindi - Entertainment",Shemaroo Marathi Bana (720p)
+https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8]
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" group-title="Hindi - Lifestyle",Sony Marathi (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/ZT0u7AK.png" group-title="Hindi - Entertainment",Star Pravah HD (1080p)
@@ -7747,6 +7749,8 @@ https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
 http://maxotts.maxdigitaltv.com/x-media/C168/master.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/p0Wwf20.jpg" group-title="Nepali - Entertainment",National Gold TV
 http://maxotts.maxdigitaltv.com/x-media/C170/master.m3u8
+#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/Xr4FjC8.png" group-title="Nepali - Entertainment",Nepal 1 (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/7PgAPMU.png" group-title="Nepali - News",News 24 (1080p)
 http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/lxQAb3k.png" group-title="Nepali - Entertainment",NTV Itahari (576p)
@@ -7829,14 +7833,8 @@ http://92.36.202.5:10001/play/a01o
 https://lb.dstvmultimedia.com/ViasatHistory/index.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/8ign49i.png" group-title="Nepali - News",Capital 21 (1080p) [Not 24/7]
 https://video.cdmx.gob.mx/redes/stream.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/jk1lkOV.png" group-title="English - News",CromTV (1080p) [Not 24/7]
-https://fox.hostlagarto.com:8081/cromtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/4nP7j4M.png" group-title="Hindi - Entertainment",Daystar Español (720p)
 https://live-mcl.cdn01.net/smarttv/64wj6m6d8/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="English - News",Fox Sports (720p) [Not 24/7]
-https://futbol9865.ultratv13.workers.dev/deportivo111/78.m3u8
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/DP6HmDV.png" group-title="Nepali - Entertainment",Imagen Universal TV
-https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/Zt3iE86.png" group-title="Hindi - Entertainment",Movistar Deportes (1080p)
 http://45.4.1.201:8000/play/a13e/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/yGQGDoi.png" group-title="Hindi - Entertainment",Movistar Plus (576p)
@@ -7915,6 +7913,8 @@ https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/a
 https://canlitvulusal.xyz/live/eurostar/index.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" group-title="Nepali - News",NTV (720p) [Not 24/7]
 https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png" group-title="English - News",Sky News Urdu (720p)
+https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi" group-title="Nepali - Entertainment",ANTV (1080p)
 https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" group-title="Hindi - News",Aaj Ki Khabar (1080p)
