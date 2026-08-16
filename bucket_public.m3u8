@@ -5,14 +5,8 @@ https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
 https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/di3XX5L.png" group-title="Hindi - Entertainment",AzStarTV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/MTV_Az%C9%99rbaycan_%282022%29.png/622px-MTV_Az%C9%99rbaycan_%282022%29.png" group-title="English - Music",MTV Azerbaijan Ⓢ
-https://www.tvkaista.net/stream-forwarder/get.php?x=MTVAzerbaijan
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/b8W3Aah.png" group-title="Nepali - Entertainment",NTV
 http://152.89.62.111:8080/nXyAiP3DNp/QgOuvocpGv/223012
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/zz5ST9K.png" group-title="Nepali - Entertainment",ONNtv Ontario
-https://onntv.vantrix.tv:443/onntv_hls/1080p/onntv_hls-HLS-1080p.m3u8
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/Ap54LCC.png" group-title="Hindi - Entertainment",Star TV
-http://live.canadastartv.com:1935/canadastartv/canadastartv/playlist.m3u
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/pt2Kj1A.png" group-title="Nepali - Entertainment",NTV Ⓖ
 https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/Z1FB6wl.png" group-title="Hindi - Entertainment",Al Jazeera Balkans
@@ -79,6 +73,10 @@ https://www.youtube.com/watch?v=nSpwwcHVp80
 https://www.youtube.com/watch?v=3DbTO_AMhhc
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" group-title="Hindi - News",NDTV Profit
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/2H5KZZB.png" group-title="Hindi - News",News18 India Ⓨ
+https://www.youtube.com/watch?v=lLW9NIHqbwQ
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/4GxQPnD.png" group-title="English - News",CNN-News18 Ⓨ
+https://www.youtube.com/watch?v=jrNW1xqVT6c
 #EXTINF:-1 tvg-language="English" tvg-logo="https://imgur.com/ie2zSTY" group-title="English - Entertainment",CNBC Indonesia
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://imgur.com/MpxTMiP" group-title="English - News",CNN Indonesia
@@ -122,7 +120,7 @@ https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="Hindi - Entertainment",Al Jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/UZQjEsd.png" group-title="Hindi - Entertainment",Telestar1
-http://89.47.97.15/telestar/telestar.m3u8
+https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="English - Entertainment",CGTN Pусский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/Re3ur88.png" group-title="Nepali - Entertainment",SNTV Daljir Ⓢ
@@ -451,8 +449,6 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png" group-title="English - Music",Pluto TV MTV (Brazil) (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212fb81e85c00077ae9ef/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="Hindi - Entertainment",Telestar1
-https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Hindi - Lifestyle",STAR HD (1080p) [Non geo blocked]
 http://livestar.siliconweb.com/starvod/star4/star4.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/ZBt6beo.png" group-title="Hindi - Entertainment",Star Kentrikis Elladas (1080p)
