@@ -101,8 +101,8 @@ https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playli
 https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/oAiSU8O.png" group-title="English - Entertainment",Class CNBC Ⓖ
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/OpoLjfv" group-title="Nepali - Entertainment",NTV Kenya
-https://nation.africa/kenya/tv/live
+#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/OpoLjfv" group-title="Nepali - Entertainment",NTV Kenya Ⓨ
+https://www.youtube.com/c/NTVKenyaOnline/live
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/RuHZ6Dx.png" group-title="English - Entertainment",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/qceaIf7.png" group-title="English - Entertainment",EBS English Ⓢ
@@ -223,8 +223,6 @@ https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 https://vs-hls-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="English - News",CBS News
 https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="English - News",LiveNOW from FOX
-https://lnc-fox-live-now.tubi.video/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/koFYddE.png" group-title="Hindi - News",India Today
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="Hindi - News",NDTV 24x7 Ⓨ
