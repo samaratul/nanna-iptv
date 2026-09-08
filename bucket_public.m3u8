@@ -1277,6 +1277,8 @@ http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&
 http://tvsen7.aynascope.net/sspts1/index.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KGXP.png?lock=720x540" group-title="Hindi - News",Zee 24 Ghanta (576p)
 http://45.148.145.57/IN_Zee24Ghanta/index.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi - Entertainment",Zee Bangla HD (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
 #EXTINF:-1 tvg-language="Bhojpuri" group-title="Bhojpuri - Entertainment",Manoranjan Prime (576p)
 https://mumt06.tangotv.in/qYyB8fXVMANORANJANPRIME/index.m3u8
 #EXTINF:-1 tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/s143638_ld_h9_ab.png?lock=720x540" group-title="Bhojpuri - Movies",Oscar Movies Bhojpuri (720p)
@@ -4069,6 +4071,8 @@ https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8
 https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="English - Entertainment",Minika Go (720p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Minimax_2021.svg" group-title="English - Entertainment",Minimax
+https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/WWOlm1x.png" group-title="English - Entertainment",Minimax (576p) (576p)
 http://88.212.15.19/live/test_minimax/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/pTn8Vc3.png" group-title="English - Entertainment",Miracle TV (480p)
@@ -5431,6 +5435,8 @@ https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/vrcbnBv.png" group-title="English - Lifestyle",S4C (1080p) [Geo-blocked]
 https://v2.uk.live.s4c-cdn.co.uk/out/v1/S4C/UK_TX/uk_live/uk-tx-dvb.mpd
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.postimg.cc/DZ47qB39/In-Shot-20260816-210045369.png" group-title="English - Entertainment",S Free! (360p)
+https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.postimg.cc/Mp1TTWq0/In-Shot-20260818-135217619.png" group-title="English - Entertainment",S Premium! (360p)
 https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png" group-title="English - Sports",S Sport (720p)
@@ -5968,7 +5974,7 @@ https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist
 #EXTINF:-1 tvg-language="English" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="English - Entertainment",Telemundo (720p)
 http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="English - Entertainment",Telemundo East HD (1080p)
-http://45.190.13.8/TelemundoHD/index.m3u8
+https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/9bPcYIN.png" group-title="English - Entertainment",Telemundo telenovelas clásicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="English - Entertainment",Telemundo West (2160p)
@@ -7655,6 +7661,8 @@ https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/39qZ68J.png" group-title="English - Lifestyle",Viasat History
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78
+#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/UxAE5O4.png" group-title="Nepali - Entertainment",Capital TV
+https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png" group-title="English - News",Sky News Urdu (720p)
 https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi" group-title="Nepali - Entertainment",ANTV (1080p)
