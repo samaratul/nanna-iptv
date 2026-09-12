@@ -91,16 +91,18 @@ http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 https://live.presstv.co.uk/hls/ifilmen.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/5IxIFJ0.png" group-title="English - Lifestyle",Discovery Channel
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
+#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/gdzGwB6.png" group-title="Nepali - News",Rai News 24
+https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/gdzGwB6.png" group-title="Nepali - News",Rai News 24 Ⓖ
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/q4d3Dah.png" group-title="English - News",Sky TG24 Ⓖ
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/oAiSU8O.png" group-title="English - Entertainment",Class CNBC Ⓖ
+https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/02vCECa.png" group-title="Nepali - News",LaC News 24
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/1ddJVZ7.jpg" group-title="Hindi - Entertainment",Video Star Tv Sicilia
 https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8
-#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/oAiSU8O.png" group-title="English - Entertainment",Class CNBC Ⓖ
-https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/OpoLjfv" group-title="Nepali - Entertainment",NTV Kenya Ⓨ
 https://www.youtube.com/c/NTVKenyaOnline/live
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/RuHZ6Dx.png" group-title="English - Entertainment",Arirang
@@ -985,8 +987,6 @@ https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
 https://avr.host247.net/live/emantv/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/Dvf61Jp.png" group-title="English - Entertainment",Marjaeyat TV English (1080p)
 https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
-#EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/n2u57y3.png" group-title="Nepali - News",Rai News 24 HD (1080p)
-https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/FVnq2cQ.png" group-title="English - News",LMTV French (720p) [Not 24/7]
 https://video1.getstreamhosting.com:1936/8282/8282/playlist.m3u8
 #EXTINF:-1 tvg-language="Nepali" tvg-logo="https://i.imgur.com/qqLXdHz.png" group-title="Nepali - News",NTV Afrique (1080p) [Not 24/7]
