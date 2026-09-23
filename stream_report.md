@@ -1,6 +1,6 @@
 # Stream Check Report
 
-Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
+Checked **3809** streams — **3027 working**, **782 dead** (20.5% dead).
 
 ## Bhojpuri - Entertainment (11/12 working)
 - ❌ **Captain (576p)** — timeout/os error: The read operation timed out  
@@ -17,7 +17,7 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
 - ❌ **TBN Inspire (1080p)** — HTTP 404  
   `https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8`
 
-## English - Entertainment (1844/2192 working)
+## English - Entertainment (1857/2192 working)
 - ❌ **Blue Sky** — got HTML/error page instead of stream  
   `https://www.youtube.com/channel/UCBuEruzW_f-Qpj_sABmuYSg/live`
 - ❌ **WION Ⓨ** — got HTML/error page instead of stream  
@@ -28,28 +28,28 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://www.youtube.com/c/CNBC/live`
 - ❌ **CNBC Indonesia** — timeout/os error: Remote end closed connection without response  
   `https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8`
-- ❌ **CBS East (720p)** — connection error: [Errno -2] Name or service not known  
-  `https://fl3.moveonjoy.com/CBS_News/index.m3u8`
 - ❌ **Bloomberg TV US (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://bloomberg-bloomberg-3-br.samsung.wurl.tv/manifest/playlist.m3u8`
+- ❌ **CBS East (720p)** — connection error: [Errno -2] Name or service not known  
+  `https://fl3.moveonjoy.com/CBS_News/index.m3u8`
 - ❌ **CNBC** — connection error: [Errno -2] Name or service not known  
   `https://fl3.moveonjoy.com/CNBC/index.m3u8`
 - ❌ **Fox Soul** — connection error: [Errno 111] Connection refused  
   `https://fl1.moveonjoy.com/FOX_SOUL/index.m3u8`
 - ❌ **FOX Business (1080p)** — HTTP 404  
   `http://41.205.93.154/FOXBUSINESS/index.m3u8`
-- ❌ **CBS 22 South Bend IN (WSBT) (1080p)** — HTTP 503  
-  `https://linear-693.frequency.stream/dist/stirr/693/hls/master/playlist.m3u8`
 - ❌ **CGTN Español (1080p)** — timeout/os error: The read operation timed out  
   `https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8`
-- ❌ **CBS 7 Bozeman MT (KBZK) (720p)** — connection error: [Errno -2] Name or service not known  
-  `https://livetv-fa.tubi.video/kbzk/playlist.m3u8`
-- ❌ **CBS 3 Great Falls MT (KRTV) (720p)** — connection error: [Errno -2] Name or service not known  
-  `https://livetv-fa.tubi.video/krtv/playlist.m3u8`
+- ❌ **CBS 22 South Bend IN (WSBT) (1080p)** — HTTP 503  
+  `https://linear-693.frequency.stream/dist/stirr/693/hls/master/playlist.m3u8`
 - ❌ **CBS 2 Billings MT (KTVQ) (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://livetv-fa.tubi.video/ktvq/playlist.m3u8`
+- ❌ **CBS 3 Great Falls MT (KRTV) (720p)** — connection error: [Errno -2] Name or service not known  
+  `https://livetv-fa.tubi.video/krtv/playlist.m3u8`
 - ❌ **CBS 8 Missoula MT (KPAX) (720p)** — connection error: [Errno -2] Name or service not known  
   `https://livetv-fa.tubi.video/kpax/playlist.m3u8`
+- ❌ **CBS 7 Bozeman MT (KBZK) (720p)** — connection error: [Errno -2] Name or service not known  
+  `https://livetv-fa.tubi.video/kbzk/playlist.m3u8`
 - ❌ **CNBC Europe HD (1080p)** — timeout/os error: The read operation timed out  
   `https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8`
 - ❌ **CBS 2 Salt Lake City UT (KUTV) (1080p)** — HTTP 503  
@@ -60,52 +60,50 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://213.91.179.28:8000/play/a04m`
 - ❌ **AXN Spin** — got HTML/error page instead of stream  
   `https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8`
-- ❌ **ABC WPDE-TV (1080p)** — HTTP 503  
-  `https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8`
-- ❌ **ABC WSYX (1080p)** — HTTP 503  
-  `https://linear-689.frequency.stream/dist/stirr/689/hls/master/playlist.m3u8`
-- ❌ **ABC WJLA-TV (1080p)** — HTTP 503  
-  `https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8`
 - ❌ **ABC WLOS (1080p)** — HTTP 503  
   `https://linear-695.frequency.stream/dist/stirr/695/hls/master/playlist.m3u8`
-- ❌ **Access 4 PAC** — HTTP 403  
-  `https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8`
+- ❌ **ABC WJLA-TV (1080p)** — HTTP 503  
+  `https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8`
+- ❌ **ABC WSYX (1080p)** — HTTP 503  
+  `https://linear-689.frequency.stream/dist/stirr/689/hls/master/playlist.m3u8`
+- ❌ **ABC WPDE-TV (1080p)** — HTTP 503  
+  `https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8`
 - ❌ **Access 19** — HTTP 403  
   `https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8`
+- ❌ **Access 4 PAC** — HTTP 403  
+  `https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8`
 - ❌ **Access Sacramento Channel 17** — HTTP 403  
   `https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8`
 - ❌ **Access Tuolumne (720p)** — HTTP 403  
   `https://reflect-tuolumne.cablecast.tv/live-3/live/stream-1/live.m3u8`
 - ❌ **ACW UG TV (480p)** — connection error: [Errno -2] Name or service not known  
   `https://live.acwugtv.com/hls/stream.m3u8`
-- ❌ **Access Nashua (720p)** — HTTP 404  
-  `https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
 - ❌ **Adinkra TV (1080p)** — HTTP 404  
   `https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8`
-- ❌ **Afrique Media (720p)** — HTTP 403  
-  `https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8`
 - ❌ **Afrique54 TV (720p)** — HTTP 403  
   `https://video1.getstreamhosting.com:1936/8318/8318/playlist.m3u8`
+- ❌ **Afrique Media (720p)** — HTTP 403  
+  `https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8`
 - ❌ **Alb UK TV (1080p)** — HTTP 403  
   `http://5.254.89.106/8794/index.m3u8`
-- ❌ **AMC Europe Romania** — HTTP 403  
-  `https://iron1.jarvisx1.cfd/amece/usergenrx3oq1kr.m3u8`
 - ❌ **Alabama Weather Network (720p)** — HTTP 523  
   `https://alwxnet-ott-proxy.cloud9streaming.com/alwxnet/live/playlist.m3u8`
+- ❌ **AMC Europe Romania** — HTTP 403  
+  `https://iron1.jarvisx1.cfd/amece/usergenrx3oq1kr.m3u8`
 - ❌ **AnewZ TV** — HTTP 403  
   `https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8`
 - ❌ **Asia TV (720p)** — HTTP 521  
   `https://stream.asiatvnet.com/1/live/master.m3u8`
-- ❌ **AuroraTV (720p)** — HTTP 403  
-  `https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8`
-- ❌ **AXN Black Romania** — HTTP 403  
-  `https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8`
-- ❌ **ArubaTV +** — HTTP 404  
-  `https://rtmpcontrol.com:1936/atvplus/ngrp:atvplus_all/playlist.m3u8`
 - ❌ **AXN Black (576p)** — timeout/os error: timed out  
   `http://hls127.freeott.top:8080/BG_AXN_Black/video.m3u8`
 - ❌ **AXN White Bulgaria (576p)** — timeout/os error: timed out  
   `http://hls127.freeott.top:8080/BG_AXN_White/video.m3u8`
+- ❌ **AuroraTV (720p)** — HTTP 403  
+  `https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8`
+- ❌ **ArubaTV +** — HTTP 404  
+  `https://rtmpcontrol.com:1936/atvplus/ngrp:atvplus_all/playlist.m3u8`
+- ❌ **AXN Black Romania** — HTTP 403  
+  `https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8`
 - ❌ **AXN CEE Romania** — got HTML/error page instead of stream  
   `https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8`
 - ❌ **AXN White** — got HTML/error page instead of stream  
@@ -134,10 +132,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://buenapark.cablecast.tv/live/stream-1/live.m3u8`
 - ❌ **Aviation TV (480p)** — connection error: timed out  
   `http://streamer02.nbo1.angani.co:1935/aviationtv/myStream/playlist.m3u8`
-- ❌ **BX Arts (720p)** — HTTP 403  
-  `https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8`
 - ❌ **BX Culture (720p)** — HTTP 403  
   `https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8`
+- ❌ **BX Arts (720p)** — HTTP 403  
+  `https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8`
 - ❌ **BX Inform (1080p)** — HTTP 403  
   `https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8`
 - ❌ **BX Inspire (720p)** — HTTP 403  
@@ -152,46 +150,46 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://linear-706.frequency.stream/dist/stirr/706/hls/master/playlist.m3u8`
 - ❌ **CBS WPEC (1080p)** — HTTP 503  
   `https://linear-692.frequency.stream/dist/stirr/692/hls/master/playlist.m3u8`
-- ❌ **CCX1 (1080p)** — HTTP 403  
-  `http://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8`
-- ❌ **CGTV (720p)** — HTTP 403  
-  `https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8`
 - ❌ **CBS WWMT (1080p)** — HTTP 503  
   `https://linear-701.frequency.stream/dist/stirr/701/hls/master/playlist.m3u8`
+- ❌ **CCX1 (1080p)** — HTTP 403  
+  `http://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8`
 - ❌ **CBeebies Asia India (576p)** — HTTP 404  
   `http://202.70.146.135:8000/play/a0a2/index.m3u8`
+- ❌ **CGTV (720p)** — HTTP 403  
+  `https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8`
+- ❌ **ABC KATC (1080p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1753/index.m3u8`
 - ❌ **Channel 18 GAC** — HTTP 403  
   `https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-13/live/stream-1/live.m3u8`
 - ❌ **Channel 200 (540p)** — HTTP 403  
   `https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8`
-- ❌ **ABC KATC (1080p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1753/index.m3u8`
 - ❌ **Channels TV** — HTTP 403  
   `https://cs2.push2stream.com/CHANNELSTV-DVR/playlist.m3u8`
-- ❌ **Cinevault 80s (720p)** — HTTP 404  
-  `https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8`
-- ❌ **City of Loveland TV (1080p)** — HTTP 403  
-  `https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8`
 - ❌ **City of Monroe Government Channel** — HTTP 403  
   `https://reflect-monroe-mi-ci.cablecast.tv/live-1/live/live.m3u8`
+- ❌ **City of Loveland TV (1080p)** — HTTP 403  
+  `https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8`
+- ❌ **Cinevault 80s (720p)** — HTTP 404  
+  `https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8`
 - ❌ **CityTV Whittier (720p)** — HTTP 403  
   `https://whittier.cablecast.tv/live/stream-1/live.m3u8`
 - ❌ **cLoveworld TV (480p)** — HTTP 400  
   `https://live-hls-5rxy.livepush.io/live_cdn/em_LJ5aZjqp0LdiQ/index.m3u8`
 - ❌ **CMAC 1 (720p)** — HTTP 403  
   `https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-1/live.m3u8`
-- ❌ **CMAC 3 (720p)** — HTTP 403  
-  `https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8`
 - ❌ **CMAC 2 (720p)** — HTTP 403  
   `https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8`
-- ❌ **Clubbing TV France** — HTTP 504  
-  `https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8`
+- ❌ **CMAC 3 (720p)** — HTTP 403  
+  `https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8`
 - ❌ **Collier TV (720p)** — HTTP 403  
   `https://reflect-collier-countyboc.cablecast.tv/live-4/live/stream-1/live.m3u8`
-- ❌ **CNBC Asia (720p)** — connection error: [Errno 111] Connection refused  
-  `http://nmk.ioapk.com:5050/4gtv-live130/index.m3u8`
+- ❌ **Clubbing TV France** — HTTP 504  
+  `https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8`
 - ❌ **Comedy Central (Romania)** — HTTP 403  
   `https://saruman1.tharen1.cfd/comedi/usergenrx7zo1kr.m3u8`
+- ❌ **CNBC Asia (720p)** — connection error: [Errno 111] Connection refused  
+  `http://nmk.ioapk.com:5050/4gtv-live130/index.m3u8`
 - ❌ **Comedy Dynamics (1080p)** — HTTP 503  
   `https://comedydynamics-plex-ingest.cinedigm.com/playlist.m3u8`
 - ❌ **Concord TV (720p)** — HTTP 403  
@@ -202,40 +200,40 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://185.246.209.113/CottageLife/index.m3u8`
 - ❌ **CPAC English (720p)** — HTTP 503  
   `https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8`
-- ❌ **CreaTV Channel 28 (720p)** — HTTP 403  
-  `https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8`
-- ❌ **CreaTV Channel 27 (720p)** — HTTP 403  
-  `https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8`
 - ❌ **CreaTV Channel 15 (720p)** — HTTP 403  
   `https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8`
+- ❌ **CreaTV Channel 27 (720p)** — HTTP 403  
+  `https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8`
+- ❌ **CreaTV Channel 28 (720p)** — HTTP 403  
+  `https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8`
 - ❌ **CreaTV Channel 30 (720p)** — HTTP 403  
   `https://reflect-creatv.cablecast.tv/live-16/live/live.m3u8`
+- ❌ **Bravo (720p)** — timeout/os error: timed out  
+  `http://41.205.93.154/BRAVO/index.m3u8`
 - ❌ **CRTV (Cameroon) (576p)** — HTTP 403  
   `http://145.239.5.177/147/index.m3u8`
 - ❌ **CTV Life Channel (720p)** — connection error: [Errno 111] Connection refused  
   `http://185.246.209.113/ANIMALPLANETHD/index.m3u8`
-- ❌ **CW KATU (1080p)** — HTTP 503  
-  `https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8`
-- ❌ **CW WLUK-TV (1080p)** — HTTP 503  
-  `https://linear-702.frequency.stream/dist/stirr/702/hls/master/playlist.m3u8`
 - ❌ **CW KOMO-TV (1080p)** — HTTP 503  
   `https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8`
-- ❌ **Bravo (720p)** — timeout/os error: timed out  
-  `http://41.205.93.154/BRAVO/index.m3u8`
+- ❌ **CW WLUK-TV (1080p)** — HTTP 503  
+  `https://linear-702.frequency.stream/dist/stirr/702/hls/master/playlist.m3u8`
+- ❌ **CW KATU (1080p)** — HTTP 503  
+  `https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8`
 - ❌ **De unge modre** — HTTP 404  
   `https://jmp2.uk/plu-69172a4fcf4a1101befdd894.m3u8`
-- ❌ **DanceTV EDM Mainstage (1080p)** — HTTP 404  
-  `https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8`
 - ❌ **Detroit Channel 10** — HTTP 403  
   `https://reflect-detroit-vod.cablecast.tv/live-2/live/stream-6/live.m3u8`
-- ❌ **Detroit Channel 21** — HTTP 403  
-  `https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8`
 - ❌ **Detroit Channel 22** — HTTP 403  
   `https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8`
 - ❌ **Detroit Channel 68** — HTTP 403  
   `https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8`
+- ❌ **Detroit Channel 21** — HTTP 403  
+  `https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8`
 - ❌ **DanceTV Minimal Tech (1080p)** — HTTP 404  
   `https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8`
+- ❌ **DanceTV EDM Mainstage (1080p)** — HTTP 404  
+  `https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8`
 - ❌ **Disney Junior (Romania)** — got HTML/error page instead of stream  
   `https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8`
 - ❌ **Disney Junior (United States) (720p)** — HTTP 404  
@@ -246,10 +244,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://docurama-plex-ingest.cinedigm.com/playlist.m3u8`
 - ❌ **El Rey** — HTTP 400  
   `https://stream.ads.ottera.tv/playlist.m3u8?network_id=1544`
-- ❌ **ESPNU (720p)** — HTTP 404  
-  `http://23.237.104.106:8080/USA_ESPNU/index.m3u8`
 - ❌ **Escambia County TV (720p)** — HTTP 404  
   `https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8`
+- ❌ **ESPNU (720p)** — HTTP 404  
+  `http://23.237.104.106:8080/USA_ESPNU/index.m3u8`
 - ❌ **CBS KMOV (1080p)** — connection error: timed out  
   `http://best.happytv.xyz:2082/live/JThibodeau0923/gcEyG7W3/2193473.m3u8`
 - ❌ **Fame95 FM (480p)** — HTTP 400  
@@ -262,10 +260,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://d21x3vavxu7p2x.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8?ads.vf=nn5CUAdOxVu`
 - ❌ **City 41 (576p)** — connection error: timed out  
   `http://163.61.227.29:8000/play/a02r/index.m3u8`
-- ❌ **Fox (United States) KOKH-TV (1080p)** — HTTP 503  
-  `https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8`
 - ❌ **Fox (United States) KMPH-TV (1080p)** — HTTP 503  
   `https://linear-711.frequency.stream/dist/stirr/711/hls/master/playlist.m3u8`
+- ❌ **Fox (United States) KOKH-TV (1080p)** — HTTP 503  
+  `https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8`
 - ❌ **Fox Business Network (720p)** — HTTP 404  
   `http://5.254.89.106/6187/index.m3u8`
 - ❌ **Comedy Central (United States) (576p)** — timeout/os error: The read operation timed out  
@@ -280,12 +278,12 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://live.ctbperth.net.au/hls/0/stream.m3u8`
 - ❌ **GCO.tv (1080p)** — HTTP 403  
   `https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8`
+- ❌ **GNF TV (576p)** — HTTP 404  
+  `https://oqgdrb8my4rm-hls-live.5centscdn.com/GNF02/bcea197d8b00f79cb716c6288a861000.sdp/playlist.m3u8`
 - ❌ **Global Trekker (720p)** — connection error: [Errno 111] Connection refused  
   `http://nmk.ioapk.com:5050/4gtv-live112/index.m3u8`
 - ❌ **Disney Channel (India) HD (1080p)** — connection error: timed out  
   `http://66.102.126.10:8000/play/a013/index.m3u8`
-- ❌ **GNF TV (576p)** — HTTP 404  
-  `https://oqgdrb8my4rm-hls-live.5centscdn.com/GNF02/bcea197d8b00f79cb716c6288a861000.sdp/playlist.m3u8`
 - ❌ **Giggle Mug (576p)** — HTTP 404  
   `https://tvsen6.aynaott.com/ytv/index.m3u8`
 - ❌ **GoUSA TV (720p)** — connection error: [Errno -2] Name or service not known  
@@ -296,34 +294,30 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://g2qd3exjy7an-hls-live.5centscdn.com/gtvghana/ghanaweb.stream/playlist.m3u8`
 - ❌ **Gugudde TV (480p)** — HTTP 404  
   `https://jk3lzqq4lw79-hls-live.5centscdn.com/gugudde/c9a1fdac6e082dd89e7173244f34d7b3.sdp/chunks.m3u8`
-- ❌ **Government TV 16 (720p)** — HTTP 404  
-  `https://livestream.telvue.com/nashuanh3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
 - ❌ **Hallmark Channel (1080p)** — HTTP 404  
   `http://23.237.104.106:8080/USA_HALLMARK/index.m3u8`
 - ❌ **H2** — HTTP 404  
   `http://213.91.179.28:8000/play/a03r`
-- ❌ **English Class (1080p)** — connection error: timed out  
-  `http://31.148.48.15/English_club_TV_HD/index.m3u8`
-- ❌ **Eman Channel (576p)** — connection error: timed out  
-  `https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8`
 - ❌ **Hard Knocks (1080p)** — HTTP 404  
   `https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418`
-- ❌ **DreamWorks Channel Asia (1080p)** — timeout/os error: The read operation timed out  
-  `https://cdn12.178.indevs.in/163189/dreamworks`
+- ❌ **Eman Channel (576p)** — connection error: timed out  
+  `https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8`
+- ❌ **English Class (1080p)** — connection error: timed out  
+  `http://31.148.48.15/English_club_TV_HD/index.m3u8`
 - ❌ **HBTV (720p)** — HTTP 403  
   `https://reflect-huntingtonbeach.cablecast.tv/live-4/live/stream-1/live.m3u8`
 - ❌ **HCTV Educational Access Channel** — HTTP 403  
   `https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8`
-- ❌ **Eurochannel (1080p)** — connection error: timed out  
-  `https://cdn1tlinkgo.tlink.cl/eurochannel/index.m3u8`
 - ❌ **HCTV Government Channel** — HTTP 403  
   `https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-2/live.m3u8`
 - ❌ **HCTV Public Access Channel** — HTTP 403  
   `https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8`
+- ❌ **DreamWorks Channel Asia (1080p)** — timeout/os error: The read operation timed out  
+  `https://cdn12.178.indevs.in/163189/dreamworks`
+- ❌ **Eurochannel (1080p)** — connection error: timed out  
+  `https://cdn1tlinkgo.tlink.cl/eurochannel/index.m3u8`
 - ❌ **CBS (1080p)** — connection error: timed out  
   `http://stream.cammonitorplus.net/1783/index.m3u8`
-- ❌ **Fight Network (1080p)** — timeout/os error: The read operation timed out  
-  `https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8`
 - ❌ **Homicide Hunter** — HTTP 404  
   `https://jmp2.uk/plu-619e21b213ef6b0007d8c17a.m3u8`
 - ❌ **Hope Channel Australia (1080p)** — empty response body  
@@ -332,56 +326,52 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://videodelivery.net/dfbdca87f2a6291aa4fdc8fe3290769b/manifest/video.m3u8`
 - ❌ **Hope4Life TV (720p)** — HTTP 404  
   `http://144.217.14.88/hls/hope4life.m3u8`
+- ❌ **Fight Network (1080p)** — timeout/os error: The read operation timed out  
+  `https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8`
 - ❌ **Humor Mill (1080p)** — HTTP 404  
   `https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8?ads.vf=3I7CXmxz7vK`
 - ❌ **InfoWars (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8`
-- ❌ **Hype Visual Radio (1080p)** — HTTP 404  
-  `https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8`
 - ❌ **Iris HD (1080p)** — HTTP 403  
   `https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8`
 - ❌ **ITV2 HD (1080p)** — got HTML/error page instead of stream  
   `https://xemzi.short.gy/1000012`
-- ❌ **Gagsnetwork (576p)** — timeout/os error: timed out  
-  `http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8`
-- ❌ **JimJam Europe (720p)** — HTTP 403  
-  `http://212.5.144.156:8080/jimjam/index.m3u8`
 - ❌ **KBRI-8 (720p)** — HTTP 403  
   `https://brightonco.cablecast.tv/live-4/live/live.m3u8`
-- ❌ **KBEV (1080p)** — HTTP 403  
-  `https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8`
 - ❌ **KCAT (1080p)** — HTTP 403  
   `https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8`
-- ❌ **CTV 2 Atlantic (720p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1731/index.m3u8`
-- ❌ **CTV (Canada) CFTO-DT (720p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1712/index.m3u8`
+- ❌ **KBEV (1080p)** — HTTP 403  
+  `https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8`
+- ❌ **Gagsnetwork (576p)** — timeout/os error: timed out  
+  `http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8`
 - ❌ **KIIO-LD 10.4 (480p)** — HTTP 503  
   `https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8`
 - ❌ **Kevin Hart's LOL! Network (720p)** — HTTP 502  
   `https://d1kt53vrikzr5o.cloudfront.net/v1/lol_lolnetwork_5/samsungheadend_us/latest/main/hls/playlist.m3u8`
 - ❌ **Ketchup TV (720p)** — HTTP 502  
   `https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8`
+- ❌ **CTV 2 Atlantic (720p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1731/index.m3u8`
+- ❌ **CTV (Canada) CFTO-DT (720p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1712/index.m3u8`
+- ❌ **Kingsview TV (1080p)** — HTTP 404  
+  `https://j78dp6reyq5r-hls-live.5centscdn.com/4896_push_1963_001/00cb1f2e4ff89048f2e77e26940c00e6.sdp/playlist.m3u8`
 - ❌ **LA36 (1080p)** — HTTP 403  
   `https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8`
 - ❌ **LA CityView 35 (1080p)** — HTTP 403  
   `https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8`
 - ❌ **LakeFront TV (720p)** — HTTP 403  
   `https://reflect-lakefront-leesburgflorida.cablecast.tv/live-6/live/live.m3u8`
-- ❌ **Kingsview TV (1080p)** — HTTP 404  
-  `https://j78dp6reyq5r-hls-live.5centscdn.com/4896_push_1963_001/00cb1f2e4ff89048f2e77e26940c00e6.sdp/playlist.m3u8`
-- ❌ **Lakewood Channel 8 (720p)** — HTTP 404  
-  `https://live8fd.lakewood.org/live-2/live/live.m3u8`
-- ❌ **Legislative Assembly TV Nunavut** — connection error: [Errno -2] Name or service not known  
-  `http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8`
 - ❌ **KIX** — HTTP 403  
   `https://liveh34.vtvprime.vn/hls/KIX/04.m3u8`
+- ❌ **Lakewood Channel 8 (720p)** — HTTP 404  
+  `https://live8fd.lakewood.org/live-2/live/live.m3u8`
 - ❌ **Legislative Assembly of Ontario** — connection error: [Errno -2] Name or service not known  
   `https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8`
+- ❌ **Legislative Assembly TV Nunavut** — connection error: [Errno -2] Name or service not known  
+  `http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8`
 - ❌ **Lifetime Asia (1080p)** — connection error: [Errno 111] Connection refused  
   `http://nmk.ioapk.com:5050/4gtv-live029/index.m3u8`
-- ❌ **Little Guyana TV (1080p)** — HTTP 403  
-  `https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8`
 - ❌ **Littleton 8 TV (1080p)** — HTTP 404  
   `https://ch8.littletongov.org/live-2/live/live.m3u8`
 - ❌ **M Entertainment Channel (720p)** — HTTP 530  
@@ -396,64 +386,66 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8`
 - ❌ **Minimax (Romania)** — got HTML/error page instead of stream  
   `https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8`
+- ❌ **Mindanow Network TV (1080p)** — HTTP 404  
+  `https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8`
 - ❌ **MOGPA TV** — HTTP 404  
   `https://bk7l2r2nyx53-hls-live.5centscdn.com/ablazetv/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
 - ❌ **MOGPA TV Plus** — HTTP 404  
   `https://bk7l2r2nyx53-hls-live.5centscdn.com/mogpatvplus/2567a5ec9705eb7ac2c984033e06189d.sdp/playlist.m3u8`
 - ❌ **Monroe Community Media Education Channel** — HTTP 403  
   `https://reflect-monroe-public-access.cablecast.tv/live-4/live/live.m3u8`
+- ❌ **MOF TV** — HTTP 404  
+  `https://goliveafrica.media:9998/live/6425a6efa15c8/index.m3u8`
 - ❌ **Monroe Community Media Public Access Channel** — HTTP 403  
   `https://reflect-monroe-public-access.cablecast.tv/live-3/live/live.m3u8`
 - ❌ **Montgomery Channel** — HTTP 403  
   `https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8`
-- ❌ **MOF TV** — HTTP 404  
-  `https://goliveafrica.media:9998/live/6425a6efa15c8/index.m3u8`
-- ❌ **MS NOW (720p)** — HTTP 404  
-  `http://cdn.haititivi.com/MSNBC/index.m3u8`
 - ❌ **MSTV (1080p)** — HTTP 403  
   `https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8`
-- ❌ **Fox (United States) (720p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1752/index.m3u8`
+- ❌ **MS NOW (720p)** — HTTP 404  
+  `http://cdn.haititivi.com/MSNBC/index.m3u8`
 - ❌ **Mtavari Arkhi** — HTTP 403  
   `https://live20.bozztv.com/dvrfl05/gin-mtavariarxi/index.m3u8`
-- ❌ **Fox (United States) West (720p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1799/index.m3u8`
 - ❌ **Island Luck TV** — timeout/os error: The read operation timed out  
   `https://cdn3.wowza.com/5/dFA0TmRpeFdNVXhT/NetUp/ILTV.stream/playlist.m3u8`
+- ❌ **Fox (United States) (720p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1752/index.m3u8`
 - ❌ **Munnaaru** — empty response body  
   `https://customer-ujex1meek7koqd9x.cloudflarestream.com/6a46f90ca384c7419efdbef3ff1892a9/manifest/video.m3u8`
+- ❌ **Fox (United States) West (720p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1799/index.m3u8`
 - ❌ **My Righteous TV** — HTTP 403  
   `https://live20.bozztv.com/ssh101/ssh101/myrighteous/playlist.m3u8`
 - ❌ **NBC KSNV (1080p)** — HTTP 503  
   `https://linear-708.frequency.stream/dist/stirr/708/hls/master/playlist.m3u8`
-- ❌ **NBC WJAC-TV (1080p)** — HTTP 503  
-  `https://linear-698.frequency.stream/dist/stirr/698/hls/master/playlist.m3u8`
+- ❌ **Natick Public Access Channel (720p)** — HTTP 404  
+  `https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
 - ❌ **Kids Zone (720p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a04m/index.m3u8`
+- ❌ **NBC WJAC-TV (1080p)** — HTTP 503  
+  `https://linear-698.frequency.stream/dist/stirr/698/hls/master/playlist.m3u8`
 - ❌ **NBC WOAI-TV (1080p)** — HTTP 503  
   `https://linear-703.frequency.stream/dist/stirr/703/hls/master/playlist.m3u8`
-- ❌ **NCM Main Channel** — HTTP 403  
-  `https://reflect-npa.cablecast.tv/live-6/live/live.m3u8`
-- ❌ **NCM Educational & Kids Channel** — HTTP 403  
-  `https://reflect-npa.cablecast.tv/live-9/live/live.m3u8`
 - ❌ **NCM Government & Politics Channel** — HTTP 403  
   `https://reflect-npa.cablecast.tv/live-8/live/live.m3u8`
-- ❌ **Laff (576p)** — timeout/os error: timed out  
-  `http://tvsen7.aynascope.net/laff/index.m3u8`
+- ❌ **NCM Educational & Kids Channel** — HTTP 403  
+  `https://reflect-npa.cablecast.tv/live-9/live/live.m3u8`
+- ❌ **NCM Main Channel** — HTTP 403  
+  `https://reflect-npa.cablecast.tv/live-6/live/live.m3u8`
 - ❌ **Legislative Assembly of British Columbia** — timeout/os error: The read operation timed out  
   `https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8`
+- ❌ **Laff (576p)** — timeout/os error: timed out  
+  `http://tvsen7.aynascope.net/laff/index.m3u8`
 - ❌ **Legislative Assembly of British Columbia Committee A** — timeout/os error: The read operation timed out  
   `https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8`
 - ❌ **NHK World-Japan HD (1080p)** — connection error: [Errno 111] Connection refused  
   `http://nmk.ioapk.com:5050/4gtv-live168/index.m3u8`
 - ❌ **LTN Family SD (576p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a02j/index.m3u8`
-- ❌ **Nick Jr. Asia (720p)** — connection error: [Errno 111] Connection refused  
-  `http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8`
 - ❌ **Luxe TV (1080p)** — connection error: timed out  
   `http://103.154.3.101:5001/live/1736.m3u8`
-- ❌ **Nick Jr. (United States) (720p)** — HTTP 403  
-  `http://212.5.144.156:8080/nickjr/index.m3u8`
+- ❌ **Nick Jr. Asia (720p)** — connection error: [Errno 111] Connection refused  
+  `http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8`
 - ❌ **Nickelodeon Asia (1080p)** — connection error: [Errno 111] Connection refused  
   `http://nmk.ioapk.com:5050/4gtv-live105/index.m3u8`
 - ❌ **Nicktoons (Romania)** — got HTML/error page instead of stream  
@@ -462,10 +454,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://103.250.28.74:8000/play/a00m/index.m3u8`
 - ❌ **NYXT (1080p)** — HTTP 403  
   `https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8`
-- ❌ **NW Info 2 (576p)** — HTTP 403  
-  `https://hls.newworldtv.com/nw-info-2/video/live.m3u8`
 - ❌ **NRBTV (720p)** — HTTP 403  
   `http://145.239.5.177/215/index.m3u8`
+- ❌ **NW Info 2 (576p)** — HTTP 403  
+  `https://hls.newworldtv.com/nw-info-2/video/live.m3u8`
 - ❌ **Oireachtas TV Committee Room 1 (720p)** — HTTP 403  
   `https://d33zah5htxvoxb.cloudfront.net/el/live/cr1/hls.m3u8`
 - ❌ **MMA TV (576p)** — connection error: timed out  
@@ -486,10 +478,8 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://lb1-live-mv.v2h-cdn.com/hls/ffba/yogvfi/yogvfi.m3u8`
 - ❌ **MuzzOne** — connection error: timed out  
   `https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8`
-- ❌ **Plus TLT (720p)** — HTTP 403  
+- ❌ **Plus TLT (720p)** — HTTP 404  
   `http://15.204.246.24:8080/PlusTLTHD/index.m3u8`
-- ❌ **People Are Awesome (1080p)** — HTTP 404  
-  `https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8`
 - ❌ **Nick Jr. Asia HD (720p)** — connection error: timed out  
   `http://58.8.186.128:10003/bysid/2330`
 - ❌ **Nickelodeon (United Kingdom) (576p)** — timeout/os error: timed out  
@@ -512,48 +502,36 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://stream.weathernationtv.com/RAVStirr_poekxujeisurekugzezyg/O1/playlistSCTE35.m3u8`
 - ❌ **Reelz (720p)** — HTTP 404  
   `http://23.237.104.106:8080/USA_REELZ/index.m3u8`
-- ❌ **Resurrection TV (720p)** — HTTP 404  
-  `https://1681360479.rsc.cdn77.org/1681360479/index.m3u8`
 - ❌ **RFD-TV** — HTTP 503  
   `https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8`
 - ❌ **Roar WKEF (1080p)** — HTTP 503  
   `https://linear-690.frequency.stream/dist/stirr/690/hls/master/playlist.m3u8`
 - ❌ **ROCK Action (1080p)** — connection error: [Errno 111] Connection refused  
   `http://nmk.ioapk.com:5050/4gtv-live138/index.m3u8`
-- ❌ **RTB Sukmaindera (720p)** — HTTP 403  
-  `https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8`
 - ❌ **RTB Go (720p)** — HTTP 403  
   `https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8`
+- ❌ **RTB Sukmaindera (720p)** — HTTP 403  
+  `https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8`
 - ❌ **Rocky Hill Channel 16 (480p)** — HTTP 404  
   `https://securestream9.champds.com/LIVE/RockyHillCTLIVE/RockyHillCTLIVE.m3u8`
-- ❌ **RT (720p)** — HTTP 403  
-  `http://212.5.144.156:8080/rt/index.m3u8`
-- ❌ **RTM ASEAN** — HTTP 403  
-  `https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8`
 - ❌ **RTG int.** — HTTP 404  
   `http://213.91.179.28:8000/play/a0bw`
+- ❌ **RTM ASEAN** — HTTP 403  
+  `https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8`
 - ❌ **Phenomenal Life TV (1080p)** — connection error: timed out  
   `https://5be80bd118c27.streamlock.net:433/phenomenaltv/phenomenal/playlist.m3u8`
-- ❌ **Planet Fun (1080p)** — connection error: timed out  
-  `http://66.102.126.10:8000/play/a02k/index.m3u8`
-- ❌ **NBC West (720p)** — connection error: timed out  
-  `http://stream.cammonitorplus.net/1800/index.m3u8`
-- ❌ **RVTV Civic (720p)** — HTTP 404  
-  `https://livestream.telvue.com/roguevalleycmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
-- ❌ **Radio Stad den Haag (720p)** — HTTP 523  
-  `https://rsdh.cloud-streams.com/rsdh/rsdh/playlist.m3u8`
 - ❌ **Salt TV (Uganda)** — HTTP 403  
   `https://stream.salttelevision.com/hls/stream.m3u8`
-- ❌ **RVTV Voices (720p)** — HTTP 404  
-  `https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
-- ❌ **RVTV Prime (720p)** — HTTP 404  
-  `https://livestream.telvue.com/roguevalleycmttv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
-- ❌ **RVTV Grants Pass (720p)** — HTTP 404  
-  `https://livestream.telvue.com/roguevalleycmttv4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8`
-- ❌ **Scorpion (Germany)** — HTTP 404  
-  `https://jmp2.uk/plu-63d000ef4e83e700086e0d6c.m3u8`
+- ❌ **Planet Fun (1080p)** — connection error: timed out  
+  `http://66.102.126.10:8000/play/a02k/index.m3u8`
+- ❌ **Radio Stad den Haag (720p)** — HTTP 523  
+  `https://rsdh.cloud-streams.com/rsdh/rsdh/playlist.m3u8`
+- ❌ **NBC West (720p)** — connection error: timed out  
+  `http://stream.cammonitorplus.net/1800/index.m3u8`
 - ❌ **SCVTV (1080p)** — HTTP 403  
   `https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8`
+- ❌ **Scorpion (Germany)** — HTTP 404  
+  `https://jmp2.uk/plu-63d000ef4e83e700086e0d6c.m3u8`
 - ❌ **SF Commons 29 (480p)** — HTTP 403  
   `https://reflect-bayarea.cablecast.tv/live-5/live/live.m3u8`
 - ❌ **SF Commons 76 (480p)** — HTTP 403  
@@ -568,38 +546,36 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://cs2.push2stream.com/SOUNDCITY/playlist.m3u8`
 - ❌ **St Lucie Public Schools** — HTTP 403  
   `https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8`
-- ❌ **Starz Edge (720p)** — HTTP 404  
-  `http://168.228.44.241:9998/play/a0e0/index.m3u8`
 - ❌ **Stockton Gov TV (720p)** — HTTP 404  
   `https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8`
 - ❌ **T+E (720p)** — connection error: [Errno 111] Connection refused  
   `http://185.246.209.113/T+E/index.m3u8`
 - ❌ **Taiwan Plus TV (1080p)** — HTTP 503  
   `https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8`
-- ❌ **RT HD (1080p)** — connection error: timed out  
-  `http://31.148.48.15/RT_HD/index.m3u8`
-- ❌ **RTG TV (720p)** — connection error: timed out  
-  `http://31.148.48.15/RTG_HD/index.m3u8`
 - ❌ **Talking Pictures TV (576p)** — HTTP 403  
   `http://92.114.85.72:8000/play/a0la`
-- ❌ **TBCN (480p)** — HTTP 403  
-  `https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8`
 - ❌ **Tanzania Safari Channel (576p)** — HTTP 404  
   `https://stream-134630.castr.net/5fe35eae8c53540cab83659a/live_31dabe40323511f08b8efff0016f3b67/index.m3u8`
+- ❌ **RT HD (1080p)** — connection error: timed out  
+  `http://31.148.48.15/RT_HD/index.m3u8`
+- ❌ **TBCN (480p)** — HTTP 403  
+  `https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8`
+- ❌ **RTG TV (720p)** — connection error: timed out  
+  `http://31.148.48.15/RTG_HD/index.m3u8`
 - ❌ **Temecula TV (1080p)** — HTTP 403  
   `https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8`
 - ❌ **TFX (720p)** — HTTP 403  
   `http://145.239.5.177/315/index.m3u8`
-- ❌ **That's TV (576p)** — HTTP 403  
-  `http://92.114.85.72:8000/play/a0lb`
-- ❌ **The Bob Ross Channel (720p)** — HTTP 404  
-  `https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8`
 - ❌ **That's 70s SD (576p)** — HTTP 403  
   `http://92.114.85.72:8000/play/a0lc`
-- ❌ **The Burbank Channel (720p)** — HTTP 404  
-  `https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8`
+- ❌ **That's TV (576p)** — HTTP 403  
+  `http://92.114.85.72:8000/play/a0lb`
 - ❌ **SBS WorldWatch** — connection error: timed out  
   `http://44.32.200.142:5004/auto/v35`
+- ❌ **The Bob Ross Channel (720p)** — HTTP 404  
+  `https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8`
+- ❌ **The Burbank Channel (720p)** — HTTP 404  
+  `https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8`
 - ❌ **Silver Screen (576p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a044/index.m3u8`
 - ❌ **Sindh TV (1080p)** — connection error: timed out  
@@ -614,38 +590,40 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://92.114.85.72:8000/play/a08p`
 - ❌ **Together TV (576p)** — HTTP 403  
   `http://92.114.85.72:8000/play/a0j8`
-- ❌ **Transformers TV CA** — HTTP 404  
-  `https://jmp2.uk/plu-63da36dea995710008727d4d.m3u8`
 - ❌ **Thrill (540p)** — HTTP 403  
   `https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd`
+- ❌ **TNN16 (720p)** — HTTP 403  
+  `https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8`
 - ❌ **Transformers TV (720p)** — HTTP 404  
   `https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8`
+- ❌ **Transformers TV CA** — HTTP 404  
+  `https://jmp2.uk/plu-63da36dea995710008727d4d.m3u8`
 - ❌ **TV3 (Ghana) (540p)** — HTTP 403  
   `https://g2qd3exjy7an-hls-live.5centscdn.com/webtv3/ghanatv.stream/playlist.m3u8`
 - ❌ **TV2 (Malaysia) (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d`
 - ❌ **TV1 (Malaysia) (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047`
-- ❌ **TNN16 (720p)** — HTTP 403  
-  `https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8`
 - ❌ **TV5Monde Pacific** — HTTP 502  
   `http://103.190.232.129/stream/tvb/pacifique/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg`
 - ❌ **Star Asia (720p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a010/index.m3u8`
 - ❌ **TV Maldives** — empty response body  
   `https://customer-ujex1meek7koqd9x.cloudflarestream.com/9e93379c0d46ee588b99263d95bd9c42/manifest/video.m3u8`
+- ❌ **Starz Edge (720p)** — connection error: timed out  
+  `http://168.228.44.241:9998/play/a0e0/index.m3u8`
+- ❌ **TV Warehouse (720p)** — connection error: [Errno -2] Name or service not known  
+  `https://tvwarehouse.r.worldssl.net/mystream.m3u8`
 - ❌ **TV One (576p)** — HTTP 403  
   `http://92.114.85.72:8000/play/a070`
-- ❌ **TV Warehouse (720p)** — HTTP 403  
-  `https://tvwarehouse.r.worldssl.net/mystream.m3u8`
 - ❌ **Stingray iConcerts HD (1080p)** — timeout/os error: timed out  
   `http://str2.iptvhd.ru:8080/iConcertsHD/index.m3u8`
 - ❌ **TVM (Malta) (1080p)** — HTTP 406  
   `https://stream.smashmalta.com:25463/live/webplayer/livestream/19.m3u8`
-- ❌ **U&W** — HTTP 403  
-  `http://92.114.85.72:8000/play/a0bj`
 - ❌ **U&Alibi (576p)** — HTTP 403  
   `http://92.114.85.72:8000/play/a0bi`
+- ❌ **U&W** — HTTP 403  
+  `http://92.114.85.72:8000/play/a0bj`
 - ❌ **Univision WGBO-DT (2160p)** — HTTP 403  
   `https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null`
 - ❌ **Uvagut TV (1080p)** — HTTP 403  
@@ -654,32 +632,30 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8`
 - ❌ **Vevo '70s (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8`
-- ❌ **Vevo '90s (1080p)** — connection error: [Errno -2] Name or service not known  
-  `https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8`
 - ❌ **Vevo '80s (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8`
+- ❌ **Vevo '90s (1080p)** — connection error: [Errno -2] Name or service not known  
+  `https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8`
 - ❌ **Vevo Country (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8`
-- ❌ **TeenNick (United States) (576p)** — timeout/os error: timed out  
-  `http://tvsen7.aynascope.net/teennick/index.m3u8`
 - ❌ **Vevo Pop (1080p)** — connection error: [Errno -5] No address associated with hostname  
   `https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8`
 - ❌ **Vevo Retro Rock (1080p)** — connection error: [Errno -5] No address associated with hostname  
   `https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8`
+- ❌ **TeenNick (United States) (576p)** — timeout/os error: timed out  
+  `http://tvsen7.aynascope.net/teennick/index.m3u8`
 - ❌ **VSCTV (1080p)** — HTTP 403  
   `https://reflect-vsctv.cablecast.tv/live-3/live/live.m3u8`
 - ❌ **VIP TV (720p)** — HTTP 404  
   `https://ed5ov1.live.opencaster.com/bkyqeDgfaukC/index.m3u8`
-- ❌ **The Cycling Channel** — connection error: timed out  
-  `https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8`
 - ❌ **We TV (720p)** — HTTP 403  
   `http://170.254.17.2/WE_TV/index.m3u8`
+- ❌ **The Cycling Channel** — connection error: timed out  
+  `https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8`
 - ❌ **Viasat Kino Action (576p)** — HTTP 404  
   `http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8`
 - ❌ **Viasat Kino (576p)** — HTTP 404  
   `http://dtv.vol.net.ua/Viasat_Kino/index.m3u8`
-- ❌ **VTV1 HD (1080p)** — HTTP 403  
-  `https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8`
 - ❌ **Whole Word TV (720p)** — timeout/os error: Remote end closed connection without response  
   `https://mn-nl.mncdn.com/wholewordtv/wholewordtv/index.m3u8`
 - ❌ **Willow (720p)** — HTTP 404  
@@ -704,18 +680,18 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://103.72.101.252:8080/live/2757.m3u8`
 - ❌ **AXN Spin Poland** — HTTP 404  
   `https://polska.hach.workers.dev/14847.m3u8`
-- ❌ **CGTN Russian (1080p)** — timeout/os error: The read operation timed out  
-  `https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8`
 - ❌ **Bloomberg HT (720p)** — HTTP 403  
   `https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8`
 - ❌ **AXN (Portugal)** — connection error: timed out  
   `http://znty.dyndns.org:5010/hls/axn.m3u8`
-- ❌ **AXN White Portugal (480p)** — timeout/os error: timed out  
-  `http://50.7.120.34:8080/AXN_WHITE/index.m3u8`
+- ❌ **CGTN Russian (1080p)** — timeout/os error: The read operation timed out  
+  `https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8`
 - ❌ **AXN Latin America Chile (1080p)** — connection error: timed out  
   `https://cdn1tlinkgo.tlink.cl/axnhd/index.m3u8`
 
-## English - Lifestyle (85/168 working)
+## English - Lifestyle (88/168 working)
+- ❌ **TLC Finland** — HTTP 404  
+  `https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv`
 - ❌ **CS History** — HTTP 502  
   `https://sktv.mxnticek.eu/new/stream.php?ch=CS%20History`
 - ❌ **Military History** — connection error: [Errno -2] Name or service not known  
@@ -738,10 +714,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://live-blaze-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/blaze-live-broadcast-scte/index.m3u8`
 - ❌ **CBC Television CBAT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042757/CBCRCLINEAR_TOR_3/master5.m3u8`
-- ❌ **CBC Television CBET-DT (720p) [Geo-blocked]** — HTTP 403  
-  `https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8`
 - ❌ **CBC Television CBCT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042756/CBCRCLINEAR_TOR_2/master5.m3u8`
+- ❌ **CBC Television CBET-DT (720p) [Geo-blocked]** — HTTP 403  
+  `https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8`
 - ❌ **CBC Television CBHT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042758/CBCRCLINEAR_TOR_4/master5.m3u8`
 - ❌ **CBC Television CBKT-DT (720p) [Geo-blocked]** — HTTP 403  
@@ -750,10 +726,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8`
 - ❌ **CBC Television CBMT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042761/CBCRCLINEAR_TOR_7/master5.m3u8`
-- ❌ **CBC Television CBOT-DT (720p) [Geo-blocked]** — HTTP 403  
-  `https://cbcrclinear-tor.akamaized.net/hls/live/2042762/CBCRCLINEAR_TOR_8/master5.m3u8`
 - ❌ **CBC Television CBNT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042755/CBCRCLINEAR_TOR_1/master5.m3u8`
+- ❌ **CBC Television CBOT-DT (720p) [Geo-blocked]** — HTTP 403  
+  `https://cbcrclinear-tor.akamaized.net/hls/live/2042762/CBCRCLINEAR_TOR_8/master5.m3u8`
 - ❌ **CBC Television CBRT-DT (720p) [Geo-blocked]** — HTTP 403  
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042763/CBCRCLINEAR_TOR_9/master5.m3u8`
 - ❌ **CBC Television CBUT-DT (720p) [Geo-blocked]** — HTTP 403  
@@ -766,14 +742,14 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://cbcrclinear-tor.akamaized.net/hls/live/2042766/CBCRCLINEAR_TOR_12/master5.m3u8`
 - ❌ **CBeebies (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd`
-- ❌ **Channel 9 (Australia) Brisbane (720p) [Geo-blocked]** — got HTML/error page instead of stream  
-  `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/bne/ch9/hls/r1/index.m3u8`
-- ❌ **Channel 9 (Australia) Perth (720p) [Geo-blocked]** — got HTML/error page instead of stream  
-  `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/per/ch9/hls/r1/index.m3u8`
 - ❌ **Channel 9 (Australia) Adelaide (720p) [Geo-blocked]** — got HTML/error page instead of stream  
   `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8`
 - ❌ **Channel 9 (Australia) (720p) [Geo-blocked]** — got HTML/error page instead of stream  
   `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8`
+- ❌ **Channel 9 (Australia) Brisbane (720p) [Geo-blocked]** — got HTML/error page instead of stream  
+  `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/bne/ch9/hls/r1/index.m3u8`
+- ❌ **Channel 9 (Australia) Perth (720p) [Geo-blocked]** — got HTML/error page instead of stream  
+  `https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/per/ch9/hls/r1/index.m3u8`
 - ❌ **CHCO-TV (720p) [Geo-blocked]** — connection error: [Errno -2] Name or service not known  
   `https://temp4.isilive.ca/live/CHCOTV/live/index.m3u8`
 - ❌ **City of Fairfield Channel 26 (720p) [Geo-blocked]** — HTTP 403  
@@ -782,8 +758,6 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8`
 - ❌ **Contra Costa TV [Geo-blocked]** — HTTP 403  
   `https://reflect-contra-costa.cablecast.tv/live-7/live/live.m3u8`
-- ❌ **Disney Channel (United States) (720p) [Geo-blocked]** — HTTP 403  
-  `http://212.5.144.156/disney/index.m3u8`
 - ❌ **DTV-8 [Geo-blocked]** — HTTP 403  
   `https://watch.davestv8.com/hls/stream.m3u8`
 - ❌ **ET Now (720p) [Geo-blocked]** — HTTP 403  
@@ -792,8 +766,6 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://reflect-gtv6-glendale.cablecast.tv/live-2/live/live.m3u8`
 - ❌ **HKTV (1080p) [Geo-blocked]** — HTTP 403  
   `https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8`
-- ❌ **History (United States) (720p)** — HTTP 403  
-  `http://212.5.144.156:8080/history/index.m3u8`
 - ❌ **Hong Kong International Business Channel (1080p) [Geo-blocked]** — HTTP 403  
   `https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8`
 - ❌ **Ici Radio-Canada Tele CBXFT-DT [Geo-blocked]** — HTTP 403  
@@ -812,8 +784,6 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://op-group1-swiftservehd-1.dens.tv/h/h194/index.m3u8`
 - ❌ **National Geographic (Romania)** — got HTML/error page instead of stream  
   `https://onyx1.mofta1.cfd/ngeo/usergenrnd84oeigt.m3u8`
-- ❌ **National Geographic (United States) (720p)** — HTTP 403  
-  `http://212.5.144.156:8080/natgeo/index.m3u8`
 - ❌ **Okey [Geo-blocked]** — HTTP 403  
   `https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3`
 - ❌ **PBS KETS [Geo-blocked]** — empty response body  
@@ -826,12 +796,12 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://amg01753-amg01753c9-samsung-gb-8005.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeuk-popup-samsunggb/playlist.m3u8`
 - ❌ **RTHK TV 32 (1080p) [Geo-blocked]** — HTTP 403  
   `https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8`
-- ❌ **RTHK TV 35 (1080p) [Geo-blocked]** — HTTP 403  
-  `https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8`
 - ❌ **RTHK TV 33 (1080p) [Geo-blocked]** — HTTP 403  
   `https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8`
 - ❌ **RTHK TV 34 (1080p) [Geo-blocked]** — HTTP 403  
   `https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8`
+- ❌ **RTHK TV 35 (1080p) [Geo-blocked]** — HTTP 403  
+  `https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8`
 - ❌ **S4C (1080p) [Geo-blocked]** — HTTP 403  
   `https://v2.uk.live.s4c-cdn.co.uk/out/v1/S4C/UK_TX/uk_live/uk-tx-dvb.mpd`
 - ❌ **SABC 1 (720p) [Geo-blocked]** — HTTP 403  
@@ -870,14 +840,12 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://arwen1.panaka1.cfd/vhis/usergenrnd4v6g8eigt.m3u8`
 - ❌ **Viasat History (Slovenia)** — connection error: [Errno -2] Name or service not known  
   `https://lb.dstvmultimedia.com/ViasatHistory/index.m3u8`
-- ❌ **History Latin America (1080p)** — HTTP 403  
-  `http://15.204.246.24:8080/HistoryHD/index.m3u8`
 - ❌ **Viasat History (Turkiye) (720p)** — got HTML/error page instead of stream  
   `https://nord.ayakkabiparti.lol/viasathistory/index.m3u8`
-- ❌ **History Ukraine** — HTTP 404  
-  `http://dtv.vol.net.ua/History_HD/index.m3u8`
 - ❌ **History2 Ukraine (360p)** — HTTP 404  
   `http://dtv.vol.net.ua/H2-HD/index.m3u8`
+- ❌ **History Ukraine** — HTTP 404  
+  `http://dtv.vol.net.ua/History_HD/index.m3u8`
 - ❌ **History (Slovenia) (1080p)** — connection error: timed out  
   `https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true`
 - ❌ **Viasat History (Ukraine) (1080p)** — timeout/os error: timed out  
@@ -909,17 +877,17 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
 - ❌ **TVS Film Noir Network (720p)** — got HTML/error page instead of stream  
   `https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8`
 
-## English - Music (117/132 working)
+## English - Music (118/132 working)
 - ❌ **MTV Azerbaijan Ⓢ Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/@MTVAzerbaijan/live`
 - ❌ **MTV2 (720p)** — connection error: [Errno -2] Name or service not known  
   `https://fl5.moveonjoy.com/MTV_2/index.m3u8`
 - ❌ **GMTV (1080p)** — HTTP 404  
   `https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341`
-- ❌ **MTV East** — connection error: [Errno -2] Name or service not known  
-  `https://fl3.moveonjoy.com/MTV/index.m3u8`
 - ❌ **MTV Classic (360p)** — connection error: [Errno -2] Name or service not known  
   `https://fl5.moveonjoy.com/MTV_CLASSIC/index.m3u8`
+- ❌ **MTV East** — connection error: [Errno -2] Name or service not known  
+  `https://fl3.moveonjoy.com/MTV/index.m3u8`
 - ❌ **MTV Live (720p)** — connection error: [Errno -2] Name or service not known  
   `https://fl5.moveonjoy.com/MTV_LIVE/index.m3u8`
 - ❌ **mtvU (480p)** — connection error: [Errno -2] Name or service not known  
@@ -936,42 +904,40 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8`
 - ❌ **MTV Geordies** — HTTP 404  
   `https://jmp2.uk/plu-627d3176d7dfa500077042f1.m3u8`
-- ❌ **MTV Latin America (1080p)** — HTTP 403  
-  `http://15.204.246.24:8080/MTVHD/index.m3u8`
 - ❌ **Canal Womtv (720p)** — timeout/os error: The read operation timed out  
   `https://live.amelbatv.co:81/womtvlive/index.m3u8`
 
-## English - News (246/432 working)
+## English - News (244/432 working)
 - ❌ **CNN-News18** — HTTP 451  
   `https://nw18live.cdn.jio.com/bpk-tv/CNN_News18_NW18_MOB/output01/index.m3u8`
 - ❌ **Sky TG24 Ⓖ** — HTTP 403  
   `https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556`
 - ❌ **CNN Indonesia** — timeout/os error: Remote end closed connection without response  
   `http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8`
-- ❌ **BBC One Ⓖ** — HTTP 403  
-  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
-- ❌ **BBC Scotland Ⓢ Ⓖ** — HTTP 403  
-  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/pc_hd_abr_v2.m3u8`
-- ❌ **BBC Four Ⓖ** — HTTP 403  
-  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.m3u8`
 - ❌ **BBC Two Ⓖ** — HTTP 403  
   `https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8`
+- ❌ **BBC Four Ⓖ** — HTTP 403  
+  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.m3u8`
+- ❌ **BBC Scotland Ⓢ Ⓖ** — HTTP 403  
+  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/pc_hd_abr_v2.m3u8`
 - ❌ **BBC Three Ⓖ** — HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.m3u8`
 - ❌ **BBC Alba Ⓖ** — HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/iptv_hd_abr_v1.m3u8`
-- ❌ **CBBC Ⓖ** — HTTP 403  
-  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8`
-- ❌ **BBC Parliament Ⓢ Ⓖ** — HTTP 403  
-  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/pc_hd_abr_v2.m3u8`
 - ❌ **Sky News Ⓖ** — HTTP 403  
   `https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/index_mob.m3u8`
+- ❌ **BBC Parliament Ⓢ Ⓖ** — HTTP 403  
+  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/pc_hd_abr_v2.m3u8`
+- ❌ **CBBC Ⓖ** — HTTP 403  
+  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8`
+- ❌ **BBC One Ⓖ** — HTTP 403  
+  `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
 - ❌ **Sky News (UK) Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live`
-- ❌ **WION Ⓨ** — got HTML/error page instead of stream  
-  `https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live`
 - ❌ **CNN** — HTTP 404  
   `https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_us/streams/us/CNNUSA.us.m3u8`
+- ❌ **WION Ⓨ** — got HTML/error page instead of stream  
+  `https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live`
 - ❌ **BBC Doctor Who** — connection error: [Errno -2] Name or service not known  
   `https://bbceu-doctorwho-1-it.samsung.wurl.tv/playlist.m3u8`
 - ❌ **Sky News Now (AU)** — HTTP 404  
@@ -980,10 +946,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://vs-hls-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.m3u8`
 - ❌ **I24 News English (720p)** — HTTP 503  
   `https://bcovlive-a.akamaihd.net/ecf224f43f3b43e69471a7b626481af0/eu-central-1/5377161796001/playlist.m3u8`
-- ❌ **BBC News (North America) (1080p)** — HTTP 404  
-  `https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8`
 - ❌ **CNN Prima News** — HTTP 502  
   `https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews`
+- ❌ **BBC News (North America) (1080p)** — HTTP 404  
+  `https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8`
 - ❌ **Africanews English** — connection error: [Errno -5] No address associated with hostname  
   `https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8`
 - ❌ **BBC News (1080p)** — HTTP 404  
@@ -992,10 +958,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://dvrfl04.tulix.tv/teleup-bbca/index.m3u8`
 - ❌ **Fox News Channel (720p)** — HTTP 404  
   `http://23.237.104.106:8080/USA_FOX_NEWS/index.m3u8`
-- ❌ **CGTN العربية** — timeout/os error: The read operation timed out  
-  `https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8`
 - ❌ **CGTN Français (1080p) [Not 24/7]** — timeout/os error: The read operation timed out  
   `https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8`
+- ❌ **CGTN العربية** — timeout/os error: The read operation timed out  
+  `https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8`
 - ❌ **BBC News Asia Pacific (1080p)** — connection error: timed out  
   `https://tv.ddns.vn/tv/bbcworldnews/index.m3u8`
 - ❌ **BBC UHD 3 (720p)** — got HTML/error page instead of stream  
@@ -1010,6 +976,8 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://3abn.bozztv.com/3abn/3abn_uganda_live/index.m3u8`
 - ❌ **3 Stones TV (240p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/64d21e682fd26/index.m3u8`
+- ❌ **MTV Guyana (1080p) [Not 24/7]** — connection error: timed out  
+  `https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8`
 - ❌ **Althingi (1080p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
   `https://althingi-live.secure.footprint.net/althingi/live/index.m3u8`
 - ❌ **BBC One Wales HD (1080p)** — connection error: timed out  
@@ -1018,38 +986,36 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8`
 - ❌ **BBC First Romania** — got HTML/error page instead of stream  
   `https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8`
-- ❌ **BBC Earth Turkiye** — got HTML/error page instead of stream  
-  `https://nord.ayakkabiparti.lol/bbc/index.m3u8`
-- ❌ **BBC Four/CBeebies (720p)** — HTTP 403  
-  `http://193.46.58.239:8080/CbeebiesHD/index.m3u8`
-- ❌ **BBC Kids (720p)** — HTTP 502  
-  `https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8`
 - ❌ **BBC News Asia Pacific (576p)** — connection error: [Errno 101] Network is unreachable  
   `https://thinkkast.dpdns.org/thinkkast/bbcworld_news_sd/versiglia/index.m3u8`
-- ❌ **BBC Four (720p) [Geo-blocked]** — HTTP 403  
-  `https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd`
-- ❌ **BBC One Channel Islands (720p) [Geo-blocked]** — HTTP 403  
-  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/pc_hd_abr_v2.mpd`
-- ❌ **BBC One East (720p) [Geo-blocked]** — HTTP 403  
-  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east/pc_hd_abr_v2.mpd`
 - ❌ **BBC One (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd`
+- ❌ **BBC One Channel Islands (720p) [Geo-blocked]** — HTTP 403  
+  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/pc_hd_abr_v2.mpd`
+- ❌ **BBC Four/CBeebies (720p)** — HTTP 403  
+  `http://193.46.58.239:8080/CbeebiesHD/index.m3u8`
+- ❌ **BBC Four (720p) [Geo-blocked]** — HTTP 403  
+  `https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd`
+- ❌ **BBC Kids (720p)** — HTTP 502  
+  `https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8`
+- ❌ **BBC One East (720p) [Geo-blocked]** — HTTP 403  
+  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east/pc_hd_abr_v2.mpd`
 - ❌ **BBC One East Midlands (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd`
 - ❌ **BBC One East Midlands HD [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One North East & Cumbria (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/pc_hd_abr_v2.mpd`
-- ❌ **BBC One North East & Cumbria HD [Geo-blocked]** — HTTP 403  
-  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One London HD (720p)** — HTTP 403  
   `http://193.46.58.239:8080/BBCOneHD/index.m3u8`
+- ❌ **BBC One North East & Cumbria HD [Geo-blocked]** — HTTP 403  
+  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One North West (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/pc_hd_abr_v2.mpd`
-- ❌ **BBC One North West HD [Geo-blocked]** — HTTP 403  
-  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One Northern Ireland (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/pc_hd_abr_v2.mpd`
+- ❌ **BBC One North West HD [Geo-blocked]** — HTTP 403  
+  `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One Northern Ireland HD [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/hevc_iptv_mse_v0.mpd`
 - ❌ **BBC One Scotland (540p) [Geo-blocked]** — HTTP 403  
@@ -1080,16 +1046,18 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_002/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 3 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_003/iptv_hd_abr_v1.mpd`
-- ❌ **BBC Red Button 5 (720p) [Geo-blocked]** — HTTP 403  
-  `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_005/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 4 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_004/iptv_hd_abr_v1.mpd`
+- ❌ **BBC Red Button 5 (720p) [Geo-blocked]** — HTTP 403  
+  `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_005/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 6 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_006/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 7 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_007/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 8 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_008/iptv_hd_abr_v1.mpd`
+- ❌ **BBC Earth Turkiye** — got HTML/error page instead of stream  
+  `https://nord.ayakkabiparti.lol/bbc/index.m3u8`
 - ❌ **BBC Red Button 9 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_009/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 10 (720p) [Geo-blocked]** — HTTP 403  
@@ -1108,10 +1076,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_016/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 17 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_017/iptv_hd_abr_v1.mpd`
-- ❌ **BBC Red Button 19 (720p) [Geo-blocked]** — HTTP 403  
-  `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_019/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 18 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_018/iptv_hd_abr_v1.mpd`
+- ❌ **BBC Red Button 19 (720p) [Geo-blocked]** — HTTP 403  
+  `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_019/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 20 (720p) [Geo-blocked]** — HTTP 403  
   `https://ve-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:uk_bbc_stream_020/iptv_hd_abr_v1.mpd`
 - ❌ **BBC Red Button 21 (720p) [Geo-blocked]** — HTTP 403  
@@ -1138,22 +1106,22 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://193.46.58.239:8080/BBCTwoHD/index.m3u8`
 - ❌ **BTM TV (480p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
   `https://btmug.zerocdn.org/hls/stream.m3u8`
+- ❌ **BBC UHD 1 (1080p)** — timeout/os error: Remote end closed connection without response  
+  `https://xemzi.short.gy/1000001`
 - ❌ **BTL TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/638da5440743c/index.m3u8`
+- ❌ **BBC Earth Romania HD (576p)** — timeout/os error: timed out  
+  `http://hls127.freeott.top:8080/BG_The_World/video.m3u8`
 - ❌ **Caught-Up TV (480p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
   `https://webstreaming-3.viewmedia.tv/web_031/Stream/playlist.m3u8`
 - ❌ **CBBC (720p) [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd`
-- ❌ **BBC UHD 1 (1080p)** — timeout/os error: Remote end closed connection without response  
-  `https://xemzi.short.gy/1000001`
-- ❌ **BBC Earth Romania HD (576p)** — timeout/os error: timed out  
-  `http://hls127.freeott.top:8080/BG_The_World/video.m3u8`
-- ❌ **CAtv (1080p) [Not 24/7]** — got HTML/error page instead of stream  
-  `https://video2.getstreamhosting.com:19360/8216/8216.m3u8`
 - ❌ **BBC Lifestyle Asia (720p)** — connection error: timed out  
   `http://58.8.186.128:10003/bysid/2333`
 - ❌ **BBC News UK HD (1080p)** — connection error: timed out  
   `http://45.153.96.44:8001`
+- ❌ **CBC TV8 (1080p) [Not 24/7]** — HTTP 404  
+  `https://1740288887.rsc.cdn77.org/1740288887/index.m3u8`
 - ❌ **BBC News South Asia (720p)** — timeout/os error: The read operation timed out  
   `https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8`
 - ❌ **100% Auto Moto TV (406p) [Not 24/7]** — connection error: timed out  
@@ -1168,10 +1136,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://goliveafrica.media:9998/live/64ede813cfe1a/index.m3u8`
 - ❌ **EBN TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/65d8475d1e6cb/index.m3u8`
-- ❌ **Dunamis TV (576p) [Not 24/7]** — HTTP 404  
-  `https://atechgroupuk.site/DTV.m3u8`
 - ❌ **Elevate TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/64a98a7eac12a/index.m3u8`
+- ❌ **Dunamis TV (576p) [Not 24/7]** — HTTP 404  
+  `https://atechgroupuk.site/DTV.m3u8`
 - ❌ **Foursquare TV (360p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
   `https://webstreaming-3.viewmedia.tv/web_033/Stream/playlist.m3u8`
 - ❌ **France 24 English HD (1080p)** — connection error: [Errno 111] Connection refused  
@@ -1186,6 +1154,8 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://goliveafrica.media:9998/live/644e07abdc1d3/index.m3u8`
 - ❌ **Heaven Bound TV (480p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/62580b337c021/index.m3u8`
+- ❌ **HGPTV (720p) [Not 24/7]** — HTTP 404  
+  `https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8`
 - ❌ **His Grace TV (480p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/6593c35f9c090/index.m3u8`
 - ❌ **HLC TV (480p) [Not 24/7]** — HTTP 404  
@@ -1200,10 +1170,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://goliveafrica.media:9998/live/646c92d07b16c/index.m3u8`
 - ❌ **Juice TV (1080p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
   `https://juicex.nz/hls/mystream.m3u8`
-- ❌ **Galveston County TV (720p) [Not 24/7]** — timeout/os error: The read operation timed out  
-  `https://edge-f.swagit.com/live/galvestontx/smil:hd-16x9-1-a/playlist.m3u8`
 - ❌ **Kass TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/62f643cdca8cf/index.m3u8`
+- ❌ **Galveston County TV (720p) [Not 24/7]** — timeout/os error: The read operation timed out  
+  `https://edge-f.swagit.com/live/galvestontx/smil:hd-16x9-1-a/playlist.m3u8`
 - ❌ **Le Monde en 24h** — HTTP 404  
   `https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8`
 - ❌ **LN247 (1080p)** — HTTP 404  
@@ -1236,28 +1206,28 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8`
 - ❌ **PBS WNJT (1080p) [Not 24/7]** — empty response body  
   `https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8`
-- ❌ **News12+ Connecticut (1080p) [Geo-blocked]** — HTTP 408  
-  `https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8`
+- ❌ **News12 Brooklyn [Geo-blocked]** — HTTP 408  
+  `https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https`
+- ❌ **News12 Long Island (1080p) [Geo-blocked]** — HTTP 408  
+  `https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https`
 - ❌ **Pillar TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/627e198474bd1/index.m3u8`
-- ❌ **News12 Hudson Valley [Geo-blocked]** — HTTP 408  
-  `https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8?omap=https`
 - ❌ **NewsX (720p)** — timeout/os error: The read operation timed out  
   `https://mumbai-edge.smartplaytv.in/NewsX/index.m3u8`
 - ❌ **Popstar! TV (1080p) [Not 24/7]** — connection error: [Errno -5] No address associated with hostname  
   `https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8`
-- ❌ **Nos Pais (720p) [Not 24/7]** — connection error: timed out  
-  `https://5f86a49aedff6.streamlock.net/nos_pais_24_7/nos_pais_24_7/playlist.m3u8`
 - ❌ **PSM News** — empty response body  
   `https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8`
+- ❌ **Nos Pais (720p) [Not 24/7]** — connection error: timed out  
+  `https://5f86a49aedff6.streamlock.net/nos_pais_24_7/nos_pais_24_7/playlist.m3u8`
 - ❌ **NTA International (576p) [Not 24/7]** — connection error: [Errno 101] Network is unreachable  
   `https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8`
 - ❌ **Quest TV (240p) [Not 24/7]** — HTTP 404  
   `https://media2.streambrothers.com:19360/8028/8028.m3u8`
-- ❌ **ON News HD (576p)** — connection error: timed out  
-  `http://103.250.28.74:8000/play/a046/index.m3u8`
 - ❌ **Raia TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/64873b6222c93/index.m3u8`
+- ❌ **ON News HD (576p)** — connection error: timed out  
+  `http://103.250.28.74:8000/play/a046/index.m3u8`
 - ❌ **Revry News (720p) [Not 24/7]** — connection error: [Errno -5] No address associated with hostname  
   `https://linear-44.frequency.stream/dist/plex/44/hls/master/playlist.m3u8`
 - ❌ **RLW TV (576p) [Not 24/7]** — connection error: [Errno -2] Name or service not known  
@@ -1266,18 +1236,18 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8`
 - ❌ **Plus TV Africa (720p) [Not 24/7]** — connection error: timed out  
   `https://5c0740dba62b3.streamlock.net/plustv/myStream/playlist.m3u8`
-- ❌ **Seraphim TV [Not 24/7]** — connection error: [Errno -2] Name or service not known  
-  `https://restream.churchtv247.co.za/Apostle/Hggc@24/1.m3u8`
 - ❌ **Sayare TV (720p) [Not 24/7]** — HTTP 404  
   `https://goliveafrica.media:9998/live/636dedfa327d7/index.m3u8`
+- ❌ **Seraphim TV [Not 24/7]** — connection error: [Errno -2] Name or service not known  
+  `https://restream.churchtv247.co.za/Apostle/Hggc@24/1.m3u8`
 - ❌ **SKI TV (1080p) [Not 24/7]** — connection error: [Errno -5] No address associated with hostname  
   `https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8`
 - ❌ **Public News (1080p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a04g/index.m3u8`
-- ❌ **Roze News (576p)** — connection error: timed out  
-  `http://103.250.28.74:8000/play/a01k/index.m3u8`
 - ❌ **Sport (Kyrgyzstan) (480p) [Not 24/7]** — HTTP 403  
   `https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8`
+- ❌ **Roze News (576p)** — connection error: timed out  
+  `http://103.250.28.74:8000/play/a01k/index.m3u8`
 - ❌ **Telearuba (1080p) [Not 24/7]** — HTTP 503  
   `https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8`
 - ❌ **Shine Star TV (720p) [Not 24/7]** — timeout/os error: The read operation timed out  
@@ -1304,14 +1274,14 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://witn.cablecast.tv/live-4/live/live.m3u8`
 - ❌ **BBC Alba [Geo-blocked]** — HTTP 403  
   `https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/hevc_iptv_mse_v0.mpd`
-- ❌ **YOUNIB Media TV (720p) [Not 24/7]** — HTTP 404  
-  `https://goliveafrica.media:9998/live/6257fbe7383d6/index.m3u8`
 - ❌ **TV 16 Toronto (720p) [Not 24/7]** — timeout/os error: timed out  
   `http://rtmp.smartstream.video:1935/capco/tv29/playlist.m3u8`
 - ❌ **TZiK [Not 24/7]** — connection error: timed out  
   `https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8`
 - ❌ **VSH News (576p)** — connection error: timed out  
   `http://103.250.28.74:8000/play/a00w/index.m3u8`
+- ❌ **Sky News Urdu (720p)** — HTTP 404  
+  `https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8`
 - ❌ **MTV Chontales (720p) [Not 24/7]** — connection error: timed out  
   `https://altair.hostingnica.net/hls/mtv_stream/index.m3u8`
 
@@ -1320,10 +1290,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://fl3.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8`
 - ❌ **Fox Sports en Espanol (720p)** — connection error: [Errno -2] Name or service not known  
   `https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8`
-- ❌ **CBS Sports Golazo Network** — HTTP 404  
-  `https://dai.google.com/linear/hls/event/GxrCGmwST0ixsrc_QgB6qw/master.m3u8`
 - ❌ **Fox Sports 2 (720p)** — HTTP 404  
   `http://23.237.104.106:8080/USA_FS2/index.m3u8`
+- ❌ **CBS Sports Golazo Network** — HTTP 404  
+  `https://dai.google.com/linear/hls/event/GxrCGmwST0ixsrc_QgB6qw/master.m3u8`
 - ❌ **Fox Sports Premium (1080p)** — HTTP 404  
   `https://live20.bozztv.com/akamaissh101/ssh101/foxsports/playlist.m3u8`
 - ❌ **NFL Network (720p)** — HTTP 404  
@@ -1368,20 +1338,22 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://live-hls-web-ajb.getaj.net/AJB/index.m3u8`
 - ❌ **DD National Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/doordarshan/live`
-- ❌ **CStar** — HTTP 403  
-  `http://145.239.5.177/361/index.m3u8`
 - ❌ **DD India Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/DDIndia/live`
+- ❌ **CStar** — HTTP 403  
+  `http://145.239.5.177/361/index.m3u8`
 - ❌ **DD Kisan Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/@DDKisan/live`
-- ❌ **DD Urdu Ⓨ** — got HTML/error page instead of stream  
-  `https://www.youtube.com/@DDUrdu/live`
 - ❌ **India Today Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/watch?v=sYZtOFzM78M`
+- ❌ **DD Urdu Ⓨ** — got HTML/error page instead of stream  
+  `https://www.youtube.com/@DDUrdu/live`
 - ❌ **India TV Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/watch?v=e1FIApIafWE`
 - ❌ **Star Channel Finland** — HTTP 404  
   `https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv`
+- ❌ **Star TV** — HTTP 404  
+  `https://cdn4.skygo.mn/live/disk1/Star/HLSv3-FTA/Star.m3u8`
 - ❌ **Zee One (720p)** — HTTP 504  
   `https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8`
 - ❌ **Start TV** — connection error: [Errno -2] Name or service not known  
@@ -1390,24 +1362,28 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://fl3.moveonjoy.com/STARZ/index.m3u8`
 - ❌ **Sony Kal (1080p)** — connection error: [Errno -2] Name or service not known  
   `https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8`
-- ❌ **Starz West** — connection error: [Errno -2] Name or service not known  
-  `https://fl3.moveonjoy.com/STARZ_WEST/index.m3u8`
 - ❌ **Starz Encore Classic East** — connection error: [Errno -2] Name or service not known  
   `https://fl5.moveonjoy.com/STARZ_ENCORE_CLASSIC/index.m3u8`
+- ❌ **Starz West** — connection error: [Errno -2] Name or service not known  
+  `https://fl3.moveonjoy.com/STARZ_WEST/index.m3u8`
 - ❌ **Sony Canal Novelas** — HTTP 504  
   `https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8`
 - ❌ **Sony Channel** — connection error: [Errno -2] Name or service not known  
   `https://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8`
 - ❌ **The Q India (1080p)** — HTTP 504  
   `https://vg-theqlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-306905/main.m3u8`
+- ❌ **Gospel TV India (576p)** — HTTP 404  
+  `https://server.livelegitpro.in:9899/gospeltv/index.m3u8`
 - ❌ **Oli TV (India) (1080p)** — HTTP 404  
   `https://live.olidigital.in/olitv/olitv/index.m3u8`
 - ❌ **Mahabad** — connection error: [Errno -2] Name or service not known  
   `https://ncdn.telewebion.com/mahabad/live/playlist.m3u8`
-- ❌ **Starz Encore Spanish (720p)** — HTTP 404  
-  `http://168.228.44.241:9998/play/a0e1/index.m3u8`
+- ❌ **START Air (1080p)** — HTTP 404  
+  `http://176.118.197.101/START_AIR/index.m3u8`
 - ❌ **CineStar 1 Bulgaria** — HTTP 404  
   `http://213.91.179.28:8000/play/a05h`
+- ❌ **Starz Encore Spanish (720p)** — connection error: timed out  
+  `http://168.228.44.241:9998/play/a0e1/index.m3u8`
 - ❌ **Colors Bangla HD (1080p)** — connection error: timed out  
   `http://103.165.93.31:8095/colorsBangla/index.m3u8`
 - ❌ **Star Channel (Bulgaria) (720p)** — timeout/os error: timed out  
@@ -1420,32 +1396,20 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://live-fi.tvkaista.net/star-channel/live.m3u8`
 - ❌ **&TV HD (1080p)** — HTTP 404  
   `http://202.70.146.135:8000/play/a06c/index.m3u8`
-- ❌ **Apna Punjab TV (720p)** — HTTP 404  
-  `https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8`
 - ❌ **Bollywood Classic Romania** — got HTML/error page instead of stream  
   `https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8`
 - ❌ **Aradana TV (576p)** — HTTP 404  
   `https://mumbai-edge.smartplaytv.in/AradanaTV/index.m3u8`
 - ❌ **Hosanna TV Hindi (720p)** — HTTP 404  
   `https://mumbai-edge.smartplaytv.in/HosannaTV/index.m3u8`
-- ❌ **Nagaland TV (576p)** — HTTP 404  
-  `https://mumt06.tangotv.in/qYyB8fXVNAGALANDTV/index.m3u8`
-- ❌ **StarPlus HD (1080i)** — HTTP 404  
-  `http://202.70.146.135:8000/play/a009/index.m3u8`
 - ❌ **Colors HD (1080p)** — connection error: timed out  
   `http://66.102.126.10:8000/play/a00a/index.m3u8`
-- ❌ **Zee Cine Classic (1080p)** — HTTP 403  
-  `https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8`
-- ❌ **Zee Comedy Nation (1080p)** — HTTP 403  
-  `https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8`
+- ❌ **StarPlus HD (1080i)** — HTTP 404  
+  `http://202.70.146.135:8000/play/a009/index.m3u8`
 - ❌ **E-Vidya 4 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/406.m3u8`
 - ❌ **E-Vidya 5 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/407.m3u8`
-- ❌ **Zee Dil Se (1080p)** — HTTP 403  
-  `https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8`
-- ❌ **Zee Horror Nights (1080p)** — HTTP 403  
-  `https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8`
 - ❌ **E-Vidya 6 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/408.m3u8`
 - ❌ **E-Vidya 7 (576p)** — connection error: timed out  
@@ -1454,14 +1418,22 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://103.72.101.252:8080/live/409.m3u8`
 - ❌ **E-Vidya 9 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/410.m3u8`
+- ❌ **Zee Cine Classic (1080p)** — HTTP 403  
+  `https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8`
+- ❌ **Zee Comedy Nation (1080p)** — HTTP 403  
+  `https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8`
+- ❌ **Zee Dil Se (1080p)** — HTTP 403  
+  `https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8`
 - ❌ **E-Vidya 10 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/411.m3u8`
+- ❌ **Zee Horror Nights (1080p)** — HTTP 403  
+  `https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8`
+- ❌ **Zee South Flix (1080p)** — HTTP 403  
+  `https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8`
 - ❌ **E-Vidya 11 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/1410.m3u8`
 - ❌ **E-Vidya 12 (576p)** — connection error: timed out  
   `http://103.72.101.252:8080/live/1532.m3u8`
-- ❌ **Zee South Flix (1080p)** — HTTP 403  
-  `https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8`
 - ❌ **Canal START (720p)** — connection error: [Errno -2] Name or service not known  
   `https://cdn-tiva-srv5-zcast-com-br.smartbit.co/canalstart/canalstart/playlist.m3u8`
 - ❌ **Starnet (480p)** — HTTP 404  
@@ -1470,6 +1442,8 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://103.154.3.101:5001/live/960.m3u8`
 - ❌ **Jus One (1080p)** — connection error: timed out  
   `http://103.154.3.101:5001/live/961.m3u8`
+- ❌ **Star TV (Mongolia) (1080p)** — HTTP 404  
+  `https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd`
 - ❌ **Star Channel (Slovenia)** — connection error: [Errno 111] Connection refused  
   `http://92.36.202.5:10001/play/a01s`
 - ❌ **Star Crime (Slovenia)** — connection error: [Errno 111] Connection refused  
@@ -1480,26 +1454,22 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8`
 - ❌ **Global TV (Dominican Republic) (720p)** — HTTP 404  
   `https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8`
-- ❌ **Sony Channel Andes (1080p)** — HTTP 403  
-  `http://15.204.246.24:8080/SonyHD/index.m3u8`
-- ❌ **Star Channel Latin America (1080p)** — HTTP 403  
-  `http://15.204.246.24:8080/STARCHANNELHD/index.m3u8`
 - ❌ **Star Trek: Voyager (Germany)** — HTTP 404  
   `https://jmp2.uk/plu-65787f2eb228b7000843fa5c.m3u8`
-- ❌ **The Q India (576p)** — connection error: timed out  
-  `http://103.175.73.12:8080/live/25/25_0.m3u8`
 - ❌ **Telecentro (Dominican Republic) (1080p)** — HTTP 403  
   `https://live2.telemicro.com.do/live/telecentrocast_1080p/playlist.m3u8`
+- ❌ **The Q India (576p)** — connection error: timed out  
+  `http://103.175.73.12:8080/live/25/25_0.m3u8`
 - ❌ **Zee Telugu HD (720p)** — HTTP 404  
   `https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8`
 - ❌ **Star Channel (Portugal)** — connection error: timed out  
   `http://znty.dyndns.org:5010/hls/fox.m3u8`
+- ❌ **Star Comedy** — connection error: timed out  
+  `http://znty.dyndns.org:5010/hls/foxcomedy.m3u8`
 - ❌ **Star Crime (Portugal)** — connection error: timed out  
   `http://znty.dyndns.org:5010/hls/foxcrime.m3u8`
 - ❌ **Star Life (Portugal)** — connection error: timed out  
   `http://znty.dyndns.org:5010/hls/foxlife.m3u8`
-- ❌ **Star Comedy** — connection error: timed out  
-  `http://znty.dyndns.org:5010/hls/foxcomedy.m3u8`
 - ❌ **TV Stara Tura (540p)** — connection error: timed out  
   `http://95.105.193.219:88/hls/tvst.m3u8`
 - ❌ **Movistar Deportes (1080p)** — connection error: timed out  
@@ -1523,7 +1493,7 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
 - ❌ **Zee Nung (1080p) [Geo-blocked]** — connection error: [Errno -2] Name or service not known  
   `https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeenung-samsungth/playlist.m3u8`
 
-## Hindi - Movies (21/29 working)
+## Hindi - Movies (22/29 working)
 - ❌ **All Time Movies (576p)** — HTTP 404  
   `https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8`
 - ❌ **Shemaroo Filmi Gaane (1080p)** — HTTP 403  
@@ -1534,28 +1504,26 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://103.175.73.12:8080/live/51/51_0.m3u8`
 - ❌ **Star Movies (Slovenia)** — connection error: [Errno 111] Connection refused  
   `http://92.36.202.5:10001/play/a01o`
-- ❌ **Sony Movies Latin America (720p)** — HTTP 403  
-  `http://15.204.246.24:8080/SonyMoviesHD/index.m3u8`
-- ❌ **Star Movies (Portugal)** — connection error: timed out  
-  `http://znty.dyndns.org:5010/hls/foxm.m3u8`
 - ❌ **beIN Movies Stars** — got HTML/error page instead of stream  
   `https://nord.ayakkabiparti.lol/bsaction1/index.m3u8`
+- ❌ **Star Movies (Portugal)** — connection error: timed out  
+  `http://znty.dyndns.org:5010/hls/foxm.m3u8`
 
 ## Hindi - Music (8/9 working)
 - ❌ **MTV (India) HD (396p)** — HTTP 403  
   `https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8`
 
-## Hindi - News (108/125 working)
+## Hindi - News (107/125 working)
 - ❌ **DD News Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/c/ddnews/live`
 - ❌ **DD Bharati Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/@ddbharati/live`
 - ❌ **Aaj Tak Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/watch?v=Nq2wYlWFucg`
-- ❌ **TV9 Bharatvarsh Ⓨ** — got HTML/error page instead of stream  
-  `https://www.youtube.com/watch?v=nSpwwcHVp80`
 - ❌ **Republic Bharat Ⓨ** — got HTML/error page instead of stream  
   `https://www.youtube.com/@RepublicBharat/live`
+- ❌ **TV9 Bharatvarsh Ⓨ** — got HTML/error page instead of stream  
+  `https://www.youtube.com/watch?v=nSpwwcHVp80`
 - ❌ **News18 India Ⓨ** — HTTP 451  
   `https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/index.m3u8`
 - ❌ **ZEE News Ⓨ** — got HTML/error page instead of stream  
@@ -1578,6 +1546,8 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `http://180.188.254.253/live/KABADDI24X7.m3u8`
 - ❌ **NDTV LANKA (1080p)** — HTTP 404  
   `https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8`
+- ❌ **TNP News (1080p)** — timeout/os error: The read operation timed out  
+  `https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8`
 - ❌ **Bada Khabar (576p)** — timeout/os error: The read operation timed out  
   `https://mumbai-edge.smartplaytv.in/BADAKHABAR/index.m3u8`
 
@@ -1614,10 +1584,10 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
   `https://np.truestreamz.com/broadcaster/INDIGENOUSmob.stream/playlist.m3u8`
 - ❌ **ANTV (720p)** — HTTP 401  
   `http://103.58.160.157:8278/720-ANTV/playlist.m3u8`
-- ❌ **NTV Style (576p)** — timeout/os error: timed out  
-  `http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8`
 - ❌ **NTV Law (576p)** — timeout/os error: timed out  
   `http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8`
+- ❌ **NTV Style (576p)** — timeout/os error: timed out  
+  `http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8`
 - ❌ **NTV (Chile) (1080p)** — connection error: timed out  
   `http://cdn1tlinkgo.tlink.cl/ntvhd/mono.m3u8`
 
@@ -1629,13 +1599,11 @@ Checked **3809** streams — **3011 working**, **798 dead** (21.0% dead).
 - ❌ **Kantipur Max [Geo-blocked]** — HTTP 403  
   `https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8`
 
-## Nepali - News (15/20 working)
+## Nepali - News (16/20 working)
 - ❌ **City TV Capital City Connection [Not 24/7]** — HTTP 403  
   `https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8`
 - ❌ **LenTV24** — got HTML/error page instead of stream  
   `https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657`
-- ❌ **News Capital Market (1080p)** — timeout/os error: The read operation timed out  
-  `https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987`
 - ❌ **News 24 (India) (720p)** — HTTP 404  
   `https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8`
 - ❌ **Rai News 24 (720p)** — HTTP 403  
