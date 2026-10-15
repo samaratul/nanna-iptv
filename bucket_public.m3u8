@@ -15,8 +15,6 @@ https://cdn1tlinkgo.tlink.cl/ntvhd/mono.m3u8
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/cnn-prima-news-cz.png" group-title="English - News",CNN Prima News
 https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
-#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-star-cz.png" group-title="Hindi - Entertainment",Prima STAR
-http://88.212.15.19/live/test_prima_star_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/cs-history-cz.png" group-title="English - Lifestyle",CS History
 https://sktv.mxnticek.eu/new/stream.php?ch=CS%20History
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/ocko-star-cz.png" group-title="Hindi - Entertainment",Óčko Star Ⓢ
@@ -32,7 +30,7 @@ https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/rtyJVgB.png" group-title="English - Music",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8?src=freetv
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/IyB6mIb.png" group-title="English - Music",MTV Uutiset Live
-https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8
+https://live.streaming.a2d.tv/content/channels/uutiset/cmaf.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/fMsJYzl.png" group-title="English - Entertainment",CGTN Français
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo_CStar_2016.svg/500px-Logo_CStar_2016.svg.png" group-title="Hindi - Entertainment",CStar
@@ -495,6 +493,8 @@ https://cnn.hostlagarto.com/televida/playlist.m3u8
 https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/a2YX1oj.jpg" group-title="Hindi - News",TVS (Dominican Republic) (540p) [Not 24/7]
 https://imagenuniversaltv.net:3741/live/tvslive.m3u8
+#EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/ZO8ShOK.png" group-title="English - Music",MTV Uutiset (720p)
+https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8
 #EXTINF:-1 tvg-language="English" tvg-logo="https://i.imgur.com/TBjVU9L.png" group-title="English - Entertainment",CBS WJAX-TV (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/uVdKHMG.png" group-title="Hindi - Entertainment",Daystar TV WSLF-LD (720p)
@@ -1583,6 +1583,8 @@ http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
 http://88.212.15.19/live/test_nicktoons/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prima_2013.png/960px-Prima_2013.png" group-title="Hindi - Entertainment",Prima (Czech Republic) (1080p)
 http://88.212.15.19/live/prima_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/ppqgNDA.png" group-title="Hindi - Entertainment",Prima Star (1080p)
+http://88.212.15.19/live/test_prima_star_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/F5Uosum.png" group-title="Hindi - Entertainment",Spektrum (Czech Republic)
 http://88.212.15.19/live/test_spektrum/playlist.m3u8
 #EXTINF:-1 tvg-language="Hindi" tvg-logo="https://i.imgur.com/VaVi65F.png" group-title="Hindi - Entertainment",Spektrum Home (Czech Republic)
